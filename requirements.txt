@@ -1,0 +1,45 @@
+# -------------------------------
+# Core numeric / ML
+# -------------------------------
+numpy==1.26.4
+scipy==1.13.0
+scikit-learn==1.2.2
+statsmodels==0.14.4
+pdc-dp-means==0.0.8
+
+# -------------------------------
+# Data + utils
+# -------------------------------
+pandas==2.2.3
+tqdm==4.67.1
+rich==13.9.4
+PyYAML==6.0.2
+regex==2024.11.6
+python-dateutil==2.9.0.post0
+requests==2.34.2
+openpyxl==3.1.5
+traitlets==5.14.3
+jsonstrip==25.7.20
+
+# -------------------------------
+# Disagreement metrics
+# -------------------------------
+krippendorff==0.8.1
+
+# -------------------------------
+# Chat completion SDK and HTTP transport
+# -------------------------------
+openai==1.60.1
+httpx==0.28.1
+
+# -------------------------------
+# Embeddings / HF stack (pinned for reproducibility)
+# -------------------------------
+sentence-transformers==3.0.1
+datasets==2.21.0
+# Preserve compatibility with the pipeline's NumPy 1 environment.
+pyarrow==17.0.0
+transformers==4.46.3
+# Avoid the yanked 0.20.4 release selected during lock generation.
+tokenizers==0.20.3
+torch==2.13.0
