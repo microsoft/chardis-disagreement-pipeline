@@ -1,0 +1,51 @@
+hypothesis_id,source_id,hypothesis,source_order,f1,precision,recall,p_value_raw,test,n00,n01,n10,n11,significant
+h01,pref-o3-o3_22,contains a code snippet enclosed within triple backticks ```...```,0,0.24309905024406825,0.54249071256557213,0.51563060111991499,0.01840007426297223,chi2,423,1532,18,119,True
+h02,pref-o3-o3_38,includes a fenced code block delimited by triple backticks ```,1,0.24309905024406825,0.54249071256557213,0.51563060111991499,0.01840007426297223,chi2,423,1532,18,119,True
+h03,pref-o3-o3_47,contains triple backtick code blocks (```),2,0.24309905024406825,0.54249071256557213,0.51563060111991499,0.01840007426297223,chi2,423,1532,18,119,True
+h04,pref-o3-o3_2,includes multi-line programming code snippets,3,0.24147011796193035,0.547294377771117,0.51668678777790145,0.010175265434678402,chi2,425,1536,16,115,True
+h05,pref-o3-o3_1,input requests a recommendation for the best (or a good) consumer product or brand,4,0.2329208324236271,0.46398991605049483,0.48418741613342287,0.029046698753105032,chi2,395,1531,46,120,True
+h06,pref-o3-o3_16,"explains advanced mathematics or computer-science theories/algorithms (e.g., Monte Carlo integration, Johnson–Lindenstrauss lemma, topos theory, language-model sampling methods)",5,0.22423108738156114,0.55404046109076044,0.51379841256106729,0.012491141845410093,chi2,431,1568,10,83,True
+h07,pref-o3-o3_3,"contains the substring 'SQL' (e.g., SQL, MySQL, PostgreSQL, SQLite, MariaDB)",6,0.18480666202873847,0.60621387283236994,0.50484554815263472,0.031772072135645424,fisher_exact,441,1635,0,16,True
+h08,pref-o3-o3_32,"the [input] prompt revolves around a topic whose key term begins with the letter ‘L’ (e.g., LLM, LSAT, llama, lipo, lupus, LIFE)",7,0.25015572746475689,0.49936765108012027,0.49969509305842263,0.96795972953981446,chi2,402,1506,39,145,False
+h09,pref-o3-o3_24,"gives step-by-step advice on how to start or improve a personal skill-based career or creative pursuit (e.g., podcasting, YouTube channel, photography, writing, public speaking, fitness instruction)",8,0.23945101212497855,0.51624172940908053,0.50625745957579482,0.35642328902357479,chi2,415,1533,26,118,False
+h10,pref-o3-o3_18,"contains references to romantic relationships or marriage (e.g., husband, wife, girlfriend/boyfriend, wedding, anniversary, cheating)",9,0.23550216322930229,0.5088684812518649,0.50330659217048423,0.62034212557462554,chi2,414,1539,27,112,False
+h11,pref-o3-o3_4,"user’s question requests advice on harming, attacking, sabotaging, or otherwise mistreating another person",10,0.22650342904249909,0.49631195908733278,0.49876389077738914,0.84514581758326834,chi2,414,1554,27,97,False
+h12,pref-o3-o3_34,"discusses alcohol or beer (drinking, obtaining, or history)",11,0.21196168832876794,0.47539467224762938,0.49346029548504239,0.24588951436645209,chi2,416,1579,25,72,False
+h13,pref-o3-o3_25,"mentions Jewish or Christian religious topics or holidays (e.g., Judaism, Christianity, Hanukkah, Christmas, New Year’s Eve)",12,0.21130413801423573,0.52178788952982502,0.50464296358559579,0.3575415088362387,chi2,428,1587,13,64,False
+h14,pref-o3-o3_27,"discusses aviation or flight-related topics (aircraft, flying, kites, drones, etc.)",13,0.20922115675022651,0.53406119481040504,0.50653009033211516,0.17248256443747231,chi2,431,1592,10,59,False
+h15,pref-o3-o3_36,recommends travel destinations or tourist attractions,14,0.20914236553378376,0.52285478547854791,0.50456536339550961,0.35009287515904075,chi2,429,1591,12,60,False
+h16,pref-o3-o3_10,"lists child-friendly entertainment titles (e.g., games, books, movies, songs, cartoons)",15,0.20548256648129429,0.53987860892388451,0.50667773671148253,0.13549507756994589,chi2,433,1599,8,52,False
+h17,pref-o3-o3_7,contains the word 'Python',16,0.20379094519189678,0.51720165262990625,0.50297352940772511,0.51296209704100992,chi2,430,1600,11,51,False
+h18,pref-o3-o3_6,"contains explicit sexual content (e.g., words like “butt”, “blowjob”, “naked”, describing sexual acts or fetishes)",17,0.20343916968617579,0.51047900678260461,0.50183974255965258,0.68794050172033916,chi2,429,1600,12,51,False
+h19,pref-o3-o3_12,contains explicit sexual or erotic content,18,0.20065677793169368,0.52265292770690219,0.50342402254663221,0.42045014180899998,chi2,432,1606,9,45,False
+h20,pref-o3-o3_14,provides guidance or advice on caring for household pets or domestic animals,19,0.19640210994042095,0.48976244343891406,0.49850842820471614,0.72074523397712409,chi2,429,1611,12,40,False
+h21,pref-o3-o3_49,contains the word “apple”,20,0.19283375355132559,0.46928000652315716,0.49586040755894528,0.30227194777220312,chi2,428,1616,13,35,False
+h22,pref-o3-o3_39,"contains a word-problem or advice centered on speed/time/distance (rate) relationships, such as calculating travel time, converting speed units, or comparing who is faster",21,0.19158096376059136,0.47702225702838597,0.49721944097647136,0.46466276262223927,chi2,430,1619,11,32,False
+h23,pref-o3-o3_48,provides a savory (non-dessert) meal recipe,22,0.19149758454106278,0.45119721897569598,0.49328998710326044,0.097849685130759617,chi2,426,1617,15,34,False
+h24,pref-o3-o3_35,mentions France or the French language,23,0.19031621561654985,0.4867396094911085,0.49857847439399744,0.69124891439953917,chi2,432,1622,9,29,False
+h25,pref-o3-o3_37,"text discusses guns, firearms, or other hunting weapons",24,0.19028266338809011,0.47068057223721921,0.49661374745739201,0.36204129293432219,chi2,430,1621,11,30,False
+h26,pref-o3-o3_41,contains the word 'novel',25,0.18997451872660062,0.47676321081094586,0.49744468754592491,0.48087914725463887,chi2,431,1622,10,29,False
+h27,pref-o3-o3_45,"mentions advanced physics concepts or terminology (e.g., quantum mechanics, Schrödinger, Bose-Einstein, entropy)",26,0.18997451872660062,0.47676321081094586,0.49744468754592491,0.48087914725463887,chi2,431,1622,10,29,False
+h28,pref-o3-o3_50,"contains references to space exploration or spacecraft (e.g., rocket, moon mission, Voyager, GSO antenna)",27,0.18898184044072638,0.46369915196023331,0.49600805393831265,0.27081475129972726,chi2,430,1623,11,28,False
+h29,pref-o3-o3_42,"discusses aging-related topics specifically concerning older adults (e.g., people over 50, the elderly)",28,0.1886715427147892,0.46973104491352669,0.49683899402684556,0.37089815995050457,chi2,431,1624,10,27,False
+h30,pref-o3-o3_26,"contains advice or tips specifically about wilderness survival, camping, or hiking preparation/safety",29,0.18643540483783153,0.509364062849058,0.5006908477099703,0.81602025963420677,chi2,436,1630,5,21,False
+h31,pref-o3-o3_46,contains the word 'Africa' or 'African',30,0.18607985705671934,0.47166181700614285,0.49759233392529234,0.44988591159014002,chi2,433,1629,8,22,False
+h32,pref-o3-o3_30,"Provides step-by-step instructions for obtaining official authorization or approval (e.g., passports, licenses, regulatory or institutional listings)",31,0.18546359647963442,0.55593629343629347,0.50318366797556902,0.28129033057801811,fisher_exact,439,1633,2,18,False
+h33,pref-o3-o3_44,provides instructions on how to grow or care for plants/gardens,32,0.18478149158968149,0.48522496371552976,0.49895136734281842,0.71879487079091287,chi2,435,1632,6,19,False
+h34,pref-o3-o3_29,contains the word “religion” or “religions”,33,0.18444503273957549,0.47041849728200164,0.49781758049474584,0.46233668034993747,chi2,434,1632,7,19,False
+h35,pref-o3-o3_5,the input text contains the word “grammar”,34,0.18214783927868208,0.53901460439736804,0.50166943417787069,0.75033742193287711,fisher_exact,439,1638,2,13,False
+h36,pref-o3-o3_17,mentions feathers,35,0.18115045859487561,0.50544053923928745,0.50023280057025843,1,fisher_exact,438,1639,3,12,False
+h37,pref-o3-o3_11,"references American football teams, seasons, or conference standings",36,0.18114846712748212,0.5641025641025641,0.50219752750686386,0.47908426006080385,fisher_exact,440,1640,1,11,False
+h38,pref-o3-o3_9,contains the word 'COVID',37,0.18081794844845095,0.48025048169556839,0.49909901372218579,0.75752189003250858,fisher_exact,437,1639,4,12,False
+h39,pref-o3-o3_33,mentions the word 'strawberry',38,0.18048155771926661,0.56026385915862131,0.50189468074732413,0.47591197458049939,fisher_exact,440,1641,1,10,False
+h40,pref-o3-o3_31,contains the word “revenge”,39,0.17814713688350867,0.49426574918653654,0.49985235362063263,1,fisher_exact,439,1644,2,7,False
+h41,pref-o3-o3_8,contains the word 'Australia',40,0.17748697145027487,0.42317941549080423,0.49758477992448746,0.2587916091774155,fisher_exact,437,1644,4,7,False
+h42,pref-o3-o3_21,"provides practical advice or guidelines for dog owners about canine care, health, or behavior",41,0.17681878195615389,0.40494716618635929,0.49728193316494779,0.23334756946428264,fisher_exact,437,1645,4,6,False
+h43,pref-o3-o3_13,references the animated teen series “Jane” in the prompt,42,0.17646609184859052,0.50541447053186395,0.50007760019008607,1,fisher_exact,440,1647,1,4,False
+h44,pref-o3-o3_15,contains a comparison question about which is heavier between an equal mass of feathers and another denser material (stones/lead/bricks),43,0.1761220851594649,0.6055528961225467,0.50090854027861897,1,fisher_exact,441,1648,0,3,False
+h45,pref-o3-o3_43,contains the substring 'x^2',44,0.17546665749403781,0.40517489218974601,0.49864096658247392,0.28490420294629831,fisher_exact,439,1648,2,3,False
+h46,pref-o3-o3_23,mentions the word 'vase',45,0.17513855788981711,0.35498561840843723,0.49750717973440134,0.11230182927934121,fisher_exact,438,1648,3,3,False
+h47,pref-o3-o3_28,contains the word 'diarrhea',46,0.17512223332106619,0.43864688048508055,0.49947190667100677,0.50865145538845935,fisher_exact,440,1649,1,2,False
+h48,pref-o3-o3_20,mentions Las Vegas or the word ‘casino’,47,0.17446722313948509,0.30493531384762818,0.49720433297486166,0.066323405711504926,fisher_exact,438,1649,3,2,False
+h49,pref-o3-o3_19,mentions the word 'skinsuit',48,0.17410185550730359,0.10540152963671127,0.5,,degenerate,441,1651,0,0,False
+h50,pref-o3-o3_40,Contains the exact string '77 + 33 = 110',49,0.17410185550730359,0.10540152963671127,0.5,,degenerate,441,1651,0,0,False

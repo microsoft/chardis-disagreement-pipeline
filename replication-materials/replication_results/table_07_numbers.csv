@@ -1,0 +1,19 @@
+paper_item,page,dataset,method,generator,judge,split,metric,expected,status,decimals,entropy_threshold,evidence,comparison_id,actual
+Table 7,28,dices,chardis,o3,o3,corpus,prevalence_pct,67.099999999999994,match,1,0.5,corpus,numeric-109,67.103935418768927
+Table 7,28,dices,chardis,o3,o3,corpus,prevalence_pct,59.799999999999997,match,1,0.59999999999999998,corpus,numeric-110,59.838546922300708
+Table 7,28,dices,chardis,o3,o3,corpus,prevalence_pct,51.200000000000003,match,1,0.69999999999999996,corpus,numeric-111,51.160443995963675
+Table 7,28,dices,chardis,o3,o3,corpus,prevalence_pct,42.100000000000001,match,1,0.80000000000000004,corpus,numeric-112,42.078708375378405
+Table 7,28,dices,chardis,o3,o3,corpus,prevalence_pct,29.100000000000001,match,1,0.90000000000000002,corpus,numeric-113,29.061553985872855
+Table 7,28,dices,chardis,o3,o3,corpus,prevalence_pct,19.300000000000001,match,1,0.94999999999999996,corpus,numeric-114,19.273461150353178
+Table 7,28,ghc-real,chardis,o3,o3,corpus,prevalence_pct,26,match,1,0.5,corpus,numeric-115,26.039999999999999
+Table 7,28,ghc-real,chardis,o3,o3,corpus,prevalence_pct,26,match,1,0.59999999999999998,corpus,numeric-116,26.030000000000001
+Table 7,28,ghc-real,chardis,o3,o3,corpus,prevalence_pct,26,match,1,0.69999999999999996,corpus,numeric-117,26.030000000000001
+Table 7,28,ghc-real,chardis,o3,o3,corpus,prevalence_pct,25.899999999999999,match,1,0.80000000000000004,corpus,numeric-118,25.870000000000001
+Table 7,28,ghc-real,chardis,o3,o3,corpus,prevalence_pct,23.199999999999999,match,1,0.90000000000000002,corpus,numeric-119,23.199999999999999
+Table 7,28,ghc-real,chardis,o3,o3,corpus,prevalence_pct,1.1000000000000001,match,1,0.94999999999999996,corpus,numeric-120,1.1100000000000001
+Table 7,28,md,chardis,o3,o3,corpus,prevalence_pct,40.899999999999999,match,1,0.5,corpus,numeric-121,40.943567961165051
+Table 7,28,md,chardis,o3,o3,corpus,prevalence_pct,40.899999999999999,match,1,0.59999999999999998,corpus,numeric-122,40.943567961165051
+Table 7,28,md,chardis,o3,o3,corpus,prevalence_pct,40.899999999999999,match,1,0.69999999999999996,corpus,numeric-123,40.943567961165051
+Table 7,28,md,chardis,o3,o3,corpus,prevalence_pct,37.299999999999997,match,1,0.80000000000000004,corpus,numeric-124,37.257281553398059
+Table 7,28,md,chardis,o3,o3,corpus,prevalence_pct,26.899999999999999,match,1,0.90000000000000002,corpus,numeric-125,26.881067961165048
+Table 7,28,md,chardis,o3,o3,corpus,prevalence_pct,13,match,1,0.94999999999999996,corpus,numeric-126,13.015776699029127

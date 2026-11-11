@@ -1,0 +1,385 @@
+paper_item,page,dataset,method,generator,judge,split,metric,expected,status,decimals,alpha,comparison_id,actual,run,threshold,features,reason,evidence,entropy_threshold,row,hypothesis_id,mapping_basis
+Table 3,8,dices,chardis,o3,o3,validation,breadth,16,match,0,0.050000000000000003,numeric-1,16,dices/chardis/o3-generator_o3-judge,,,,,,,,
+Table 3,8,dices,chardis,o3,o3,test,macro_f1,0.58,mismatch,2,,numeric-2,0.3260467980295566,dices/chardis/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16']",,,,,,
+Table 3,8,dices,chardis,o3,o3,test,ci_half_width,0.06,match,2,,numeric-3,0.06331284961828362,dices/chardis/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16']",,,,,,
+Table 3,8,dices,hypothesaes,o3,o3,validation,breadth,9,match,0,0.050000000000000003,numeric-4,9,dices/hypothesaes/o3-generator_o3-judge,,,,,,,,
+Table 3,8,dices,hypothesaes,o3,o3,test,macro_f1,0.65,match,2,,numeric-5,0.6536392405063292,dices/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",,,,,,
+Table 3,8,dices,hypothesaes,o3,o3,test,ci_half_width,0.06,mismatch,2,,numeric-6,0.0653007800823257,dices/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",,,,,,
+Table 3,8,dices,hypogenic,o3,o3,validation,breadth,4,match,0,0.050000000000000003,numeric-7,4,dices/hypogenic/o3-generator_o3-judge,,,,,,,,
+Table 3,8,dices,hypogenic,o3,o3,test,macro_f1,0.62,match,2,,numeric-8,0.6210779037999834,dices/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04']",,,,,,
+Table 3,8,dices,hypogenic,o3,o3,test,ci_half_width,0.07,match,2,,numeric-9,0.07322938364118636,dices/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04']",,,,,,
+Table 3,8,ghc-real,chardis,o3,o3,validation,breadth,41,match,0,0.050000000000000003,numeric-10,41,ghc-real/chardis/o3-generator_o3-judge,,,,,,,,
+Table 3,8,ghc-real,chardis,o3,o3,test,macro_f1,0.71,match,2,,numeric-11,0.7127112476105926,ghc-real/chardis/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33', 'h34', 'h35', 'h36', 'h37', 'h38', 'h39', 'h40', 'h41']",,,,,,
+Table 3,8,ghc-real,chardis,o3,o3,test,ci_half_width,0.02,match,2,,numeric-12,0.021511443264616903,ghc-real/chardis/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33', 'h34', 'h35', 'h36', 'h37', 'h38', 'h39', 'h40', 'h41']",,,,,,
+Table 3,8,ghc-real,hypothesaes,o3,o3,validation,breadth,27,match,0,0.050000000000000003,numeric-13,27,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,,,
+Table 3,8,ghc-real,hypothesaes,o3,o3,test,macro_f1,0.62,match,2,,numeric-14,0.6193441890491094,ghc-real/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27']",,,,,,
+Table 3,8,ghc-real,hypothesaes,o3,o3,test,ci_half_width,0.02,match,2,,numeric-15,0.02291724329218181,ghc-real/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27']",,,,,,
+Table 3,8,ghc-real,hypogenic,o3,o3,validation,breadth,33,match,0,0.050000000000000003,numeric-16,33,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,,,
+Table 3,8,ghc-real,hypogenic,o3,o3,test,macro_f1,0.48,mismatch,2,,numeric-17,0.41910043049436063,ghc-real/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33']",,,,,,
+Table 3,8,ghc-real,hypogenic,o3,o3,test,ci_half_width,0.02,match,2,,numeric-18,0.021916098218558,ghc-real/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33']",,,,,,
+Table 3,8,md,chardis,o3,o3,validation,breadth,32,match,0,0.050000000000000003,numeric-19,32,md/chardis/o3-generator_o3-judge,,,,,,,,
+Table 3,8,md,chardis,o3,o3,test,macro_f1,0.63,match,2,,numeric-20,0.6273959681659906,md/chardis/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32']",,,,,,
+Table 3,8,md,chardis,o3,o3,test,ci_half_width,0.02,mismatch,2,,numeric-21,0.026229563626316343,md/chardis/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32']",,,,,,
+Table 3,8,md,hypothesaes,o3,o3,validation,breadth,25,match,0,0.050000000000000003,numeric-22,25,md/hypothesaes/o3-generator_o3-judge,,,,,,,,
+Table 3,8,md,hypothesaes,o3,o3,test,macro_f1,0.5,match,2,,numeric-23,0.5031837134269913,md/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25']",,,,,,
+Table 3,8,md,hypothesaes,o3,o3,test,ci_half_width,0.02,mismatch,2,,numeric-24,0.02726628162227665,md/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25']",,,,,,
+Table 3,8,md,hypogenic,o3,o3,validation,breadth,28,match,0,0.050000000000000003,numeric-25,28,md/hypogenic/o3-generator_o3-judge,,,,,,,,
+Table 3,8,md,hypogenic,o3,o3,test,macro_f1,0.57,match,2,,numeric-26,0.5727821784085014,md/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28']",,,,,,
+Table 3,8,md,hypogenic,o3,o3,test,ci_half_width,0.02,mismatch,2,,numeric-27,0.027361660921806974,md/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28']",,,,,,
+Table 3,8,pref,chardis,o3,o3,validation,breadth,20,mismatch,0,0.050000000000000003,numeric-28,9,pref/chardis/o3-generator_o3-judge,,,,,,,,
+Table 3,8,pref,chardis,o3,o3,test,macro_f1,0.51,match,2,,numeric-29,0.5050167645297255,pref/chardis/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",,,,,,
+Table 3,8,pref,chardis,o3,o3,test,ci_half_width,0.02,match,2,,numeric-30,0.02192015630648203,pref/chardis/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",,,,,,
+Table 3,8,pref,hypothesaes,o3,o3,validation,breadth,7,match,0,0.050000000000000003,numeric-31,7,pref/hypothesaes/o3-generator_o3-judge,,,,,,,,
+Table 3,8,pref,hypothesaes,o3,o3,test,macro_f1,0.32,mismatch,2,,numeric-32,0.4411214953271028,pref/hypothesaes/o3-generator_o3-judge,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07']",,,,,,
+Table 3,8,pref,hypothesaes,o3,o3,test,ci_half_width,0.01,match,2,,numeric-33,0.00559721690241477,pref/hypothesaes/o3-generator_o3-judge,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07']",,,,,,
+Table 3,8,pref,hypogenic,o3,o3,validation,breadth,0,match,0,0.050000000000000003,numeric-34,0,pref/hypogenic/o3-generator_o3-judge,,,,,,,,
+Table 3,8,pref,hypogenic,o3,o3,test,macro_f1,0.0,convention,2,,numeric-35,0.0,pref/hypogenic/o3-generator_o3-judge,,,"User-approved empty hypothesis set zero, not measured classifier performance",,,,,
+Table 3,8,pref,hypogenic,o3,o3,test,ci_half_width,0.0,convention,2,,numeric-36,0.0,pref/hypogenic/o3-generator_o3-judge,,,"User-approved empty hypothesis set zero, not measured classifier performance",,,,,
+Table 3,8,md,random,o3,o3,test,macro_f1,0.5,blocked,2,,numeric-37,,,,,Random baseline prediction protocol or convention is not supplied,,,,,
+Table 3,8,md,modernbert,o3,o3,test,macro_f1,0.61,blocked,2,,numeric-38,,,,,Missing aligned ModernBERT heldout predictions and targets,,,,,
+Table 3,8,md,modernbert,o3,o3,test,ci_half_width,0.03,blocked,2,,numeric-39,,,,,Missing aligned ModernBERT heldout predictions and targets,,,,,
+Table 3,8,pref,random,o3,o3,test,macro_f1,0.5,blocked,2,,numeric-40,,,,,Random baseline prediction protocol or convention is not supplied,,,,,
+Table 3,8,pref,modernbert,o3,o3,test,macro_f1,0.6,blocked,2,,numeric-41,,,,,Missing aligned ModernBERT heldout predictions and targets,,,,,
+Table 3,8,pref,modernbert,o3,o3,test,ci_half_width,0.02,blocked,2,,numeric-42,,,,,Missing aligned ModernBERT heldout predictions and targets,,,,,
+Table 3,8,dices,random,o3,o3,test,macro_f1,0.5,blocked,2,,numeric-43,,,,,Random baseline prediction protocol or convention is not supplied,,,,,
+Table 3,8,dices,modernbert,o3,o3,test,macro_f1,0.69,blocked,2,,numeric-44,,,,,Missing aligned ModernBERT heldout predictions and targets,,,,,
+Table 3,8,dices,modernbert,o3,o3,test,ci_half_width,0.07,blocked,2,,numeric-45,,,,,Missing aligned ModernBERT heldout predictions and targets,,,,,
+Table 3,8,ghc-real,random,o3,o3,test,macro_f1,0.5,blocked,2,,numeric-46,,,,,Random baseline prediction protocol or convention is not supplied,,,,,
+Table 3,8,ghc-real,modernbert,o3,o3,test,macro_f1,0.7,blocked,2,,numeric-47,,,,,Missing aligned ModernBERT heldout predictions and targets,,,,,
+Table 3,8,ghc-real,modernbert,o3,o3,test,ci_half_width,0.02,blocked,2,,numeric-48,,,,,Missing aligned ModernBERT heldout predictions and targets,,,,,
+Table 5,26,ghc-real,chardis,o3,o3,validation,annotators,16,mismatch,0,,numeric-49,18,,,,,corpus,,,,
+Table 5,26,ghc-real,chardis,o3,o3,validation,mean_annotators,3.13,match,2,,numeric-50,3.1277,,,,,corpus,,,,
+Table 5,26,ghc-real,chardis,o3,o3,validation,train_rows,6000,match,0,,numeric-51,6000,,,,,corpus,,,,
+Table 5,26,ghc-real,chardis,o3,o3,validation,validation_rows,2000,match,0,,numeric-52,2000,,,,,corpus,,,,
+Table 5,26,ghc-real,chardis,o3,o3,validation,test_rows,2000,match,0,,numeric-53,2000,,,,,corpus,,,,
+Table 5,26,ghc-real,chardis,o3,o3,validation,context_examples,1890,match,0,,numeric-54,1890,,,,,corpus,,,,
+Table 5,26,dices,chardis,o3,o3,validation,annotators,160,match,0,,numeric-55,160,,,,,corpus,,,,
+Table 5,26,dices,chardis,o3,o3,validation,mean_annotators,65.48,match,2,,numeric-56,65.4752774974773,,,,,corpus,,,,
+Table 5,26,dices,chardis,o3,o3,validation,train_rows,594,match,0,,numeric-57,594,,,,,corpus,,,,
+Table 5,26,dices,chardis,o3,o3,validation,validation_rows,198,match,0,,numeric-58,198,,,,,corpus,,,,
+Table 5,26,dices,chardis,o3,o3,validation,test_rows,199,match,0,,numeric-59,199,,,,,corpus,,,,
+Table 5,26,dices,chardis,o3,o3,validation,context_examples,440,match,0,,numeric-60,440,,,,,corpus,,,,
+Table 5,26,ghc-syn,chardis,o3,o3,validation,annotators,2,match,0,,numeric-61,2,,,,,corpus,,,,
+Table 5,26,ghc-syn,chardis,o3,o3,validation,mean_annotators,2.0,match,2,,numeric-62,2.0,,,,,corpus,,,,
+Table 5,26,ghc-syn,chardis,o3,o3,validation,train_rows,3000,match,0,,numeric-63,3000,,,,,corpus,,,,
+Table 5,26,ghc-syn,chardis,o3,o3,validation,validation_rows,1000,match,0,,numeric-64,1000,,,,,corpus,,,,
+Table 5,26,ghc-syn,chardis,o3,o3,validation,test_rows,1000,match,0,,numeric-65,1000,,,,,corpus,,,,
+Table 5,26,ghc-syn,chardis,o3,o3,validation,context_examples,1087,match,0,,numeric-66,1087,,,,,corpus,,,,
+Table 5,26,md,chardis,o3,o3,validation,annotators,85,match,0,,numeric-67,85,,,,,corpus,,,,
+Table 5,26,md,chardis,o3,o3,validation,mean_annotators,3.2,match,2,,numeric-68,3.1993325242718447,,,,,corpus,,,,
+Table 5,26,md,chardis,o3,o3,validation,train_rows,3954,match,0,,numeric-69,3954,,,,,corpus,,,,
+Table 5,26,md,chardis,o3,o3,validation,validation_rows,1319,match,0,,numeric-70,1319,,,,,corpus,,,,
+Table 5,26,md,chardis,o3,o3,validation,test_rows,1319,match,0,,numeric-71,1319,,,,,corpus,,,,
+Table 5,26,md,chardis,o3,o3,validation,context_examples,148,match,0,,numeric-72,148,,,,,corpus,,,,
+Table 5,26,pref,chardis,o3,o3,validation,annotators,138,match,0,,numeric-73,138,,,,,corpus,,,,
+Table 5,26,pref,chardis,o3,o3,validation,mean_annotators,2.0,match,2,,numeric-74,2.0,,,,,corpus,,,,
+Table 5,26,pref,chardis,o3,o3,validation,train_rows,6276,match,0,,numeric-75,6276,,,,,corpus,,,,
+Table 5,26,pref,chardis,o3,o3,validation,validation_rows,2092,match,0,,numeric-76,2092,,,,,corpus,,,,
+Table 5,26,pref,chardis,o3,o3,validation,test_rows,2093,match,0,,numeric-77,2093,,,,,corpus,,,,
+Table 5,26,pref,chardis,o3,o3,validation,context_examples,113,match,0,,numeric-78,113,,,,,corpus,,,,
+Table 5,26,yelp,chardis,o3,o3,validation,annotators,2,match,0,,numeric-79,2,,,,,corpus,,,,
+Table 5,26,yelp,chardis,o3,o3,validation,mean_annotators,2.0,match,2,,numeric-80,2.0,,,,,corpus,,,,
+Table 5,26,yelp,chardis,o3,o3,validation,train_rows,11604,match,0,,numeric-81,11604,,,,,corpus,,,,
+Table 5,26,yelp,chardis,o3,o3,validation,validation_rows,3868,match,0,,numeric-82,3868,,,,,corpus,,,,
+Table 5,26,yelp,chardis,o3,o3,validation,test_rows,3869,match,0,,numeric-83,3869,,,,,corpus,,,,
+Table 5,26,yelp,chardis,o3,o3,validation,context_examples,558,match,0,,numeric-84,558,,,,,corpus,,,,
+Table 6,26,ghc-real,chardis,o3,o3,corpus,corpus_rows,10000,match,0,,numeric-85,10000,,,,,corpus,,,,
+Table 6,26,ghc-real,chardis,o3,o3,corpus,disagreements,2320,match,0,,numeric-86,2320,,,,,corpus,,,,
+Table 6,26,ghc-real,chardis,o3,o3,corpus,disagreement_pct,23.2,match,1,,numeric-87,23.2,,,,,corpus,,,,
+Table 6,26,ghc-real,chardis,o3,o3,corpus,pruned_pct,2.3,match,1,,numeric-88,2.2625985601645526,,,,,corpus,,,,
+Table 6,26,dices,chardis,o3,o3,corpus,corpus_rows,990,mismatch,0,,numeric-89,991,,,,,corpus,,,,
+Table 6,26,dices,chardis,o3,o3,corpus,disagreements,288,match,0,,numeric-90,288,,,,,corpus,,,,
+Table 6,26,dices,chardis,o3,o3,corpus,disagreement_pct,29.1,match,1,,numeric-91,29.061553985872855,,,,,corpus,,,,
+Table 6,26,dices,chardis,o3,o3,corpus,pruned_pct,2.2,match,1,,numeric-92,2.210206641996454,,,,,corpus,,,,
+Table 6,26,ghc-syn,chardis,o3,o3,corpus,corpus_rows,5000,match,0,,numeric-93,5000,,,,,corpus,,,,
+Table 6,26,ghc-syn,chardis,o3,o3,corpus,disagreements,855,match,0,,numeric-94,855,,,,,corpus,,,,
+Table 6,26,ghc-syn,chardis,o3,o3,corpus,disagreement_pct,17.1,match,1,,numeric-95,17.1,,,,,corpus,,,,
+Table 6,26,ghc-syn,chardis,o3,o3,corpus,pruned_pct,0.0,match,1,,numeric-96,0.0,,,,,corpus,,,,
+Table 6,26,md,chardis,o3,o3,corpus,corpus_rows,6592,match,0,,numeric-97,6592,,,,,corpus,,,,
+Table 6,26,md,chardis,o3,o3,corpus,disagreements,1772,match,0,,numeric-98,1772,,,,,corpus,,,,
+Table 6,26,md,chardis,o3,o3,corpus,disagreement_pct,26.9,match,1,,numeric-99,26.881067961165048,,,,,corpus,,,,
+Table 6,26,md,chardis,o3,o3,corpus,pruned_pct,52.9,match,1,,numeric-100,52.93599899409028,,,,,corpus,,,,
+Table 6,26,pref,chardis,o3,o3,corpus,corpus_rows,10461,match,0,,numeric-101,10461,,,,,corpus,,,,
+Table 6,26,pref,chardis,o3,o3,corpus,disagreements,5242,match,0,,numeric-102,5242,,,,,corpus,,,,
+Table 6,26,pref,chardis,o3,o3,corpus,disagreement_pct,50.1,match,1,,numeric-103,50.109932128859576,,,,,corpus,,,,
+Table 6,26,pref,chardis,o3,o3,corpus,pruned_pct,63.4,match,1,,numeric-104,63.37275848912629,,,,,corpus,,,,
+Table 6,26,yelp,chardis,o3,o3,corpus,corpus_rows,19341,match,0,,numeric-105,19341,,,,,corpus,,,,
+Table 6,26,yelp,chardis,o3,o3,corpus,disagreements,10305,match,0,,numeric-106,10305,,,,,corpus,,,,
+Table 6,26,yelp,chardis,o3,o3,corpus,disagreement_pct,53.3,match,1,,numeric-107,53.2805956258725,,,,,corpus,,,,
+Table 6,26,yelp,chardis,o3,o3,corpus,pruned_pct,0.0,match,1,,numeric-108,0.0,,,,,corpus,,,,
+Table 7,28,dices,chardis,o3,o3,corpus,prevalence_pct,67.1,match,1,,numeric-109,67.10393541876893,,,,,corpus,0.5,,,
+Table 7,28,dices,chardis,o3,o3,corpus,prevalence_pct,59.8,match,1,,numeric-110,59.83854692230071,,,,,corpus,0.59999999999999998,,,
+Table 7,28,dices,chardis,o3,o3,corpus,prevalence_pct,51.2,match,1,,numeric-111,51.160443995963675,,,,,corpus,0.69999999999999996,,,
+Table 7,28,dices,chardis,o3,o3,corpus,prevalence_pct,42.1,match,1,,numeric-112,42.078708375378405,,,,,corpus,0.80000000000000004,,,
+Table 7,28,dices,chardis,o3,o3,corpus,prevalence_pct,29.1,match,1,,numeric-113,29.061553985872855,,,,,corpus,0.90000000000000002,,,
+Table 7,28,dices,chardis,o3,o3,corpus,prevalence_pct,19.3,match,1,,numeric-114,19.273461150353178,,,,,corpus,0.94999999999999996,,,
+Table 7,28,ghc-real,chardis,o3,o3,corpus,prevalence_pct,26.0,match,1,,numeric-115,26.04,,,,,corpus,0.5,,,
+Table 7,28,ghc-real,chardis,o3,o3,corpus,prevalence_pct,26.0,match,1,,numeric-116,26.03,,,,,corpus,0.59999999999999998,,,
+Table 7,28,ghc-real,chardis,o3,o3,corpus,prevalence_pct,26.0,match,1,,numeric-117,26.03,,,,,corpus,0.69999999999999996,,,
+Table 7,28,ghc-real,chardis,o3,o3,corpus,prevalence_pct,25.9,match,1,,numeric-118,25.87,,,,,corpus,0.80000000000000004,,,
+Table 7,28,ghc-real,chardis,o3,o3,corpus,prevalence_pct,23.2,match,1,,numeric-119,23.2,,,,,corpus,0.90000000000000002,,,
+Table 7,28,ghc-real,chardis,o3,o3,corpus,prevalence_pct,1.1,match,1,,numeric-120,1.11,,,,,corpus,0.94999999999999996,,,
+Table 7,28,md,chardis,o3,o3,corpus,prevalence_pct,40.9,match,1,,numeric-121,40.94356796116505,,,,,corpus,0.5,,,
+Table 7,28,md,chardis,o3,o3,corpus,prevalence_pct,40.9,match,1,,numeric-122,40.94356796116505,,,,,corpus,0.59999999999999998,,,
+Table 7,28,md,chardis,o3,o3,corpus,prevalence_pct,40.9,match,1,,numeric-123,40.94356796116505,,,,,corpus,0.69999999999999996,,,
+Table 7,28,md,chardis,o3,o3,corpus,prevalence_pct,37.3,match,1,,numeric-124,37.25728155339806,,,,,corpus,0.80000000000000004,,,
+Table 7,28,md,chardis,o3,o3,corpus,prevalence_pct,26.9,match,1,,numeric-125,26.881067961165048,,,,,corpus,0.90000000000000002,,,
+Table 7,28,md,chardis,o3,o3,corpus,prevalence_pct,13.0,match,1,,numeric-126,13.015776699029127,,,,,corpus,0.94999999999999996,,,
+Table 8,28,dices,chardis,o3,o3,corpus,prevalence_pct,29.1,unsupported,1,,numeric-127,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.90000000000000002,,,
+Table 8,28,dices,chardis,o3,o3,validation,breadth,16,match,0,,numeric-128,16,dices/chardis/o3-generator_o3-judge,,,,,0.90000000000000002,,,
+Table 8,28,dices,chardis,o3,o3,test,macro_f1,0.58,unsupported,3,,numeric-129,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.90000000000000002,,,
+Table 8,28,dices,chardis,o3,o3,test,ci_low,0.52,unsupported,3,,numeric-130,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.90000000000000002,,,
+Table 8,28,dices,chardis,o3,o3,test,ci_high,0.64,unsupported,3,,numeric-131,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.90000000000000002,,,
+Table 8,28,dices,chardis,o3,o3,corpus,prevalence_pct,42.1,unsupported,1,,numeric-132,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.80000000000000004,,,
+Table 8,28,dices,chardis,o3,o3,test,breadth,16,unsupported,0,,numeric-133,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.80000000000000004,,,
+Table 8,28,dices,chardis,o3,o3,test,macro_f1,0.653,unsupported,3,,numeric-134,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.80000000000000004,,,
+Table 8,28,dices,chardis,o3,o3,test,ci_low,0.581,unsupported,3,,numeric-135,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.80000000000000004,,,
+Table 8,28,dices,chardis,o3,o3,test,ci_high,0.719,unsupported,3,,numeric-136,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.80000000000000004,,,
+Table 8,28,dices,chardis,o3,o3,corpus,prevalence_pct,51.2,unsupported,1,,numeric-137,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.69999999999999996,,,
+Table 8,28,dices,chardis,o3,o3,test,breadth,18,unsupported,0,,numeric-138,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.69999999999999996,,,
+Table 8,28,dices,chardis,o3,o3,test,macro_f1,0.814,unsupported,3,,numeric-139,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.69999999999999996,,,
+Table 8,28,dices,chardis,o3,o3,test,ci_low,0.758,unsupported,3,,numeric-140,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.69999999999999996,,,
+Table 8,28,dices,chardis,o3,o3,test,ci_high,0.864,unsupported,3,,numeric-141,,,,,Alternative entropy runs or full corpus and test data unavailable,,0.69999999999999996,,,
+Table 9,29,ghc-syn,chardis,o3,o3,validation,human_cost,1815,unsupported,0,,numeric-142,,,,,The allowed CSVs contain no timing or token usage evidence,,,,,
+Table 9,29,ghc-syn,chardis,o3,o3,validation,model_cost,1.27,unsupported,2,,numeric-143,,,,,The allowed CSVs contain no timing or token usage evidence,,,,,
+Table 9,29,ghc-real,chardis,o3,o3,validation,human_cost,3156,unsupported,0,,numeric-144,,,,,The allowed CSVs contain no timing or token usage evidence,,,,,
+Table 9,29,ghc-real,chardis,o3,o3,validation,model_cost,1.7,unsupported,2,,numeric-145,,,,,The allowed CSVs contain no timing or token usage evidence,,,,,
+Table 9,29,yelp,chardis,o3,o3,validation,human_cost,931,unsupported,0,,numeric-146,,,,,The allowed CSVs contain no timing or token usage evidence,,,,,
+Table 9,29,yelp,chardis,o3,o3,validation,model_cost,0.73,unsupported,2,,numeric-147,,,,,The allowed CSVs contain no timing or token usage evidence,,,,,
+Table 9,29,md,chardis,o3,o3,validation,human_cost,247,unsupported,0,,numeric-148,,,,,The allowed CSVs contain no timing or token usage evidence,,,,,
+Table 9,29,md,chardis,o3,o3,validation,model_cost,0.16,unsupported,2,,numeric-149,,,,,The allowed CSVs contain no timing or token usage evidence,,,,,
+Table 9,29,pref,chardis,o3,o3,validation,human_cost,188,unsupported,0,,numeric-150,,,,,The allowed CSVs contain no timing or token usage evidence,,,,,
+Table 9,29,pref,chardis,o3,o3,validation,model_cost,0.2,unsupported,2,,numeric-151,,,,,The allowed CSVs contain no timing or token usage evidence,,,,,
+Table 9,29,dices,chardis,o3,o3,validation,human_cost,734,unsupported,0,,numeric-152,,,,,The allowed CSVs contain no timing or token usage evidence,,,,,
+Table 9,29,dices,chardis,o3,o3,validation,model_cost,0.96,unsupported,2,,numeric-153,,,,,The allowed CSVs contain no timing or token usage evidence,,,,,
+Table 1,7,ghc-syn,chardis,o3,o3,validation,hypothesis_f1,0.63,match,2,,numeric-154,0.6310578975570762,ghc-syn/chardis/o3-generator_o3-judge,,,,,,1,h02,
+Table 1,7,ghc-syn,chardis,o3,o3,validation,hypothesis_f1,0.52,match,2,,numeric-155,0.5218538630331006,ghc-syn/chardis/o3-generator_o3-judge,,,,,,2,h16,
+Table 1,7,ghc-syn,chardis,o3,o3,validation,hypothesis_f1,0.66,match,2,,numeric-156,0.6636255672028063,ghc-syn/chardis/o3-generator_o3-judge,,,,,,3,h01,
+Table 1,7,yelp,chardis,o3,o3,validation,hypothesis_f1,0.74,mismatch,2,,numeric-157,0.7563483792828959,yelp/chardis/o3-generator_o3-judge,,,,,,1,h01,
+Table 1,7,yelp,chardis,o3,o3,validation,hypothesis_f1,0.63,mismatch,2,,numeric-158,0.4575996142754387,yelp/chardis/o3-generator_o3-judge,,,,,,2,h12,
+Table 1,7,yelp,chardis,o3,o3,validation,hypothesis_f1,0.54,mismatch,2,,numeric-159,0.5501467082747018,yelp/chardis/o3-generator_o3-judge,,,,,,3,h05,
+Table 2,8,yelp,oracle,o3,o3,manual,semantic_recall,1.0,blocked,2,,numeric-160,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,yelp,oracle,o3,o3,test,macro_f1,0.83,match,2,,numeric-161,0.8319059106472133,yelp/oracle/o3-generator_o3-judge,0.25,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,oracle,o3,o3,test,ci_half_width,0.01,match,2,,numeric-162,0.011956314340246077,yelp/oracle/o3-generator_o3-judge,0.25,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,chardis,o3,o3,manual,semantic_recall,0.67,blocked,2,,numeric-163,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,yelp,chardis,o3,o3,test,macro_f1,0.79,mismatch,2,,numeric-164,0.763688086391703,yelp/chardis/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,chardis,o3,o3,test,ci_half_width,0.01,match,2,,numeric-165,0.013910895257194467,yelp/chardis/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,hypothesaes,o3,o3,manual,semantic_recall,0.0,blocked,2,,numeric-166,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,yelp,hypothesaes,o3,o3,test,macro_f1,0.56,mismatch,2,,numeric-167,0.5275318003594944,yelp/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,hypothesaes,o3,o3,test,ci_half_width,0.02,match,2,,numeric-168,0.016110406598578708,yelp/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,hypogenic,o3,o3,manual,semantic_recall,1.0,blocked,2,,numeric-169,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,yelp,hypogenic,o3,o3,test,macro_f1,0.52,match,2,,numeric-170,0.5222538469149997,yelp/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,hypogenic,o3,o3,test,ci_half_width,0.02,match,2,,numeric-171,0.016314061740811014,yelp/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,ghc-syn,oracle,o3,o3,manual,semantic_recall,1.0,blocked,2,,numeric-172,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,ghc-syn,oracle,o3,o3,test,macro_f1,0.62,match,2,,numeric-173,0.6189185756023203,ghc-syn/oracle/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,ghc-syn,oracle,o3,o3,test,ci_half_width,0.02,mismatch,2,,numeric-174,0.03436488069650884,ghc-syn/oracle/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,ghc-syn,chardis,o3,o3,manual,semantic_recall,0.67,blocked,2,,numeric-175,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,ghc-syn,chardis,o3,o3,test,macro_f1,0.49,match,2,,numeric-176,0.48864323103098817,ghc-syn/chardis/o3-generator_o3-judge,0.75,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,ghc-syn,chardis,o3,o3,test,ci_half_width,0.03,match,2,,numeric-177,0.0269089431690408,ghc-syn/chardis/o3-generator_o3-judge,0.75,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,ghc-syn,hypothesaes,o3,o3,manual,semantic_recall,0.0,blocked,2,,numeric-178,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,ghc-syn,hypothesaes,o3,o3,test,macro_f1,0.46,match,2,,numeric-179,0.4610612059175107,ghc-syn/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,ghc-syn,hypothesaes,o3,o3,test,ci_half_width,0.02,mismatch,2,,numeric-180,0.025804156142886336,ghc-syn/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,ghc-syn,hypogenic,o3,o3,manual,semantic_recall,0.0,blocked,2,,numeric-181,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,ghc-syn,hypogenic,o3,o3,test,macro_f1,0.32,match,2,,numeric-182,0.3210929500968219,ghc-syn/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,ghc-syn,hypogenic,o3,o3,test,ci_half_width,0.03,match,2,,numeric-183,0.02839692454227727,ghc-syn/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,oracle,o3,deepseek-r1,manual,semantic_recall,1.0,blocked,2,,numeric-184,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,yelp,oracle,o3,deepseek-r1,test,macro_f1,0.83,blocked,2,,numeric-185,,,,,Genuine DeepSeek oracle judgments or explicit oracle reuse provenance absent,,,,,
+Table 2,8,yelp,oracle,o3,deepseek-r1,test,ci_half_width,0.01,blocked,2,,numeric-186,,,,,Genuine DeepSeek oracle judgments or explicit oracle reuse provenance absent,,,,,
+Table 2,8,yelp,chardis,o3,deepseek-r1,manual,semantic_recall,0.67,blocked,2,,numeric-187,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,yelp,chardis,o3,deepseek-r1,test,macro_f1,0.83,match,2,,numeric-188,0.8272466780192815,yelp/chardis/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,chardis,o3,deepseek-r1,test,ci_half_width,0.01,match,2,,numeric-189,0.012290031591178918,yelp/chardis/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,hypothesaes,o3,deepseek-r1,manual,semantic_recall,0.0,blocked,2,,numeric-190,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,yelp,hypothesaes,o3,deepseek-r1,test,macro_f1,0.7,match,2,,numeric-191,0.7027856176237868,yelp/hypothesaes/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,hypothesaes,o3,deepseek-r1,test,ci_half_width,0.01,match,2,,numeric-192,0.014969002304035306,yelp/hypothesaes/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,hypogenic,o3,deepseek-r1,manual,semantic_recall,1.0,blocked,2,,numeric-193,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,yelp,hypogenic,o3,deepseek-r1,test,macro_f1,0.52,match,2,,numeric-194,0.5153560489368106,yelp/hypogenic/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,yelp,hypogenic,o3,deepseek-r1,test,ci_half_width,0.02,match,2,,numeric-195,0.016273405311156647,yelp/hypogenic/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,ghc-syn,oracle,o3,deepseek-r1,manual,semantic_recall,1.0,blocked,2,,numeric-196,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,ghc-syn,oracle,o3,deepseek-r1,test,macro_f1,0.62,blocked,2,,numeric-197,,,,,Genuine DeepSeek oracle judgments or explicit oracle reuse provenance absent,,,,,
+Table 2,8,ghc-syn,oracle,o3,deepseek-r1,test,ci_half_width,0.02,blocked,2,,numeric-198,,,,,Genuine DeepSeek oracle judgments or explicit oracle reuse provenance absent,,,,,
+Table 2,8,ghc-syn,chardis,o3,deepseek-r1,manual,semantic_recall,0.67,blocked,2,,numeric-199,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,ghc-syn,chardis,o3,deepseek-r1,test,macro_f1,0.65,match,2,,numeric-200,0.6505231668192715,ghc-syn/chardis/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,ghc-syn,chardis,o3,deepseek-r1,test,ci_half_width,0.04,match,2,,numeric-201,0.036084332488622306,ghc-syn/chardis/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,ghc-syn,hypothesaes,o3,deepseek-r1,manual,semantic_recall,0.0,blocked,2,,numeric-202,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,ghc-syn,hypothesaes,o3,deepseek-r1,test,macro_f1,0.49,mismatch,2,,numeric-203,0.5134856167715852,ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h05']",,,,,,
+Table 2,8,ghc-syn,hypothesaes,o3,deepseek-r1,test,ci_half_width,0.03,match,2,,numeric-204,0.03166293276345564,ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h05']",,,,,,
+Table 2,8,ghc-syn,hypogenic,o3,deepseek-r1,manual,semantic_recall,0.0,blocked,2,,numeric-205,,,,,Missing human reference coverage labels and rubric,,,,,
+Table 2,8,ghc-syn,hypogenic,o3,deepseek-r1,test,macro_f1,0.48,match,2,,numeric-206,0.48335977747742453,ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 2,8,ghc-syn,hypogenic,o3,deepseek-r1,test,ci_half_width,0.03,match,2,,numeric-207,0.030622222720081166,ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']",,,,,,
+Table 13,,pref,hypothesaes,o3,,,hypothesis_count,7,match,,,,7,pref/hypothesaes/o3-generator_o3-judge,,,,,,,,
+Table 13,,pref,hypothesaes,o3,,,hypothesis_order,h01,match,,,,h01,pref/hypothesaes/o3-generator_o3-judge,,,,,,1,,"exact after case, punctuation and whitespace normalization"
+Table 13,,pref,hypothesaes,o3,,,hypothesis_order,h02,match,,,,h02,pref/hypothesaes/o3-generator_o3-judge,,,,,,2,,"exact after case, punctuation and whitespace normalization"
+Table 13,,pref,hypothesaes,o3,,,hypothesis_order,h03,match,,,,h03,pref/hypothesaes/o3-generator_o3-judge,,,,,,3,,"exact after case, punctuation and whitespace normalization"
+Table 13,,pref,hypothesaes,o3,,,hypothesis_order,h04,match,,,,h04,pref/hypothesaes/o3-generator_o3-judge,,,,,,4,,"exact after case, punctuation and whitespace normalization"
+Table 13,,pref,hypothesaes,o3,,,hypothesis_order,h05,match,,,,h05,pref/hypothesaes/o3-generator_o3-judge,,,,,,5,,"exact after case, punctuation and whitespace normalization"
+Table 13,,pref,hypothesaes,o3,,,hypothesis_order,h06,match,,,,h06,pref/hypothesaes/o3-generator_o3-judge,,,,,,6,,"exact after case, punctuation and whitespace normalization"
+Table 13,,pref,hypothesaes,o3,,,hypothesis_order,h07,match,,,,h07,pref/hypothesaes/o3-generator_o3-judge,,,,,,7,,"exact after case, punctuation and whitespace normalization"
+Table 14,,ghc-real,chardis,o3,,,hypothesis_count,3,match,,,,3,ghc-real/chardis/o3-generator_o3-judge,,,,,,,,
+Table 14,,ghc-real,chardis,o3,,,hypothesis_order,h01,match,,,,h01,ghc-real/chardis/o3-generator_o3-judge,,,,,,1,,"exact after case, punctuation and whitespace normalization"
+Table 14,,ghc-real,chardis,o3,,,hypothesis_order,h02,match,,,,h02,ghc-real/chardis/o3-generator_o3-judge,,,,,,2,,manually inspected editorial shortening; source wording retained
+Table 14,,ghc-real,chardis,o3,,,hypothesis_order,h03,match,,,,h03,ghc-real/chardis/o3-generator_o3-judge,,,,,,3,,"exact after case, punctuation and whitespace normalization"
+Table 14,,ghc-real,chardis,deepseek-r1,,,hypothesis_list,3,blocked,,,,,,,,Required v13 CSV pair is missing,,,,,
+Table 14,,ghc-real,hypothesaes,o3,,,hypothesis_count,3,match,,,,3,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,,,
+Table 14,,ghc-real,hypothesaes,o3,,,hypothesis_order,h01,match,,,,h01,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,1,,"exact after case, punctuation and whitespace normalization"
+Table 14,,ghc-real,hypothesaes,o3,,,hypothesis_order,h02,match,,,,h02,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,2,,"exact after case, punctuation and whitespace normalization"
+Table 14,,ghc-real,hypothesaes,o3,,,hypothesis_order,h03,match,,,,h03,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,3,,manually inspected editorial shortening; source wording retained
+Table 14,,ghc-real,hypothesaes,deepseek-r1,,,hypothesis_list,3,blocked,,,,,,,,Required v14 CSV pair is missing,,,,,
+Table 15,,ghc-real,chardis,o3,,,hypothesis_count,20,match,,,,20,ghc-real/chardis/o3-generator_o3-judge,,,,,,,,
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h01,match,,,,h01,ghc-real/chardis/o3-generator_o3-judge,,,,,,1,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h02,match,,,,h02,ghc-real/chardis/o3-generator_o3-judge,,,,,,2,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h03,match,,,,h03,ghc-real/chardis/o3-generator_o3-judge,,,,,,3,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h04,match,,,,h04,ghc-real/chardis/o3-generator_o3-judge,,,,,,4,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h05,match,,,,h05,ghc-real/chardis/o3-generator_o3-judge,,,,,,5,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h06,match,,,,h06,ghc-real/chardis/o3-generator_o3-judge,,,,,,6,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h07,match,,,,h07,ghc-real/chardis/o3-generator_o3-judge,,,,,,7,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h08,match,,,,h08,ghc-real/chardis/o3-generator_o3-judge,,,,,,8,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h09,match,,,,h09,ghc-real/chardis/o3-generator_o3-judge,,,,,,9,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h10,match,,,,h10,ghc-real/chardis/o3-generator_o3-judge,,,,,,10,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h11,match,,,,h11,ghc-real/chardis/o3-generator_o3-judge,,,,,,11,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h12,match,,,,h12,ghc-real/chardis/o3-generator_o3-judge,,,,,,12,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h13,match,,,,h13,ghc-real/chardis/o3-generator_o3-judge,,,,,,13,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h14,match,,,,h14,ghc-real/chardis/o3-generator_o3-judge,,,,,,14,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h15,match,,,,h15,ghc-real/chardis/o3-generator_o3-judge,,,,,,15,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h16,match,,,,h16,ghc-real/chardis/o3-generator_o3-judge,,,,,,16,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h17,match,,,,h17,ghc-real/chardis/o3-generator_o3-judge,,,,,,17,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h18,match,,,,h18,ghc-real/chardis/o3-generator_o3-judge,,,,,,18,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h19,match,,,,h19,ghc-real/chardis/o3-generator_o3-judge,,,,,,19,,"exact after case, punctuation and whitespace normalization"
+Table 15,,ghc-real,chardis,o3,,,hypothesis_order,h20,match,,,,h20,ghc-real/chardis/o3-generator_o3-judge,,,,,,20,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_count,20,match,,,,20,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,,,
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h01,match,,,,h01,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,1,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h02,match,,,,h02,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,2,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h03,match,,,,h03,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,3,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h04,match,,,,h04,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,4,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h05,match,,,,h05,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,5,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h06,match,,,,h06,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,6,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h07,match,,,,h07,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,7,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h08,match,,,,h08,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,8,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h09,match,,,,h09,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,9,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h10,match,,,,h10,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,10,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h11,match,,,,h11,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,11,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h12,match,,,,h12,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,12,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h13,match,,,,h13,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,13,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h14,match,,,,h14,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,14,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h15,match,,,,h15,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,15,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h16,match,,,,h16,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,16,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h17,match,,,,h17,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,17,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h18,match,,,,h18,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,18,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h19,match,,,,h19,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,19,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypothesaes,o3,,,hypothesis_order,h20,match,,,,h20,ghc-real/hypothesaes/o3-generator_o3-judge,,,,,,20,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_count,20,match,,,,20,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,,,
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h01,match,,,,h01,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,1,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h02,match,,,,h02,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,2,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h03,match,,,,h03,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,3,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h04,match,,,,h04,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,4,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h05,match,,,,h05,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,5,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h06,match,,,,h06,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,6,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h07,match,,,,h07,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,7,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h08,match,,,,h08,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,8,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h09,match,,,,h09,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,9,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h10,match,,,,h10,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,10,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h11,match,,,,h11,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,11,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h12,match,,,,h12,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,12,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h13,match,,,,h13,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,13,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h14,match,,,,h14,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,14,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h15,match,,,,h15,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,15,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h16,match,,,,h16,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,16,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h17,match,,,,h17,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,17,,"exact after case, punctuation and whitespace normalization"
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h18,match,,,,h18,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,18,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h19,match,,,,h19,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,19,,manually inspected editorial shortening; source wording retained
+Table 16,,ghc-real,hypogenic,o3,,,hypothesis_order,h20,match,,,,h20,ghc-real/hypogenic/o3-generator_o3-judge,,,,,,20,,manually inspected editorial shortening; source wording retained
+Table 17,,dices,chardis,o3,,,hypothesis_count,16,match,,,,16,dices/chardis/o3-generator_o3-judge,,,,,,,,
+Table 17,,dices,chardis,o3,,,hypothesis_order,h01,match,,,,h01,dices/chardis/o3-generator_o3-judge,,,,,,1,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h02,match,,,,h02,dices/chardis/o3-generator_o3-judge,,,,,,2,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h03,match,,,,h03,dices/chardis/o3-generator_o3-judge,,,,,,3,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h04,match,,,,h04,dices/chardis/o3-generator_o3-judge,,,,,,4,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h05,match,,,,h05,dices/chardis/o3-generator_o3-judge,,,,,,5,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h06,match,,,,h06,dices/chardis/o3-generator_o3-judge,,,,,,6,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h07,match,,,,h07,dices/chardis/o3-generator_o3-judge,,,,,,7,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h08,match,,,,h08,dices/chardis/o3-generator_o3-judge,,,,,,8,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h09,match,,,,h09,dices/chardis/o3-generator_o3-judge,,,,,,9,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h10,match,,,,h10,dices/chardis/o3-generator_o3-judge,,,,,,10,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h11,match,,,,h11,dices/chardis/o3-generator_o3-judge,,,,,,11,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h12,match,,,,h12,dices/chardis/o3-generator_o3-judge,,,,,,12,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h13,match,,,,h13,dices/chardis/o3-generator_o3-judge,,,,,,13,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h14,match,,,,h14,dices/chardis/o3-generator_o3-judge,,,,,,14,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h15,match,,,,h15,dices/chardis/o3-generator_o3-judge,,,,,,15,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,chardis,o3,,,hypothesis_order,h16,match,,,,h16,dices/chardis/o3-generator_o3-judge,,,,,,16,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypothesaes,o3,,,hypothesis_count,9,match,,,,9,dices/hypothesaes/o3-generator_o3-judge,,,,,,,,
+Table 17,,dices,hypothesaes,o3,,,hypothesis_order,h01,match,,,,h01,dices/hypothesaes/o3-generator_o3-judge,,,,,,1,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypothesaes,o3,,,hypothesis_order,h02,match,,,,h02,dices/hypothesaes/o3-generator_o3-judge,,,,,,2,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypothesaes,o3,,,hypothesis_order,h03,match,,,,h03,dices/hypothesaes/o3-generator_o3-judge,,,,,,3,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypothesaes,o3,,,hypothesis_order,h04,match,,,,h04,dices/hypothesaes/o3-generator_o3-judge,,,,,,4,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypothesaes,o3,,,hypothesis_order,h05,match,,,,h05,dices/hypothesaes/o3-generator_o3-judge,,,,,,5,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypothesaes,o3,,,hypothesis_order,h06,match,,,,h06,dices/hypothesaes/o3-generator_o3-judge,,,,,,6,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypothesaes,o3,,,hypothesis_order,h07,match,,,,h07,dices/hypothesaes/o3-generator_o3-judge,,,,,,7,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypothesaes,o3,,,hypothesis_order,h08,match,,,,h08,dices/hypothesaes/o3-generator_o3-judge,,,,,,8,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypothesaes,o3,,,hypothesis_order,h09,match,,,,h09,dices/hypothesaes/o3-generator_o3-judge,,,,,,9,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypogenic,o3,,,hypothesis_count,4,match,,,,4,dices/hypogenic/o3-generator_o3-judge,,,,,,,,
+Table 17,,dices,hypogenic,o3,,,hypothesis_order,h01,match,,,,h01,dices/hypogenic/o3-generator_o3-judge,,,,,,1,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypogenic,o3,,,hypothesis_order,h02,match,,,,h02,dices/hypogenic/o3-generator_o3-judge,,,,,,2,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypogenic,o3,,,hypothesis_order,h03,match,,,,h03,dices/hypogenic/o3-generator_o3-judge,,,,,,3,,"exact after case, punctuation and whitespace normalization"
+Table 17,,dices,hypogenic,o3,,,hypothesis_order,h04,match,,,,h04,dices/hypogenic/o3-generator_o3-judge,,,,,,4,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_count,20,match,,,,20,md/chardis/o3-generator_o3-judge,,,,,,,,
+Table 18,,md,chardis,o3,,,hypothesis_order,h01,match,,,,h01,md/chardis/o3-generator_o3-judge,,,,,,1,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h02,match,,,,h02,md/chardis/o3-generator_o3-judge,,,,,,2,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h03,match,,,,h03,md/chardis/o3-generator_o3-judge,,,,,,3,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h04,match,,,,h04,md/chardis/o3-generator_o3-judge,,,,,,4,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h05,match,,,,h05,md/chardis/o3-generator_o3-judge,,,,,,5,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h06,match,,,,h06,md/chardis/o3-generator_o3-judge,,,,,,6,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h07,match,,,,h07,md/chardis/o3-generator_o3-judge,,,,,,7,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h08,match,,,,h08,md/chardis/o3-generator_o3-judge,,,,,,8,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h09,match,,,,h09,md/chardis/o3-generator_o3-judge,,,,,,9,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h10,match,,,,h10,md/chardis/o3-generator_o3-judge,,,,,,10,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h11,match,,,,h11,md/chardis/o3-generator_o3-judge,,,,,,11,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h12,match,,,,h12,md/chardis/o3-generator_o3-judge,,,,,,12,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h13,match,,,,h13,md/chardis/o3-generator_o3-judge,,,,,,13,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h14,match,,,,h14,md/chardis/o3-generator_o3-judge,,,,,,14,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h15,match,,,,h15,md/chardis/o3-generator_o3-judge,,,,,,15,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h16,match,,,,h16,md/chardis/o3-generator_o3-judge,,,,,,16,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h17,match,,,,h17,md/chardis/o3-generator_o3-judge,,,,,,17,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h18,match,,,,h18,md/chardis/o3-generator_o3-judge,,,,,,18,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h19,match,,,,h19,md/chardis/o3-generator_o3-judge,,,,,,19,,"exact after case, punctuation and whitespace normalization"
+Table 18,,md,chardis,o3,,,hypothesis_order,h20,match,,,,h20,md/chardis/o3-generator_o3-judge,,,,,,20,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_count,20,match,,,,20,md/hypothesaes/o3-generator_o3-judge,,,,,,,,
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h01,match,,,,h01,md/hypothesaes/o3-generator_o3-judge,,,,,,1,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h02,match,,,,h02,md/hypothesaes/o3-generator_o3-judge,,,,,,2,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h03,match,,,,h03,md/hypothesaes/o3-generator_o3-judge,,,,,,3,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h04,match,,,,h04,md/hypothesaes/o3-generator_o3-judge,,,,,,4,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h05,match,,,,h05,md/hypothesaes/o3-generator_o3-judge,,,,,,5,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h06,match,,,,h06,md/hypothesaes/o3-generator_o3-judge,,,,,,6,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h07,match,,,,h07,md/hypothesaes/o3-generator_o3-judge,,,,,,7,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h08,match,,,,h08,md/hypothesaes/o3-generator_o3-judge,,,,,,8,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h09,match,,,,h09,md/hypothesaes/o3-generator_o3-judge,,,,,,9,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h10,match,,,,h10,md/hypothesaes/o3-generator_o3-judge,,,,,,10,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h11,match,,,,h11,md/hypothesaes/o3-generator_o3-judge,,,,,,11,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h12,match,,,,h12,md/hypothesaes/o3-generator_o3-judge,,,,,,12,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h13,match,,,,h13,md/hypothesaes/o3-generator_o3-judge,,,,,,13,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h14,match,,,,h14,md/hypothesaes/o3-generator_o3-judge,,,,,,14,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h15,match,,,,h15,md/hypothesaes/o3-generator_o3-judge,,,,,,15,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h16,match,,,,h16,md/hypothesaes/o3-generator_o3-judge,,,,,,16,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h17,match,,,,h17,md/hypothesaes/o3-generator_o3-judge,,,,,,17,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h18,match,,,,h18,md/hypothesaes/o3-generator_o3-judge,,,,,,18,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h19,match,,,,h19,md/hypothesaes/o3-generator_o3-judge,,,,,,19,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypothesaes,o3,,,hypothesis_order,h20,match,,,,h20,md/hypothesaes/o3-generator_o3-judge,,,,,,20,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_count,20,match,,,,20,md/hypogenic/o3-generator_o3-judge,,,,,,,,
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h01,match,,,,h01,md/hypogenic/o3-generator_o3-judge,,,,,,1,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h02,match,,,,h02,md/hypogenic/o3-generator_o3-judge,,,,,,2,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h03,match,,,,h03,md/hypogenic/o3-generator_o3-judge,,,,,,3,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h04,match,,,,h04,md/hypogenic/o3-generator_o3-judge,,,,,,4,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h05,match,,,,h05,md/hypogenic/o3-generator_o3-judge,,,,,,5,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h06,match,,,,h06,md/hypogenic/o3-generator_o3-judge,,,,,,6,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h07,match,,,,h07,md/hypogenic/o3-generator_o3-judge,,,,,,7,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h08,match,,,,h08,md/hypogenic/o3-generator_o3-judge,,,,,,8,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h09,match,,,,h09,md/hypogenic/o3-generator_o3-judge,,,,,,9,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h10,match,,,,h10,md/hypogenic/o3-generator_o3-judge,,,,,,10,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h11,match,,,,h11,md/hypogenic/o3-generator_o3-judge,,,,,,11,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h12,match,,,,h12,md/hypogenic/o3-generator_o3-judge,,,,,,12,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h13,match,,,,h13,md/hypogenic/o3-generator_o3-judge,,,,,,13,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h14,match,,,,h14,md/hypogenic/o3-generator_o3-judge,,,,,,14,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h15,match,,,,h15,md/hypogenic/o3-generator_o3-judge,,,,,,15,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h16,match,,,,h16,md/hypogenic/o3-generator_o3-judge,,,,,,16,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h17,match,,,,h17,md/hypogenic/o3-generator_o3-judge,,,,,,17,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h18,match,,,,h18,md/hypogenic/o3-generator_o3-judge,,,,,,18,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h19,match,,,,h19,md/hypogenic/o3-generator_o3-judge,,,,,,19,,"exact after case, punctuation and whitespace normalization"
+Table 19,,md,hypogenic,o3,,,hypothesis_order,h20,match,,,,h20,md/hypogenic/o3-generator_o3-judge,,,,,,20,,"exact after case, punctuation and whitespace normalization"
+Table 13,,pref,hypogenic,o3,,,hypothesis_count,0,match,,,,0,pref/hypogenic/o3-generator_o3-judge,,,,,,,,

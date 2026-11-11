@@ -1,0 +1,25 @@
+paper_item,page,dataset,method,generator,judge,split,metric,expected,status,decimals,evidence,comparison_id,actual
+Table 6,26,ghc-real,chardis,o3,o3,corpus,corpus_rows,10000,match,0,corpus,numeric-85,10000
+Table 6,26,ghc-real,chardis,o3,o3,corpus,disagreements,2320,match,0,corpus,numeric-86,2320
+Table 6,26,ghc-real,chardis,o3,o3,corpus,disagreement_pct,23.199999999999999,match,1,corpus,numeric-87,23.199999999999999
+Table 6,26,ghc-real,chardis,o3,o3,corpus,pruned_pct,2.2999999999999998,match,1,corpus,numeric-88,2.2625985601645526
+Table 6,26,dices,chardis,o3,o3,corpus,corpus_rows,990,mismatch,0,corpus,numeric-89,991
+Table 6,26,dices,chardis,o3,o3,corpus,disagreements,288,match,0,corpus,numeric-90,288
+Table 6,26,dices,chardis,o3,o3,corpus,disagreement_pct,29.100000000000001,match,1,corpus,numeric-91,29.061553985872855
+Table 6,26,dices,chardis,o3,o3,corpus,pruned_pct,2.2000000000000002,match,1,corpus,numeric-92,2.2102066419964541
+Table 6,26,ghc-syn,chardis,o3,o3,corpus,corpus_rows,5000,match,0,corpus,numeric-93,5000
+Table 6,26,ghc-syn,chardis,o3,o3,corpus,disagreements,855,match,0,corpus,numeric-94,855
+Table 6,26,ghc-syn,chardis,o3,o3,corpus,disagreement_pct,17.100000000000001,match,1,corpus,numeric-95,17.100000000000001
+Table 6,26,ghc-syn,chardis,o3,o3,corpus,pruned_pct,0,match,1,corpus,numeric-96,0
+Table 6,26,md,chardis,o3,o3,corpus,corpus_rows,6592,match,0,corpus,numeric-97,6592
+Table 6,26,md,chardis,o3,o3,corpus,disagreements,1772,match,0,corpus,numeric-98,1772
+Table 6,26,md,chardis,o3,o3,corpus,disagreement_pct,26.899999999999999,match,1,corpus,numeric-99,26.881067961165048
+Table 6,26,md,chardis,o3,o3,corpus,pruned_pct,52.899999999999999,match,1,corpus,numeric-100,52.935998994090284
+Table 6,26,pref,chardis,o3,o3,corpus,corpus_rows,10461,match,0,corpus,numeric-101,10461
+Table 6,26,pref,chardis,o3,o3,corpus,disagreements,5242,match,0,corpus,numeric-102,5242
+Table 6,26,pref,chardis,o3,o3,corpus,disagreement_pct,50.100000000000001,match,1,corpus,numeric-103,50.109932128859576
+Table 6,26,pref,chardis,o3,o3,corpus,pruned_pct,63.399999999999999,match,1,corpus,numeric-104,63.372758489126291
+Table 6,26,yelp,chardis,o3,o3,corpus,corpus_rows,19341,match,0,corpus,numeric-105,19341
+Table 6,26,yelp,chardis,o3,o3,corpus,disagreements,10305,match,0,corpus,numeric-106,10305
+Table 6,26,yelp,chardis,o3,o3,corpus,disagreement_pct,53.299999999999997,match,1,corpus,numeric-107,53.2805956258725
+Table 6,26,yelp,chardis,o3,o3,corpus,pruned_pct,0,match,1,corpus,numeric-108,0

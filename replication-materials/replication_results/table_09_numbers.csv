@@ -1,0 +1,13 @@
+paper_item,page,dataset,method,generator,judge,split,metric,expected,status,decimals,reason,comparison_id,actual
+Table 9,29,ghc-syn,chardis,o3,o3,validation,human_cost,1815,unsupported,0,The allowed CSVs contain no timing or token usage evidence,numeric-142,
+Table 9,29,ghc-syn,chardis,o3,o3,validation,model_cost,1.27,unsupported,2,The allowed CSVs contain no timing or token usage evidence,numeric-143,
+Table 9,29,ghc-real,chardis,o3,o3,validation,human_cost,3156,unsupported,0,The allowed CSVs contain no timing or token usage evidence,numeric-144,
+Table 9,29,ghc-real,chardis,o3,o3,validation,model_cost,1.7,unsupported,2,The allowed CSVs contain no timing or token usage evidence,numeric-145,
+Table 9,29,yelp,chardis,o3,o3,validation,human_cost,931,unsupported,0,The allowed CSVs contain no timing or token usage evidence,numeric-146,
+Table 9,29,yelp,chardis,o3,o3,validation,model_cost,0.72999999999999998,unsupported,2,The allowed CSVs contain no timing or token usage evidence,numeric-147,
+Table 9,29,md,chardis,o3,o3,validation,human_cost,247,unsupported,0,The allowed CSVs contain no timing or token usage evidence,numeric-148,
+Table 9,29,md,chardis,o3,o3,validation,model_cost,0.16,unsupported,2,The allowed CSVs contain no timing or token usage evidence,numeric-149,
+Table 9,29,pref,chardis,o3,o3,validation,human_cost,188,unsupported,0,The allowed CSVs contain no timing or token usage evidence,numeric-150,
+Table 9,29,pref,chardis,o3,o3,validation,model_cost,0.20000000000000001,unsupported,2,The allowed CSVs contain no timing or token usage evidence,numeric-151,
+Table 9,29,dices,chardis,o3,o3,validation,human_cost,734,unsupported,0,The allowed CSVs contain no timing or token usage evidence,numeric-152,
+Table 9,29,dices,chardis,o3,o3,validation,model_cost,0.95999999999999996,unsupported,2,The allowed CSVs contain no timing or token usage evidence,numeric-153,

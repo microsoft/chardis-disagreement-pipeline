@@ -1,0 +1,5168 @@
+{
+  "format_version": 1,
+  "scope": "Original validation evidence plus approved heldout and corpus evidence in the extension manifest",
+  "extension_manifest": "outputs/expanded/manifest.json",
+  "paper_registry": "outputs/expanded/paper_registry.json",
+  "runs": [
+    {
+      "id": "dices/chardis/o3-generator_o3-judge",
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "condition": "full-candidate-set",
+      "source_version": "v1",
+      "status": "supported",
+      "rows": 198,
+      "hypotheses": 50,
+      "targets": "dices/validation-targets-0",
+      "judgments": "dices/chardis/o3-generator_o3-judge/judgments",
+      "metrics": "dices/chardis/o3-generator_o3-judge/exported-metrics",
+      "alignment_sha256": "3a1e7e902af8f3ee26e41980d645aa2b7bff18aab30b7d2df68894afb47f47bc",
+      "sources": {
+        "hypo_predictiveness.csv": {
+          "path": "outputs/disagreement_outputs/dices/v1/validation/o3/hypo_predictiveness.csv",
+          "sha256": "cd021b0837a53473376607975055f452b3e61ed86b62b9c47755810ae87c8643"
+        },
+        "eval_dataset.csv": {
+          "path": "outputs/disagreement_outputs/dices/v1/validation/o3/eval_dataset.csv",
+          "sha256": "a6b553d779847c40d61f401ba5c701b1ef88ff6c1b7340e6400983ed40acea3c"
+        }
+      },
+      "mapping_evidence": "Source INDEX method map corroborated by the final paper appendix hypothesis texts, not by numerical score matching"
+    },
+    {
+      "id": "dices/hypothesaes/o3-generator_o3-judge",
+      "dataset": "dices",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "condition": "full-candidate-set",
+      "source_version": "v2",
+      "status": "supported",
+      "rows": 198,
+      "hypotheses": 50,
+      "targets": "dices/validation-targets-0",
+      "judgments": "dices/hypothesaes/o3-generator_o3-judge/judgments",
+      "metrics": "dices/hypothesaes/o3-generator_o3-judge/exported-metrics",
+      "alignment_sha256": "3a1e7e902af8f3ee26e41980d645aa2b7bff18aab30b7d2df68894afb47f47bc",
+      "sources": {
+        "hypo_predictiveness.csv": {
+          "path": "outputs/disagreement_outputs/dices/v2/validation/o3/hypo_predictiveness.csv",
+          "sha256": "9e8b22e34fbc7f82ec8b69ea7401d71a30d8189419743f68687c2570a1b0f945"
+        },
+        "eval_dataset.csv": {
+          "path": "outputs/disagreement_outputs/dices/v2/validation/o3/eval_dataset.csv",
+          "sha256": "462db27d8eefea76d90cab1e26a6bbdd0b8cd01eac7049f8f52dc550bd601fbe"
+        }
+      },
+      "mapping_evidence": "Source INDEX method map corroborated by the final paper appendix hypothesis texts, not by numerical score matching"
+    },
+    {
+      "id": "dices/hypogenic/o3-generator_o3-judge",
+      "dataset": "dices",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "condition": "full-candidate-set",
+      "source_version": "v3",
+      "status": "supported",
+      "rows": 198,
+      "hypotheses": 50,
+      "targets": "dices/validation-targets-0",
+      "judgments": "dices/hypogenic/o3-generator_o3-judge/judgments",
+      "metrics": "dices/hypogenic/o3-generator_o3-judge/exported-metrics",
+      "alignment_sha256": "3a1e7e902af8f3ee26e41980d645aa2b7bff18aab30b7d2df68894afb47f47bc",
+      "sources": {
+        "hypo_predictiveness.csv": {
+          "path": "outputs/disagreement_outputs/dices/v3/validation/o3/hypo_predictiveness.csv",
+          "sha256": "2dd0da829c113a79dc7f6e99ef2d754a2e5e267a35fc52422c03defc1f2fb490"
+        },
+        "eval_dataset.csv": {
+          "path": "outputs/disagreement_outputs/dices/v3/validation/o3/eval_dataset.csv",
+          "sha256": "a5bf697bd2a5ba99a406220328519255afff11adc1b5aecda4714347793fac60"
+        }
+      },
+      "mapping_evidence": "Source INDEX method map corroborated by the final paper appendix hypothesis texts, not by numerical score matching"
+    },
+    {
+      "id": "ghc-real/chardis/o3-generator_o3-judge",
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "condition": "full-candidate-set",
+      "source_version": "v1",
+      "status": "supported",
+      "rows": 2000,
+      "hypotheses": 50,
+      "targets": "ghc-real/validation-targets-1",
+      "judgments": "ghc-real/chardis/o3-generator_o3-judge/judgments",
+      "metrics": "ghc-real/chardis/o3-generator_o3-judge/exported-metrics",
+      "alignment_sha256": "3dc2b324e2b14cb5deb3e661c62075d678a51270c6b88dd978aea85d4698a36a",
+      "sources": {
+        "hypo_predictiveness.csv": {
+          "path": "outputs/disagreement_outputs/ghc-real/v1/validation/o3/hypo_predictiveness.csv",
+          "sha256": "f0cb444ee0070974f849fd2b2188d3b78682736e8602f625c30cc161b4bd4064"
+        },
+        "eval_dataset.csv": {
+          "path": "outputs/disagreement_outputs/ghc-real/v1/validation/o3/eval_dataset.csv",
+          "sha256": "8a3202d43d4e14ce6b4973da6b0f8ee8faca05f7690dadda9bba066c615fdf5e"
+        }
+      },
+      "mapping_evidence": "Source INDEX method map corroborated by the final paper appendix hypothesis texts, not by numerical score matching"
+    },
+    {
+      "id": "ghc-real/hypothesaes/o3-generator_o3-judge",
+      "dataset": "ghc-real",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "condition": "full-candidate-set",
+      "source_version": "v2",
+      "status": "supported",
+      "rows": 2000,
+      "hypotheses": 50,
+      "targets": "ghc-real/validation-targets-1",
+      "judgments": "ghc-real/hypothesaes/o3-generator_o3-judge/judgments",
+      "metrics": "ghc-real/hypothesaes/o3-generator_o3-judge/exported-metrics",
+      "alignment_sha256": "3dc2b324e2b14cb5deb3e661c62075d678a51270c6b88dd978aea85d4698a36a",
+      "sources": {
+        "hypo_predictiveness.csv": {
+          "path": "outputs/disagreement_outputs/ghc-real/v2/validation/o3/hypo_predictiveness.csv",
+          "sha256": "e328b4e79db58b02e9b6cc9d5d3740148b0d3382a736d7de96a052b8c0d9a33f"
+        },
+        "eval_dataset.csv": {
+          "path": "outputs/disagreement_outputs/ghc-real/v2/validation/o3/eval_dataset.csv",
+          "sha256": "784e92d74d06a600d1808e7fb60f1664b377275ab4e78b626a1292e91fbe406e"
+        }
+      },
+      "mapping_evidence": "Source INDEX method map corroborated by the final paper appendix hypothesis texts, not by numerical score matching"
+    },
+    {
+      "id": "ghc-real/hypogenic/o3-generator_o3-judge",
+      "dataset": "ghc-real",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "condition": "full-candidate-set",
+      "source_version": "v3",
+      "status": "supported",
+      "rows": 2000,
+      "hypotheses": 50,
+      "targets": "ghc-real/validation-targets-1",
+      "judgments": "ghc-real/hypogenic/o3-generator_o3-judge/judgments",
+      "metrics": "ghc-real/hypogenic/o3-generator_o3-judge/exported-metrics",
+      "alignment_sha256": "3dc2b324e2b14cb5deb3e661c62075d678a51270c6b88dd978aea85d4698a36a",
+      "sources": {
+        "hypo_predictiveness.csv": {
+          "path": "outputs/disagreement_outputs/ghc-real/v3/validation/o3/hypo_predictiveness.csv",
+          "sha256": "593f20d0bf6c7cb9469d359f926c465c3a00d3236322741fc013c2d1de69712c"
+        },
+        "eval_dataset.csv": {
+          "path": "outputs/disagreement_outputs/ghc-real/v3/validation/o3/eval_dataset.csv",
+          "sha256": "411beca97dce8f27d5ad60cc41b31644420539da9e690a88aa6e2c7207a7ed04"
+        }
+      },
+      "mapping_evidence": "Source INDEX method map corroborated by the final paper appendix hypothesis texts, not by numerical score matching"
+    },
+    {
+      "id": "md/chardis/o3-generator_o3-judge",
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "condition": "full-candidate-set",
+      "source_version": "v1",
+      "status": "supported",
+      "rows": 1319,
+      "hypotheses": 50,
+      "targets": "md/validation-targets-2",
+      "judgments": "md/chardis/o3-generator_o3-judge/judgments",
+      "metrics": "md/chardis/o3-generator_o3-judge/exported-metrics",
+      "alignment_sha256": "e3d2a4a5d0fd0099ff6482d47929316edca309e2a1ae196c6a7ec691cf6821ac",
+      "sources": {
+        "hypo_predictiveness.csv": {
+          "path": "outputs/disagreement_outputs/md/v1/validation/o3/hypo_predictiveness.csv",
+          "sha256": "af5df47c36a39adab45ee6d2992abca3699bd1f77f3640a0e46085eeba73bc5c"
+        },
+        "eval_dataset.csv": {
+          "path": "outputs/disagreement_outputs/md/v1/validation/o3/eval_dataset.csv",
+          "sha256": "0a9386216094762a4c237f82ad6076ea9107c607db9d8de81115f516fcc8c448"
+        }
+      },
+      "mapping_evidence": "Source INDEX method map corroborated by the final paper appendix hypothesis texts, not by numerical score matching"
+    },
+    {
+      "id": "md/hypothesaes/o3-generator_o3-judge",
+      "dataset": "md",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "condition": "full-candidate-set",
+      "source_version": "v2",
+      "status": "supported",
+      "rows": 1319,
+      "hypotheses": 50,
+      "targets": "md/validation-targets-2",
+      "judgments": "md/hypothesaes/o3-generator_o3-judge/judgments",
+      "metrics": "md/hypothesaes/o3-generator_o3-judge/exported-metrics",
+      "alignment_sha256": "e3d2a4a5d0fd0099ff6482d47929316edca309e2a1ae196c6a7ec691cf6821ac",
+      "sources": {
+        "hypo_predictiveness.csv": {
+          "path": "outputs/disagreement_outputs/md/v2/validation/o3/hypo_predictiveness.csv",
+          "sha256": "98ff396dd7c4d306b8c8571a8c85525b5f0cb90f742b4738ac5149d3670c46b7"
+        },
+        "eval_dataset.csv": {
+          "path": "outputs/disagreement_outputs/md/v2/validation/o3/eval_dataset.csv",
+          "sha256": "d8b04a02e68bca876c3b59e50930d4b342ffeec220b0d0f67daf77514fb8611b"
+        }
+      },
+      "mapping_evidence": "Source INDEX method map corroborated by the final paper appendix hypothesis texts, not by numerical score matching"
+    },
+    {
+      "id": "md/hypogenic/o3-generator_o3-judge",
+      "dataset": "md",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "condition": "full-candidate-set",
+      "source_version": "v3",
+      "status": "supported",
+      "rows": 1319,
+      "hypotheses": 50,
+      "targets": "md/validation-targets-2",
+      "judgments": "md/hypogenic/o3-generator_o3-judge/judgments",
+      "metrics": "md/hypogenic/o3-generator_o3-judge/exported-metrics",
+      "alignment_sha256": "e3d2a4a5d0fd0099ff6482d47929316edca309e2a1ae196c6a7ec691cf6821ac",
+      "sources": {
+        "hypo_predictiveness.csv": {
+          "path": "outputs/disagreement_outputs/md/v3/validation/o3/hypo_predictiveness.csv",
+          "sha256": "ef5509bfe1c5fd5aefad1cc15ea6b1cbab8d993ecab9cdf09b4f95baec732035"
+        },
+        "eval_dataset.csv": {
+          "path": "outputs/disagreement_outputs/md/v3/validation/o3/eval_dataset.csv",
+          "sha256": "0716e769b87bf00d6cba47697846a8114c85be45314b0b265dc13bc5e2e9f778"
+        }
+      },
+      "mapping_evidence": "Source INDEX method map corroborated by the final paper appendix hypothesis texts, not by numerical score matching"
+    },
+    {
+      "id": "pref/chardis/o3-generator_o3-judge",
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "condition": "full-candidate-set",
+      "source_version": "v1",
+      "status": "supported",
+      "rows": 2092,
+      "hypotheses": 50,
+      "targets": "pref/validation-targets-3",
+      "judgments": "pref/chardis/o3-generator_o3-judge/judgments",
+      "metrics": "pref/chardis/o3-generator_o3-judge/exported-metrics",
+      "alignment_sha256": "1fcc61f6ca2962395fa3758634c5f6bc469402d55f811c67a1963e2fa35c2297",
+      "sources": {
+        "hypo_predictiveness.csv": {
+          "path": "outputs/disagreement_outputs/pref/v1/validation/o3/hypo_predictiveness.csv",
+          "sha256": "279275d1c8e223496ce331a4e2575a7645a138e31048abff75a0546e4b21914b"
+        },
+        "eval_dataset.csv": {
+          "path": "outputs/disagreement_outputs/pref/v1/validation/o3/eval_dataset.csv",
+          "sha256": "68b11113b10ecda02120030229890a586be243100685c1a1a7d66b3ad9ff7bf3"
+        }
+      },
+      "mapping_evidence": "Source INDEX method map corroborated by the final paper appendix hypothesis texts, not by numerical score matching"
+    },
+    {
+      "id": "pref/hypothesaes/o3-generator_o3-judge",
+      "dataset": "pref",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "condition": "full-candidate-set",
+      "source_version": "v2",
+      "status": "supported",
+      "rows": 2092,
+      "hypotheses": 50,
+      "targets": "pref/validation-targets-4",
+      "judgments": "pref/hypothesaes/o3-generator_o3-judge/judgments",
+      "metrics": "pref/hypothesaes/o3-generator_o3-judge/exported-metrics",
+      "alignment_sha256": "48266d290857d7670bdb9111b503489a8df2b57aa73d95a2a6cd558089d50ef1",
+      "sources": {
+        "hypo_predictiveness.csv": {
+          "path": "outputs/disagreement_outputs/pref/v2/validation/o3/hypo_predictiveness.csv",
+          "sha256": "c490b5178fbfd78dcfc33b45dc4987fe67343481f56e45681d5bf4f464b8b300"
+        },
+        "eval_dataset.csv": {
+          "path": "outputs/disagreement_outputs/pref/v2/validation/o3/eval_dataset.csv",
+          "sha256": "95ae87bf414a1f97b031d07f99b6248c1b2c985a2ea915236a6a7b1567d3214a"
+        }
+      },
+      "mapping_evidence": "Source INDEX method map corroborated by the final paper appendix hypothesis texts, not by numerical score matching"
+    },
+    {
+      "id": "pref/hypogenic/o3-generator_o3-judge",
+      "dataset": "pref",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "condition": "full-candidate-set",
+      "source_version": "v3",
+      "status": "supported",
+      "rows": 2092,
+      "hypotheses": 50,
+      "targets": "pref/validation-targets-3",
+      "judgments": "pref/hypogenic/o3-generator_o3-judge/judgments",
+      "metrics": "pref/hypogenic/o3-generator_o3-judge/exported-metrics",
+      "alignment_sha256": "1fcc61f6ca2962395fa3758634c5f6bc469402d55f811c67a1963e2fa35c2297",
+      "sources": {
+        "hypo_predictiveness.csv": {
+          "path": "outputs/disagreement_outputs/pref/v3/validation/o3/hypo_predictiveness.csv",
+          "sha256": "61c14ab444834e2fe1fc9c200428dbfcea9eac08c39b59284d7d4cb73be56b83"
+        },
+        "eval_dataset.csv": {
+          "path": "outputs/disagreement_outputs/pref/v3/validation/o3/eval_dataset.csv",
+          "sha256": "8d66ba1ac09bed45171a77e359dbf058aa822305d5a61ca2b963f19a7630240b"
+        }
+      },
+      "mapping_evidence": "Source INDEX method map corroborated by the final paper appendix hypothesis texts, not by numerical score matching"
+    }
+  ],
+  "assets": {
+    "dices/validation-targets-0": {
+      "path": "outputs/dices/validation-targets-0.csv.gz",
+      "sha256": "6622262b085446937fea248341f51b79de62a70dbc948339e4cf5942b49e9487",
+      "dtypes": {
+        "row": "uint16",
+        "observed_disagreement": "uint8"
+      },
+      "rows": 198,
+      "columns": [
+        "row",
+        "observed_disagreement"
+      ]
+    },
+    "dices/chardis/o3-generator_o3-judge/judgments": {
+      "path": "outputs/dices/chardis/o3-generator_o3-judge/judgments.csv.gz",
+      "sha256": "db6222dffc1f4a58c15c6d1fd3fe0e7d985050c341d64268d8fa9a582bd81309",
+      "dtypes": {
+        "row": "uint16",
+        "h01": "uint8",
+        "h02": "uint8",
+        "h03": "uint8",
+        "h04": "uint8",
+        "h05": "uint8",
+        "h06": "uint8",
+        "h07": "uint8",
+        "h08": "uint8",
+        "h09": "uint8",
+        "h10": "uint8",
+        "h11": "uint8",
+        "h12": "uint8",
+        "h13": "uint8",
+        "h14": "uint8",
+        "h15": "uint8",
+        "h16": "uint8",
+        "h17": "uint8",
+        "h18": "uint8",
+        "h19": "uint8",
+        "h20": "uint8",
+        "h21": "uint8",
+        "h22": "uint8",
+        "h23": "uint8",
+        "h24": "uint8",
+        "h25": "uint8",
+        "h26": "uint8",
+        "h27": "uint8",
+        "h28": "uint8",
+        "h29": "uint8",
+        "h30": "uint8",
+        "h31": "uint8",
+        "h32": "uint8",
+        "h33": "uint8",
+        "h34": "uint8",
+        "h35": "uint8",
+        "h36": "uint8",
+        "h37": "uint8",
+        "h38": "uint8",
+        "h39": "uint8",
+        "h40": "uint8",
+        "h41": "uint8",
+        "h42": "uint8",
+        "h43": "uint8",
+        "h44": "uint8",
+        "h45": "uint8",
+        "h46": "uint8",
+        "h47": "uint8",
+        "h48": "uint8",
+        "h49": "uint8",
+        "h50": "uint8"
+      },
+      "rows": 198,
+      "columns": [
+        "row",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07",
+        "h08",
+        "h09",
+        "h10",
+        "h11",
+        "h12",
+        "h13",
+        "h14",
+        "h15",
+        "h16",
+        "h17",
+        "h18",
+        "h19",
+        "h20",
+        "h21",
+        "h22",
+        "h23",
+        "h24",
+        "h25",
+        "h26",
+        "h27",
+        "h28",
+        "h29",
+        "h30",
+        "h31",
+        "h32",
+        "h33",
+        "h34",
+        "h35",
+        "h36",
+        "h37",
+        "h38",
+        "h39",
+        "h40",
+        "h41",
+        "h42",
+        "h43",
+        "h44",
+        "h45",
+        "h46",
+        "h47",
+        "h48",
+        "h49",
+        "h50"
+      ]
+    },
+    "dices/chardis/o3-generator_o3-judge/exported-metrics": {
+      "path": "outputs/dices/chardis/o3-generator_o3-judge/exported-metrics.csv.gz",
+      "sha256": "6ea48814bf85df4808fa96e7cd51bd0e7fafcdc69e71b60ed75671593fa7b835",
+      "dtypes": {
+        "hypothesis": "uint8",
+        "f1": "float64",
+        "precision": "float64",
+        "recall": "float64",
+        "p_value_raw": "float64",
+        "n00": "uint16",
+        "n01": "uint16",
+        "n10": "uint16",
+        "n11": "uint16"
+      },
+      "rows": 50,
+      "columns": [
+        "hypothesis",
+        "f1",
+        "precision",
+        "recall",
+        "p_value_raw",
+        "n00",
+        "n01",
+        "n10",
+        "n11"
+      ]
+    },
+    "dices/hypothesaes/o3-generator_o3-judge/judgments": {
+      "path": "outputs/dices/hypothesaes/o3-generator_o3-judge/judgments.csv.gz",
+      "sha256": "9a7284ff4b1b00ce426251b786f047ce7f4bd62efe46da4f612526daa2c530d3",
+      "dtypes": {
+        "row": "uint16",
+        "h01": "uint8",
+        "h02": "uint8",
+        "h03": "uint8",
+        "h04": "uint8",
+        "h05": "uint8",
+        "h06": "uint8",
+        "h07": "uint8",
+        "h08": "uint8",
+        "h09": "uint8",
+        "h10": "uint8",
+        "h11": "uint8",
+        "h12": "uint8",
+        "h13": "uint8",
+        "h14": "uint8",
+        "h15": "uint8",
+        "h16": "uint8",
+        "h17": "uint8",
+        "h18": "uint8",
+        "h19": "uint8",
+        "h20": "uint8",
+        "h21": "uint8",
+        "h22": "uint8",
+        "h23": "uint8",
+        "h24": "uint8",
+        "h25": "uint8",
+        "h26": "uint8",
+        "h27": "uint8",
+        "h28": "uint8",
+        "h29": "uint8",
+        "h30": "uint8",
+        "h31": "uint8",
+        "h32": "uint8",
+        "h33": "uint8",
+        "h34": "uint8",
+        "h35": "uint8",
+        "h36": "uint8",
+        "h37": "uint8",
+        "h38": "uint8",
+        "h39": "uint8",
+        "h40": "uint8",
+        "h41": "uint8",
+        "h42": "uint8",
+        "h43": "uint8",
+        "h44": "uint8",
+        "h45": "uint8",
+        "h46": "uint8",
+        "h47": "uint8",
+        "h48": "uint8",
+        "h49": "uint8",
+        "h50": "uint8"
+      },
+      "rows": 198,
+      "columns": [
+        "row",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07",
+        "h08",
+        "h09",
+        "h10",
+        "h11",
+        "h12",
+        "h13",
+        "h14",
+        "h15",
+        "h16",
+        "h17",
+        "h18",
+        "h19",
+        "h20",
+        "h21",
+        "h22",
+        "h23",
+        "h24",
+        "h25",
+        "h26",
+        "h27",
+        "h28",
+        "h29",
+        "h30",
+        "h31",
+        "h32",
+        "h33",
+        "h34",
+        "h35",
+        "h36",
+        "h37",
+        "h38",
+        "h39",
+        "h40",
+        "h41",
+        "h42",
+        "h43",
+        "h44",
+        "h45",
+        "h46",
+        "h47",
+        "h48",
+        "h49",
+        "h50"
+      ]
+    },
+    "dices/hypothesaes/o3-generator_o3-judge/exported-metrics": {
+      "path": "outputs/dices/hypothesaes/o3-generator_o3-judge/exported-metrics.csv.gz",
+      "sha256": "8078e3c2e51d0aa98cad564bf991722ad12b16582a94591539a8662430a6bd8e",
+      "dtypes": {
+        "hypothesis": "uint8",
+        "f1": "float64",
+        "precision": "float64",
+        "recall": "float64",
+        "p_value_raw": "float64",
+        "n00": "uint16",
+        "n01": "uint16",
+        "n10": "uint16",
+        "n11": "uint16"
+      },
+      "rows": 50,
+      "columns": [
+        "hypothesis",
+        "f1",
+        "precision",
+        "recall",
+        "p_value_raw",
+        "n00",
+        "n01",
+        "n10",
+        "n11"
+      ]
+    },
+    "dices/hypogenic/o3-generator_o3-judge/judgments": {
+      "path": "outputs/dices/hypogenic/o3-generator_o3-judge/judgments.csv.gz",
+      "sha256": "b45081406b02bee3ce0ebaf96400a07475273d2304fea18b4ba6909ab2f0c456",
+      "dtypes": {
+        "row": "uint16",
+        "h01": "uint8",
+        "h02": "uint8",
+        "h03": "uint8",
+        "h04": "uint8",
+        "h05": "uint8",
+        "h06": "uint8",
+        "h07": "uint8",
+        "h08": "uint8",
+        "h09": "uint8",
+        "h10": "uint8",
+        "h11": "uint8",
+        "h12": "uint8",
+        "h13": "uint8",
+        "h14": "uint8",
+        "h15": "uint8",
+        "h16": "uint8",
+        "h17": "uint8",
+        "h18": "uint8",
+        "h19": "uint8",
+        "h20": "uint8",
+        "h21": "uint8",
+        "h22": "uint8",
+        "h23": "uint8",
+        "h24": "uint8",
+        "h25": "uint8",
+        "h26": "uint8",
+        "h27": "uint8",
+        "h28": "uint8",
+        "h29": "uint8",
+        "h30": "uint8",
+        "h31": "uint8",
+        "h32": "uint8",
+        "h33": "uint8",
+        "h34": "uint8",
+        "h35": "uint8",
+        "h36": "uint8",
+        "h37": "uint8",
+        "h38": "uint8",
+        "h39": "uint8",
+        "h40": "uint8",
+        "h41": "uint8",
+        "h42": "uint8",
+        "h43": "uint8",
+        "h44": "uint8",
+        "h45": "uint8",
+        "h46": "uint8",
+        "h47": "uint8",
+        "h48": "uint8",
+        "h49": "uint8",
+        "h50": "uint8"
+      },
+      "rows": 198,
+      "columns": [
+        "row",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07",
+        "h08",
+        "h09",
+        "h10",
+        "h11",
+        "h12",
+        "h13",
+        "h14",
+        "h15",
+        "h16",
+        "h17",
+        "h18",
+        "h19",
+        "h20",
+        "h21",
+        "h22",
+        "h23",
+        "h24",
+        "h25",
+        "h26",
+        "h27",
+        "h28",
+        "h29",
+        "h30",
+        "h31",
+        "h32",
+        "h33",
+        "h34",
+        "h35",
+        "h36",
+        "h37",
+        "h38",
+        "h39",
+        "h40",
+        "h41",
+        "h42",
+        "h43",
+        "h44",
+        "h45",
+        "h46",
+        "h47",
+        "h48",
+        "h49",
+        "h50"
+      ]
+    },
+    "dices/hypogenic/o3-generator_o3-judge/exported-metrics": {
+      "path": "outputs/dices/hypogenic/o3-generator_o3-judge/exported-metrics.csv.gz",
+      "sha256": "cbd0e021c538e91f628b54e5cff5cf2096429df46e8ab39361ce1d36843d8c0f",
+      "dtypes": {
+        "hypothesis": "uint8",
+        "f1": "float64",
+        "precision": "float64",
+        "recall": "float64",
+        "p_value_raw": "float64",
+        "n00": "uint16",
+        "n01": "uint16",
+        "n10": "uint16",
+        "n11": "uint16"
+      },
+      "rows": 50,
+      "columns": [
+        "hypothesis",
+        "f1",
+        "precision",
+        "recall",
+        "p_value_raw",
+        "n00",
+        "n01",
+        "n10",
+        "n11"
+      ]
+    },
+    "ghc-real/validation-targets-1": {
+      "path": "outputs/ghc-real/validation-targets-1.csv.gz",
+      "sha256": "119b72980ae01636e6b97bc77df8d5285800a6d9f4cdf3a13a4421d31e0fb1da",
+      "dtypes": {
+        "row": "uint16",
+        "observed_disagreement": "uint8"
+      },
+      "rows": 2000,
+      "columns": [
+        "row",
+        "observed_disagreement"
+      ]
+    },
+    "ghc-real/chardis/o3-generator_o3-judge/judgments": {
+      "path": "outputs/ghc-real/chardis/o3-generator_o3-judge/judgments.csv.gz",
+      "sha256": "e7ad1768d624188bff64072b7b92331a28658b2efa126f3d846f87542851076e",
+      "dtypes": {
+        "row": "uint16",
+        "h01": "uint8",
+        "h02": "uint8",
+        "h03": "uint8",
+        "h04": "uint8",
+        "h05": "uint8",
+        "h06": "uint8",
+        "h07": "uint8",
+        "h08": "uint8",
+        "h09": "uint8",
+        "h10": "uint8",
+        "h11": "uint8",
+        "h12": "uint8",
+        "h13": "uint8",
+        "h14": "uint8",
+        "h15": "uint8",
+        "h16": "uint8",
+        "h17": "uint8",
+        "h18": "uint8",
+        "h19": "uint8",
+        "h20": "uint8",
+        "h21": "uint8",
+        "h22": "uint8",
+        "h23": "uint8",
+        "h24": "uint8",
+        "h25": "uint8",
+        "h26": "uint8",
+        "h27": "uint8",
+        "h28": "uint8",
+        "h29": "uint8",
+        "h30": "uint8",
+        "h31": "uint8",
+        "h32": "uint8",
+        "h33": "uint8",
+        "h34": "uint8",
+        "h35": "uint8",
+        "h36": "uint8",
+        "h37": "uint8",
+        "h38": "uint8",
+        "h39": "uint8",
+        "h40": "uint8",
+        "h41": "uint8",
+        "h42": "uint8",
+        "h43": "uint8",
+        "h44": "uint8",
+        "h45": "uint8",
+        "h46": "uint8",
+        "h47": "uint8",
+        "h48": "uint8",
+        "h49": "uint8",
+        "h50": "uint8"
+      },
+      "rows": 2000,
+      "columns": [
+        "row",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07",
+        "h08",
+        "h09",
+        "h10",
+        "h11",
+        "h12",
+        "h13",
+        "h14",
+        "h15",
+        "h16",
+        "h17",
+        "h18",
+        "h19",
+        "h20",
+        "h21",
+        "h22",
+        "h23",
+        "h24",
+        "h25",
+        "h26",
+        "h27",
+        "h28",
+        "h29",
+        "h30",
+        "h31",
+        "h32",
+        "h33",
+        "h34",
+        "h35",
+        "h36",
+        "h37",
+        "h38",
+        "h39",
+        "h40",
+        "h41",
+        "h42",
+        "h43",
+        "h44",
+        "h45",
+        "h46",
+        "h47",
+        "h48",
+        "h49",
+        "h50"
+      ]
+    },
+    "ghc-real/chardis/o3-generator_o3-judge/exported-metrics": {
+      "path": "outputs/ghc-real/chardis/o3-generator_o3-judge/exported-metrics.csv.gz",
+      "sha256": "7e4c2a0b2b9f86fe0a54a11b9e6c68269668d0c9bec077ff17731750738e5e4c",
+      "dtypes": {
+        "hypothesis": "uint8",
+        "f1": "float64",
+        "precision": "float64",
+        "recall": "float64",
+        "p_value_raw": "float64",
+        "n00": "uint16",
+        "n01": "uint16",
+        "n10": "uint16",
+        "n11": "uint16"
+      },
+      "rows": 50,
+      "columns": [
+        "hypothesis",
+        "f1",
+        "precision",
+        "recall",
+        "p_value_raw",
+        "n00",
+        "n01",
+        "n10",
+        "n11"
+      ]
+    },
+    "ghc-real/hypothesaes/o3-generator_o3-judge/judgments": {
+      "path": "outputs/ghc-real/hypothesaes/o3-generator_o3-judge/judgments.csv.gz",
+      "sha256": "197d24d6966e6c5197bfd3e87bd02f80608e1fe388732a2fce971cd23a7f2a3c",
+      "dtypes": {
+        "row": "uint16",
+        "h01": "uint8",
+        "h02": "uint8",
+        "h03": "uint8",
+        "h04": "uint8",
+        "h05": "uint8",
+        "h06": "uint8",
+        "h07": "uint8",
+        "h08": "uint8",
+        "h09": "uint8",
+        "h10": "uint8",
+        "h11": "uint8",
+        "h12": "uint8",
+        "h13": "uint8",
+        "h14": "uint8",
+        "h15": "uint8",
+        "h16": "uint8",
+        "h17": "uint8",
+        "h18": "uint8",
+        "h19": "uint8",
+        "h20": "uint8",
+        "h21": "uint8",
+        "h22": "uint8",
+        "h23": "uint8",
+        "h24": "uint8",
+        "h25": "uint8",
+        "h26": "uint8",
+        "h27": "uint8",
+        "h28": "uint8",
+        "h29": "uint8",
+        "h30": "uint8",
+        "h31": "uint8",
+        "h32": "uint8",
+        "h33": "uint8",
+        "h34": "uint8",
+        "h35": "uint8",
+        "h36": "uint8",
+        "h37": "uint8",
+        "h38": "uint8",
+        "h39": "uint8",
+        "h40": "uint8",
+        "h41": "uint8",
+        "h42": "uint8",
+        "h43": "uint8",
+        "h44": "uint8",
+        "h45": "uint8",
+        "h46": "uint8",
+        "h47": "uint8",
+        "h48": "uint8",
+        "h49": "uint8",
+        "h50": "uint8"
+      },
+      "rows": 2000,
+      "columns": [
+        "row",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07",
+        "h08",
+        "h09",
+        "h10",
+        "h11",
+        "h12",
+        "h13",
+        "h14",
+        "h15",
+        "h16",
+        "h17",
+        "h18",
+        "h19",
+        "h20",
+        "h21",
+        "h22",
+        "h23",
+        "h24",
+        "h25",
+        "h26",
+        "h27",
+        "h28",
+        "h29",
+        "h30",
+        "h31",
+        "h32",
+        "h33",
+        "h34",
+        "h35",
+        "h36",
+        "h37",
+        "h38",
+        "h39",
+        "h40",
+        "h41",
+        "h42",
+        "h43",
+        "h44",
+        "h45",
+        "h46",
+        "h47",
+        "h48",
+        "h49",
+        "h50"
+      ]
+    },
+    "ghc-real/hypothesaes/o3-generator_o3-judge/exported-metrics": {
+      "path": "outputs/ghc-real/hypothesaes/o3-generator_o3-judge/exported-metrics.csv.gz",
+      "sha256": "edab0275d35efea01139746ccc1a4b514e1e9adfebd08ebb1a9e5769ca37c75a",
+      "dtypes": {
+        "hypothesis": "uint8",
+        "f1": "float64",
+        "precision": "float64",
+        "recall": "float64",
+        "p_value_raw": "float64",
+        "n00": "uint16",
+        "n01": "uint16",
+        "n10": "uint16",
+        "n11": "uint16"
+      },
+      "rows": 50,
+      "columns": [
+        "hypothesis",
+        "f1",
+        "precision",
+        "recall",
+        "p_value_raw",
+        "n00",
+        "n01",
+        "n10",
+        "n11"
+      ]
+    },
+    "ghc-real/hypogenic/o3-generator_o3-judge/judgments": {
+      "path": "outputs/ghc-real/hypogenic/o3-generator_o3-judge/judgments.csv.gz",
+      "sha256": "456e75e0deaef752511367c95cd0444f18c7cdd39808b23152eb2c3d1bec0f62",
+      "dtypes": {
+        "row": "uint16",
+        "h01": "uint8",
+        "h02": "uint8",
+        "h03": "uint8",
+        "h04": "uint8",
+        "h05": "uint8",
+        "h06": "uint8",
+        "h07": "uint8",
+        "h08": "uint8",
+        "h09": "uint8",
+        "h10": "uint8",
+        "h11": "uint8",
+        "h12": "uint8",
+        "h13": "uint8",
+        "h14": "uint8",
+        "h15": "uint8",
+        "h16": "uint8",
+        "h17": "uint8",
+        "h18": "uint8",
+        "h19": "uint8",
+        "h20": "uint8",
+        "h21": "uint8",
+        "h22": "uint8",
+        "h23": "uint8",
+        "h24": "uint8",
+        "h25": "uint8",
+        "h26": "uint8",
+        "h27": "uint8",
+        "h28": "uint8",
+        "h29": "uint8",
+        "h30": "uint8",
+        "h31": "uint8",
+        "h32": "uint8",
+        "h33": "uint8",
+        "h34": "uint8",
+        "h35": "uint8",
+        "h36": "uint8",
+        "h37": "uint8",
+        "h38": "uint8",
+        "h39": "uint8",
+        "h40": "uint8",
+        "h41": "uint8",
+        "h42": "uint8",
+        "h43": "uint8",
+        "h44": "uint8",
+        "h45": "uint8",
+        "h46": "uint8",
+        "h47": "uint8",
+        "h48": "uint8",
+        "h49": "uint8",
+        "h50": "uint8"
+      },
+      "rows": 2000,
+      "columns": [
+        "row",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07",
+        "h08",
+        "h09",
+        "h10",
+        "h11",
+        "h12",
+        "h13",
+        "h14",
+        "h15",
+        "h16",
+        "h17",
+        "h18",
+        "h19",
+        "h20",
+        "h21",
+        "h22",
+        "h23",
+        "h24",
+        "h25",
+        "h26",
+        "h27",
+        "h28",
+        "h29",
+        "h30",
+        "h31",
+        "h32",
+        "h33",
+        "h34",
+        "h35",
+        "h36",
+        "h37",
+        "h38",
+        "h39",
+        "h40",
+        "h41",
+        "h42",
+        "h43",
+        "h44",
+        "h45",
+        "h46",
+        "h47",
+        "h48",
+        "h49",
+        "h50"
+      ]
+    },
+    "ghc-real/hypogenic/o3-generator_o3-judge/exported-metrics": {
+      "path": "outputs/ghc-real/hypogenic/o3-generator_o3-judge/exported-metrics.csv.gz",
+      "sha256": "f3f680bc4ce6f0cd7d58467361fdd20532798223c48aed6493de75dc1e49c6d7",
+      "dtypes": {
+        "hypothesis": "uint8",
+        "f1": "float64",
+        "precision": "float64",
+        "recall": "float64",
+        "p_value_raw": "float64",
+        "n00": "uint16",
+        "n01": "uint16",
+        "n10": "uint16",
+        "n11": "uint16"
+      },
+      "rows": 50,
+      "columns": [
+        "hypothesis",
+        "f1",
+        "precision",
+        "recall",
+        "p_value_raw",
+        "n00",
+        "n01",
+        "n10",
+        "n11"
+      ]
+    },
+    "md/validation-targets-2": {
+      "path": "outputs/md/validation-targets-2.csv.gz",
+      "sha256": "6b16e5b09746e9ac7570c78382ff6bbae52baf344a9335b6124b72c76e784cfe",
+      "dtypes": {
+        "row": "uint16",
+        "observed_disagreement": "uint8"
+      },
+      "rows": 1319,
+      "columns": [
+        "row",
+        "observed_disagreement"
+      ]
+    },
+    "md/chardis/o3-generator_o3-judge/judgments": {
+      "path": "outputs/md/chardis/o3-generator_o3-judge/judgments.csv.gz",
+      "sha256": "97fe5a1116e0df7ed8865e5dfed12728c7c07ac0858d6c3f9e84b6f99b12b1ea",
+      "dtypes": {
+        "row": "uint16",
+        "h01": "uint8",
+        "h02": "uint8",
+        "h03": "uint8",
+        "h04": "uint8",
+        "h05": "uint8",
+        "h06": "uint8",
+        "h07": "uint8",
+        "h08": "uint8",
+        "h09": "uint8",
+        "h10": "uint8",
+        "h11": "uint8",
+        "h12": "uint8",
+        "h13": "uint8",
+        "h14": "uint8",
+        "h15": "uint8",
+        "h16": "uint8",
+        "h17": "uint8",
+        "h18": "uint8",
+        "h19": "uint8",
+        "h20": "uint8",
+        "h21": "uint8",
+        "h22": "uint8",
+        "h23": "uint8",
+        "h24": "uint8",
+        "h25": "uint8",
+        "h26": "uint8",
+        "h27": "uint8",
+        "h28": "uint8",
+        "h29": "uint8",
+        "h30": "uint8",
+        "h31": "uint8",
+        "h32": "uint8",
+        "h33": "uint8",
+        "h34": "uint8",
+        "h35": "uint8",
+        "h36": "uint8",
+        "h37": "uint8",
+        "h38": "uint8",
+        "h39": "uint8",
+        "h40": "uint8",
+        "h41": "uint8",
+        "h42": "uint8",
+        "h43": "uint8",
+        "h44": "uint8",
+        "h45": "uint8",
+        "h46": "uint8",
+        "h47": "uint8",
+        "h48": "uint8",
+        "h49": "uint8",
+        "h50": "uint8"
+      },
+      "rows": 1319,
+      "columns": [
+        "row",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07",
+        "h08",
+        "h09",
+        "h10",
+        "h11",
+        "h12",
+        "h13",
+        "h14",
+        "h15",
+        "h16",
+        "h17",
+        "h18",
+        "h19",
+        "h20",
+        "h21",
+        "h22",
+        "h23",
+        "h24",
+        "h25",
+        "h26",
+        "h27",
+        "h28",
+        "h29",
+        "h30",
+        "h31",
+        "h32",
+        "h33",
+        "h34",
+        "h35",
+        "h36",
+        "h37",
+        "h38",
+        "h39",
+        "h40",
+        "h41",
+        "h42",
+        "h43",
+        "h44",
+        "h45",
+        "h46",
+        "h47",
+        "h48",
+        "h49",
+        "h50"
+      ]
+    },
+    "md/chardis/o3-generator_o3-judge/exported-metrics": {
+      "path": "outputs/md/chardis/o3-generator_o3-judge/exported-metrics.csv.gz",
+      "sha256": "6883d14e9c908897a7d9e4caea6be162d08b736f98e4d6182b72832e3af5a214",
+      "dtypes": {
+        "hypothesis": "uint8",
+        "f1": "float64",
+        "precision": "float64",
+        "recall": "float64",
+        "p_value_raw": "float64",
+        "n00": "uint16",
+        "n01": "uint16",
+        "n10": "uint16",
+        "n11": "uint16"
+      },
+      "rows": 50,
+      "columns": [
+        "hypothesis",
+        "f1",
+        "precision",
+        "recall",
+        "p_value_raw",
+        "n00",
+        "n01",
+        "n10",
+        "n11"
+      ]
+    },
+    "md/hypothesaes/o3-generator_o3-judge/judgments": {
+      "path": "outputs/md/hypothesaes/o3-generator_o3-judge/judgments.csv.gz",
+      "sha256": "e3ed776280779b9057a09f00edd2d7e41da44580f3b6d45f2f388db6b0a17d33",
+      "dtypes": {
+        "row": "uint16",
+        "h01": "uint8",
+        "h02": "uint8",
+        "h03": "uint8",
+        "h04": "uint8",
+        "h05": "uint8",
+        "h06": "uint8",
+        "h07": "uint8",
+        "h08": "uint8",
+        "h09": "uint8",
+        "h10": "uint8",
+        "h11": "uint8",
+        "h12": "uint8",
+        "h13": "uint8",
+        "h14": "uint8",
+        "h15": "uint8",
+        "h16": "uint8",
+        "h17": "uint8",
+        "h18": "uint8",
+        "h19": "uint8",
+        "h20": "uint8",
+        "h21": "uint8",
+        "h22": "uint8",
+        "h23": "uint8",
+        "h24": "uint8",
+        "h25": "uint8",
+        "h26": "uint8",
+        "h27": "uint8",
+        "h28": "uint8",
+        "h29": "uint8",
+        "h30": "uint8",
+        "h31": "uint8",
+        "h32": "uint8",
+        "h33": "uint8",
+        "h34": "uint8",
+        "h35": "uint8",
+        "h36": "uint8",
+        "h37": "uint8",
+        "h38": "uint8",
+        "h39": "uint8",
+        "h40": "uint8",
+        "h41": "uint8",
+        "h42": "uint8",
+        "h43": "uint8",
+        "h44": "uint8",
+        "h45": "uint8",
+        "h46": "uint8",
+        "h47": "uint8",
+        "h48": "uint8",
+        "h49": "uint8",
+        "h50": "uint8"
+      },
+      "rows": 1319,
+      "columns": [
+        "row",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07",
+        "h08",
+        "h09",
+        "h10",
+        "h11",
+        "h12",
+        "h13",
+        "h14",
+        "h15",
+        "h16",
+        "h17",
+        "h18",
+        "h19",
+        "h20",
+        "h21",
+        "h22",
+        "h23",
+        "h24",
+        "h25",
+        "h26",
+        "h27",
+        "h28",
+        "h29",
+        "h30",
+        "h31",
+        "h32",
+        "h33",
+        "h34",
+        "h35",
+        "h36",
+        "h37",
+        "h38",
+        "h39",
+        "h40",
+        "h41",
+        "h42",
+        "h43",
+        "h44",
+        "h45",
+        "h46",
+        "h47",
+        "h48",
+        "h49",
+        "h50"
+      ]
+    },
+    "md/hypothesaes/o3-generator_o3-judge/exported-metrics": {
+      "path": "outputs/md/hypothesaes/o3-generator_o3-judge/exported-metrics.csv.gz",
+      "sha256": "e1b6f883f05527fc08721f4dcb28f6596ec8d13ad7a6dfcf7f4f4b4384ede2ed",
+      "dtypes": {
+        "hypothesis": "uint8",
+        "f1": "float64",
+        "precision": "float64",
+        "recall": "float64",
+        "p_value_raw": "float64",
+        "n00": "uint16",
+        "n01": "uint16",
+        "n10": "uint16",
+        "n11": "uint16"
+      },
+      "rows": 50,
+      "columns": [
+        "hypothesis",
+        "f1",
+        "precision",
+        "recall",
+        "p_value_raw",
+        "n00",
+        "n01",
+        "n10",
+        "n11"
+      ]
+    },
+    "md/hypogenic/o3-generator_o3-judge/judgments": {
+      "path": "outputs/md/hypogenic/o3-generator_o3-judge/judgments.csv.gz",
+      "sha256": "0984099659c69dc8a06e3eeb72277f42f1f1b744988b7795ed03d3768ae0a51a",
+      "dtypes": {
+        "row": "uint16",
+        "h01": "uint8",
+        "h02": "uint8",
+        "h03": "uint8",
+        "h04": "uint8",
+        "h05": "uint8",
+        "h06": "uint8",
+        "h07": "uint8",
+        "h08": "uint8",
+        "h09": "uint8",
+        "h10": "uint8",
+        "h11": "uint8",
+        "h12": "uint8",
+        "h13": "uint8",
+        "h14": "uint8",
+        "h15": "uint8",
+        "h16": "uint8",
+        "h17": "uint8",
+        "h18": "uint8",
+        "h19": "uint8",
+        "h20": "uint8",
+        "h21": "uint8",
+        "h22": "uint8",
+        "h23": "uint8",
+        "h24": "uint8",
+        "h25": "uint8",
+        "h26": "uint8",
+        "h27": "uint8",
+        "h28": "uint8",
+        "h29": "uint8",
+        "h30": "uint8",
+        "h31": "uint8",
+        "h32": "uint8",
+        "h33": "uint8",
+        "h34": "uint8",
+        "h35": "uint8",
+        "h36": "uint8",
+        "h37": "uint8",
+        "h38": "uint8",
+        "h39": "uint8",
+        "h40": "uint8",
+        "h41": "uint8",
+        "h42": "uint8",
+        "h43": "uint8",
+        "h44": "uint8",
+        "h45": "uint8",
+        "h46": "uint8",
+        "h47": "uint8",
+        "h48": "uint8",
+        "h49": "uint8",
+        "h50": "uint8"
+      },
+      "rows": 1319,
+      "columns": [
+        "row",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07",
+        "h08",
+        "h09",
+        "h10",
+        "h11",
+        "h12",
+        "h13",
+        "h14",
+        "h15",
+        "h16",
+        "h17",
+        "h18",
+        "h19",
+        "h20",
+        "h21",
+        "h22",
+        "h23",
+        "h24",
+        "h25",
+        "h26",
+        "h27",
+        "h28",
+        "h29",
+        "h30",
+        "h31",
+        "h32",
+        "h33",
+        "h34",
+        "h35",
+        "h36",
+        "h37",
+        "h38",
+        "h39",
+        "h40",
+        "h41",
+        "h42",
+        "h43",
+        "h44",
+        "h45",
+        "h46",
+        "h47",
+        "h48",
+        "h49",
+        "h50"
+      ]
+    },
+    "md/hypogenic/o3-generator_o3-judge/exported-metrics": {
+      "path": "outputs/md/hypogenic/o3-generator_o3-judge/exported-metrics.csv.gz",
+      "sha256": "c6a12d702a7105720c7a20eff73c2d0d7e3a4be234148fb88b2ac3b8c748f780",
+      "dtypes": {
+        "hypothesis": "uint8",
+        "f1": "float64",
+        "precision": "float64",
+        "recall": "float64",
+        "p_value_raw": "float64",
+        "n00": "uint16",
+        "n01": "uint16",
+        "n10": "uint16",
+        "n11": "uint16"
+      },
+      "rows": 50,
+      "columns": [
+        "hypothesis",
+        "f1",
+        "precision",
+        "recall",
+        "p_value_raw",
+        "n00",
+        "n01",
+        "n10",
+        "n11"
+      ]
+    },
+    "pref/validation-targets-3": {
+      "path": "outputs/pref/validation-targets-3.csv.gz",
+      "sha256": "b87d111b990dcec8120c62eebc2b29569aad53ee9cf2e7117e05371177c23416",
+      "dtypes": {
+        "row": "uint16",
+        "observed_disagreement": "uint8"
+      },
+      "rows": 2092,
+      "columns": [
+        "row",
+        "observed_disagreement"
+      ]
+    },
+    "pref/chardis/o3-generator_o3-judge/judgments": {
+      "path": "outputs/pref/chardis/o3-generator_o3-judge/judgments.csv.gz",
+      "sha256": "cba0b28e3e8afa9b84334085ac2696ac76027acf64b67518741e552cb07782bb",
+      "dtypes": {
+        "row": "uint16",
+        "h01": "uint8",
+        "h02": "uint8",
+        "h03": "uint8",
+        "h04": "uint8",
+        "h05": "uint8",
+        "h06": "uint8",
+        "h07": "uint8",
+        "h08": "uint8",
+        "h09": "uint8",
+        "h10": "uint8",
+        "h11": "uint8",
+        "h12": "uint8",
+        "h13": "uint8",
+        "h14": "uint8",
+        "h15": "uint8",
+        "h16": "uint8",
+        "h17": "uint8",
+        "h18": "uint8",
+        "h19": "uint8",
+        "h20": "uint8",
+        "h21": "uint8",
+        "h22": "uint8",
+        "h23": "uint8",
+        "h24": "uint8",
+        "h25": "uint8",
+        "h26": "uint8",
+        "h27": "uint8",
+        "h28": "uint8",
+        "h29": "uint8",
+        "h30": "uint8",
+        "h31": "uint8",
+        "h32": "uint8",
+        "h33": "uint8",
+        "h34": "uint8",
+        "h35": "uint8",
+        "h36": "uint8",
+        "h37": "uint8",
+        "h38": "uint8",
+        "h39": "uint8",
+        "h40": "uint8",
+        "h41": "uint8",
+        "h42": "uint8",
+        "h43": "uint8",
+        "h44": "uint8",
+        "h45": "uint8",
+        "h46": "uint8",
+        "h47": "uint8",
+        "h48": "uint8",
+        "h49": "uint8",
+        "h50": "uint8"
+      },
+      "rows": 2092,
+      "columns": [
+        "row",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07",
+        "h08",
+        "h09",
+        "h10",
+        "h11",
+        "h12",
+        "h13",
+        "h14",
+        "h15",
+        "h16",
+        "h17",
+        "h18",
+        "h19",
+        "h20",
+        "h21",
+        "h22",
+        "h23",
+        "h24",
+        "h25",
+        "h26",
+        "h27",
+        "h28",
+        "h29",
+        "h30",
+        "h31",
+        "h32",
+        "h33",
+        "h34",
+        "h35",
+        "h36",
+        "h37",
+        "h38",
+        "h39",
+        "h40",
+        "h41",
+        "h42",
+        "h43",
+        "h44",
+        "h45",
+        "h46",
+        "h47",
+        "h48",
+        "h49",
+        "h50"
+      ]
+    },
+    "pref/chardis/o3-generator_o3-judge/exported-metrics": {
+      "path": "outputs/pref/chardis/o3-generator_o3-judge/exported-metrics.csv.gz",
+      "sha256": "efd22198ca2edac3b432605a408e8d1955f90e0dde913e342bda96f78a4d823c",
+      "dtypes": {
+        "hypothesis": "uint8",
+        "f1": "float64",
+        "precision": "float64",
+        "recall": "float64",
+        "p_value_raw": "float64",
+        "n00": "uint16",
+        "n01": "uint16",
+        "n10": "uint16",
+        "n11": "uint16"
+      },
+      "rows": 50,
+      "columns": [
+        "hypothesis",
+        "f1",
+        "precision",
+        "recall",
+        "p_value_raw",
+        "n00",
+        "n01",
+        "n10",
+        "n11"
+      ]
+    },
+    "pref/validation-targets-4": {
+      "path": "outputs/pref/validation-targets-4.csv.gz",
+      "sha256": "0349015d60ab56f3fbc90d866c8da0511082e0a97b10142c99bb6326ccef6a1d",
+      "dtypes": {
+        "row": "uint16",
+        "observed_disagreement": "uint8"
+      },
+      "rows": 2092,
+      "columns": [
+        "row",
+        "observed_disagreement"
+      ]
+    },
+    "pref/hypothesaes/o3-generator_o3-judge/judgments": {
+      "path": "outputs/pref/hypothesaes/o3-generator_o3-judge/judgments.csv.gz",
+      "sha256": "8a4b59ee7f914bc74a20fa0783e7b355e42b96d69ebca3fcfdbfb1fb5d2176c4",
+      "dtypes": {
+        "row": "uint16",
+        "h01": "uint8",
+        "h02": "uint8",
+        "h03": "uint8",
+        "h04": "uint8",
+        "h05": "uint8",
+        "h06": "uint8",
+        "h07": "uint8",
+        "h08": "uint8",
+        "h09": "uint8",
+        "h10": "uint8",
+        "h11": "uint8",
+        "h12": "uint8",
+        "h13": "uint8",
+        "h14": "uint8",
+        "h15": "uint8",
+        "h16": "uint8",
+        "h17": "uint8",
+        "h18": "uint8",
+        "h19": "uint8",
+        "h20": "uint8",
+        "h21": "uint8",
+        "h22": "uint8",
+        "h23": "uint8",
+        "h24": "uint8",
+        "h25": "uint8",
+        "h26": "uint8",
+        "h27": "uint8",
+        "h28": "uint8",
+        "h29": "uint8",
+        "h30": "uint8",
+        "h31": "uint8",
+        "h32": "uint8",
+        "h33": "uint8",
+        "h34": "uint8",
+        "h35": "uint8",
+        "h36": "uint8",
+        "h37": "uint8",
+        "h38": "uint8",
+        "h39": "uint8",
+        "h40": "uint8",
+        "h41": "uint8",
+        "h42": "uint8",
+        "h43": "uint8",
+        "h44": "uint8",
+        "h45": "uint8",
+        "h46": "uint8",
+        "h47": "uint8",
+        "h48": "uint8",
+        "h49": "uint8",
+        "h50": "uint8"
+      },
+      "rows": 2092,
+      "columns": [
+        "row",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07",
+        "h08",
+        "h09",
+        "h10",
+        "h11",
+        "h12",
+        "h13",
+        "h14",
+        "h15",
+        "h16",
+        "h17",
+        "h18",
+        "h19",
+        "h20",
+        "h21",
+        "h22",
+        "h23",
+        "h24",
+        "h25",
+        "h26",
+        "h27",
+        "h28",
+        "h29",
+        "h30",
+        "h31",
+        "h32",
+        "h33",
+        "h34",
+        "h35",
+        "h36",
+        "h37",
+        "h38",
+        "h39",
+        "h40",
+        "h41",
+        "h42",
+        "h43",
+        "h44",
+        "h45",
+        "h46",
+        "h47",
+        "h48",
+        "h49",
+        "h50"
+      ]
+    },
+    "pref/hypothesaes/o3-generator_o3-judge/exported-metrics": {
+      "path": "outputs/pref/hypothesaes/o3-generator_o3-judge/exported-metrics.csv.gz",
+      "sha256": "0a276f8e8781594b8ca8e2377bee47db17728875c7a4e53045a1364eb5b4fb61",
+      "dtypes": {
+        "hypothesis": "uint8",
+        "f1": "float64",
+        "precision": "float64",
+        "recall": "float64",
+        "p_value_raw": "float64",
+        "n00": "uint16",
+        "n01": "uint16",
+        "n10": "uint16",
+        "n11": "uint16"
+      },
+      "rows": 50,
+      "columns": [
+        "hypothesis",
+        "f1",
+        "precision",
+        "recall",
+        "p_value_raw",
+        "n00",
+        "n01",
+        "n10",
+        "n11"
+      ]
+    },
+    "pref/hypogenic/o3-generator_o3-judge/judgments": {
+      "path": "outputs/pref/hypogenic/o3-generator_o3-judge/judgments.csv.gz",
+      "sha256": "98854358179e8ef2d5c4f9eefdfc53236066d84165d8f518fa1e7c957260749a",
+      "dtypes": {
+        "row": "uint16",
+        "h01": "uint8",
+        "h02": "uint8",
+        "h03": "uint8",
+        "h04": "uint8",
+        "h05": "uint8",
+        "h06": "uint8",
+        "h07": "uint8",
+        "h08": "uint8",
+        "h09": "uint8",
+        "h10": "uint8",
+        "h11": "uint8",
+        "h12": "uint8",
+        "h13": "uint8",
+        "h14": "uint8",
+        "h15": "uint8",
+        "h16": "uint8",
+        "h17": "uint8",
+        "h18": "uint8",
+        "h19": "uint8",
+        "h20": "uint8",
+        "h21": "uint8",
+        "h22": "uint8",
+        "h23": "uint8",
+        "h24": "uint8",
+        "h25": "uint8",
+        "h26": "uint8",
+        "h27": "uint8",
+        "h28": "uint8",
+        "h29": "uint8",
+        "h30": "uint8",
+        "h31": "uint8",
+        "h32": "uint8",
+        "h33": "uint8",
+        "h34": "uint8",
+        "h35": "uint8",
+        "h36": "uint8",
+        "h37": "uint8",
+        "h38": "uint8",
+        "h39": "uint8",
+        "h40": "uint8",
+        "h41": "uint8",
+        "h42": "uint8",
+        "h43": "uint8",
+        "h44": "uint8",
+        "h45": "uint8",
+        "h46": "uint8",
+        "h47": "uint8",
+        "h48": "uint8",
+        "h49": "uint8",
+        "h50": "uint8"
+      },
+      "rows": 2092,
+      "columns": [
+        "row",
+        "h01",
+        "h02",
+        "h03",
+        "h04",
+        "h05",
+        "h06",
+        "h07",
+        "h08",
+        "h09",
+        "h10",
+        "h11",
+        "h12",
+        "h13",
+        "h14",
+        "h15",
+        "h16",
+        "h17",
+        "h18",
+        "h19",
+        "h20",
+        "h21",
+        "h22",
+        "h23",
+        "h24",
+        "h25",
+        "h26",
+        "h27",
+        "h28",
+        "h29",
+        "h30",
+        "h31",
+        "h32",
+        "h33",
+        "h34",
+        "h35",
+        "h36",
+        "h37",
+        "h38",
+        "h39",
+        "h40",
+        "h41",
+        "h42",
+        "h43",
+        "h44",
+        "h45",
+        "h46",
+        "h47",
+        "h48",
+        "h49",
+        "h50"
+      ]
+    },
+    "pref/hypogenic/o3-generator_o3-judge/exported-metrics": {
+      "path": "outputs/pref/hypogenic/o3-generator_o3-judge/exported-metrics.csv.gz",
+      "sha256": "615ec3c01be5506e4c371e51c7ac9222d2e9b516c49819387d1b58178e9edc86",
+      "dtypes": {
+        "hypothesis": "uint8",
+        "f1": "float64",
+        "precision": "float64",
+        "recall": "float64",
+        "p_value_raw": "float64",
+        "n00": "uint16",
+        "n01": "uint16",
+        "n10": "uint16",
+        "n11": "uint16"
+      },
+      "rows": 50,
+      "columns": [
+        "hypothesis",
+        "f1",
+        "precision",
+        "recall",
+        "p_value_raw",
+        "n00",
+        "n01",
+        "n10",
+        "n11"
+      ]
+    }
+  },
+  "hypotheses": {
+    "dices/chardis/o3-generator_o3-judge": [
+      {
+        "id": "h01",
+        "source_id": "dices-o3-o3_6",
+        "text": "\"Texts that merely reference violence or assault in passing without graphic description or encouragement.\""
+      },
+      {
+        "id": "h02",
+        "source_id": "dices-o3-o3_24",
+        "text": "\"Narratives that describe or reference violence without praising or advocating it.\""
+      },
+      {
+        "id": "h03",
+        "source_id": "dices-o3-o3_11",
+        "text": "\"Discussions featuring disagreement or criticism along identity lines but lacking explicit slurs, threats, or calls for violence.\""
+      },
+      {
+        "id": "h04",
+        "source_id": "dices-o3-o3_7",
+        "text": "\"Content that raises medical or nutritional topics in the form of questions or casual mentions without dispensing concrete health advice.\""
+      },
+      {
+        "id": "h05",
+        "source_id": "dices-o3-o3_44",
+        "text": "\"Texts that mention possible side-effects or health outcomes in a speculative or anecdotal way.\""
+      },
+      {
+        "id": "h06",
+        "source_id": "dices-o3-o3_42",
+        "text": "\"Narratives that mention wrongdoing or criminal acts without providing praise, detail, or instructions.\""
+      },
+      {
+        "id": "h07",
+        "source_id": "dices-o3-o3_9",
+        "text": "\"Texts that mention weapons, drugs, or other regulated items only in a descriptive or incidental way, without advocating use.\""
+      },
+      {
+        "id": "h08",
+        "source_id": "dices-o3-o3_5",
+        "text": "\"Texts that include incorrect or speculative factual claims on everyday or non-critical topics without any explicit correction.\""
+      },
+      {
+        "id": "h09",
+        "source_id": "dices-o3-o3_49",
+        "text": "\"Speculative or uncertain assertions that could be interpreted as misinformation but do not overtly defy expert consensus.\""
+      },
+      {
+        "id": "h10",
+        "source_id": "dices-o3-o3_25",
+        "text": "\"Utterances that brand an individual or non-protected group as \u2018evil,\u2019 \u2018corrupt,\u2019 or otherwise morally vile without advocating violence.\""
+      },
+      {
+        "id": "h11",
+        "source_id": "dices-o3-o3_37",
+        "text": "\"Narratives that reference large-scale harm or disasters purely in a descriptive or historical manner.\""
+      },
+      {
+        "id": "h12",
+        "source_id": "dices-o3-o3_27",
+        "text": "\"Passages that praise, normalize, or look forward to drinking alcohol or using drugs in casual social contexts without offering procurement advice.\""
+      },
+      {
+        "id": "h13",
+        "source_id": "dices-o3-o3_18",
+        "text": "\"Joking or sarcastic remarks about committing violent acts that lack concrete plans or threats.\""
+      },
+      {
+        "id": "h14",
+        "source_id": "dices-o3-o3_28",
+        "text": "\"Violent imagery framed as jokes, sarcasm, or fantasy scenarios involving monsters, vampires, or other unreal elements.\""
+      },
+      {
+        "id": "h15",
+        "source_id": "dices-o3-o3_34",
+        "text": "\"Passages that express personal skepticism toward vaccines or other medical interventions without directly advising readers to follow the same behavior.\""
+      },
+      {
+        "id": "h16",
+        "source_id": "dices-o3-o3_22",
+        "text": "\"Casual conversations consisting of greetings, small talk, or everyday experiences with no harmful elements.\""
+      },
+      {
+        "id": "h17",
+        "source_id": "dices-o3-o3_2",
+        "text": "\"Texts that use mild non-protected personal insults such as 'idiot' or 'dumbass' without threats or slurs.\""
+      },
+      {
+        "id": "h18",
+        "source_id": "dices-o3-o3_48",
+        "text": "\"Generalized stereotypes or assumptions stated without direct insults, slurs, or calls for subjugation.\""
+      },
+      {
+        "id": "h19",
+        "source_id": "dices-o3-o3_12",
+        "text": "\"Generic insults or taunts aimed at someone\u2019s personal identity or capabilities without targeting a protected class.\""
+      },
+      {
+        "id": "h20",
+        "source_id": "dices-o3-o3_20",
+        "text": "\"Texts making broad or stereotypical statements about a demographic group without using slurs or explicit calls for harm.\""
+      },
+      {
+        "id": "h21",
+        "source_id": "dices-o3-o3_46",
+        "text": "\"Lines that resort to simple name-calling like \u201cidiot,\u201d \u201cmoron,\u201d or \u201ckid\u201d without targeting a protected group.\""
+      },
+      {
+        "id": "h22",
+        "source_id": "dices-o3-o3_15",
+        "text": "\"Humorous or sarcastic exchanges where harmful intent is ambiguous or framed as a joke.\""
+      },
+      {
+        "id": "h23",
+        "source_id": "dices-o3-o3_4",
+        "text": "\"Remarks expressed in a noticeably sarcastic or hostile tone yet lacking explicit slurs, threats, or graphic violence.\""
+      },
+      {
+        "id": "h24",
+        "source_id": "dices-o3-o3_50",
+        "text": "\"References to demographic or identity groups stated without slurs, stereotypes, or overt hostility.\""
+      },
+      {
+        "id": "h25",
+        "source_id": "dices-o3-o3_47",
+        "text": "\"Content that includes no profanity yet carries minor negativity or sarcasm toward someone.\""
+      },
+      {
+        "id": "h26",
+        "source_id": "dices-o3-o3_19",
+        "text": "\"Texts whose wording is ambiguous enough that potential misinformation or harm is uncertain.\""
+      },
+      {
+        "id": "h27",
+        "source_id": "dices-o3-o3_3",
+        "text": "\"Texts that use light sexual innuendo, flirtation, or PG-13 romantic references without explicit detail.\""
+      },
+      {
+        "id": "h28",
+        "source_id": "dices-o3-o3_21",
+        "text": "\"Utterances featuring mild swear words or casual profanities such as \u201chell,\u201d \u201cdamn,\u201d or \u201ccrap\u201d with no hate slurs.\""
+      },
+      {
+        "id": "h29",
+        "source_id": "dices-o3-o3_1",
+        "text": "\"Texts containing single or mild profanity terms without any additional harmful context.\""
+      },
+      {
+        "id": "h30",
+        "source_id": "dices-o3-o3_16",
+        "text": "\"Texts that offer unverified health tips, home remedies, or safety advice in a conversational, non-expert tone.\""
+      },
+      {
+        "id": "h31",
+        "source_id": "dices-o3-o3_39",
+        "text": "\"Texts offering step-by-step or instructional advice for ordinary, non-dangerous tasks such as cooking or house-cleaning.\""
+      },
+      {
+        "id": "h32",
+        "source_id": "dices-o3-o3_29",
+        "text": "\"Texts with mild flirting, suggestive jokes, or non-graphic romantic or sexual references.\""
+      },
+      {
+        "id": "h33",
+        "source_id": "dices-o3-o3_8",
+        "text": "\"Texts that simply ask for or reveal basic personal details like a person\u2019s age without further sensitive data.\""
+      },
+      {
+        "id": "h34",
+        "source_id": "dices-o3-o3_32",
+        "text": "\"Messages that present step-by-step instructions for ordinary tasks such as cooking, cleaning, or software setup without involving any danger or illegality.\""
+      },
+      {
+        "id": "h35",
+        "source_id": "dices-o3-o3_35",
+        "text": "\"Conversations that simply reference, review, or discuss commercial products, services, brands, or URLs in an informational way.\""
+      },
+      {
+        "id": "h36",
+        "source_id": "dices-o3-o3_43",
+        "text": "\"Narratives that describe extremist fantasies or mass-harm scenarios without offering concrete guidance.\""
+      },
+      {
+        "id": "h37",
+        "source_id": "dices-o3-o3_17",
+        "text": "\"Text that includes any procedural \u2018how-to\u2019 steps for mundane or non-dangerous activities, creating ambiguity about potential harm.\""
+      },
+      {
+        "id": "h38",
+        "source_id": "dices-o3-o3_41",
+        "text": "\"Texts that mention harassment or bullying only to describe or report it, without any explicit threats or encouragement.\""
+      },
+      {
+        "id": "h39",
+        "source_id": "dices-o3-o3_13",
+        "text": "\"Passages offering or promoting financial products, deals, or investment tips in a casual, non-expert manner.\""
+      },
+      {
+        "id": "h40",
+        "source_id": "dices-o3-o3_14",
+        "text": "\"Texts that mention self-harm or suicidal thoughts without providing encouragement, instructions, or calls for help.\""
+      },
+      {
+        "id": "h41",
+        "source_id": "dices-o3-o3_30",
+        "text": "\"Exchanges that are fragmented, confusing, or ambiguous, leaving intent or meaning uncertain.\""
+      },
+      {
+        "id": "h42",
+        "source_id": "dices-o3-o3_36",
+        "text": "\"Texts that mention elections, voting procedures, or polling information in a neutral or informational manner.\""
+      },
+      {
+        "id": "h43",
+        "source_id": "dices-o3-o3_26",
+        "text": "\"Simple consumer or product recommendations that do not concern regulated or dangerous goods.\""
+      },
+      {
+        "id": "h44",
+        "source_id": "dices-o3-o3_45",
+        "text": "\"Statements that disclose benign location details\u2014such as the address of a public place or directions\u2014without sharing private or sensitive personal data.\""
+      },
+      {
+        "id": "h45",
+        "source_id": "dices-o3-o3_40",
+        "text": "\"Texts that confidently state or repeat minor inaccuracies about entertainment, pop culture, or everyday trivia.\""
+      },
+      {
+        "id": "h46",
+        "source_id": "dices-o3-o3_23",
+        "text": "\"Any flirtatious or suggestive remark between an adult and a self-identified minor that lacks explicit sexual detail but hints at romantic or sexual interest.\""
+      },
+      {
+        "id": "h47",
+        "source_id": "dices-o3-o3_31",
+        "text": "\"Neutral or passing references to abortion or pregnancy termination without providing advice or moral pressure.\""
+      },
+      {
+        "id": "h48",
+        "source_id": "dices-o3-o3_33",
+        "text": "\"Phrases like \u2018age is just a number\u2019 or casual age-gap comments involving a minor.\""
+      },
+      {
+        "id": "h49",
+        "source_id": "dices-o3-o3_38",
+        "text": "\"Single references to sexually transmitted diseases or other intimate health topics presented in a non-graphic, matter-of-fact way.\""
+      },
+      {
+        "id": "h50",
+        "source_id": "dices-o3-o3_10",
+        "text": "\"Texts that mention a religion or its figures in a mildly negative or dismissive way without using slurs, insults, or threats.\""
+      }
+    ],
+    "dices/hypothesaes/o3-generator_o3-judge": [
+      {
+        "id": "h01",
+        "source_id": "dices-o3-o3_26",
+        "text": "includes a question asking for an opinion on a contentious social or political issue"
+      },
+      {
+        "id": "h02",
+        "source_id": "dices-o3-o3_45",
+        "text": "contains words related to killing or lethal violence (e.g., \u201ckill\u201d, \u201cshoot\u201d, \u201cgun\u201d, \u201cpoison\u201d, \u201cmurder\u201d)"
+      },
+      {
+        "id": "h03",
+        "source_id": "dices-o3-o3_15",
+        "text": "contains discussion of the human body (weight, dieting/food, cosmetic surgery, body parts, or disposing of a body)"
+      },
+      {
+        "id": "h04",
+        "source_id": "dices-o3-o3_19",
+        "text": "contains explicit adult content (explicit sexual acts/sexual orientation discussions or violent threats like shooting someone)"
+      },
+      {
+        "id": "h05",
+        "source_id": "dices-o3-o3_44",
+        "text": "mentions sexual abuse or exploitation (e.g., rape, pedophilia, under-age sex, prostitution, groping)"
+      },
+      {
+        "id": "h06",
+        "source_id": "dices-o3-o3_1",
+        "text": "mentions an extremist or politically radical group (e.g., Taliban, Neo-Nazis, LTTE, BLM)"
+      },
+      {
+        "id": "h07",
+        "source_id": "dices-o3-o3_24",
+        "text": "dialogue includes a disagreement about the morality of harming or killing people"
+      },
+      {
+        "id": "h08",
+        "source_id": "dices-o3-o3_42",
+        "text": "contains the informal contraction 'wanna'"
+      },
+      {
+        "id": "h09",
+        "source_id": "dices-o3-o3_46",
+        "text": "contains the words \u201cterrorist\u201d or \u201cterrorists\u201d"
+      },
+      {
+        "id": "h10",
+        "source_id": "dices-o3-o3_40",
+        "text": "contains direct insults or profanity/derogatory words aimed at a person or group (e.g., 'ugly', 'fat', 'bitch', 'fuck', 'cuck', 'garbage')"
+      },
+      {
+        "id": "h11",
+        "source_id": "dices-o3-o3_16",
+        "text": "mentions conspiracy-theory or extremist political topics (e.g., discussing Tower 7, a stolen election, Freemasons, bomb-making, defunding the police, Covid danger)"
+      },
+      {
+        "id": "h12",
+        "source_id": "dices-o3-o3_13",
+        "text": "mentions race-related terms (e.g., black, white, racist, Nazi, Hispanic, BLM)"
+      },
+      {
+        "id": "h13",
+        "source_id": "dices-o3-o3_31",
+        "text": "references to US elections, voting, political parties, or specific American politicians"
+      },
+      {
+        "id": "h14",
+        "source_id": "dices-o3-o3_32",
+        "text": "contains a sentence where the responder explicitly claims the questioner is ignorant or lacks understanding (e.g., 'you have no idea what you're doing', 'you don't know what you're talking about', 'you didn't think about it enough')"
+      },
+      {
+        "id": "h15",
+        "source_id": "dices-o3-o3_25",
+        "text": "contains derogatory or hateful references toward a protected group"
+      },
+      {
+        "id": "h16",
+        "source_id": "dices-o3-o3_47",
+        "text": "contains a back-and-forth argument about abortion, reproductive rights, LGBT issues, or gender roles"
+      },
+      {
+        "id": "h17",
+        "source_id": "dices-o3-o3_48",
+        "text": "dialogue revolves around practical, everyday how-to advice (e.g., cooking, household items, shopping, basic science tips) rather than abstract, political, or philosophical topics"
+      },
+      {
+        "id": "h18",
+        "source_id": "dices-o3-o3_38",
+        "text": "Contains a direct second-person insult phrase like \u201cyou are/you're [derogatory term]\u201d"
+      },
+      {
+        "id": "h19",
+        "source_id": "dices-o3-o3_29",
+        "text": "contains the word \u201cfuck\u201d or a close inflected form such as \u201cfucked\u201d"
+      },
+      {
+        "id": "h20",
+        "source_id": "dices-o3-o3_10",
+        "text": "contains the word 'woman' or 'women'"
+      },
+      {
+        "id": "h21",
+        "source_id": "dices-o3-o3_8",
+        "text": "contains the word \\\"gay\\"
+      },
+      {
+        "id": "h22",
+        "source_id": "dices-o3-o3_23",
+        "text": "mentions abortion"
+      },
+      {
+        "id": "h23",
+        "source_id": "dices-o3-o3_28",
+        "text": "mentions abortion/abortions"
+      },
+      {
+        "id": "h24",
+        "source_id": "dices-o3-o3_30",
+        "text": "contains explicit first-person suicidal self-harm phrases (e.g., \u2018kill myself\u2019, \u2018end my life\u2019, \u2018I\u2019ll die\u2019)"
+      },
+      {
+        "id": "h25",
+        "source_id": "dices-o3-o3_39",
+        "text": "contains a homophobic slur or derogatory reference to homosexuality (words like \u201cgay\u201d used as an insult or the slur \u201cfaggot\u201d)"
+      },
+      {
+        "id": "h26",
+        "source_id": "dices-o3-o3_12",
+        "text": "mentions religion (e.g., God, Jesus, Islam, religious)"
+      },
+      {
+        "id": "h27",
+        "source_id": "dices-o3-o3_14",
+        "text": "mentions religion (e.g., jesus, catholic, religious)"
+      },
+      {
+        "id": "h28",
+        "source_id": "dices-o3-o3_37",
+        "text": "offers friendly, practical advice about everyday personal or household matters (health, hygiene, cleaning, work, family) while avoiding any political, sexual, or profane content"
+      },
+      {
+        "id": "h29",
+        "source_id": "dices-o3-o3_2",
+        "text": "contains at least one of the capitalized terms: \u201cHitler\u201d, \u201cTrump\u201d, \u201cBiden\u201d, or \u201cUSA\u201d"
+      },
+      {
+        "id": "h30",
+        "source_id": "dices-o3-o3_7",
+        "text": "contains at least one of the words: baby, abortion/abortions, pregnant, or hooker"
+      },
+      {
+        "id": "h31",
+        "source_id": "dices-o3-o3_11",
+        "text": "mentions police-related terms such as 'police', 'cop', or 'officer'"
+      },
+      {
+        "id": "h32",
+        "source_id": "dices-o3-o3_9",
+        "text": "includes the derogatory word 'dumb'"
+      },
+      {
+        "id": "h33",
+        "source_id": "dices-o3-o3_35",
+        "text": "mentions the term \u201cnazi\u201d or \u201cneo-nazi\u201d"
+      },
+      {
+        "id": "h34",
+        "source_id": "dices-o3-o3_22",
+        "text": "mentions dogs"
+      },
+      {
+        "id": "h35",
+        "source_id": "dices-o3-o3_27",
+        "text": "mentions the word \u201ckid\u201d or \u201ckids\u201d"
+      },
+      {
+        "id": "h36",
+        "source_id": "dices-o3-o3_50",
+        "text": "contains questions asking for recommendations about where to eat, shop, or what consumer product to buy"
+      },
+      {
+        "id": "h37",
+        "source_id": "dices-o3-o3_5",
+        "text": "contains at least one profane slur word such as 'cunt', 'bitch', 'retard', 'slut', 'skank', 'asshole', 'dick', 'cuck', or 'jerkoff'"
+      },
+      {
+        "id": "h38",
+        "source_id": "dices-o3-o3_33",
+        "text": "mentions Google"
+      },
+      {
+        "id": "h39",
+        "source_id": "dices-o3-o3_34",
+        "text": "contains Unicode curly apostrophe (\u2019)"
+      },
+      {
+        "id": "h40",
+        "source_id": "dices-o3-o3_3",
+        "text": "mentions George Floyd"
+      },
+      {
+        "id": "h41",
+        "source_id": "dices-o3-o3_21",
+        "text": "contains the word 'immunization'"
+      },
+      {
+        "id": "h42",
+        "source_id": "dices-o3-o3_41",
+        "text": "mentions the insurance company 'geico'"
+      },
+      {
+        "id": "h43",
+        "source_id": "dices-o3-o3_18",
+        "text": "contains the word \u201ccensor\u201d (or \u201ccensorship\u201d)"
+      },
+      {
+        "id": "h44",
+        "source_id": "dices-o3-o3_43",
+        "text": "contains a YouTube URL (e.g., 'https://www.youtube.com' or 'https://youtu.be')"
+      },
+      {
+        "id": "h45",
+        "source_id": "dices-o3-o3_36",
+        "text": "contains an 'http://' URL link"
+      },
+      {
+        "id": "h46",
+        "source_id": "dices-o3-o3_49",
+        "text": "mentions Amazon (either the company or the Amazon forest)"
+      },
+      {
+        "id": "h47",
+        "source_id": "dices-o3-o3_17",
+        "text": "is a short dialogue composed exclusively of greeting/pleasantry words (e.g., \u201chi\u201d, \u201chello\u201d, \u201chey\u201d, \u201chow are you\u201d, \u201csup\u201d, \u201cyo\u201d) with no discussion of any other substantive topic"
+      },
+      {
+        "id": "h48",
+        "source_id": "dices-o3-o3_4",
+        "text": "contains a URL starting with \u201chttps://\u201d"
+      },
+      {
+        "id": "h49",
+        "source_id": "dices-o3-o3_6",
+        "text": "participants ask for or give advice about vacation or travel destinations"
+      },
+      {
+        "id": "h50",
+        "source_id": "dices-o3-o3_20",
+        "text": "contains an unlabeled line (not starting with 'A:' or 'B:') after the dialogue turns"
+      }
+    ],
+    "dices/hypogenic/o3-generator_o3-judge": [
+      {
+        "id": "h01",
+        "source_id": "dices-o3-o3_38",
+        "text": "Content that touches on highly subjective or sensitive topics (politics, religion, morality) prompts divergent interpretations and thus more disagreement."
+      },
+      {
+        "id": "h02",
+        "source_id": "dices-o3-o3_7",
+        "text": "Sentences with multiple clauses or shifting subjects (complex syntax) invite disagreement by allowing multiple interpretations of which part carries the main sentiment or target."
+      },
+      {
+        "id": "h03",
+        "source_id": "dices-o3-o3_6",
+        "text": "Mentions of sensitive sociopolitical topics (e.g., race, gender, religion) tend to create disagreement because annotators differ in thresholds for what counts as hateful or inflammatory."
+      },
+      {
+        "id": "h04",
+        "source_id": "dices-o3-o3_25",
+        "text": "Texts that rely on sarcasm, irony, or deadpan humor (where the literal meaning differs from the intended meaning) are more likely to trigger annotator disagreement."
+      },
+      {
+        "id": "h05",
+        "source_id": "dices-o3-o3_5",
+        "text": "Texts containing borderline\u2010offensive, mildly insulting, or slang terms divide annotators on whether the tone is hostile or playful, boosting disagreement rates."
+      },
+      {
+        "id": "h06",
+        "source_id": "dices-o3-o3_35",
+        "text": "Rhetorical or hypothetical questions whose sentiment depends on the reader\u2019s assumptions."
+      },
+      {
+        "id": "h07",
+        "source_id": "dices-o3-o3_9",
+        "text": "Texts that use sarcasm, irony, or humor without explicit cues are more likely to trigger annotator disagreement because readers may interpret the author\u2019s real intent differently."
+      },
+      {
+        "id": "h08",
+        "source_id": "dices-o3-o3_37",
+        "text": "Texts that rely on sarcasm, irony, or other non-literal language are more likely to produce annotator disagreement."
+      },
+      {
+        "id": "h09",
+        "source_id": "dices-o3-o3_49",
+        "text": "Content that is borderline offensive or contains subtle hate speech/harassment cues often splits annotators on whether it crosses the line, increasing disagreement."
+      },
+      {
+        "id": "h10",
+        "source_id": "dices-o3-o3_28",
+        "text": "Texts containing mixed or ambivalent sentiment (both positive and negative cues toward the same target) tend to confuse annotators and increase disagreement."
+      },
+      {
+        "id": "h11",
+        "source_id": "dices-o3-o3_31",
+        "text": "Presence of sarcasm, irony, or other figurative language that can be interpreted in multiple ways."
+      },
+      {
+        "id": "h12",
+        "source_id": "dices-o3-o3_19",
+        "text": "Texts that rely on sarcasm or irony, making the intended meaning hard to detect, are more likely to produce annotator disagreement."
+      },
+      {
+        "id": "h13",
+        "source_id": "dices-o3-o3_22",
+        "text": "Passages containing mixed or conflicting sentiments (both positive and negative cues) are prone to disagreement about overall polarity."
+      },
+      {
+        "id": "h14",
+        "source_id": "dices-o3-o3_12",
+        "text": "Heavy reliance on cultural context, inside jokes, or domain-specific jargon that annotators may understand differently."
+      },
+      {
+        "id": "h15",
+        "source_id": "dices-o3-o3_10",
+        "text": "Texts containing rhetorical questions or hypothetical statements make it unclear whether the writer is stating a belief or merely posing a scenario, leading to label conflicts."
+      },
+      {
+        "id": "h16",
+        "source_id": "dices-o3-o3_43",
+        "text": "Messages that quote or respond to another unseen text (i.e., depend on external context) leave annotators guessing the full meaning, resulting in higher disagreement."
+      },
+      {
+        "id": "h17",
+        "source_id": "dices-o3-o3_20",
+        "text": "Multi-topic or tangential texts (shifting subjects within the same passage) create uncertainty about which aspect to label, elevating disagreement."
+      },
+      {
+        "id": "h18",
+        "source_id": "dices-o3-o3_39",
+        "text": "Posts that include profanity or potentially offensive language cause annotators to differ on whether the intent is hostile, joking, or merely emphatic, leading to disagreement."
+      },
+      {
+        "id": "h19",
+        "source_id": "dices-o3-o3_41",
+        "text": "Sentences that mix both positive and negative sentiment toward the same target (ambivalent tone) often lead to disagreement."
+      },
+      {
+        "id": "h20",
+        "source_id": "dices-o3-o3_27",
+        "text": "Uses of figurative language, metaphors, or idioms that could be interpreted literally or figuratively often split annotator judgments."
+      },
+      {
+        "id": "h21",
+        "source_id": "dices-o3-o3_33",
+        "text": "Mixed or conflicting sentiment within the same text (e.g., praise and criticism together)."
+      },
+      {
+        "id": "h22",
+        "source_id": "dices-o3-o3_44",
+        "text": "Statements containing multiple possible targets (e.g., several people or entities referenced) create uncertainty about which target the label should apply to, driving disagreement."
+      },
+      {
+        "id": "h23",
+        "source_id": "dices-o3-o3_14",
+        "text": "Use of ambiguous pronouns or references that make it unclear who or what is being evaluated."
+      },
+      {
+        "id": "h24",
+        "source_id": "dices-o3-o3_21",
+        "text": "Heavy use of slang, regional dialect, emojis, or idiomatic expressions increases disagreement because annotators may interpret them differently."
+      },
+      {
+        "id": "h25",
+        "source_id": "dices-o3-o3_4",
+        "text": "Texts that rely on figurative language, metaphors, or cultural references require background knowledge; annotators without that knowledge may label them differently."
+      },
+      {
+        "id": "h26",
+        "source_id": "dices-o3-o3_26",
+        "text": "Quoted or reported speech (e.g., \u201cHe said, \u2018XYZ\u2019\u201d) blurs whether the speaker endorses the quoted content, leading to divergent labels."
+      },
+      {
+        "id": "h27",
+        "source_id": "dices-o3-o3_13",
+        "text": "Use of profanity or slang that can signal either strong negative emotion or casual emphasis, leading to differing sentiment judgments."
+      },
+      {
+        "id": "h28",
+        "source_id": "dices-o3-o3_2",
+        "text": "Texts that mix positive and negative language (e.g., praise and criticism in the same sentence) increase disagreement by making the overall sentiment hard to pin down."
+      },
+      {
+        "id": "h29",
+        "source_id": "dices-o3-o3_40",
+        "text": "Texts packed with slang, regional dialect, or niche internet abbreviations tend to confuse annotators and raise disagreement rates."
+      },
+      {
+        "id": "h30",
+        "source_id": "dices-o3-o3_16",
+        "text": "Complex negation or double-negative structures that invert the apparent meaning of the sentence."
+      },
+      {
+        "id": "h31",
+        "source_id": "dices-o3-o3_8",
+        "text": "Domain\u2010specific jargon, technical terms, or acronyms unfamiliar to some annotators cause uncertainty about meaning and intent, fostering higher disagreement."
+      },
+      {
+        "id": "h32",
+        "source_id": "dices-o3-o3_17",
+        "text": "Texts containing slurs or protected-class references where it is unclear whether the speaker is endorsing, quoting, or condemning the slur cause higher disagreement."
+      },
+      {
+        "id": "h33",
+        "source_id": "dices-o3-o3_23",
+        "text": "Sentences with ambiguous pronoun or entity references (unclear \u201che/she/they/it\u201d) drive disagreement about who or what is being discussed."
+      },
+      {
+        "id": "h34",
+        "source_id": "dices-o3-o3_34",
+        "text": "Short, fragmentary, or one-word texts that provide little context for interpretation."
+      },
+      {
+        "id": "h35",
+        "source_id": "dices-o3-o3_36",
+        "text": "References to niche cultural knowledge, inside jokes, or domain-specific jargon produce disagreement when annotators differ in background knowledge."
+      },
+      {
+        "id": "h36",
+        "source_id": "dices-o3-o3_47",
+        "text": "References to niche cultural, historical, or domain-specific knowledge (e.g., fandom in-jokes, technical jargon) lead to disagreement when annotators vary in familiarity."
+      },
+      {
+        "id": "h37",
+        "source_id": "dices-o3-o3_48",
+        "text": "Complex negations or double negatives (e.g., \u201cnot uncommon,\u201d \u201cI don\u2019t dislike it\u201d) cause differing readings and thus disagreement."
+      },
+      {
+        "id": "h38",
+        "source_id": "dices-o3-o3_29",
+        "text": "Texts containing profanity or slurs but used in a reclaimed, jocular, or friendly manner (in-group usage) produce disagreement about offensiveness."
+      },
+      {
+        "id": "h39",
+        "source_id": "dices-o3-o3_30",
+        "text": "Implicit or indirect references to potentially sensitive targets (e.g., \u201cthey,\u201d \u201cthose people\u201d) without explicitly naming them lead to disagreement because annotators infer different targets."
+      },
+      {
+        "id": "h40",
+        "source_id": "dices-o3-o3_50",
+        "text": "Extremely short texts (e.g., one-liners, headlines, tweets) that lack sufficient context tend to yield higher disagreement."
+      },
+      {
+        "id": "h41",
+        "source_id": "dices-o3-o3_45",
+        "text": "Domain-specific jargon or technical terminology creates comprehension gaps among annotators, increasing inconsistency."
+      },
+      {
+        "id": "h42",
+        "source_id": "dices-o3-o3_46",
+        "text": "Use of rhetorical questions, hypotheticals, or conditional statements (\u201cIf X happens\u2026\u201d) obscures author intent and raises the likelihood of annotator disagreement."
+      },
+      {
+        "id": "h43",
+        "source_id": "dices-o3-o3_3",
+        "text": "Very short or fragmentary texts that lack context leave more room for subjective inference, leading to higher disagreement."
+      },
+      {
+        "id": "h44",
+        "source_id": "dices-o3-o3_18",
+        "text": "Very short texts that provide little context (e.g., a single word or emoji) increase the chance of disagreement because annotators must infer missing information."
+      },
+      {
+        "id": "h45",
+        "source_id": "dices-o3-o3_1",
+        "text": "Negations, double negatives, or sarcastic \u201cnot\u201d constructions (\u201cyeah, not great\u201d) confuse polarity detection and thus increase the chance of disagreement."
+      },
+      {
+        "id": "h46",
+        "source_id": "dices-o3-o3_32",
+        "text": "Code-switching or inclusion of multiple languages/emojis that different annotators parse differently."
+      },
+      {
+        "id": "h47",
+        "source_id": "dices-o3-o3_11",
+        "text": "Neutral or factual sentences that lack explicit sentiment cues often make it hard to assign a clear label, so annotators disagree more."
+      },
+      {
+        "id": "h48",
+        "source_id": "dices-o3-o3_15",
+        "text": "Neutral or factual descriptions that lack overt sentiment cues, forcing annotators to infer intent."
+      },
+      {
+        "id": "h49",
+        "source_id": "dices-o3-o3_24",
+        "text": "Content with mixed languages (code-switching) or significant spelling/grammar errors hampers comprehension and thus produces more labeling variability."
+      },
+      {
+        "id": "h50",
+        "source_id": "dices-o3-o3_42",
+        "text": "Texts with rhetorical questions or incomplete/elliptical sentences can be interpreted in several ways, increasing disagreement likelihood."
+      }
+    ],
+    "ghc-real/chardis/o3-generator_o3-judge": [
+      {
+        "id": "h01",
+        "source_id": "ghc-real-o3-o3_1",
+        "text": "\"Texts that portray a protected group in a uniformly negative or contemptuous light without using explicit slurs or advocating violence.\""
+      },
+      {
+        "id": "h02",
+        "source_id": "ghc-real-o3-o3_33",
+        "text": "\"Texts where hostility targets a collective entity that is not clearly tied to a protected characteristic, creating ambiguity about hate relevance.\""
+      },
+      {
+        "id": "h03",
+        "source_id": "ghc-real-o3-o3_27",
+        "text": "\"Harsh accusations of wrongdoing directed at corporations, governments, or other non-protected collectives using charged language.\""
+      },
+      {
+        "id": "h04",
+        "source_id": "ghc-real-o3-o3_29",
+        "text": "\"Lines that rely on traditional or historical stereotypes to belittle a group yet stop short of using recognized hate slurs.\""
+      },
+      {
+        "id": "h05",
+        "source_id": "ghc-real-o3-o3_9",
+        "text": "\"Texts that attack political or ideological groups such as \u2018socialists\u2019 or \u2018conservatives\u2019 in blanket, hostile terms without invoking traditional protected traits.\""
+      },
+      {
+        "id": "h06",
+        "source_id": "ghc-real-o3-o3_12",
+        "text": "\"Hostile language directed at specific individuals without any mention of group identity.\""
+      },
+      {
+        "id": "h07",
+        "source_id": "ghc-real-o3-o3_4",
+        "text": "\"Statements that portray a protected group as stupid, inferior, or morally corrupt without using violent verbs or explicit slurs.\""
+      },
+      {
+        "id": "h08",
+        "source_id": "ghc-real-o3-o3_8",
+        "text": "\"Negative generalizations portraying a group as immoral or untrustworthy without explicit slurs or violent intent.\""
+      },
+      {
+        "id": "h09",
+        "source_id": "ghc-real-o3-o3_2",
+        "text": "\"Statements that merely mention a protected group in connection with social or political tension, allowing room for either neutral analysis or hateful framing.\""
+      },
+      {
+        "id": "h10",
+        "source_id": "ghc-real-o3-o3_18",
+        "text": "\"Texts whose hateful intent is conveyed mainly through insinuation, tone, or context rather than explicit derogatory wording.\""
+      },
+      {
+        "id": "h11",
+        "source_id": "ghc-real-o3-o3_41",
+        "text": "\"Texts that deny uniquely human traits to a group to imply inferiority but do not suggest any violent consequence.\""
+      },
+      {
+        "id": "h12",
+        "source_id": "ghc-real-o3-o3_15",
+        "text": "\"Conspiracy narratives accusing a protected group of secret manipulation or control without explicit incitement to violence.\""
+      },
+      {
+        "id": "h13",
+        "source_id": "ghc-real-o3-o3_44",
+        "text": "\"Content that vilifies or threatens non-protected criminal categories such as \u2018pedos.\u2019\""
+      },
+      {
+        "id": "h14",
+        "source_id": "ghc-real-o3-o3_3",
+        "text": "\"Texts that hurl explicit slurs or dehumanising epithets at a protected group yet contain no direct threat or command to commit violence.\""
+      },
+      {
+        "id": "h15",
+        "source_id": "ghc-real-o3-o3_37",
+        "text": "\"Texts that use hybrid or novel slurs aimed at political or ideological groups, such as \u201clibtards,\u201d may be variably interpreted as hateful or merely partisan rhetoric.\""
+      },
+      {
+        "id": "h16",
+        "source_id": "ghc-real-o3-o3_32",
+        "text": "\"Phrases urging non-lethal collective punishment such as mass imprisonment, bans, or exclusion without overt violence.\""
+      },
+      {
+        "id": "h17",
+        "source_id": "ghc-real-o3-o3_5",
+        "text": "\"Texts that praise or encourage violence, force, or brutality in abstract terms without specifying a protected group as the target.\""
+      },
+      {
+        "id": "h18",
+        "source_id": "ghc-real-o3-o3_10",
+        "text": "\"Sarcastic or humorous remarks targeting a protected group with derogatory undertones yet lacking explicit incitement.\""
+      },
+      {
+        "id": "h19",
+        "source_id": "ghc-real-o3-o3_25",
+        "text": "\"Texts that threaten violence in a veiled, hypothetical, or conditional manner rather than with an explicit imperative to act.\""
+      },
+      {
+        "id": "h20",
+        "source_id": "ghc-real-o3-o3_30",
+        "text": "\"Passages written in ALL CAPS or with excessive punctuation that convey anger but no clear protected-group hostility.\""
+      },
+      {
+        "id": "h21",
+        "source_id": "ghc-real-o3-o3_50",
+        "text": "\"A suggestion to impose penalties or exclusions on an undefined or broad segment of society rather than a specific protected group.\""
+      },
+      {
+        "id": "h22",
+        "source_id": "ghc-real-o3-o3_46",
+        "text": "\"Charges that movements such as feminism have ruined traditional values, framed as group hostility but lacking violence.\""
+      },
+      {
+        "id": "h23",
+        "source_id": "ghc-real-o3-o3_43",
+        "text": "\"Utterances that merely foresee or report lethal harm (\u201cthey\u2019ll kill him\u201d) without expressing approval or encouragement.\""
+      },
+      {
+        "id": "h24",
+        "source_id": "ghc-real-o3-o3_17",
+        "text": "\"Texts using sexual or body-part insults aimed at women (or another gender) without clearly naming the entire gender as the target.\""
+      },
+      {
+        "id": "h25",
+        "source_id": "ghc-real-o3-o3_31",
+        "text": "\"Texts that ridicule sexual orientation or gender identity through feminizing or emasculating slurs without accompanying threats.\""
+      },
+      {
+        "id": "h26",
+        "source_id": "ghc-real-o3-o3_45",
+        "text": "\"Texts that use mental-health words like \u201cpsycho\u201d or \u201cpsychotic\u201d as pejoratives.\""
+      },
+      {
+        "id": "h27",
+        "source_id": "ghc-real-o3-o3_34",
+        "text": "\"Very short or context-poor snippets whose intended hostility, target, or seriousness is ambiguous.\""
+      },
+      {
+        "id": "h28",
+        "source_id": "ghc-real-o3-o3_48",
+        "text": "\"Inventive or compound epithets that splice a protected-class slur with a personal insult (e.g., \u201cTumorboy McFaggot\u201d).\""
+      },
+      {
+        "id": "h29",
+        "source_id": "ghc-real-o3-o3_11",
+        "text": "\"Texts that express or wish for violence against a specific individual without identifying that person as part of a protected group.\""
+      },
+      {
+        "id": "h30",
+        "source_id": "ghc-real-o3-o3_19",
+        "text": "\"Declarations of religious vilification using scriptural or theological insults aimed at a faith community, absent any call to attack them.\""
+      },
+      {
+        "id": "h31",
+        "source_id": "ghc-real-o3-o3_13",
+        "text": "\"Calls for expulsion, segregation, or denial of rights to a group without explicit mentions of physical violence.\""
+      },
+      {
+        "id": "h32",
+        "source_id": "ghc-real-o3-o3_28",
+        "text": "\"Passages that use ableist slurs such as \u2018retarded\u2019 toward individuals or in a generalized way without referencing disability as a group identity.\""
+      },
+      {
+        "id": "h33",
+        "source_id": "ghc-real-o3-o3_49",
+        "text": "\"A text expressing a personal fantasy of seeing a group dead, not framed as an instruction or command.\""
+      },
+      {
+        "id": "h34",
+        "source_id": "ghc-real-o3-o3_22",
+        "text": "\"Statements foretelling or warning of violence against a group in the future without explicitly encouraging it.\""
+      },
+      {
+        "id": "h35",
+        "source_id": "ghc-real-o3-o3_21",
+        "text": "\"Texts that dehumanize a protected group with animalistic or vermin metaphors yet omit an explicit violent directive.\""
+      },
+      {
+        "id": "h36",
+        "source_id": "ghc-real-o3-o3_39",
+        "text": "\"Comparisons of a protected group to animals, vermin, or disease when no explicit harm is advocated.\""
+      },
+      {
+        "id": "h37",
+        "source_id": "ghc-real-o3-o3_20",
+        "text": "\"Texts that call for deportation, exclusion, or loss of rights for immigrants or minorities using bureaucratic or policy phrasing instead of overtly violent language.\""
+      },
+      {
+        "id": "h38",
+        "source_id": "ghc-real-o3-o3_47",
+        "text": "\"Utterances that invent hybrid or pseudo-slurs containing elements like \u2018-ist\u2019 or \u2018race-\u2019 to portray a group as a menacing collective.\""
+      },
+      {
+        "id": "h39",
+        "source_id": "ghc-real-o3-o3_23",
+        "text": "\"Quotations or ironic uses of hateful slurs presented in a descriptive or critical context.\""
+      },
+      {
+        "id": "h40",
+        "source_id": "ghc-real-o3-o3_35",
+        "text": "\"Texts that vilify a country by calling it a \u2018shithole\u2019 or similar epithet without directly insulting its inhabitants.\""
+      },
+      {
+        "id": "h41",
+        "source_id": "ghc-real-o3-o3_14",
+        "text": "\"Texts that reproduce or quote hateful slurs in a purportedly anti-racist or critical context.\""
+      },
+      {
+        "id": "h42",
+        "source_id": "ghc-real-o3-o3_16",
+        "text": "\"Texts that mention a protected group in a purely descriptive or factual manner without any clear negativity or threats.\""
+      },
+      {
+        "id": "h43",
+        "source_id": "ghc-real-o3-o3_40",
+        "text": "\"Mentions of ethnic, national, or religious identifiers used purely descriptively, with no apparent negative judgment or threat.\""
+      },
+      {
+        "id": "h44",
+        "source_id": "ghc-real-o3-o3_26",
+        "text": "\"Uses of broad collective pronouns (\u2018they\u2019, \u2018them\u2019) that could implicitly reference a protected group but provide no explicit negative descriptors.\""
+      },
+      {
+        "id": "h45",
+        "source_id": "ghc-real-o3-o3_6",
+        "text": "\"Posts that praise or endorse political figures or movements widely associated with extremist or bigoted agendas, without themselves issuing explicit threats.\""
+      },
+      {
+        "id": "h46",
+        "source_id": "ghc-real-o3-o3_24",
+        "text": "\"Texts containing triple-parentheses or other antisemitic code words without additional explicit slurs or threats.\""
+      },
+      {
+        "id": "h47",
+        "source_id": "ghc-real-o3-o3_36",
+        "text": "\"Statements that simply express pride or admiration for a traditionally dominant identity group (e.g., \u2018It\u2019s great to be white\u2019) while omitting any direct disparagement of others.\""
+      },
+      {
+        "id": "h48",
+        "source_id": "ghc-real-o3-o3_38",
+        "text": "\"Texts expressing nostalgia for colonial rule or proposing that a modern nation be re-subordinated or annexed.\""
+      },
+      {
+        "id": "h49",
+        "source_id": "ghc-real-o3-o3_42",
+        "text": "\"Texts that warn of secession, civil war, or \u201cBalkanization\u201d in ominous terms yet give no direct orders to harm a group.\""
+      },
+      {
+        "id": "h50",
+        "source_id": "ghc-real-o3-o3_7",
+        "text": "\"Utterances that combine extremist sympathies and hateful epithets toward a group but lack any explicit endorsement of violence.\""
+      }
+    ],
+    "ghc-real/hypothesaes/o3-generator_o3-judge": [
+      {
+        "id": "h01",
+        "source_id": "ghc-real-o3-o3_12",
+        "text": "mentions explicit US political-orientation terms (e.g., \u201cleft\u201d, \u201cleftist(s)\u201d, \u201cright\u201d, \u201cright-wing\u201d, \u201cconservative\u201d) or names the news networks \u201cCNN\u201d or \u201cMSNBC\u201d"
+      },
+      {
+        "id": "h02",
+        "source_id": "ghc-real-o3-o3_4",
+        "text": "Contains words referring to left-wing ideologies (e.g., \u201csocialist\u201d, \u201ccommunist\u201d, \u201cmarxist\u201d, \u201ccollectivist\u201d)"
+      },
+      {
+        "id": "h03",
+        "source_id": "ghc-real-o3-o3_7",
+        "text": "mentions Islam/Muslims (e.g., words like 'Islam', 'Islamic', 'muslim')"
+      },
+      {
+        "id": "h04",
+        "source_id": "ghc-real-o3-o3_36",
+        "text": "contains a low-intelligence insult such as \u201cstupid\u201d, \u201cidiot\u201d, \u201cmoron\u201d, or \u201cdumb\u201d"
+      },
+      {
+        "id": "h05",
+        "source_id": "ghc-real-o3-o3_29",
+        "text": "Contains a word that explicitly refers to women or female identity (e.g., 'woman', 'women', 'daughters', 'burka', etc.)"
+      },
+      {
+        "id": "h06",
+        "source_id": "ghc-real-o3-o3_39",
+        "text": "contains explicit sexual or pornographic terms (e.g., 'porn', 'sex', 'pedo', 'naked', '#NSFW')"
+      },
+      {
+        "id": "h07",
+        "source_id": "ghc-real-o3-o3_45",
+        "text": "mentions a U.S. President (surname or the words 'President'/'POTUS')"
+      },
+      {
+        "id": "h08",
+        "source_id": "ghc-real-o3-o3_2",
+        "text": "mentions the word \u201cwhite\u201d (or \u201cwhites\u201d) when referring to people"
+      },
+      {
+        "id": "h09",
+        "source_id": "ghc-real-o3-o3_3",
+        "text": "contains terms explicitly referring to women/feminism (e.g., 'woman', 'women', 'feminist')"
+      },
+      {
+        "id": "h10",
+        "source_id": "ghc-real-o3-o3_6",
+        "text": "contains a hostile imperative command (e.g., 'fuck off', 'shut...', 'run along', 'go fuck', 'fight me', 'drag him', 'gab away')"
+      },
+      {
+        "id": "h11",
+        "source_id": "ghc-real-o3-o3_5",
+        "text": "contains the word 'jew' (case-insensitive)"
+      },
+      {
+        "id": "h12",
+        "source_id": "ghc-real-o3-o3_17",
+        "text": "contains a reference to children (e.g., the words 'child', 'children', or 'kids')"
+      },
+      {
+        "id": "h13",
+        "source_id": "ghc-real-o3-o3_19",
+        "text": "Contains language about falseness, featuring words like 'fake', 'hoax', 'debunk(ed)', or the word 'truth'"
+      },
+      {
+        "id": "h14",
+        "source_id": "ghc-real-o3-o3_48",
+        "text": "contains an explicit quantitative statistic (e.g., specific numbers, percentages, counts, rankings, or words like \u201cseven\u201d)"
+      },
+      {
+        "id": "h15",
+        "source_id": "ghc-real-o3-o3_26",
+        "text": "mentions elections or voting (words such as vote/voting/election/re-election/Senate seat)"
+      },
+      {
+        "id": "h16",
+        "source_id": "ghc-real-o3-o3_37",
+        "text": "mentions the word stem \u201cAmerica\u201d (e.g., America, American, Americans)"
+      },
+      {
+        "id": "h17",
+        "source_id": "ghc-real-o3-o3_21",
+        "text": "contains the word stem \u201cliber-\u201d (e.g., \u201cliberal\u201d, \u201clibs\u201d, \u201clibtards\u201d)"
+      },
+      {
+        "id": "h18",
+        "source_id": "ghc-real-o3-o3_25",
+        "text": "contains the pronoun 'she'"
+      },
+      {
+        "id": "h19",
+        "source_id": "ghc-real-o3-o3_10",
+        "text": "contains the word \u201cgay\u201d, \u201cfag\u201d, or \u201cfaggot\u201d"
+      },
+      {
+        "id": "h20",
+        "source_id": "ghc-real-o3-o3_30",
+        "text": "message is written entirely in uppercase letters (all alphabetic characters are uppercase)"
+      },
+      {
+        "id": "h21",
+        "source_id": "ghc-real-o3-o3_40",
+        "text": "contains the substring 'immigr' (e.g., immigrant, immigrants, immigration)"
+      },
+      {
+        "id": "h22",
+        "source_id": "ghc-real-o3-o3_8",
+        "text": "contains a reference to video content (either the word \u201cvideo\u201d or a link/mention of a video-hosting site such as YouTube, youtu.be, DTube, or Bitchute)"
+      },
+      {
+        "id": "h23",
+        "source_id": "ghc-real-o3-o3_50",
+        "text": "is a philosophical quotation or aphorism (a standalone wise saying, often in quotation marks or attributed to a thinker)"
+      },
+      {
+        "id": "h24",
+        "source_id": "ghc-real-o3-o3_23",
+        "text": "mentions the social platform 'Gab' (word 'Gab' or 'gab' appearing)"
+      },
+      {
+        "id": "h25",
+        "source_id": "ghc-real-o3-o3_33",
+        "text": "mentions that something has just been released or is about to be released/updated (e.g., shipped, posted, release today, auto update, coming out)"
+      },
+      {
+        "id": "h26",
+        "source_id": "ghc-real-o3-o3_20",
+        "text": "mentions music (songs, musical artists, or musical instruments)"
+      },
+      {
+        "id": "h27",
+        "source_id": "ghc-real-o3-o3_43",
+        "text": "references video games (e.g., game titles, consoles, gaming activities)"
+      },
+      {
+        "id": "h28",
+        "source_id": "ghc-real-o3-o3_18",
+        "text": "mentions finance-related terms (e.g., cryptocurrency, money, price, revenue, payments)"
+      },
+      {
+        "id": "h29",
+        "source_id": "ghc-real-o3-o3_11",
+        "text": "contains the word 'should'"
+      },
+      {
+        "id": "h30",
+        "source_id": "ghc-real-o3-o3_38",
+        "text": "Contains an explicit affirmation word such as 'agree', 'agreed', 'correct', 'true', or 'indeed'"
+      },
+      {
+        "id": "h31",
+        "source_id": "ghc-real-o3-o3_9",
+        "text": "mentions illegal immigration or migrants, specifically relating to the U.S.\u2013Mexico border"
+      },
+      {
+        "id": "h32",
+        "source_id": "ghc-real-o3-o3_15",
+        "text": "contains the word \u201ctoday\u201d (case-insensitive)"
+      },
+      {
+        "id": "h33",
+        "source_id": "ghc-real-o3-o3_44",
+        "text": "text begins with a second-person pronoun such as 'You', 'You're', or 'you\u2019re'"
+      },
+      {
+        "id": "h34",
+        "source_id": "ghc-real-o3-o3_13",
+        "text": "mentions gaming or geek-culture keywords (e.g., game/games/gamer, RPG, steampunk, warhammer, superheroes)"
+      },
+      {
+        "id": "h35",
+        "source_id": "ghc-real-o3-o3_31",
+        "text": "contains the word stem 'rape' (e.g., rape, raped, rapist, raping)"
+      },
+      {
+        "id": "h36",
+        "source_id": "ghc-real-o3-o3_24",
+        "text": "contains the substring 'cuck', 'cunt', or 'kunt' (case-insensitive)"
+      },
+      {
+        "id": "h37",
+        "source_id": "ghc-real-o3-o3_28",
+        "text": "mentions either 'satan', 'satanic', 'satanist', 'devil', or 'illuminati'"
+      },
+      {
+        "id": "h38",
+        "source_id": "ghc-real-o3-o3_27",
+        "text": "contains the word stem 'pray' (e.g., pray, prayer, prayers, praying)"
+      },
+      {
+        "id": "h39",
+        "source_id": "ghc-real-o3-o3_16",
+        "text": "contains the word 'bitch'"
+      },
+      {
+        "id": "h40",
+        "source_id": "ghc-real-o3-o3_42",
+        "text": "mentions mobile phones, tablets, or mobile apps (e.g., Android app, iPad, iPhone, cell phone)"
+      },
+      {
+        "id": "h41",
+        "source_id": "ghc-real-o3-o3_32",
+        "text": "contains the word \u201ccommie\u201d (case-insensitive)"
+      },
+      {
+        "id": "h42",
+        "source_id": "ghc-real-o3-o3_22",
+        "text": "contains the word \u201cenemy\u201d or \u201cenemies\u201d"
+      },
+      {
+        "id": "h43",
+        "source_id": "ghc-real-o3-o3_35",
+        "text": "contains the phrase \u201cis this\u201d (case-insensitive)"
+      },
+      {
+        "id": "h44",
+        "source_id": "ghc-real-o3-o3_1",
+        "text": "contains an explicit expression of gratitude (e.g., the words 'thanks', 'thank you', 'appreciate', or similar)"
+      },
+      {
+        "id": "h45",
+        "source_id": "ghc-real-o3-o3_41",
+        "text": "mentions the word 'Antifa'"
+      },
+      {
+        "id": "h46",
+        "source_id": "ghc-real-o3-o3_14",
+        "text": "contains the internet-slang laughter acronym \u201cLMAO\u201d or \u201cROFL\u201d"
+      },
+      {
+        "id": "h47",
+        "source_id": "ghc-real-o3-o3_34",
+        "text": "contains a 4-digit year (1800\u20131999)"
+      },
+      {
+        "id": "h48",
+        "source_id": "ghc-real-o3-o3_46",
+        "text": "contains the uppercase word 'LIVE'"
+      },
+      {
+        "id": "h49",
+        "source_id": "ghc-real-o3-o3_47",
+        "text": "begins with the greeting phrase 'Good morning' (case-insensitive)"
+      },
+      {
+        "id": "h50",
+        "source_id": "ghc-real-o3-o3_49",
+        "text": "first-person narrative describing the speaker\u2019s own accident, injury, or other dangerous/harmful incident"
+      }
+    ],
+    "ghc-real/hypogenic/o3-generator_o3-judge": [
+      {
+        "id": "h01",
+        "source_id": "ghc-real-o3-o3_27",
+        "text": "Mild or borderline profanity/hate speech: Posts that include mild slurs, reclaimed slurs, or profanity used non-aggressively can cause disagreement about whether the text is offensive or acceptable."
+      },
+      {
+        "id": "h02",
+        "source_id": "ghc-real-o3-o3_4",
+        "text": "Borderline or subtle offensive language (mild profanity, indirect slurs) results in disagreement about whether it crosses a toxicity threshold."
+      },
+      {
+        "id": "h03",
+        "source_id": "ghc-real-o3-o3_47",
+        "text": "Borderline or context-dependent offensive language (e.g., mild profanity, reclaimed slurs) often leads to uncertainty about whether the content violates guidelines, driving disagreement."
+      },
+      {
+        "id": "h04",
+        "source_id": "ghc-real-o3-o3_50",
+        "text": "Texts containing mild, borderline, or context-dependent profanity/offensiveness (e.g., reclaimed slurs, joking insults) lead to higher disagreement because annotators differ on whether they cross the threshold for toxicity."
+      },
+      {
+        "id": "h05",
+        "source_id": "ghc-real-o3-o3_39",
+        "text": "Texts that contain mild profanity or borderline offensive terms spark disagreement over whether they are acceptable, hateful, or merely emphatic."
+      },
+      {
+        "id": "h06",
+        "source_id": "ghc-real-o3-o3_38",
+        "text": "Texts addressing controversial or polarizing topics (politics, religion, identity issues) tend to show higher disagreement because annotators may project their own biases."
+      },
+      {
+        "id": "h07",
+        "source_id": "ghc-real-o3-o3_14",
+        "text": "Texts discussing morally charged or sensitive topics (e.g., politics, religion, social justice) trigger higher disagreement because personal beliefs influence interpretation."
+      },
+      {
+        "id": "h08",
+        "source_id": "ghc-real-o3-o3_12",
+        "text": "Figurative or metaphorical language: When authors use metaphors, idioms, or other figurative devices, the literal meaning diverges from the intended meaning, increasing chances of differing interpretations."
+      },
+      {
+        "id": "h09",
+        "source_id": "ghc-real-o3-o3_44",
+        "text": "Texts referencing cultural, political, or regional issues unfamiliar to all annotators create disagreement through uneven background knowledge."
+      },
+      {
+        "id": "h10",
+        "source_id": "ghc-real-o3-o3_3",
+        "text": "Use of figurative or metaphorical language (e.g., idioms, creative metaphors) raises disagreement by obscuring literal meaning."
+      },
+      {
+        "id": "h11",
+        "source_id": "ghc-real-o3-o3_32",
+        "text": "Texts containing sarcasm without clear markers (e.g., no emojis, no quotation marks) lead to more disagreement because sarcasm requires contextual inference that varies by annotator."
+      },
+      {
+        "id": "h12",
+        "source_id": "ghc-real-o3-o3_37",
+        "text": "Texts that contain sarcasm, irony, or humor cues without explicit markers (e.g., emojis, quotation marks) are more likely to yield annotator disagreement."
+      },
+      {
+        "id": "h13",
+        "source_id": "ghc-real-o3-o3_41",
+        "text": "Long, multi-clause sentences with complex syntax increase disagreement because different annotators may focus on different parts of the text."
+      },
+      {
+        "id": "h14",
+        "source_id": "ghc-real-o3-o3_33",
+        "text": "Texts that contain ambiguous or metaphoric language (e.g., figurative expressions, sarcasm, irony) are more likely to produce annotator disagreement because annotators may interpret the intended meaning differently."
+      },
+      {
+        "id": "h15",
+        "source_id": "ghc-real-o3-o3_10",
+        "text": "Texts that contain sarcasm, irony, or humor, making the author\u2019s true intent ambiguous, are more likely to trigger annotator disagreement."
+      },
+      {
+        "id": "h16",
+        "source_id": "ghc-real-o3-o3_20",
+        "text": "Use of domain-specific jargon, slang, or newly coined terms increases disagreement because annotators may not share the same background knowledge."
+      },
+      {
+        "id": "h17",
+        "source_id": "ghc-real-o3-o3_19",
+        "text": "Presence of negations or double negatives can confuse meaning and increase annotator disagreement."
+      },
+      {
+        "id": "h18",
+        "source_id": "ghc-real-o3-o3_28",
+        "text": "Negation or double negatives: Sentences containing negations (e.g., \u201cI don\u2019t dislike it\u201d) or double negatives can be hard to parse, causing differing judgments about the actual stance or sentiment."
+      },
+      {
+        "id": "h19",
+        "source_id": "ghc-real-o3-o3_26",
+        "text": "Texts that use negations or double negatives (\u201cnot unhappy,\u201d \u201cdidn\u2019t dislike\u201d) cause disagreement since annotators may differ in how they parse the logical sentiment."
+      },
+      {
+        "id": "h20",
+        "source_id": "ghc-real-o3-o3_24",
+        "text": "Presence of sarcasm or irony: Texts that contain sarcastic remarks, irony, or subtle humor (e.g., using praise to mean criticism) are more likely to confuse annotators and lead to disagreement."
+      },
+      {
+        "id": "h21",
+        "source_id": "ghc-real-o3-o3_6",
+        "text": "Emotionally charged content that nevertheless uses polite wording (or vice versa) can confuse annotators and create disagreement about the overall tone."
+      },
+      {
+        "id": "h22",
+        "source_id": "ghc-real-o3-o3_31",
+        "text": "Texts with spelling errors, unconventional punctuation, or creative formatting (e.g., ALL CAPS, repeated letters) produce disagreement since annotators may interpret tone or emphasis differently."
+      },
+      {
+        "id": "h23",
+        "source_id": "ghc-real-o3-o3_35",
+        "text": "Complex sentence structures with multiple clauses or nesting make it harder to discern the main intent, raising disagreement rates."
+      },
+      {
+        "id": "h24",
+        "source_id": "ghc-real-o3-o3_46",
+        "text": "Multi-sentence texts that shift topics or perspectives within the same passage lead to disagreement about which portion should dominate the overall label."
+      },
+      {
+        "id": "h25",
+        "source_id": "ghc-real-o3-o3_22",
+        "text": "Ambiguous sentiment or mixed emotions: Statements that combine both positive and negative sentiments, or that switch tone mid-sentence, can cause annotators to disagree on the dominant sentiment or label."
+      },
+      {
+        "id": "h26",
+        "source_id": "ghc-real-o3-o3_15",
+        "text": "Very short texts (one or two words) or extremely long, multi-clause sentences increase disagreement: short texts lack context, while lengthy texts can contain multiple, sometimes contradictory, signals."
+      },
+      {
+        "id": "h27",
+        "source_id": "ghc-real-o3-o3_16",
+        "text": "Texts with domain-specific jargon (technical, medical, legal) increase disagreement when annotators lack uniform expertise or background knowledge."
+      },
+      {
+        "id": "h28",
+        "source_id": "ghc-real-o3-o3_17",
+        "text": "Texts that rely on external context or prior conversation (e.g., replies in a thread without restating the subject) cause disagreement because annotators might not share the same context."
+      },
+      {
+        "id": "h29",
+        "source_id": "ghc-real-o3-o3_42",
+        "text": "Very short texts (one-word or very brief phrases) foster disagreement since limited context leaves room for multiple plausible labels."
+      },
+      {
+        "id": "h30",
+        "source_id": "ghc-real-o3-o3_48",
+        "text": "Very short texts lacking sufficient context leave more room for interpretation (e.g., single-word or emoji-only messages), resulting in inconsistent labels."
+      },
+      {
+        "id": "h31",
+        "source_id": "ghc-real-o3-o3_29",
+        "text": "Context-dependent references: Texts that rely on external context (prior conversation, cultural knowledge, or events) can leave annotators uncertain, leading to inconsistent labels."
+      },
+      {
+        "id": "h32",
+        "source_id": "ghc-real-o3-o3_21",
+        "text": "Extremely short or extremely long texts: Very short texts may lack sufficient context, while very long texts may overwhelm annotators, both situations promoting inconsistent interpretations and higher disagreement rates."
+      },
+      {
+        "id": "h33",
+        "source_id": "ghc-real-o3-o3_1",
+        "text": "Very short texts that provide little contextual information increase the chances of disagreement because annotators must infer missing details."
+      },
+      {
+        "id": "h34",
+        "source_id": "ghc-real-o3-o3_11",
+        "text": "Unclear target or scope: When it is uncertain who or what the text is referring to (e.g., \u201cThey are the worst\u201d), annotators may diverge on whether a hateful/offensive target exists."
+      },
+      {
+        "id": "h35",
+        "source_id": "ghc-real-o3-o3_5",
+        "text": "Messages with culturally specific jargon, slang, or references unfamiliar to all annotators produce disagreement due to varying background knowledge."
+      },
+      {
+        "id": "h36",
+        "source_id": "ghc-real-o3-o3_49",
+        "text": "Use of rhetorical questions or hypotheticals (e.g., \u201cIsn\u2019t it crazy how\u2026?\u201d) increases disagreement, as annotators may interpret them as genuine statements or sarcastic critiques."
+      },
+      {
+        "id": "h37",
+        "source_id": "ghc-real-o3-o3_2",
+        "text": "Texts featuring ambiguous pronoun references or unclear entity mentions lead to disagreement about who or what is being discussed."
+      },
+      {
+        "id": "h38",
+        "source_id": "ghc-real-o3-o3_30",
+        "text": "Texts that reference niche cultural knowledge, slang, or region-specific idioms create more disagreement because annotators vary in familiarity with those references."
+      },
+      {
+        "id": "h39",
+        "source_id": "ghc-real-o3-o3_40",
+        "text": "Texts with domain-specific jargon, technical terms, or slang unfamiliar to some annotators lead to higher disagreement due to varying interpretations."
+      },
+      {
+        "id": "h40",
+        "source_id": "ghc-real-o3-o3_23",
+        "text": "Humor, jokes, or memes: Content intended as a joke or meme can be interpreted literally by some annotators and humorously by others, leading to inconsistent labels."
+      },
+      {
+        "id": "h41",
+        "source_id": "ghc-real-o3-o3_43",
+        "text": "Texts that mix positive and negative language (e.g., praise followed by criticism) cause disagreement as annotators weigh which sentiment dominates."
+      },
+      {
+        "id": "h42",
+        "source_id": "ghc-real-o3-o3_45",
+        "text": "Texts with cultural references, humor, or memes unfamiliar to some annotators result in disagreement due to differences in cultural literacy and meme interpretation."
+      },
+      {
+        "id": "h43",
+        "source_id": "ghc-real-o3-o3_13",
+        "text": "Texts with mixed or conflicting sentiment cues (e.g., both positive and negative wording within the same sentence) lead to higher disagreement, as annotators may disagree on the dominant sentiment or overall tone."
+      },
+      {
+        "id": "h44",
+        "source_id": "ghc-real-o3-o3_8",
+        "text": "Texts that contain both positive and negative cues (mixed or conflicting sentiments) lead to greater disagreement, as annotators weigh these cues differently."
+      },
+      {
+        "id": "h45",
+        "source_id": "ghc-real-o3-o3_9",
+        "text": "Questions or statements framed hypothetically (\u201cIf someone did X\u2026\u201d) induce disagreement because annotators may differ on whether the text expresses an actual stance or merely speculation."
+      },
+      {
+        "id": "h46",
+        "source_id": "ghc-real-o3-o3_18",
+        "text": "Code-switching or mixing languages/dialects within a text can obscure meaning for some annotators and raise disagreement."
+      },
+      {
+        "id": "h47",
+        "source_id": "ghc-real-o3-o3_25",
+        "text": "Mixed languages or code-switching: Texts that switch between languages, dialects, or use slang/acronyms unfamiliar to some annotators increase the likelihood of misinterpretation and disagreement."
+      },
+      {
+        "id": "h48",
+        "source_id": "ghc-real-o3-o3_34",
+        "text": "Texts that mix positive and negative sentiment toward the same target (ambivalent tone) lead to greater uncertainty and annotator disagreement."
+      },
+      {
+        "id": "h49",
+        "source_id": "ghc-real-o3-o3_7",
+        "text": "Long, multi-topic texts that discuss several issues in one passage generate disagreement as annotators may prioritize different parts of the text."
+      },
+      {
+        "id": "h50",
+        "source_id": "ghc-real-o3-o3_36",
+        "text": "References to context external to the text (e.g., prior conversation, news events, memes) cause disagreement because annotators may lack that shared context."
+      }
+    ],
+    "md/chardis/o3-generator_o3-judge": [
+      {
+        "id": "h01",
+        "source_id": "md-o3-o3_43",
+        "text": "\"Content conveying strong negative judgment through non-profane, morally loaded adjectives or nouns.\""
+      },
+      {
+        "id": "h02",
+        "source_id": "md-o3-o3_3",
+        "text": "\"Tweets using general insults like \u2018stupid\u2019 or \u2018lame\u2019 aimed at individuals or groups without employing protected-class slurs.\""
+      },
+      {
+        "id": "h03",
+        "source_id": "md-o3-o3_8",
+        "text": "\"Sarcastic or mocking remarks focused on personal ridicule yet devoid of protected-group slurs.\""
+      },
+      {
+        "id": "h04",
+        "source_id": "md-o3-o3_2",
+        "text": "\"Sarcastic or mocking remarks that employ only mild derogatory terms rather than explicit swearwords.\""
+      },
+      {
+        "id": "h05",
+        "source_id": "md-o3-o3_42",
+        "text": "\"Accusations of dishonesty or wrongdoing against public figures framed in abrasive language but lacking slurs.\""
+      },
+      {
+        "id": "h06",
+        "source_id": "md-o3-o3_31",
+        "text": "\"Critiques of political leaders that blend strong negativity with personal disparagement yet omit swear words.\""
+      },
+      {
+        "id": "h07",
+        "source_id": "md-o3-o3_33",
+        "text": "\"Political commentary that sharply condemns policies yet straddles the line between issue critique and personal insult.\""
+      },
+      {
+        "id": "h08",
+        "source_id": "md-o3-o3_50",
+        "text": "\"A tweet that delivers a direct second-person put-down such as \u201cYou\u2019re so fake\u201d while avoiding strong vulgarity.\""
+      },
+      {
+        "id": "h09",
+        "source_id": "md-o3-o3_19",
+        "text": "\"Hostile references to non-protected collective labels such as \u201csycophants\u201d without accompanying hate speech or threats.\""
+      },
+      {
+        "id": "h10",
+        "source_id": "md-o3-o3_6",
+        "text": "\"Posts that brand a public figure as \u201ccrooked\u201d or criminal without using explicit slurs or obscene language.\""
+      },
+      {
+        "id": "h11",
+        "source_id": "md-o3-o3_26",
+        "text": "\"Comments telling someone they are \u201cstuck on stupid\u201d or offering comparable light mockery of intelligence.\""
+      },
+      {
+        "id": "h12",
+        "source_id": "md-o3-o3_1",
+        "text": "\"Tweets that contain mild profanity such as \u201cshit\u201d or \u201cdamn\u201d but lack stronger taboo words or hate slurs.\""
+      },
+      {
+        "id": "h13",
+        "source_id": "md-o3-o3_13",
+        "text": "\"Direct second-person accusations (\u2018You\u2019re lying,\u2019 \u2018You cheated\u2019) that lack vulgar or slur language.\""
+      },
+      {
+        "id": "h14",
+        "source_id": "md-o3-o3_20",
+        "text": "\"General profanity used for emphasis or color (\u201cwouldn\u2019t say shit if\u2026\u201d) that is not directed as an attack.\""
+      },
+      {
+        "id": "h15",
+        "source_id": "md-o3-o3_37",
+        "text": "\"Political calls to defeat or disparage opponents by labeling them \u201closers\u201d or similar mild epithets, absent strong profanity.\""
+      },
+      {
+        "id": "h16",
+        "source_id": "md-o3-o3_11",
+        "text": "\"Inventive political nicknames that belittle the subject (e.g., \u201cIMPOTUS\u201d) but contain no swear words.\""
+      },
+      {
+        "id": "h17",
+        "source_id": "md-o3-o3_45",
+        "text": "\"Generalized put-downs aimed at an unspecified group labeled as unintelligent or worthless.\""
+      },
+      {
+        "id": "h18",
+        "source_id": "md-o3-o3_38",
+        "text": "\"Generalizations about a demographic group delivered without explicit curse words yet carrying negative stereotypes.\""
+      },
+      {
+        "id": "h19",
+        "source_id": "md-o3-o3_17",
+        "text": "\"Commands or imperatives such as \u201cshut up,\u201d \u201csit down,\u201d or \u201cgo away\u201d delivered without profanity or slurs.\""
+      },
+      {
+        "id": "h20",
+        "source_id": "md-o3-o3_5",
+        "text": "\"Statements accusing someone of funding, aiding, or embodying violence or terrorism without using slurs or profanity.\""
+      },
+      {
+        "id": "h21",
+        "source_id": "md-o3-o3_25",
+        "text": "\"Utterances that disparage an unnamed collective (\u201cthey,\u201d \u201cthese people\u201d) with harsh metaphors but without discriminatory slurs.\""
+      },
+      {
+        "id": "h22",
+        "source_id": "md-o3-o3_7",
+        "text": "\"Utterances that present insults in ALL-CAPS or with emphatic punctuation yet omit explicit profanity.\""
+      },
+      {
+        "id": "h23",
+        "source_id": "md-o3-o3_39",
+        "text": "\"Sentences that bundle several negative descriptors in rapid succession to intensify a personal attack.\""
+      },
+      {
+        "id": "h24",
+        "source_id": "md-o3-o3_34",
+        "text": "\"Comments calling someone\u2019s ideas or statements \u201cgarbage,\u201d \u201ctrash,\u201d or similarly harsh nouns.\""
+      },
+      {
+        "id": "h25",
+        "source_id": "md-o3-o3_28",
+        "text": "\"Content that denies tragedies or promotes conspiracies about events like the pandemic without overt insults or hateful epithets.\""
+      },
+      {
+        "id": "h26",
+        "source_id": "md-o3-o3_21",
+        "text": "\"Uses of older or less obvious derogatory terms whose status as slurs may be unclear.\""
+      },
+      {
+        "id": "h27",
+        "source_id": "md-o3-o3_24",
+        "text": "\"Messages that brand an entire non-protected nationality or cultural group (e.g., \u201cAmericans are scum\u201d) with sweeping negative judgments.\""
+      },
+      {
+        "id": "h28",
+        "source_id": "md-o3-o3_15",
+        "text": "\"Imperative sentences that pair a directive with a relatively mild put-down rather than a severe insult.\""
+      },
+      {
+        "id": "h29",
+        "source_id": "md-o3-o3_40",
+        "text": "\"Tweets that label political opponents or their families as criminals with phrases like \u201ccrook\u201d or \u201ccrime family.\u201d\""
+      },
+      {
+        "id": "h30",
+        "source_id": "md-o3-o3_4",
+        "text": "\"Messages whose offensiveness hinges on euphemistic or coded phrasing rather than overt slurs or swearwords.\""
+      },
+      {
+        "id": "h31",
+        "source_id": "md-o3-o3_46",
+        "text": "\"Messages that compare someone to animals or sub-human entities (\u201cworms for brains,\u201d \u201crat\u201d) yet avoid obscene words.\""
+      },
+      {
+        "id": "h32",
+        "source_id": "md-o3-o3_10",
+        "text": "\"Critiques of policies or decisions described as \u201cstupid\u201d or \u201cirresponsible,\u201d where it is ambiguous whether the language targets the policy or its proponents.\""
+      },
+      {
+        "id": "h33",
+        "source_id": "md-o3-o3_30",
+        "text": "\"Condemnatory statements using phrases like \u201cshame on you\u201d or other moral judgments without abusive language.\""
+      },
+      {
+        "id": "h34",
+        "source_id": "md-o3-o3_48",
+        "text": "\"Posts that rely on intense capitalization, repeated exclamation marks, or other emphatic formatting cues while lacking taboo vocabulary.\""
+      },
+      {
+        "id": "h35",
+        "source_id": "md-o3-o3_36",
+        "text": "\"Descriptions of potential or past violence stated in a factual or hypothetical manner without direct threats or abusive language.\""
+      },
+      {
+        "id": "h36",
+        "source_id": "md-o3-o3_41",
+        "text": "\"Passages whose perceived offensiveness hinges on interpreting the speaker\u2019s intent to dehumanize or cause harm.\""
+      },
+      {
+        "id": "h37",
+        "source_id": "md-o3-o3_27",
+        "text": "\"Standalone exclamations or rhetorical outbursts lacking an explicit target, which can sound profane yet arguably impersonal.\""
+      },
+      {
+        "id": "h38",
+        "source_id": "md-o3-o3_44",
+        "text": "\"Indirect or hypothetical discussions of killing or violence framed as commentary rather than direct intent.\""
+      },
+      {
+        "id": "h39",
+        "source_id": "md-o3-o3_22",
+        "text": "\"Lines invoking violent or extremist imagery alongside an insult, where the graphic metaphor\u2019s weight may be judged differently.\""
+      },
+      {
+        "id": "h40",
+        "source_id": "md-o3-o3_49",
+        "text": "\"Texts that call people dehumanising names like \u201ccockroaches\u201d when the target is vague or not a protected class.\""
+      },
+      {
+        "id": "h41",
+        "source_id": "md-o3-o3_9",
+        "text": "\"Belittling animal metaphors directed at an individual, for example labeling someone a \u201cpuppy\u201d or \u201csheep.\u201d"
+      },
+      {
+        "id": "h42",
+        "source_id": "md-o3-o3_29",
+        "text": "\"Tweets that mock or celebrate a public figure\u2019s illness or misfortune in a sardonic or \u2018Darwin Award\u2019 style joke.\""
+      },
+      {
+        "id": "h43",
+        "source_id": "md-o3-o3_16",
+        "text": "\"Slogans declaring that an ideology or movement is murderous or lethal (e.g., \u201cSocialism kills\u201d) without referencing a protected class.\""
+      },
+      {
+        "id": "h44",
+        "source_id": "md-o3-o3_32",
+        "text": "\"Capitalized, emphatic second-person rebukes like \u201cYOU ARE DISGUSTING\u201d that omit protected-group references.\""
+      },
+      {
+        "id": "h45",
+        "source_id": "md-o3-o3_35",
+        "text": "\"Insults hurled at universally reviled groups or figures (e.g., Nazis) where readers may disagree on whether such targets can still be \u2018offended\u2019.\""
+      },
+      {
+        "id": "h46",
+        "source_id": "md-o3-o3_18",
+        "text": "\"Body-shaming remarks like calling someone\u2014or oneself\u2014\u201cfat\u201d in the absence of profanity.\""
+      },
+      {
+        "id": "h47",
+        "source_id": "md-o3-o3_14",
+        "text": "\"Use of minced oaths like \u201cdang\u201d or \u201cfudging\u201d in a sarcastic context, making it debatable whether the softness of the word offsets the mockery.\""
+      },
+      {
+        "id": "h48",
+        "source_id": "md-o3-o3_47",
+        "text": "\"Brief one-word put-downs such as \u2018Delusional\u2019 or \u2018Loser\u2019 with no other abusive markers.\""
+      },
+      {
+        "id": "h49",
+        "source_id": "md-o3-o3_12",
+        "text": "\"Statements that start with \u201cI hate\u201d followed by a non-protected target.\""
+      },
+      {
+        "id": "h50",
+        "source_id": "md-o3-o3_23",
+        "text": "\"Utterances composed of only a single pejorative word like \u201cLiar,\u201d \u201cLoser,\u201d or \u201cIdiot.\u201d"
+      }
+    ],
+    "md/hypothesaes/o3-generator_o3-judge": [
+      {
+        "id": "h01",
+        "source_id": "md-o3-o3_32",
+        "text": "mentions COVID-19 or coronavirus"
+      },
+      {
+        "id": "h02",
+        "source_id": "md-o3-o3_16",
+        "text": "mentions the term \u201cCOVID-19\u201d"
+      },
+      {
+        "id": "h03",
+        "source_id": "md-o3-o3_3",
+        "text": "contains the word 'Trump'"
+      },
+      {
+        "id": "h04",
+        "source_id": "md-o3-o3_14",
+        "text": "contains one of the insult words {moron, stfu, evil, arseholes, crap, shit, loser, joke, lying, trash, stupid}"
+      },
+      {
+        "id": "h05",
+        "source_id": "md-o3-o3_13",
+        "text": "accuses someone of lying (uses words like lie, liar, lying, lies, dishonest)"
+      },
+      {
+        "id": "h06",
+        "source_id": "md-o3-o3_27",
+        "text": "explicitly names a U.S. political party (e.g., the words \u2018Democrat(s)\u2019, \u2018Dems\u2019, \u2018Republican(s)\u2019, or \u2018GOP\u2019 appear)"
+      },
+      {
+        "id": "h07",
+        "source_id": "md-o3-o3_11",
+        "text": "contains a standalone word that is a variant of \u201clie\u201d (e.g., \u2018lie\u2019, \u2018lies\u2019, \u2018lying\u2019, \u2018lied\u2019, or \u2018liar\u2019)"
+      },
+      {
+        "id": "h08",
+        "source_id": "md-o3-o3_15",
+        "text": "mentions Biden (the word \u201cBiden\u201d appears, including inside hashtags like #BidenIsWinnig)"
+      },
+      {
+        "id": "h09",
+        "source_id": "md-o3-o3_45",
+        "text": "mentions the surname 'Biden'"
+      },
+      {
+        "id": "h10",
+        "source_id": "md-o3-o3_25",
+        "text": "contains the substring \u201cshit\u201d (e.g., \u2018shit\u2019, \u2018shitty\u2019)"
+      },
+      {
+        "id": "h11",
+        "source_id": "md-o3-o3_6",
+        "text": "Contains the word \u201cBiden\u201d but does not contain the word \u201cVote\u201d"
+      },
+      {
+        "id": "h12",
+        "source_id": "md-o3-o3_20",
+        "text": "mentions a protest or public demonstration"
+      },
+      {
+        "id": "h13",
+        "source_id": "md-o3-o3_18",
+        "text": "contains text enclosed in parentheses ( \u2026 )"
+      },
+      {
+        "id": "h14",
+        "source_id": "md-o3-o3_7",
+        "text": "mentions George Floyd (the name or hashtag)"
+      },
+      {
+        "id": "h15",
+        "source_id": "md-o3-o3_48",
+        "text": "mentions China/Chinese"
+      },
+      {
+        "id": "h16",
+        "source_id": "md-o3-o3_4",
+        "text": "includes the hashtag #BlackLivesMatter (any capitalization)"
+      },
+      {
+        "id": "h17",
+        "source_id": "md-o3-o3_22",
+        "text": "contains the hashtag #BlackLivesMatter"
+      },
+      {
+        "id": "h18",
+        "source_id": "md-o3-o3_47",
+        "text": "contains the hashtag #BlackLivesMatter (case-insensitive)"
+      },
+      {
+        "id": "h19",
+        "source_id": "md-o3-o3_33",
+        "text": "mentions the name of a city (e.g., New York, LA, Chicago, Naples, Brooklyn, Milano)"
+      },
+      {
+        "id": "h20",
+        "source_id": "md-o3-o3_10",
+        "text": "includes the hashtag \u201c#BlackLivesMatter\u201d without also including the hashtag \u201c#BLM\u201d"
+      },
+      {
+        "id": "h21",
+        "source_id": "md-o3-o3_35",
+        "text": "contains a form of the word 'fail' (fail, fails, failed, failing, failure)"
+      },
+      {
+        "id": "h22",
+        "source_id": "md-o3-o3_2",
+        "text": "mentions providing or requesting assistance (e.g., donations, supplies, relief, funds) for others"
+      },
+      {
+        "id": "h23",
+        "source_id": "md-o3-o3_31",
+        "text": "mentions UK-specific political terms or locations (e.g., Boris, Tory, Brexit, Westminster, England, London, UK)"
+      },
+      {
+        "id": "h24",
+        "source_id": "md-o3-o3_44",
+        "text": "contains the word \u201cMinneapolis\u201d"
+      },
+      {
+        "id": "h25",
+        "source_id": "md-o3-o3_46",
+        "text": "contains the word \u201csign\u201d used as a call to action (e.g., \u201csign the petition\u201d)"
+      },
+      {
+        "id": "h26",
+        "source_id": "md-o3-o3_21",
+        "text": "contains at least one numerical digit (0-9)"
+      },
+      {
+        "id": "h27",
+        "source_id": "md-o3-o3_42",
+        "text": "contains third-person male pronouns (\u201che\u201d or \u201chis\u201d)"
+      },
+      {
+        "id": "h28",
+        "source_id": "md-o3-o3_34",
+        "text": "contains no <user> mentions, hashtags (#), or <url> tokens"
+      },
+      {
+        "id": "h29",
+        "source_id": "md-o3-o3_8",
+        "text": "contains a death-related keyword such as 'die', 'died', 'dead' or 'death'"
+      },
+      {
+        "id": "h30",
+        "source_id": "md-o3-o3_23",
+        "text": "contains the standalone word 'not' (case-insensitive)"
+      },
+      {
+        "id": "h31",
+        "source_id": "md-o3-o3_26",
+        "text": "contains an explicit future-time reference (e.g., tomorrow, a specific date, clock time, \u201cin X weeks,\u201d \u201csoon,\u201d \u201cin about an hour,\u201d a day like Saturday, a season like fall/winter, or \u201cthis year\u201d)"
+      },
+      {
+        "id": "h32",
+        "source_id": "md-o3-o3_40",
+        "text": "includes at least one of the words: speak, speech, response, words, read, said, or leader"
+      },
+      {
+        "id": "h33",
+        "source_id": "md-o3-o3_28",
+        "text": "contains words related to filth, decay, or pests (e.g., rubbish, dirty, rot, flies, cockroaches, pesticides)"
+      },
+      {
+        "id": "h34",
+        "source_id": "md-o3-o3_19",
+        "text": "contains the word 'believe'"
+      },
+      {
+        "id": "h35",
+        "source_id": "md-o3-o3_50",
+        "text": "includes the hashtag '#COVID19' (spelled without a hyphen)"
+      },
+      {
+        "id": "h36",
+        "source_id": "md-o3-o3_29",
+        "text": "contains words referring to illicit drug use (e.g., drug, drugs, cocaine, crack, coke)"
+      },
+      {
+        "id": "h37",
+        "source_id": "md-o3-o3_38",
+        "text": "contains a variant of the word \u201cyes\u201d (yes / yep / yeah / yesss)"
+      },
+      {
+        "id": "h38",
+        "source_id": "md-o3-o3_37",
+        "text": "includes the word 'she' (third-person feminine pronoun)"
+      },
+      {
+        "id": "h39",
+        "source_id": "md-o3-o3_17",
+        "text": "mentions abortion or unborn fetuses/babies (words like \u201cabortion\u201d, \u201cfetus/fetal\u201d, \u201cunborn\u201d, \u201cpro-life\u201d, etc.)"
+      },
+      {
+        "id": "h40",
+        "source_id": "md-o3-o3_5",
+        "text": "headline-style title case text that ends with a <url> token"
+      },
+      {
+        "id": "h41",
+        "source_id": "md-o3-o3_9",
+        "text": "contains the word or hashtag \u201cGOP\u201d (case-insensitive)"
+      },
+      {
+        "id": "h42",
+        "source_id": "md-o3-o3_49",
+        "text": "contains the exact term \u201cCovid-19\u201d (capital C, lowercase ovid, hyphen, 19)"
+      },
+      {
+        "id": "h43",
+        "source_id": "md-o3-o3_43",
+        "text": "contains a word beginning with the substring 'cheat' (e.g., cheat, cheating, cheaters)"
+      },
+      {
+        "id": "h44",
+        "source_id": "md-o3-o3_24",
+        "text": "explicitly encourages the reader to buy/order/register for a product or service"
+      },
+      {
+        "id": "h45",
+        "source_id": "md-o3-o3_1",
+        "text": "contains a red or colored heart emoji (e.g., \u2764, \u2764\ufe0f, \ud83d\udc96, \ud83d\udc9c)"
+      },
+      {
+        "id": "h46",
+        "source_id": "md-o3-o3_30",
+        "text": "mentions Facebook or Zuckerberg (words like 'Facebook', 'Zuck', 'Zuckerberg')"
+      },
+      {
+        "id": "h47",
+        "source_id": "md-o3-o3_36",
+        "text": "mentions images or photos (uses words like 'image', 'photo', or 'photos')"
+      },
+      {
+        "id": "h48",
+        "source_id": "md-o3-o3_41",
+        "text": "contains the word 'patriotic'"
+      },
+      {
+        "id": "h49",
+        "source_id": "md-o3-o3_12",
+        "text": "mentions the phrase 'Right Wing'"
+      },
+      {
+        "id": "h50",
+        "source_id": "md-o3-o3_39",
+        "text": "contains the word \u201cboycott\u201d (case-insensitive, including within hashtags)"
+      }
+    ],
+    "md/hypogenic/o3-generator_o3-judge": [
+      {
+        "id": "h01",
+        "source_id": "md-o3-o3_34",
+        "text": "Borderline policy violations: Content that is borderline abusive, hateful, or disinformative (just shy of or just over policy boundaries) leads to differing judgments about severity or compliance."
+      },
+      {
+        "id": "h02",
+        "source_id": "md-o3-o3_12",
+        "text": "Statements that can be interpreted as either factual or opinionated (e.g., \u201cIt\u2019s the worst movie this year\u201d) cause annotators to diverge on labeling objective vs. subjective content."
+      },
+      {
+        "id": "h03",
+        "source_id": "md-o3-o3_27",
+        "text": "Texts that include borderline or subtle slurs, insults, or coded language (e.g., \u201cdog-whistles\u201d) create uncertainty about whether they should be labeled as hateful/abusive, increasing disagreement."
+      },
+      {
+        "id": "h04",
+        "source_id": "md-o3-o3_5",
+        "text": "Texts that include figurative language (metaphors, idioms, hyperbole) are more prone to disagreement because literal vs. figurative readings differ."
+      },
+      {
+        "id": "h05",
+        "source_id": "md-o3-o3_36",
+        "text": "Mentions of multiple entities, events, or viewpoints in the same passage increase ambiguity, driving disagreement over which target or stance should be labeled."
+      },
+      {
+        "id": "h06",
+        "source_id": "md-o3-o3_44",
+        "text": "Mixed references to multiple entities or targets (e.g., multiple people or groups discussed in one sentence) make it harder to decide which target a label applies to, fostering disagreement."
+      },
+      {
+        "id": "h07",
+        "source_id": "md-o3-o3_35",
+        "text": "Figurative or idiomatic language: Sentences using metaphors, idioms, or slang often require cultural or contextual knowledge, making annotator interpretations diverge."
+      },
+      {
+        "id": "h08",
+        "source_id": "md-o3-o3_24",
+        "text": "Texts that contain negations, sarcasm markers, or rhetorical questions (e.g., \u201cYou don\u2019t actually believe that, do you?\u201d) can obscure the underlying stance, leading to labeling inconsistencies."
+      },
+      {
+        "id": "h09",
+        "source_id": "md-o3-o3_16",
+        "text": "Texts that contain sarcasm, irony, or other figurative language are more likely to trigger annotator disagreement because the true intent can be interpreted in multiple ways."
+      },
+      {
+        "id": "h10",
+        "source_id": "md-o3-o3_23",
+        "text": "Texts with ambiguous or shifting targets (unclear who \u201cthey,\u201d \u201cyou,\u201d or \u201cwe\u201d refer to) often cause annotators to diverge in labeling."
+      },
+      {
+        "id": "h11",
+        "source_id": "md-o3-o3_1",
+        "text": "Offensive or profane expressions used non-literally (e.g., jokingly or affectionately) create ambiguity about intent and raise disagreement."
+      },
+      {
+        "id": "h12",
+        "source_id": "md-o3-o3_9",
+        "text": "Texts with negations or double negatives (e.g., \u201cI don\u2019t hate it\u201d) lead to different sentiment or stance judgments and thus more disagreement."
+      },
+      {
+        "id": "h13",
+        "source_id": "md-o3-o3_45",
+        "text": "Texts with implicit hate speech, micro-aggressions, or subtle offenses (rather than explicit slurs) make it harder for annotators to agree on offense levels, raising disagreement likelihood."
+      },
+      {
+        "id": "h14",
+        "source_id": "md-o3-o3_3",
+        "text": "Texts containing sarcasm, irony, or humor cues (e.g., \u201cyeah, right\u2026\u201d) tend to confuse annotators and increase disagreement rates."
+      },
+      {
+        "id": "h15",
+        "source_id": "md-o3-o3_18",
+        "text": "Texts referencing specific cultural, historical, or political knowledge (e.g., niche memes, historical events) can cause disagreement if annotators differ in familiarity with the context."
+      },
+      {
+        "id": "h16",
+        "source_id": "md-o3-o3_22",
+        "text": "Humor and irony: Jokes, memes, or ironic statements rely on implicit cues; without shared humor context, annotators often disagree on literal vs. intended meaning."
+      },
+      {
+        "id": "h17",
+        "source_id": "md-o3-o3_14",
+        "text": "Texts that express mixed or conflicting sentiments (e.g., praise and criticism in the same message) tend to confuse annotators, leading to higher disagreement."
+      },
+      {
+        "id": "h18",
+        "source_id": "md-o3-o3_13",
+        "text": "Sentences that mix conflicting cues (e.g., both positive and negative language) foster disagreement on overall polarity or intent."
+      },
+      {
+        "id": "h19",
+        "source_id": "md-o3-o3_29",
+        "text": "Texts discussing controversial or polarizing topics (e.g., politics, religion, social justice issues) provoke stronger subjective reactions and hence greater annotator disagreement."
+      },
+      {
+        "id": "h20",
+        "source_id": "md-o3-o3_40",
+        "text": "Texts containing sarcasm, irony, or other forms of indirect meaning cue higher disagreement because annotators differ on whether the intent is literal or not."
+      },
+      {
+        "id": "h21",
+        "source_id": "md-o3-o3_41",
+        "text": "Discussions of sensitive or controversial topics (politics, religion, ethics) induce subjective interpretations, raising the likelihood of annotator disagreement."
+      },
+      {
+        "id": "h22",
+        "source_id": "md-o3-o3_42",
+        "text": "Humor or jokes\u2014especially those relying on wordplay or shared cultural knowledge\u2014lead to disagreement about the underlying sentiment or stance."
+      },
+      {
+        "id": "h23",
+        "source_id": "md-o3-o3_46",
+        "text": "Lack of sufficient context (references to implicit events, pronouns with unclear antecedents, or missing background information) makes categorization uncertain and prone to disagreement."
+      },
+      {
+        "id": "h24",
+        "source_id": "md-o3-o3_25",
+        "text": "Texts that are neutrally worded but discuss sensitive topics (race, gender, religion, politics) tend to produce disagreement because annotators weigh context and potential offensiveness differently."
+      },
+      {
+        "id": "h25",
+        "source_id": "md-o3-o3_47",
+        "text": "Texts that are very short or single-word responses provide insufficient evidence for a clear label, increasing annotator disagreement."
+      },
+      {
+        "id": "h26",
+        "source_id": "md-o3-o3_10",
+        "text": "Very short texts (fewer than ~5\u20137 words) lack context, making interpretation difficult and leading to disagreement."
+      },
+      {
+        "id": "h27",
+        "source_id": "md-o3-o3_17",
+        "text": "Texts quoting or paraphrasing someone else\u2019s offensive language without clear condemnation or endorsement often split annotators on whether the quote itself is hateful."
+      },
+      {
+        "id": "h28",
+        "source_id": "md-o3-o3_28",
+        "text": "Short or fragmentary texts lacking sufficient context (e.g., very brief sentences, headlines, or partial quotes) lead to higher disagreement because annotators must infer missing information."
+      },
+      {
+        "id": "h29",
+        "source_id": "md-o3-o3_30",
+        "text": "Presence of domain-specific jargon, slang, or culturally localized idioms causes annotators with different backgrounds to interpret the text differently."
+      },
+      {
+        "id": "h30",
+        "source_id": "md-o3-o3_38",
+        "text": "Ambiguous pronouns or vague referents (e.g., \u201cthey,\u201d \u201cit,\u201d \u201cthis\u201d) cause uncertainty about who or what is being discussed, leading to divergent labels."
+      },
+      {
+        "id": "h31",
+        "source_id": "md-o3-o3_8",
+        "text": "Questions or rhetorical statements (e.g., \u201cWho even likes this?\u201d) lack explicit stance, leading annotators to diverge in labeling."
+      },
+      {
+        "id": "h32",
+        "source_id": "md-o3-o3_33",
+        "text": "Sparse context or pronoun vagueness: When pronouns (\u201che,\u201d \u201cthey,\u201d \u201cit\u201d) or placeholders lack clear referents, annotators may disagree about who or what is being discussed, leading to divergent labels."
+      },
+      {
+        "id": "h33",
+        "source_id": "md-o3-o3_15",
+        "text": "Texts that rely heavily on slang, regional dialect, or niche internet jargon are more prone to disagreement because annotators may interpret the vocabulary differently."
+      },
+      {
+        "id": "h34",
+        "source_id": "md-o3-o3_11",
+        "text": "Ambiguous sentiment: Texts that contain mixed positive and negative cues (e.g., sarcasm, \u201cI love how awful this is\u201d) are more likely to yield disagreement because annotators differ on whether the overall tone is positive, negative, or neutral."
+      },
+      {
+        "id": "h35",
+        "source_id": "md-o3-o3_21",
+        "text": "Cultural or regional references: Mentions of local events, celebrities, or dialectal expressions unfamiliar to some annotators result in differing interpretations and thus higher disagreement."
+      },
+      {
+        "id": "h36",
+        "source_id": "md-o3-o3_48",
+        "text": "Mixed or conflicting sentiment within the same passage (e.g., both praise and criticism) leads to higher disagreement because annotators must choose a single dominant label."
+      },
+      {
+        "id": "h37",
+        "source_id": "md-o3-o3_4",
+        "text": "Texts that express mixed or conflicting sentiments (e.g., praise and criticism in the same sentence) are more likely to yield annotator disagreement."
+      },
+      {
+        "id": "h38",
+        "source_id": "md-o3-o3_2",
+        "text": "Texts with domain-specific jargon, technical terms, or uncommon acronyms cause varying interpretations and higher disagreement."
+      },
+      {
+        "id": "h39",
+        "source_id": "md-o3-o3_43",
+        "text": "Multiple possible intents: Questions or requests that could reasonably be interpreted in several ways (e.g., informational vs. opinion-seeking) cause annotators to choose different intent labels."
+      },
+      {
+        "id": "h40",
+        "source_id": "md-o3-o3_7",
+        "text": "Texts referencing context outside the snippet (events, prior conversation, inside jokes) require external knowledge, increasing chances of disagreement among annotators."
+      },
+      {
+        "id": "h41",
+        "source_id": "md-o3-o3_49",
+        "text": "Domain-specific jargon, technical terms, or niche cultural references create misunderstandings among annotators with varying expertise, leading to disagreement."
+      },
+      {
+        "id": "h42",
+        "source_id": "md-o3-o3_26",
+        "text": "Long, multi-clause, or syntactically complex sentences that bundle several ideas together increase cognitive load and the chance that annotators focus on different parts, producing disagreement."
+      },
+      {
+        "id": "h43",
+        "source_id": "md-o3-o3_39",
+        "text": "Use of hedging, double negation, or modal verbs (\u201cmight not,\u201d \u201ccould hardly\u201d) makes it harder to pin down factuality or sentiment, increasing disagreement."
+      },
+      {
+        "id": "h44",
+        "source_id": "md-o3-o3_32",
+        "text": "Domain-specific jargon: Highly technical, medical, legal, or niche vocabulary increases disagreement, as annotators\u2019 subject-matter familiarity varies."
+      },
+      {
+        "id": "h45",
+        "source_id": "md-o3-o3_50",
+        "text": "Sentences containing double negatives, complex syntactic structures, or grammatical errors cause confusion in interpretation and yield higher disagreement."
+      },
+      {
+        "id": "h46",
+        "source_id": "md-o3-o3_31",
+        "text": "Complex or convoluted syntax (long sentences, nested clauses, unusual word order) raises the cognitive load on annotators and yields more disagreement."
+      },
+      {
+        "id": "h47",
+        "source_id": "md-o3-o3_19",
+        "text": "Complex negation or double negatives: Sentences with \u201cnot uncommon,\u201d \u201cI don\u2019t disagree,\u201d or nested clauses can confuse polarity judgments and raise disagreement rates."
+      },
+      {
+        "id": "h48",
+        "source_id": "md-o3-o3_20",
+        "text": "Lengthy, multi-topic passages: Longer texts that shift topics or perspectives mid-stream make it harder for annotators to focus on a single label, increasing variability."
+      },
+      {
+        "id": "h49",
+        "source_id": "md-o3-o3_6",
+        "text": "Code-mixed or multi-language texts (mixes of English and other languages, transliteration, slang) increase annotator uncertainty and disagreement."
+      },
+      {
+        "id": "h50",
+        "source_id": "md-o3-o3_37",
+        "text": "Texts that are very brief or snippet-like (providing little surrounding context) are more likely to produce annotator disagreement."
+      }
+    ],
+    "pref/chardis/o3-generator_o3-judge": [
+      {
+        "id": "h01",
+        "source_id": "pref-o3-o3_11",
+        "text": "\"Passages written in a chatty, humorous, or storytelling style with jokes or casual exclamation marks\""
+      },
+      {
+        "id": "h02",
+        "source_id": "pref-o3-o3_7",
+        "text": "\"Texts structured with extensive formatting\u2014multiple headings, numbered lists, and bullet points\u2014that extend beyond simple readability requirements.\""
+      },
+      {
+        "id": "h03",
+        "source_id": "pref-o3-o3_2",
+        "text": "\"Responses that are lengthy and packed with detail, examples, or citations, creating uncertainty about whether the extra depth is informative or unnecessarily verbose.\""
+      },
+      {
+        "id": "h04",
+        "source_id": "pref-o3-o3_27",
+        "text": "\"Content that is factually correct but potentially outdated or lacks citations, leading to mixed judgments on currentness and reliability.\""
+      },
+      {
+        "id": "h05",
+        "source_id": "pref-o3-o3_36",
+        "text": "\"Texts that employ sarcasm, slang, or other informal language, which can be seen as either relatable or unprofessional.\""
+      },
+      {
+        "id": "h06",
+        "source_id": "pref-o3-o3_1",
+        "text": "\"Texts where one answer is short and non-redundant while the other is much longer and more detailed, making it unclear whether brevity or depth should be valued more.\""
+      },
+      {
+        "id": "h07",
+        "source_id": "pref-o3-o3_10",
+        "text": "\"Everyday problem-solving questions whose answers contrast a concise checklist of actionable steps with a detailed narrative guide.\""
+      },
+      {
+        "id": "h08",
+        "source_id": "pref-o3-o3_45",
+        "text": "\"Responses that are extremely concise yet cover only the essentials, making it debatable whether brevity counts as efficiency or insufficiency.\""
+      },
+      {
+        "id": "h09",
+        "source_id": "pref-o3-o3_25",
+        "text": "\"Sensitive social or historical questions where one answer provides extensive contextual history and the other offers only a minimal overview.\""
+      },
+      {
+        "id": "h10",
+        "source_id": "pref-o3-o3_26",
+        "text": "\"Texts that strive for multi-faceted nuance by discussing several factors or perspectives on the issue\""
+      },
+      {
+        "id": "h11",
+        "source_id": "pref-o3-o3_23",
+        "text": "\"Replies that include bold fonts, decorative formatting, emojis, or other visual embellishments that do not add substantive content\""
+      },
+      {
+        "id": "h12",
+        "source_id": "pref-o3-o3_31",
+        "text": "\"Passages containing speculative assertions, unverified statistics, or stereotypes, yielding mixed assessments of factual reliability versus overall usefulness.\""
+      },
+      {
+        "id": "h13",
+        "source_id": "pref-o3-o3_42",
+        "text": "\"Lengthy, highly detailed answers that include step-by-step instructions, numerous examples, or extensive background exposition.\""
+      },
+      {
+        "id": "h14",
+        "source_id": "pref-o3-o3_18",
+        "text": "\"Sections that explicitly offer moral guidance, ethical commentary, or value judgments\""
+      },
+      {
+        "id": "h15",
+        "source_id": "pref-o3-o3_49",
+        "text": "\"Responses that proactively anticipate follow-up questions by offering additional resources, further reading, or next-step suggestions unasked for by the user.\""
+      },
+      {
+        "id": "h16",
+        "source_id": "pref-o3-o3_20",
+        "text": "\"Responses that cite specific sources, data points, or dates to bolster credibility\""
+      },
+      {
+        "id": "h17",
+        "source_id": "pref-o3-o3_21",
+        "text": "\"Explanations that rely on speculative or weakly supported assertions, leaving room for debate over how harshly to penalize questionable claims.\""
+      },
+      {
+        "id": "h18",
+        "source_id": "pref-o3-o3_12",
+        "text": "\"Answers containing a minor factual slip embedded within otherwise detailed and informative content\""
+      },
+      {
+        "id": "h19",
+        "source_id": "pref-o3-o3_6",
+        "text": "\"Answers offering moral or ethical reflections that might be seen as insightful by some but speculative or unnecessary by others.\""
+      },
+      {
+        "id": "h20",
+        "source_id": "pref-o3-o3_13",
+        "text": "\"Passages heavy with technical jargon versus simpler, layperson wording, creating tension between perceived expertise and accessibility.\""
+      },
+      {
+        "id": "h21",
+        "source_id": "pref-o3-o3_33",
+        "text": "\"Responses that explicitly highlight and correct presumed misconceptions within the user\u2019s question.\""
+      },
+      {
+        "id": "h22",
+        "source_id": "pref-o3-o3_15",
+        "text": "\"Refusals that are lengthy and include detailed reasoning, counseling language, or suggested alternatives\""
+      },
+      {
+        "id": "h23",
+        "source_id": "pref-o3-o3_34",
+        "text": "\"Answers with occasional grammar or formatting slips balanced by strong substance, complicating the decision on how much to penalize presentation flaws.\""
+      },
+      {
+        "id": "h24",
+        "source_id": "pref-o3-o3_29",
+        "text": "\"Explanations that add information tangential to the user\u2019s question or suggest actions contrary to stated constraints\""
+      },
+      {
+        "id": "h25",
+        "source_id": "pref-o3-o3_28",
+        "text": "\"Replies that insert explicit references to policy compliance, legal disclaimers, or platform rules within the body of the answer.\""
+      },
+      {
+        "id": "h26",
+        "source_id": "pref-o3-o3_17",
+        "text": "\"Exchanges where tone is polite yet minimally empathetic, challenging assessment of whether respect alone suffices on sensitive topics.\""
+      },
+      {
+        "id": "h27",
+        "source_id": "pref-o3-o3_39",
+        "text": "\"Texts where a response cites an approximate or potentially unreliable statistic while the alternate answer avoids firm numbers or acknowledges uncertainty.\""
+      },
+      {
+        "id": "h28",
+        "source_id": "pref-o3-o3_24",
+        "text": "\"Cases where one reply heavily echoes or quotes the user\u2019s own words and another avoids such repetition.\""
+      },
+      {
+        "id": "h29",
+        "source_id": "pref-o3-o3_9",
+        "text": "\"Explanations that balance practical, realistic advice against more idealistic or less actionable suggestions.\""
+      },
+      {
+        "id": "h30",
+        "source_id": "pref-o3-o3_8",
+        "text": "\"Texts that adopt a forceful, condemnatory tone explicitly denouncing unethical requests or behaviors.\""
+      },
+      {
+        "id": "h31",
+        "source_id": "pref-o3-o3_16",
+        "text": "\"Replies that include self-promotion, authorial branding, or marketing-style language\""
+      },
+      {
+        "id": "h32",
+        "source_id": "pref-o3-o3_19",
+        "text": "\"Outputs dominated by professional brevity and directness with little contextual elaboration\""
+      },
+      {
+        "id": "h33",
+        "source_id": "pref-o3-o3_32",
+        "text": "\"Requests that must be refused but receive refusals differing only in how much policy or system-constraint wording they cite.\""
+      },
+      {
+        "id": "h34",
+        "source_id": "pref-o3-o3_41",
+        "text": "\"Texts where one answer includes an explicit \u201cAs an AI\u2026\u201d disclaimer and the other does not.\""
+      },
+      {
+        "id": "h35",
+        "source_id": "pref-o3-o3_5",
+        "text": "\"Texts whose moral guidance is delivered in a strongly judgmental or preachy tone in just one of the responses.\""
+      },
+      {
+        "id": "h36",
+        "source_id": "pref-o3-o3_4",
+        "text": "\"Instructions demanding extreme brevity or specific format that some answers obey strictly while others exceed length or add extra context.\""
+      },
+      {
+        "id": "h37",
+        "source_id": "pref-o3-o3_22",
+        "text": "\"Topics with significant regional or cultural variation where one answer highlights diverse perspectives and the other gives a single, generalized view.\""
+      },
+      {
+        "id": "h38",
+        "source_id": "pref-o3-o3_48",
+        "text": "\"Scenarios involving unethical or illegal behavior where one answer delivers strong moral condemnation while another adopts a neutral explanatory tone.\""
+      },
+      {
+        "id": "h39",
+        "source_id": "pref-o3-o3_38",
+        "text": "\"Texts where only one answer uses overtly inclusive, diversity-affirming language.\""
+      },
+      {
+        "id": "h40",
+        "source_id": "pref-o3-o3_35",
+        "text": "\"Texts that simultaneously denounce discrimination but differ in the depth or explicitness of their condemnation, making superiority in inclusivity unclear.\""
+      },
+      {
+        "id": "h41",
+        "source_id": "pref-o3-o3_44",
+        "text": "\"Replies that emphasize empathy and emotional reassurance while offering limited actionable guidance, prompting debate over the priority of emotional support versus practicality.\""
+      },
+      {
+        "id": "h42",
+        "source_id": "pref-o3-o3_40",
+        "text": "\"Questions touching on marginalized groups where one answer emphasizes empathy and sensitivity while the other sticks to impersonal facts.\""
+      },
+      {
+        "id": "h43",
+        "source_id": "pref-o3-o3_37",
+        "text": "\"Passages that correct hateful or discriminatory language with extended educational explanations, prompting disagreement over whether such thoroughness is helpful or preachy.\""
+      },
+      {
+        "id": "h44",
+        "source_id": "pref-o3-o3_43",
+        "text": "\"Replies whose primary guidance is a generic \u2018consult a lawyer/professional\u2019 recommendation without concrete next steps or specifics.\""
+      },
+      {
+        "id": "h45",
+        "source_id": "pref-o3-o3_46",
+        "text": "\"Emotionally sensitive queries where one reply delivers succinct reassurance and another provides extensive empathic counseling.\""
+      },
+      {
+        "id": "h46",
+        "source_id": "pref-o3-o3_14",
+        "text": "\"Cases where harmful stereotypes are subtle or implicit rather than explicit, creating ambiguity about the severity of bias to penalize.\""
+      },
+      {
+        "id": "h47",
+        "source_id": "pref-o3-o3_3",
+        "text": "\"Texts where both answers contain the same factual error but differ mainly in brevity or organization.\""
+      },
+      {
+        "id": "h48",
+        "source_id": "pref-o3-o3_50",
+        "text": "\"Prompts that invite or allow humor about unethical actions, leading to one answer using playful language and another remaining strictly serious.\""
+      },
+      {
+        "id": "h49",
+        "source_id": "pref-o3-o3_47",
+        "text": "\"Texts that ask for personal feelings and receive answers differing between detached objectivity and direct personal expression.\""
+      },
+      {
+        "id": "h50",
+        "source_id": "pref-o3-o3_30",
+        "text": "\"User prompts that forbid personal opinions yet receive answers containing mild subjective descriptors.\""
+      }
+    ],
+    "pref/hypothesaes/o3-generator_o3-judge": [
+      {
+        "id": "h01",
+        "source_id": "pref-o3-o3_22",
+        "text": "contains a code snippet enclosed within triple backticks ```...```"
+      },
+      {
+        "id": "h02",
+        "source_id": "pref-o3-o3_38",
+        "text": "includes a fenced code block delimited by triple backticks ```"
+      },
+      {
+        "id": "h03",
+        "source_id": "pref-o3-o3_47",
+        "text": "contains triple backtick code blocks (```)"
+      },
+      {
+        "id": "h04",
+        "source_id": "pref-o3-o3_2",
+        "text": "includes multi-line programming code snippets"
+      },
+      {
+        "id": "h05",
+        "source_id": "pref-o3-o3_1",
+        "text": "input requests a recommendation for the best (or a good) consumer product or brand"
+      },
+      {
+        "id": "h06",
+        "source_id": "pref-o3-o3_16",
+        "text": "explains advanced mathematics or computer-science theories/algorithms (e.g., Monte Carlo integration, Johnson\u2013Lindenstrauss lemma, topos theory, language-model sampling methods)"
+      },
+      {
+        "id": "h07",
+        "source_id": "pref-o3-o3_3",
+        "text": "contains the substring 'SQL' (e.g., SQL, MySQL, PostgreSQL, SQLite, MariaDB)"
+      },
+      {
+        "id": "h08",
+        "source_id": "pref-o3-o3_32",
+        "text": "the [input] prompt revolves around a topic whose key term begins with the letter \u2018L\u2019 (e.g., LLM, LSAT, llama, lipo, lupus, LIFE)"
+      },
+      {
+        "id": "h09",
+        "source_id": "pref-o3-o3_24",
+        "text": "gives step-by-step advice on how to start or improve a personal skill-based career or creative pursuit (e.g., podcasting, YouTube channel, photography, writing, public speaking, fitness instruction)"
+      },
+      {
+        "id": "h10",
+        "source_id": "pref-o3-o3_18",
+        "text": "contains references to romantic relationships or marriage (e.g., husband, wife, girlfriend/boyfriend, wedding, anniversary, cheating)"
+      },
+      {
+        "id": "h11",
+        "source_id": "pref-o3-o3_4",
+        "text": "user\u2019s question requests advice on harming, attacking, sabotaging, or otherwise mistreating another person"
+      },
+      {
+        "id": "h12",
+        "source_id": "pref-o3-o3_34",
+        "text": "discusses alcohol or beer (drinking, obtaining, or history)"
+      },
+      {
+        "id": "h13",
+        "source_id": "pref-o3-o3_25",
+        "text": "mentions Jewish or Christian religious topics or holidays (e.g., Judaism, Christianity, Hanukkah, Christmas, New Year\u2019s Eve)"
+      },
+      {
+        "id": "h14",
+        "source_id": "pref-o3-o3_27",
+        "text": "discusses aviation or flight-related topics (aircraft, flying, kites, drones, etc.)"
+      },
+      {
+        "id": "h15",
+        "source_id": "pref-o3-o3_36",
+        "text": "recommends travel destinations or tourist attractions"
+      },
+      {
+        "id": "h16",
+        "source_id": "pref-o3-o3_10",
+        "text": "lists child-friendly entertainment titles (e.g., games, books, movies, songs, cartoons)"
+      },
+      {
+        "id": "h17",
+        "source_id": "pref-o3-o3_7",
+        "text": "contains the word 'Python'"
+      },
+      {
+        "id": "h18",
+        "source_id": "pref-o3-o3_6",
+        "text": "contains explicit sexual content (e.g., words like \u201cbutt\u201d, \u201cblowjob\u201d, \u201cnaked\u201d, describing sexual acts or fetishes)"
+      },
+      {
+        "id": "h19",
+        "source_id": "pref-o3-o3_12",
+        "text": "contains explicit sexual or erotic content"
+      },
+      {
+        "id": "h20",
+        "source_id": "pref-o3-o3_14",
+        "text": "provides guidance or advice on caring for household pets or domestic animals"
+      },
+      {
+        "id": "h21",
+        "source_id": "pref-o3-o3_49",
+        "text": "contains the word \u201capple\u201d"
+      },
+      {
+        "id": "h22",
+        "source_id": "pref-o3-o3_39",
+        "text": "contains a word-problem or advice centered on speed/time/distance (rate) relationships, such as calculating travel time, converting speed units, or comparing who is faster"
+      },
+      {
+        "id": "h23",
+        "source_id": "pref-o3-o3_48",
+        "text": "provides a savory (non-dessert) meal recipe"
+      },
+      {
+        "id": "h24",
+        "source_id": "pref-o3-o3_35",
+        "text": "mentions France or the French language"
+      },
+      {
+        "id": "h25",
+        "source_id": "pref-o3-o3_37",
+        "text": "text discusses guns, firearms, or other hunting weapons"
+      },
+      {
+        "id": "h26",
+        "source_id": "pref-o3-o3_41",
+        "text": "contains the word 'novel'"
+      },
+      {
+        "id": "h27",
+        "source_id": "pref-o3-o3_45",
+        "text": "mentions advanced physics concepts or terminology (e.g., quantum mechanics, Schr\u00f6dinger, Bose-Einstein, entropy)"
+      },
+      {
+        "id": "h28",
+        "source_id": "pref-o3-o3_50",
+        "text": "contains references to space exploration or spacecraft (e.g., rocket, moon mission, Voyager, GSO antenna)"
+      },
+      {
+        "id": "h29",
+        "source_id": "pref-o3-o3_42",
+        "text": "discusses aging-related topics specifically concerning older adults (e.g., people over 50, the elderly)"
+      },
+      {
+        "id": "h30",
+        "source_id": "pref-o3-o3_26",
+        "text": "contains advice or tips specifically about wilderness survival, camping, or hiking preparation/safety"
+      },
+      {
+        "id": "h31",
+        "source_id": "pref-o3-o3_46",
+        "text": "contains the word 'Africa' or 'African'"
+      },
+      {
+        "id": "h32",
+        "source_id": "pref-o3-o3_30",
+        "text": "Provides step-by-step instructions for obtaining official authorization or approval (e.g., passports, licenses, regulatory or institutional listings)"
+      },
+      {
+        "id": "h33",
+        "source_id": "pref-o3-o3_44",
+        "text": "provides instructions on how to grow or care for plants/gardens"
+      },
+      {
+        "id": "h34",
+        "source_id": "pref-o3-o3_29",
+        "text": "contains the word \u201creligion\u201d or \u201creligions\u201d"
+      },
+      {
+        "id": "h35",
+        "source_id": "pref-o3-o3_5",
+        "text": "the input text contains the word \u201cgrammar\u201d"
+      },
+      {
+        "id": "h36",
+        "source_id": "pref-o3-o3_17",
+        "text": "mentions feathers"
+      },
+      {
+        "id": "h37",
+        "source_id": "pref-o3-o3_11",
+        "text": "references American football teams, seasons, or conference standings"
+      },
+      {
+        "id": "h38",
+        "source_id": "pref-o3-o3_9",
+        "text": "contains the word 'COVID'"
+      },
+      {
+        "id": "h39",
+        "source_id": "pref-o3-o3_33",
+        "text": "mentions the word 'strawberry'"
+      },
+      {
+        "id": "h40",
+        "source_id": "pref-o3-o3_31",
+        "text": "contains the word \u201crevenge\u201d"
+      },
+      {
+        "id": "h41",
+        "source_id": "pref-o3-o3_8",
+        "text": "contains the word 'Australia'"
+      },
+      {
+        "id": "h42",
+        "source_id": "pref-o3-o3_21",
+        "text": "provides practical advice or guidelines for dog owners about canine care, health, or behavior"
+      },
+      {
+        "id": "h43",
+        "source_id": "pref-o3-o3_13",
+        "text": "references the animated teen series \u201cJane\u201d in the prompt"
+      },
+      {
+        "id": "h44",
+        "source_id": "pref-o3-o3_15",
+        "text": "contains a comparison question about which is heavier between an equal mass of feathers and another denser material (stones/lead/bricks)"
+      },
+      {
+        "id": "h45",
+        "source_id": "pref-o3-o3_43",
+        "text": "contains the substring 'x^2'"
+      },
+      {
+        "id": "h46",
+        "source_id": "pref-o3-o3_23",
+        "text": "mentions the word 'vase'"
+      },
+      {
+        "id": "h47",
+        "source_id": "pref-o3-o3_28",
+        "text": "contains the word 'diarrhea'"
+      },
+      {
+        "id": "h48",
+        "source_id": "pref-o3-o3_20",
+        "text": "mentions Las Vegas or the word \u2018casino\u2019"
+      },
+      {
+        "id": "h49",
+        "source_id": "pref-o3-o3_19",
+        "text": "mentions the word 'skinsuit'"
+      },
+      {
+        "id": "h50",
+        "source_id": "pref-o3-o3_40",
+        "text": "Contains the exact string '77 + 33 = 110'"
+      }
+    ],
+    "pref/hypogenic/o3-generator_o3-judge": [
+      {
+        "id": "h01",
+        "source_id": "pref-o3-o3_32",
+        "text": "Cultural references, sarcasm that relies on shared background knowledge, or domain-specific jargon make interpretation uneven across annotators."
+      },
+      {
+        "id": "h02",
+        "source_id": "pref-o3-o3_37",
+        "text": "References that require outside or cultural knowledge (memes, niche jargon, historical events) raise disagreement because some annotators miss the reference."
+      },
+      {
+        "id": "h03",
+        "source_id": "pref-o3-o3_6",
+        "text": "Long, complex sentences with multiple clauses or digressions can overwhelm readers and create divergent judgments."
+      },
+      {
+        "id": "h04",
+        "source_id": "pref-o3-o3_8",
+        "text": "Presence of rhetorical questions or indirect statements (e.g., \u201cReally?\u201d instead of a direct claim) makes intent harder to pin down and raises disagreement."
+      },
+      {
+        "id": "h05",
+        "source_id": "pref-o3-o3_24",
+        "text": "Texts containing domain\u2010specific or highly technical terminology create disagreement due to varying domain knowledge among annotators."
+      },
+      {
+        "id": "h06",
+        "source_id": "pref-o3-o3_2",
+        "text": "Texts that blend factual claims with opinion (e.g., \u201cThe event was a disaster because no one cared\u201d) blur category boundaries and foster disagreement among annotators."
+      },
+      {
+        "id": "h07",
+        "source_id": "pref-o3-o3_1",
+        "text": "Mixed or conflicting sentiment within the same sentence or passage (positive phrases alongside negative ones) increases the chance of disagreement."
+      },
+      {
+        "id": "h08",
+        "source_id": "pref-o3-o3_10",
+        "text": "Texts discussing sensitive social or political topics (e.g., race, gender, religion) trigger more subjective judgments and hence more disagreement."
+      },
+      {
+        "id": "h09",
+        "source_id": "pref-o3-o3_33",
+        "text": "Texts that contain both positive and negative cues (mixed or ambivalent sentiment) are more likely to yield annotator disagreement."
+      },
+      {
+        "id": "h10",
+        "source_id": "pref-o3-o3_34",
+        "text": "Texts containing both positive and negative sentiment toward the same target (\u201cmixed sentiment\u201d) lead to disagreement about the overall label."
+      },
+      {
+        "id": "h11",
+        "source_id": "pref-o3-o3_14",
+        "text": "The text discusses controversial or sensitive topics (politics, religion, identity) in a nuanced way, prompting differing thresholds for what is offensive or hateful."
+      },
+      {
+        "id": "h12",
+        "source_id": "pref-o3-o3_15",
+        "text": "The text expresses mixed or ambivalent sentiment (both positive and negative cues), so annotators may disagree on the dominant tone."
+      },
+      {
+        "id": "h13",
+        "source_id": "pref-o3-o3_13",
+        "text": "The text includes figurative or metaphorical language that can be read either literally or figuratively, leading to diverging labels."
+      },
+      {
+        "id": "h14",
+        "source_id": "pref-o3-o3_26",
+        "text": "Mixed or conflicting sentiment within the same text (e.g., both praise and criticism) leads annotators to diverge in their overall interpretation."
+      },
+      {
+        "id": "h15",
+        "source_id": "pref-o3-o3_22",
+        "text": "Implicit or culturally dependent references (memes, idioms, inside jokes) rely on background knowledge that annotators may not share, resulting in disagreement."
+      },
+      {
+        "id": "h16",
+        "source_id": "pref-o3-o3_7",
+        "text": "Texts containing ambiguous or figurative language (e.g., sarcasm, irony, metaphor) are more likely to produce annotator disagreement."
+      },
+      {
+        "id": "h17",
+        "source_id": "pref-o3-o3_31",
+        "text": "The text relies heavily on cultural references, memes, or inside jokes that some annotators may understand and others may miss."
+      },
+      {
+        "id": "h18",
+        "source_id": "pref-o3-o3_27",
+        "text": "Content that blends multiple topics (e.g., politics plus humor, or personal anecdote plus news) increases labeling complexity and disagreement."
+      },
+      {
+        "id": "h19",
+        "source_id": "pref-o3-o3_29",
+        "text": "The text quotes or paraphrases another speaker without clear stance markers, making it unclear whether the author endorses or condemns the quoted content."
+      },
+      {
+        "id": "h20",
+        "source_id": "pref-o3-o3_45",
+        "text": "The text uses slang, idioms, or culturally specific references whose tone or meaning may not be universally recognized, leading annotators to interpret intent differently."
+      },
+      {
+        "id": "h21",
+        "source_id": "pref-o3-o3_3",
+        "text": "Use of niche slang, regional dialect, or unconventional spelling tends to cause annotators to interpret intent differently, raising disagreement."
+      },
+      {
+        "id": "h22",
+        "source_id": "pref-o3-o3_41",
+        "text": "Moral or ethical judgments expressed in nuanced or conditional language (\u201cmaybe\u201d, \u201cI guess\u201d, \u201ccould be\u201d) generate disagreement due to subjective interpretation."
+      },
+      {
+        "id": "h23",
+        "source_id": "pref-o3-o3_47",
+        "text": "The text portrays hypothetical or quoted speech (e.g., \u201cSome people say\u2026\u201d) where annotators may disagree on whether the author endorses or merely reports the offensive content."
+      },
+      {
+        "id": "h24",
+        "source_id": "pref-o3-o3_42",
+        "text": "The text mixes both negative and positive language toward a group (e.g., criticism followed by praise or vice versa), leaving annotators unsure of the overall stance."
+      },
+      {
+        "id": "h25",
+        "source_id": "pref-o3-o3_46",
+        "text": "The text includes mixed languages or non-standard spellings (code-switching, phonetic spellings), increasing the likelihood of misunderstanding and disagreement."
+      },
+      {
+        "id": "h26",
+        "source_id": "pref-o3-o3_11",
+        "text": "Multilingual or code-switched text (mixing two or more languages or scripts) raises interpretation difficulty, producing higher disagreement rates."
+      },
+      {
+        "id": "h27",
+        "source_id": "pref-o3-o3_39",
+        "text": "Code-switching or multilingual content: Mixing languages, dialects, or transliteration can reduce comprehension for some annotators, increasing variability in labels."
+      },
+      {
+        "id": "h28",
+        "source_id": "pref-o3-o3_17",
+        "text": "The text mixes languages, dialects, or heavy slang, so annotators\u2019 comprehension levels differ and produce inconsistent judgments."
+      },
+      {
+        "id": "h29",
+        "source_id": "pref-o3-o3_18",
+        "text": "The text uses mild profanity or potentially derogatory terms in a non-clear context (joking, reclaimed, or quoted usage), leaving uncertainty about offensiveness."
+      },
+      {
+        "id": "h30",
+        "source_id": "pref-o3-o3_49",
+        "text": "The text contains sarcasm, irony, or rhetorical questions, making it unclear whether statements are sincere or mocking."
+      },
+      {
+        "id": "h31",
+        "source_id": "pref-o3-o3_36",
+        "text": "Presence of sarcasm, irony, or dry humor increases disagreement because annotators differ in detecting the intended tone."
+      },
+      {
+        "id": "h32",
+        "source_id": "pref-o3-o3_9",
+        "text": "Texts that rely on unstated context or pronoun references (\u201che,\u201d \u201cthat,\u201d \u201cit\u201d) without clear antecedents lead to higher disagreement."
+      },
+      {
+        "id": "h33",
+        "source_id": "pref-o3-o3_4",
+        "text": "Statements containing double negatives or intricate negation (\u201cI\u2019m not unhappy with it\u201d) are more prone to conflicting labels."
+      },
+      {
+        "id": "h34",
+        "source_id": "pref-o3-o3_21",
+        "text": "Presence of sarcasm, irony, or rhetorical devices that make the author\u2019s true intent unclear increases the chance of annotator disagreement."
+      },
+      {
+        "id": "h35",
+        "source_id": "pref-o3-o3_40",
+        "text": "Highly emotional but polite wording (e.g., strong criticism without profanity) causes disagreement on whether it\u2019s harassment or merely negative opinion."
+      },
+      {
+        "id": "h36",
+        "source_id": "pref-o3-o3_30",
+        "text": "The text contains sarcasm, irony, or satire, making it hard to determine the literal intent."
+      },
+      {
+        "id": "h37",
+        "source_id": "pref-o3-o3_50",
+        "text": "The text references sensitive topics (religion, race, gender, politics) indirectly or through code words, making it hard to decide if it is hateful or benign."
+      },
+      {
+        "id": "h38",
+        "source_id": "pref-o3-o3_16",
+        "text": "Key entities or pronouns are ambiguous (unclear who \u201cthey,\u201d \u201che,\u201d \u201cit\u201d refers to), causing different interpretations of the target and meaning."
+      },
+      {
+        "id": "h39",
+        "source_id": "pref-o3-o3_12",
+        "text": "Ambiguous pronoun references or unclear entity mention (e.g., \u201che,\u201d \u201cthey,\u201d \u201cit\u201d without clear antecedents) make labels harder to agree upon."
+      },
+      {
+        "id": "h40",
+        "source_id": "pref-o3-o3_23",
+        "text": "Heavy use of slang, regional dialect, or emerging internet jargon causes uncertainty and yields more disagreement."
+      },
+      {
+        "id": "h41",
+        "source_id": "pref-o3-o3_38",
+        "text": "Ambiguous pronoun or entity references (\u201che\u201d, \u201cthey\u201d, \u201cit\u201d) create disagreement about whom the statement targets and thus its classification."
+      },
+      {
+        "id": "h42",
+        "source_id": "pref-o3-o3_5",
+        "text": "Very short or fragmentary texts that lack complete syntactic structure leave room for multiple interpretations, boosting disagreement."
+      },
+      {
+        "id": "h43",
+        "source_id": "pref-o3-o3_20",
+        "text": "Use of negations, double negatives, or complex syntax (e.g., \u201cI don\u2019t think it\u2019s not bad\u201d) confuses sentiment or stance detection, leading to divergent annotations."
+      },
+      {
+        "id": "h44",
+        "source_id": "pref-o3-o3_43",
+        "text": "The text presents complex humor, memes, or pop-culture quotes that rely on external knowledge, leading to varying judgments about offensiveness."
+      },
+      {
+        "id": "h45",
+        "source_id": "pref-o3-o3_44",
+        "text": "The text uses ambiguous or context-dependent pronouns (\u201cthey,\u201d \u201cyou,\u201d \u201cwe\u201d) without clarifying the target, causing uncertainty about whom the message addresses or criticizes."
+      },
+      {
+        "id": "h46",
+        "source_id": "pref-o3-o3_35",
+        "text": "Short, fragmentary, or context-dependent messages (single words, emojis, quotes) increase disagreement because annotators must infer missing context."
+      },
+      {
+        "id": "h47",
+        "source_id": "pref-o3-o3_19",
+        "text": "The text employs reclaimed slurs or in-group language that can be perceived as either acceptable self-reference or derogatory, depending on annotators\u2019 interpretations."
+      },
+      {
+        "id": "h48",
+        "source_id": "pref-o3-o3_25",
+        "text": "Short or fragmentary texts that lack context (e.g., single-word or single-emoji posts) leave room for multiple plausible interpretations, boosting disagreement."
+      },
+      {
+        "id": "h49",
+        "source_id": "pref-o3-o3_28",
+        "text": "The text is very short or a fragment (e.g., one-word replies, emojis), providing little context and prompting varied guesses about intent."
+      },
+      {
+        "id": "h50",
+        "source_id": "pref-o3-o3_48",
+        "text": "The text is very short or fragmentary (one- or two-word responses), providing insufficient context for clear labeling."
+      }
+    ]
+  },
+  "blocked_mappings": [
+    {
+      "dataset": "ghc-syn",
+      "versions": [
+        "v1",
+        "v4"
+      ],
+      "reason": "Identical allowed payloads do not resolve condition selection"
+    },
+    {
+      "dataset": "ghc-syn",
+      "versions": [
+        "v2",
+        "v5"
+      ],
+      "reason": "Identical allowed payloads do not resolve condition selection"
+    },
+    {
+      "dataset": "ghc-syn",
+      "versions": [
+        "v3",
+        "v6"
+      ],
+      "reason": "Identical allowed payloads do not resolve condition selection"
+    },
+    {
+      "dataset": "yelp",
+      "versions": [
+        "v1",
+        "v4"
+      ],
+      "reason": "Identical allowed payloads do not resolve condition selection"
+    },
+    {
+      "dataset": "yelp",
+      "versions": [
+        "v2",
+        "v5"
+      ],
+      "reason": "Identical allowed payloads do not resolve condition selection"
+    },
+    {
+      "dataset": "yelp",
+      "versions": [
+        "v3",
+        "v6"
+      ],
+      "reason": "v3 files missing; v6 is not an authorized substitute"
+    },
+    {
+      "dataset": "ghc-real",
+      "versions": [
+        "v13",
+        "v14"
+      ],
+      "reason": "Both required files missing"
+    },
+    {
+      "dataset": "ghc-syn",
+      "versions": [
+        "v13",
+        "v-oracle"
+      ],
+      "reason": "Synthetic condition mapping not yet approved"
+    },
+    {
+      "dataset": "yelp",
+      "versions": [
+        "v13",
+        "v-oracle"
+      ],
+      "reason": "Synthetic condition mapping not yet approved"
+    }
+  ],
+  "configuration_model_review_required": 223
+}

@@ -1,0 +1,4 @@
+hypothesis_id,source_id,hypothesis,source_order,f1,precision,recall,p_value_raw,test,n00,n01,n10,n11,significant
+h01,ref-yelp-o3-o3_3,"""Texts mentioning comments on both the food quality and the staff behavior.""",0,0.78066508596422857,0.78514749620179991,0.77944550640978649,4.4092226717939961e-270,chi2,1301,332,506,1729,True
+h02,ref-yelp-o3-o3_1,"""Texts mentioning comments on both the food quality and the waiting/service time.""",1,0.66889918740696352,0.73366505888922151,0.69371509846204327,2.5328086891848954e-154,chi2,1654,1088,153,973,True
+h03,ref-yelp-o3-o3_2,"""Texts mentioning comments on both the staff behavior and the waiting/service time.""",2,0.64797353422351067,0.75173109196811505,0.68414264221810328,5.4506307423769069e-158,chi2,1729,1213,78,848,True

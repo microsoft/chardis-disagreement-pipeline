@@ -1,0 +1,148 @@
+{
+  "dices": {
+    "corpus_rows": 991,
+    "annotators": 160,
+    "mean_annotators": 65.4752774974773,
+    "context_examples": 440,
+    "disagreements": 288,
+    "disagreement_pct": 29.061553985872855,
+    "pruned_pct": 2.210206641996454,
+    "prevalence_pct": {
+      "0.5": 67.10393541876893,
+      "0.6": 59.83854692230071,
+      "0.7": 51.160443995963675,
+      "0.8": 42.078708375378405,
+      "0.9": 29.061553985872855,
+      "0.95": 19.273461150353178
+    },
+    "label_totals": {
+      "Not Safe": 15977,
+      "Safe": 48909
+    },
+    "train_rows": 594,
+    "validation_rows": 198,
+    "test_rows": 199
+  },
+  "ghc-real": {
+    "corpus_rows": 10000,
+    "annotators": 18,
+    "mean_annotators": 3.1277,
+    "context_examples": 1890,
+    "disagreements": 2320,
+    "disagreement_pct": 23.2,
+    "pruned_pct": 2.2625985601645526,
+    "prevalence_pct": {
+      "0.5": 26.04,
+      "0.6": 26.03,
+      "0.7": 26.03,
+      "0.8": 25.87,
+      "0.9": 23.2,
+      "0.95": 1.11
+    },
+    "label_totals": {
+      "Hate": 4050,
+      "Not Hate": 27227
+    },
+    "train_rows": 6000,
+    "validation_rows": 2000,
+    "test_rows": 2000
+  },
+  "ghc-syn": {
+    "corpus_rows": 5000,
+    "annotators": 2,
+    "mean_annotators": 2.0,
+    "context_examples": 1087,
+    "disagreements": 855,
+    "disagreement_pct": 17.1,
+    "pruned_pct": 0.0,
+    "prevalence_pct": {
+      "0.5": 17.1,
+      "0.6": 17.1,
+      "0.7": 17.1,
+      "0.8": 17.1,
+      "0.9": 17.1,
+      "0.95": 17.1
+    },
+    "label_totals": {
+      "hate": 5421,
+      "not hate": 4579
+    },
+    "train_rows": 3000,
+    "validation_rows": 1000,
+    "test_rows": 1000
+  },
+  "md": {
+    "corpus_rows": 6592,
+    "annotators": 85,
+    "mean_annotators": 3.1993325242718447,
+    "context_examples": 148,
+    "disagreements": 1772,
+    "disagreement_pct": 26.881067961165048,
+    "pruned_pct": 52.93599899409028,
+    "prevalence_pct": {
+      "0.5": 40.94356796116505,
+      "0.6": 40.94356796116505,
+      "0.7": 40.94356796116505,
+      "0.8": 37.25728155339806,
+      "0.9": 26.881067961165048,
+      "0.95": 13.015776699029127
+    },
+    "label_totals": {
+      "Not Offensive": 14101,
+      "Offensive": 6989
+    },
+    "train_rows": 3954,
+    "validation_rows": 1319,
+    "test_rows": 1319
+  },
+  "pref": {
+    "corpus_rows": 10461,
+    "annotators": 138,
+    "mean_annotators": 2.0,
+    "context_examples": 113,
+    "disagreements": 5242,
+    "disagreement_pct": 50.109932128859576,
+    "pruned_pct": 63.37275848912629,
+    "prevalence_pct": {
+      "0.5": 50.109932128859576,
+      "0.6": 50.109932128859576,
+      "0.7": 50.109932128859576,
+      "0.8": 50.109932128859576,
+      "0.9": 50.109932128859576,
+      "0.95": 50.109932128859576
+    },
+    "label_totals": {
+      "A": 5638,
+      "B": 9730,
+      "Tie": 5554
+    },
+    "train_rows": 6276,
+    "validation_rows": 2092,
+    "test_rows": 2093
+  },
+  "yelp": {
+    "corpus_rows": 19341,
+    "annotators": 2,
+    "mean_annotators": 2.0,
+    "context_examples": 558,
+    "disagreements": 10305,
+    "disagreement_pct": 53.2805956258725,
+    "pruned_pct": 0.0,
+    "prevalence_pct": {
+      "0.5": 53.2805956258725,
+      "0.6": 53.2805956258725,
+      "0.7": 53.2805956258725,
+      "0.8": 53.2805956258725,
+      "0.9": 53.2805956258725,
+      "0.95": 53.2805956258725
+    },
+    "label_totals": {
+      "food": 25897,
+      "staff": 10709,
+      "time": 2076
+    },
+    "train_rows": 11604,
+    "validation_rows": 3868,
+    "test_rows": 3869
+  }
+}

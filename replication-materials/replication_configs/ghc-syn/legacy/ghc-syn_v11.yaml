@@ -1,0 +1,260 @@
+rationales:
+  model:
+    description: The deployment name of the model to use.
+    value: ''
+  api_version:
+    description: Legacy compatibility field. Not sent by current adapters.
+    value: 2025-01-01-preview
+  temperature:
+    description: Controls randomness. Lowering the temperature means that the model
+      will produce more repetitive and deterministic responses (default = 1.0).
+    value: 1.0
+  max_tokens:
+    description: Set a limit on the number of tokens per model response. Any non-positive
+      value will not be passed to the API (default = -1).
+    value: -1
+  max_completion_tokens:
+    description: Set a limit on the number of tokens per model response. Any non-positive
+      value will not be passed to the API (default = -1).
+    value: -1
+  top_p:
+    description: Similar to temperature, this controls randomness but uses a different
+      method (default = 1.0).
+    value: 1.0
+  frequency_penalty:
+    description: Reduce the chance of repeating a token proportionally based on how
+      often it has appeared in the text so far (default = 0.0).
+    value: 0.0
+  presence_penalty:
+    description: Reduce the chance of repeating any token that has appeared in the
+      text at all so far (default = 0.0).
+    value: 0.0
+  logprobs:
+    description: Whether to return logprobs for the generated tokens (default = False).
+    value: false
+  top_logprobs:
+    description: The number of top logprobs to return if logprobs is enabled (default
+      = 1).
+    value: 1
+  min_retry_delay:
+    description: The minimum delay between retries in seconds (default = 1.0).
+    value: 1.0
+  max_retry_delay:
+    description: The maximum delay between retries in seconds (default = 30.0).
+    value: 30.0
+  max_retries:
+    description: The maximum number of retries for transient errors. Any non-positive
+      value means no retries (default = 5).
+    value: 5
+  stream:
+    description: Whether to use streaming responses from the API (default = False).
+    value: false
+  with_raw_response:
+    description: Whether to return the raw response from the API (default = False).
+    value: false
+  api_key_env:
+    value: MODEL_API_KEY
+  auth_mode:
+    value: api-key
+  credential_endpoint:
+    value: ''
+  credential_provider:
+    value: compatible
+  endpoint:
+    description: The API endpoint to use.
+    value: ''
+  key:
+    description: The API key to use when making model API calls.
+    value: ''
+  message_role:
+    value: developer
+  provider:
+    description: Provider adapter for a compatible hosted service.
+    value: compatible
+  request_timeout:
+    value: 120.0
+  scope:
+    description: Legacy compatibility field. Current adapters do not acquire OAuth
+      tokens.
+    value: ''
+synthesizer:
+  model:
+    description: The deployment name of the model to use.
+    value: ''
+  api_version:
+    description: Legacy compatibility field. Not sent by current adapters.
+    value: 2025-01-01-preview
+  temperature:
+    description: Controls randomness. Lowering the temperature means that the model
+      will produce more repetitive and deterministic responses (default = 1.0).
+    value: 1.0
+  max_tokens:
+    description: Set a limit on the number of tokens per model response. Any non-positive
+      value will not be passed to the API (default = -1).
+    value: -1
+  max_completion_tokens:
+    description: Set a limit on the number of tokens per model response. Any non-positive
+      value will not be passed to the API (default = -1).
+    value: -1
+  top_p:
+    description: Similar to temperature, this controls randomness but uses a different
+      method (default = 1.0).
+    value: 1.0
+  frequency_penalty:
+    description: Reduce the chance of repeating a token proportionally based on how
+      often it has appeared in the text so far (default = 0.0).
+    value: 0.0
+  presence_penalty:
+    description: Reduce the chance of repeating any token that has appeared in the
+      text at all so far (default = 0.0).
+    value: 0.0
+  logprobs:
+    description: Whether to return logprobs for the generated tokens (default = False).
+    value: false
+  top_logprobs:
+    description: The number of top logprobs to return if logprobs is enabled (default
+      = 1).
+    value: 1
+  min_retry_delay:
+    description: The minimum delay between retries in seconds (default = 1.0).
+    value: 1.0
+  max_retry_delay:
+    description: The maximum delay between retries in seconds (default = 30.0).
+    value: 30.0
+  max_retries:
+    description: The maximum number of retries for transient errors. Any non-positive
+      value means no retries (default = 5).
+    value: 5
+  stream:
+    description: Whether to use streaming responses from the API (default = False).
+    value: false
+  with_raw_response:
+    description: Whether to return the raw response from the API (default = False).
+    value: false
+  api_key_env:
+    value: MODEL_API_KEY
+  auth_mode:
+    value: api-key
+  credential_endpoint:
+    value: ''
+  credential_provider:
+    value: compatible
+  endpoint:
+    description: The API endpoint to use.
+    value: ''
+  key:
+    description: The API key to use when making model API calls.
+    value: ''
+  message_role:
+    value: developer
+  provider:
+    description: Provider adapter for a compatible hosted service.
+    value: compatible
+  request_timeout:
+    value: 120.0
+  scope:
+    description: Legacy compatibility field. Current adapters do not acquire OAuth
+      tokens.
+    value: ''
+disagreement_explainer:
+  data_path:
+    description: Original experiment dataset is not included in this package.
+    value: ''
+  data_filename:
+    description: CSV filename inside data_path. Ignored if data_path already points
+      at a file.
+    value: annotated_data.csv
+  guidelines_path:
+    description: Directory (or full path) of the annotation guidelines markdown.
+    value: ../replication_prompts/ghc-syn/
+  guidelines_filename:
+    description: Markdown filename inside guidelines_path. Ignored if guidelines_path
+      already points at a file.
+    value: prompt.md
+  examples_path:
+    description: The path to in-context examples.
+    value: ''
+  output_path:
+    description: Directory where preprocessing artifacts, raw outputs, metadata.json,
+      and final disagreement_explanations.json are written. Created if missing.
+    value: ../pipeline_run_outputs/ghc-syn/legacy/ghc-syn_v11/
+  example_size:
+    description: The number of in-context examples to provide.
+    value: 8
+  train_on_test:
+    description: Whether to train on test data.
+    value: false
+  more_than_2:
+    description: Whether there are more than 2 annotators.
+    value: false
+  num_annotations:
+    description: The number of annotations to process from the input data. Use -1
+      to process all data (default = -1).
+    value: -1
+  random_state:
+    description: Random seed for sampling.
+    value: 42
+  num_threads:
+    description: The number of threads to use for parallel processing (default = 10).
+    value: 10
+  project_name:
+    description: Project name (set by run_disagreement CLI).
+    value: ghc-syn
+  version:
+    description: Version label (set by run_disagreement CLI).
+    value: v11
+  version_note:
+    description: Free-text note describing this saved version.
+    value: 'v11 from v8: top 9 from validation; annotate all top-9 hypotheses; heldout-only
+      re-eval; train logits for top-k subsets (k=3,6,9).'
+evaluation:
+  model:
+    description: ''
+    value: ''
+  num_iterations:
+    description: ''
+    value: 1
+  api_version:
+    description: Legacy compatibility field. Not sent by current adapters.
+    value: 2025-04-01-preview
+  num_threads:
+    description: ''
+    value: 70
+  concepts_per_batch:
+    description: ''
+    value: 10
+  top_hypotheses:
+    description: ''
+    value: 9
+  prompt_reasoning:
+    description: If false, disables per-concept reasoning in annotation prompt.
+    value: false
+  top_ks:
+    description: 'Held-out logits sweep: list of k values for top-k feature subsets
+      (in addition to all_significant and all_significant_corrected). Effective k
+      caps at the count of significant validation hypotheses.'
+    value:
+    - 3
+    - 6
+    - 9
+  api_key_env:
+    value: MODEL_API_KEY
+  auth_mode:
+    value: api-key
+  credential_endpoint:
+    value: ''
+  credential_provider:
+    value: compatible
+  endpoint:
+    description: ''
+    value: ''
+  message_role:
+    value: developer
+  provider:
+    value: compatible
+  request_timeout:
+    value: 120.0
+  scope:
+    description: Legacy compatibility field. Current adapters do not acquire OAuth
+      tokens.
+    value: ''

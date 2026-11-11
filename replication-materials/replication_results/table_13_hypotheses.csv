@@ -1,0 +1,8 @@
+dataset,method,generator,judge,split,rank,hypothesis_id,hypothesis,recomputed_f1,p_value_raw
+pref,hypothesaes,o3,o3,validation,1,h01,contains a code snippet enclosed within triple backticks ```...```,0.24309905024406825,0.01840007426297223
+pref,hypothesaes,o3,o3,validation,2,h02,includes a fenced code block delimited by triple backticks ```,0.24309905024406825,0.01840007426297223
+pref,hypothesaes,o3,o3,validation,3,h03,contains triple backtick code blocks (```),0.24309905024406825,0.01840007426297223
+pref,hypothesaes,o3,o3,validation,4,h04,includes multi-line programming code snippets,0.24147011796193035,0.010175265434678402
+pref,hypothesaes,o3,o3,validation,5,h05,input requests a recommendation for the best (or a good) consumer product or brand,0.2329208324236271,0.029046698753105032
+pref,hypothesaes,o3,o3,validation,6,h06,"explains advanced mathematics or computer-science theories/algorithms (e.g., Monte Carlo integration, Johnson–Lindenstrauss lemma, topos theory, language-model sampling methods)",0.22423108738156114,0.012491141845410093
+pref,hypothesaes,o3,o3,validation,7,h07,"contains the substring 'SQL' (e.g., SQL, MySQL, PostgreSQL, SQLite, MariaDB)",0.18480666202873847,0.031772072135645424

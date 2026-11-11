@@ -1,0 +1,4090 @@
+{
+  "source_paper": "FINAL-PAPER.pdf",
+  "paper_sha256": "937dcb620d2a37d33e0745d864f068b6fc7d514843abf3296c4b159d4bd09573",
+  "alpha": 0.05,
+  "cells": [
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 16,
+      "status": "supported",
+      "decimals": 0,
+      "alpha": 0.05
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.58,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.06,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "dices",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 9,
+      "status": "supported",
+      "decimals": 0,
+      "alpha": 0.05
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "dices",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.65,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "dices",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.06,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "dices",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 4,
+      "status": "supported",
+      "decimals": 0,
+      "alpha": 0.05
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "dices",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.62,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "dices",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.07,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 41,
+      "status": "supported",
+      "decimals": 0,
+      "alpha": 0.05
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.71,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "ghc-real",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 27,
+      "status": "supported",
+      "decimals": 0,
+      "alpha": 0.05
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "ghc-real",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.62,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "ghc-real",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "ghc-real",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 33,
+      "status": "supported",
+      "decimals": 0,
+      "alpha": 0.05
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "ghc-real",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.48,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "ghc-real",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 32,
+      "status": "supported",
+      "decimals": 0,
+      "alpha": 0.05
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.63,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "md",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 25,
+      "status": "supported",
+      "decimals": 0,
+      "alpha": 0.05
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "md",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.5,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "md",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "md",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 28,
+      "status": "supported",
+      "decimals": 0,
+      "alpha": 0.05
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "md",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.57,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "md",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 20,
+      "status": "supported",
+      "decimals": 0,
+      "alpha": 0.05
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.51,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "pref",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 7,
+      "status": "supported",
+      "decimals": 0,
+      "alpha": 0.05
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "pref",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.32,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "pref",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.01,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "pref",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 0,
+      "status": "supported",
+      "decimals": 0,
+      "alpha": 0.05
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "pref",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "pref",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Heldout predictions are excluded by the agreed scope"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "md",
+      "method": "random",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.5,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Baseline predictions are not present in the two allowed files"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "md",
+      "method": "modernbert",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.61,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Baseline predictions are not present in the two allowed files"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "md",
+      "method": "modernbert",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.03,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Baseline predictions are not present in the two allowed files"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "pref",
+      "method": "random",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.5,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Baseline predictions are not present in the two allowed files"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "pref",
+      "method": "modernbert",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.6,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Baseline predictions are not present in the two allowed files"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "pref",
+      "method": "modernbert",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Baseline predictions are not present in the two allowed files"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "dices",
+      "method": "random",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.5,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Baseline predictions are not present in the two allowed files"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "dices",
+      "method": "modernbert",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.69,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Baseline predictions are not present in the two allowed files"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "dices",
+      "method": "modernbert",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.07,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Baseline predictions are not present in the two allowed files"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "ghc-real",
+      "method": "random",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.5,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Baseline predictions are not present in the two allowed files"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "ghc-real",
+      "method": "modernbert",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.7,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Baseline predictions are not present in the two allowed files"
+    },
+    {
+      "paper_item": "Table 3",
+      "page": 8,
+      "dataset": "ghc-real",
+      "method": "modernbert",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Baseline predictions are not present in the two allowed files"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "annotators",
+      "expected": 16,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "mean_annotators",
+      "expected": 3.13,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "train_rows",
+      "expected": 6000,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "validation_rows",
+      "expected": 2000,
+      "status": "supported",
+      "decimals": 0,
+      "reason": ""
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "test_rows",
+      "expected": 2000,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "context_examples",
+      "expected": 1890,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "annotators",
+      "expected": 160,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "mean_annotators",
+      "expected": 65.48,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "train_rows",
+      "expected": 594,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "validation_rows",
+      "expected": 198,
+      "status": "supported",
+      "decimals": 0,
+      "reason": ""
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "test_rows",
+      "expected": 199,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "context_examples",
+      "expected": 440,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "annotators",
+      "expected": 2,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "mean_annotators",
+      "expected": 2.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "train_rows",
+      "expected": 3000,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "validation_rows",
+      "expected": 1000,
+      "status": "blocked",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "test_rows",
+      "expected": 1000,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "context_examples",
+      "expected": 1087,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "annotators",
+      "expected": 85,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "mean_annotators",
+      "expected": 3.2,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "train_rows",
+      "expected": 3954,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "validation_rows",
+      "expected": 1319,
+      "status": "supported",
+      "decimals": 0,
+      "reason": ""
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "test_rows",
+      "expected": 1319,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "context_examples",
+      "expected": 148,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "annotators",
+      "expected": 138,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "mean_annotators",
+      "expected": 2.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "train_rows",
+      "expected": 6276,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "validation_rows",
+      "expected": 2092,
+      "status": "supported",
+      "decimals": 0,
+      "reason": ""
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "test_rows",
+      "expected": 2093,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "context_examples",
+      "expected": 113,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "annotators",
+      "expected": 2,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "mean_annotators",
+      "expected": 2.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "train_rows",
+      "expected": 11604,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "validation_rows",
+      "expected": 3868,
+      "status": "blocked",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "test_rows",
+      "expected": 3869,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 5",
+      "page": 26,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "context_examples",
+      "expected": 558,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Full corpus evidence or resolved synthetic mapping unavailable"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "corpus_rows",
+      "expected": 10000,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "disagreements",
+      "expected": 2320,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "disagreement_pct",
+      "expected": 23.2,
+      "status": "unsupported",
+      "decimals": 1,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "pruned_pct",
+      "expected": 2.3,
+      "status": "unsupported",
+      "decimals": 1,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "corpus_rows",
+      "expected": 990,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "disagreements",
+      "expected": 288,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "disagreement_pct",
+      "expected": 29.1,
+      "status": "unsupported",
+      "decimals": 1,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "pruned_pct",
+      "expected": 2.2,
+      "status": "unsupported",
+      "decimals": 1,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "corpus_rows",
+      "expected": 5000,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "disagreements",
+      "expected": 855,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "disagreement_pct",
+      "expected": 17.1,
+      "status": "unsupported",
+      "decimals": 1,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "pruned_pct",
+      "expected": 0.0,
+      "status": "unsupported",
+      "decimals": 1,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "corpus_rows",
+      "expected": 6592,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "disagreements",
+      "expected": 1772,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "disagreement_pct",
+      "expected": 26.9,
+      "status": "unsupported",
+      "decimals": 1,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "pruned_pct",
+      "expected": 52.9,
+      "status": "unsupported",
+      "decimals": 1,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "corpus_rows",
+      "expected": 10461,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "disagreements",
+      "expected": 5242,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "disagreement_pct",
+      "expected": 50.1,
+      "status": "unsupported",
+      "decimals": 1,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "pruned_pct",
+      "expected": 63.4,
+      "status": "unsupported",
+      "decimals": 1,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "corpus_rows",
+      "expected": 19341,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "disagreements",
+      "expected": 10305,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "disagreement_pct",
+      "expected": 53.3,
+      "status": "unsupported",
+      "decimals": 1,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 6",
+      "page": 26,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "pruned_pct",
+      "expected": 0.0,
+      "status": "unsupported",
+      "decimals": 1,
+      "reason": "Validation subset cannot establish full corpus or pruning statistics"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 67.1,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.5,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 59.8,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.6,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 51.2,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.7,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 42.1,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.8,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 29.1,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.9,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 19.3,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.95,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 26.0,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.5,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 26.0,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.6,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 26.0,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.7,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 25.9,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.8,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 23.2,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.9,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 1.1,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.95,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 40.9,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.5,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 40.9,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.6,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 40.9,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.7,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 37.3,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.8,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 26.9,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.9,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 7",
+      "page": 28,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 13.0,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.95,
+      "reason": "Full corpus labels are outside the authorized sources"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 29.1,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.9,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "breadth",
+      "expected": 16,
+      "status": "supported",
+      "decimals": 0,
+      "entropy_threshold": 0.9,
+      "reason": ""
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.58,
+      "status": "unsupported",
+      "decimals": 3,
+      "entropy_threshold": 0.9,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_low",
+      "expected": 0.52,
+      "status": "unsupported",
+      "decimals": 3,
+      "entropy_threshold": 0.9,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_high",
+      "expected": 0.64,
+      "status": "unsupported",
+      "decimals": 3,
+      "entropy_threshold": 0.9,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 42.1,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.8,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "breadth",
+      "expected": 16,
+      "status": "unsupported",
+      "decimals": 0,
+      "entropy_threshold": 0.8,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.653,
+      "status": "unsupported",
+      "decimals": 3,
+      "entropy_threshold": 0.8,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_low",
+      "expected": 0.581,
+      "status": "unsupported",
+      "decimals": 3,
+      "entropy_threshold": 0.8,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_high",
+      "expected": 0.719,
+      "status": "unsupported",
+      "decimals": 3,
+      "entropy_threshold": 0.8,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "corpus",
+      "metric": "prevalence_pct",
+      "expected": 51.2,
+      "status": "unsupported",
+      "decimals": 1,
+      "entropy_threshold": 0.7,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "breadth",
+      "expected": 18,
+      "status": "unsupported",
+      "decimals": 0,
+      "entropy_threshold": 0.7,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.814,
+      "status": "unsupported",
+      "decimals": 3,
+      "entropy_threshold": 0.7,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_low",
+      "expected": 0.758,
+      "status": "unsupported",
+      "decimals": 3,
+      "entropy_threshold": 0.7,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 8",
+      "page": 28,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_high",
+      "expected": 0.864,
+      "status": "unsupported",
+      "decimals": 3,
+      "entropy_threshold": 0.7,
+      "reason": "Alternative entropy runs or full corpus and test data unavailable"
+    },
+    {
+      "paper_item": "Table 9",
+      "page": 29,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "human_cost",
+      "expected": 1815,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "The allowed CSVs contain no timing or token usage evidence"
+    },
+    {
+      "paper_item": "Table 9",
+      "page": 29,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "model_cost",
+      "expected": 1.27,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "The allowed CSVs contain no timing or token usage evidence"
+    },
+    {
+      "paper_item": "Table 9",
+      "page": 29,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "human_cost",
+      "expected": 3156,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "The allowed CSVs contain no timing or token usage evidence"
+    },
+    {
+      "paper_item": "Table 9",
+      "page": 29,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "model_cost",
+      "expected": 1.7,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "The allowed CSVs contain no timing or token usage evidence"
+    },
+    {
+      "paper_item": "Table 9",
+      "page": 29,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "human_cost",
+      "expected": 931,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "The allowed CSVs contain no timing or token usage evidence"
+    },
+    {
+      "paper_item": "Table 9",
+      "page": 29,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "model_cost",
+      "expected": 0.73,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "The allowed CSVs contain no timing or token usage evidence"
+    },
+    {
+      "paper_item": "Table 9",
+      "page": 29,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "human_cost",
+      "expected": 247,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "The allowed CSVs contain no timing or token usage evidence"
+    },
+    {
+      "paper_item": "Table 9",
+      "page": 29,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "model_cost",
+      "expected": 0.16,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "The allowed CSVs contain no timing or token usage evidence"
+    },
+    {
+      "paper_item": "Table 9",
+      "page": 29,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "human_cost",
+      "expected": 188,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "The allowed CSVs contain no timing or token usage evidence"
+    },
+    {
+      "paper_item": "Table 9",
+      "page": 29,
+      "dataset": "pref",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "model_cost",
+      "expected": 0.2,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "The allowed CSVs contain no timing or token usage evidence"
+    },
+    {
+      "paper_item": "Table 9",
+      "page": 29,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "human_cost",
+      "expected": 734,
+      "status": "unsupported",
+      "decimals": 0,
+      "reason": "The allowed CSVs contain no timing or token usage evidence"
+    },
+    {
+      "paper_item": "Table 9",
+      "page": 29,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "model_cost",
+      "expected": 0.96,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "The allowed CSVs contain no timing or token usage evidence"
+    },
+    {
+      "paper_item": "Table 1",
+      "page": 7,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "hypothesis_f1",
+      "expected": 0.63,
+      "status": "blocked",
+      "decimals": 2,
+      "row": 1,
+      "reason": "Identical version pairs require approved condition mapping"
+    },
+    {
+      "paper_item": "Table 1",
+      "page": 7,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "hypothesis_f1",
+      "expected": 0.52,
+      "status": "blocked",
+      "decimals": 2,
+      "row": 2,
+      "reason": "Identical version pairs require approved condition mapping"
+    },
+    {
+      "paper_item": "Table 1",
+      "page": 7,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "hypothesis_f1",
+      "expected": 0.66,
+      "status": "blocked",
+      "decimals": 2,
+      "row": 3,
+      "reason": "Identical version pairs require approved condition mapping"
+    },
+    {
+      "paper_item": "Table 1",
+      "page": 7,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "hypothesis_f1",
+      "expected": 0.74,
+      "status": "blocked",
+      "decimals": 2,
+      "row": 1,
+      "reason": "Identical version pairs require approved condition mapping"
+    },
+    {
+      "paper_item": "Table 1",
+      "page": 7,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "hypothesis_f1",
+      "expected": 0.63,
+      "status": "blocked",
+      "decimals": 2,
+      "row": 2,
+      "reason": "Identical version pairs require approved condition mapping"
+    },
+    {
+      "paper_item": "Table 1",
+      "page": 7,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "validation",
+      "metric": "hypothesis_f1",
+      "expected": 0.54,
+      "status": "blocked",
+      "decimals": 2,
+      "row": 3,
+      "reason": "Identical version pairs require approved condition mapping"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "oracle",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 1.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "oracle",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.83,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "oracle",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.01,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 0.67,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.79,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.01,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 0.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.56,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 1.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.52,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "oracle",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 1.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "oracle",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.62,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "oracle",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 0.67,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.49,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.03,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 0.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.46,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 0.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.32,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.03,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "oracle",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 1.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "oracle",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.83,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "oracle",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.01,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 0.67,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.83,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.01,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 0.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.7,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.01,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 1.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.52,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "yelp",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "oracle",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 1.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "oracle",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.62,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "oracle",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.02,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 0.67,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.65,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.04,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 0.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.49,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.03,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "manual",
+      "metric": "semantic_recall",
+      "expected": 0.0,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "macro_f1",
+      "expected": 0.48,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    },
+    {
+      "paper_item": "Table 2",
+      "page": 8,
+      "dataset": "ghc-syn",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "deepseek-r1",
+      "split": "test",
+      "metric": "ci_half_width",
+      "expected": 0.03,
+      "status": "unsupported",
+      "decimals": 2,
+      "reason": "Requires test data, another judge, or manual semantic judgments"
+    }
+  ],
+  "hypothesis_lists": [
+    {
+      "paper_item": "Table 13",
+      "page": 31,
+      "dataset": "pref",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "pref/hypothesaes/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "significant",
+      "limit": null,
+      "rows": [
+        {
+          "rank": 1,
+          "hypothesis_id": "h01",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 2,
+          "hypothesis_id": "h02",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 3,
+          "hypothesis_id": "h03",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 4,
+          "hypothesis_id": "h04",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 5,
+          "hypothesis_id": "h05",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 6,
+          "hypothesis_id": "h06",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 7,
+          "hypothesis_id": "h07",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        }
+      ]
+    },
+    {
+      "paper_item": "Table 14",
+      "page": 32,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "ghc-real/chardis/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "top",
+      "limit": 3,
+      "rows": [
+        {
+          "rank": 1,
+          "hypothesis_id": "h01",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 2,
+          "hypothesis_id": "h02",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Texts where hostility targets a collective entity not clearly tied to a protected characteristic, creating ambiguity about hate relevance."
+        },
+        {
+          "rank": 3,
+          "hypothesis_id": "h03",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        }
+      ]
+    },
+    {
+      "paper_item": "Table 14",
+      "page": 32,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "deepseek-r1",
+      "judge": "o3",
+      "status": "blocked",
+      "expected_count": 3,
+      "reason": "Required v13 CSV pair is missing"
+    },
+    {
+      "paper_item": "Table 14",
+      "page": 32,
+      "dataset": "ghc-real",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "ghc-real/hypothesaes/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "top",
+      "limit": 3,
+      "rows": [
+        {
+          "rank": 1,
+          "hypothesis_id": "h01",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 2,
+          "hypothesis_id": "h02",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 3,
+          "hypothesis_id": "h03",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Mentions Islam/Muslims (e.g., \u201cIslam,\u201d \u201cIslamic,\u201d \u201cMuslim\u201d)."
+        }
+      ]
+    },
+    {
+      "paper_item": "Table 14",
+      "page": 32,
+      "dataset": "ghc-real",
+      "method": "hypothesaes",
+      "generator": "deepseek-r1",
+      "judge": "o3",
+      "status": "blocked",
+      "expected_count": 3,
+      "reason": "Required v14 CSV pair is missing"
+    },
+    {
+      "paper_item": "Table 15",
+      "page": 33,
+      "dataset": "ghc-real",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "ghc-real/chardis/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "top",
+      "limit": 20,
+      "rows": [
+        {
+          "rank": 1,
+          "hypothesis_id": "h01",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 2,
+          "hypothesis_id": "h02",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 3,
+          "hypothesis_id": "h03",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 4,
+          "hypothesis_id": "h04",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 5,
+          "hypothesis_id": "h05",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 6,
+          "hypothesis_id": "h06",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 7,
+          "hypothesis_id": "h07",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 8,
+          "hypothesis_id": "h08",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 9,
+          "hypothesis_id": "h09",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 10,
+          "hypothesis_id": "h10",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 11,
+          "hypothesis_id": "h11",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 12,
+          "hypothesis_id": "h12",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 13,
+          "hypothesis_id": "h13",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 14,
+          "hypothesis_id": "h14",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 15,
+          "hypothesis_id": "h15",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 16,
+          "hypothesis_id": "h16",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 17,
+          "hypothesis_id": "h17",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 18,
+          "hypothesis_id": "h18",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 19,
+          "hypothesis_id": "h19",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 20,
+          "hypothesis_id": "h20",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        }
+      ]
+    },
+    {
+      "paper_item": "Table 16",
+      "page": 34,
+      "dataset": "ghc-real",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "ghc-real/hypothesaes/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "top",
+      "limit": 20,
+      "rows": [
+        {
+          "rank": 1,
+          "hypothesis_id": "h01",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 2,
+          "hypothesis_id": "h02",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 3,
+          "hypothesis_id": "h03",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Mentions Islam/Muslims (e.g., \u2018Islam,\u2019 \u2018Islamic,\u2019 \u2018muslim\u2019)."
+        },
+        {
+          "rank": 4,
+          "hypothesis_id": "h04",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 5,
+          "hypothesis_id": "h05",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Contains a word that explicitly refers to women or female identity (e.g., \u2018woman,\u2019 \u2018women,\u2019 \u2018daughters,\u2019 \u2018burka\u2019)."
+        },
+        {
+          "rank": 6,
+          "hypothesis_id": "h06",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 7,
+          "hypothesis_id": "h07",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Mentions a U.S. President (surname or the words \u2018President\u2019 or \u2018POTUS\u2019)."
+        },
+        {
+          "rank": 8,
+          "hypothesis_id": "h08",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 9,
+          "hypothesis_id": "h09",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 10,
+          "hypothesis_id": "h10",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 11,
+          "hypothesis_id": "h11",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 12,
+          "hypothesis_id": "h12",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 13,
+          "hypothesis_id": "h13",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 14,
+          "hypothesis_id": "h14",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 15,
+          "hypothesis_id": "h15",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 16,
+          "hypothesis_id": "h16",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 17,
+          "hypothesis_id": "h17",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 18,
+          "hypothesis_id": "h18",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 19,
+          "hypothesis_id": "h19",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 20,
+          "hypothesis_id": "h20",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Message is written entirely in uppercase letters."
+        }
+      ]
+    },
+    {
+      "paper_item": "Table 16",
+      "page": 34,
+      "dataset": "ghc-real",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "ghc-real/hypogenic/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "top",
+      "limit": 20,
+      "rows": [
+        {
+          "rank": 1,
+          "hypothesis_id": "h01",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 2,
+          "hypothesis_id": "h02",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 3,
+          "hypothesis_id": "h03",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Borderline or context-dependent offensive language (e.g., mild profanity, reclaimed slurs) often leads to uncertainty about whether the content violates guidelines."
+        },
+        {
+          "rank": 4,
+          "hypothesis_id": "h04",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Texts containing mild, borderline, or context-dependent profanity (e.g., reclaimed slurs, joking insults) lead to higher disagreement."
+        },
+        {
+          "rank": 5,
+          "hypothesis_id": "h05",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 6,
+          "hypothesis_id": "h06",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Texts addressing controversial or polarizing topics (politics, religion, identity issues) tend to show higher disagree- ment."
+        },
+        {
+          "rank": 7,
+          "hypothesis_id": "h07",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Texts discussing morally charged or sensitive topics (e.g., politics, religion, social justice) trigger higher disagree- ment."
+        },
+        {
+          "rank": 8,
+          "hypothesis_id": "h08",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Figurative or metaphorical language: when authors use metaphors or idioms, the literal meaning diverges from the intended meaning."
+        },
+        {
+          "rank": 9,
+          "hypothesis_id": "h09",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 10,
+          "hypothesis_id": "h10",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 11,
+          "hypothesis_id": "h11",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Texts containing sarcasm without clear markers (e.g., no emojis, no quotation marks) lead to more disagreement."
+        },
+        {
+          "rank": 12,
+          "hypothesis_id": "h12",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Texts that contain sarcasm, irony, or humor cues without explicit markers are more likely to yield annotator disagreement."
+        },
+        {
+          "rank": 13,
+          "hypothesis_id": "h13",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Long, multi-clause sentences with complex syntax increase disagreement because different annotators may focus on different parts."
+        },
+        {
+          "rank": 14,
+          "hypothesis_id": "h14",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Texts that contain ambiguous or metaphoric language (e.g., figurative expressions, sarcasm, irony) are more likely to produce disagreement."
+        },
+        {
+          "rank": 15,
+          "hypothesis_id": "h15",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Texts that contain sarcasm, irony, or humor, making the author\u2019s true intent ambiguous, are more likely to trigger disagreement."
+        },
+        {
+          "rank": 16,
+          "hypothesis_id": "h16",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 17,
+          "hypothesis_id": "h17",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 18,
+          "hypothesis_id": "h18",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Negation or double negatives: sentences containing negations (e.g., \u201cI don\u2019t dislike it\u201d) can be hard to parse."
+        },
+        {
+          "rank": 19,
+          "hypothesis_id": "h19",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Texts that use negations or double negatives (\u201cnot unhappy,\u201d \u201cdidn\u2019t dislike\u201d) cause disagreement since annotators may differ in how they parse logical sentiment."
+        },
+        {
+          "rank": 20,
+          "hypothesis_id": "h20",
+          "mapping_basis": "manually inspected editorial shortening; source wording retained",
+          "paper_wording": "Presence of sarcasm or irony: texts that contain sarcastic remarks, irony, or subtle humor are more likely to confuse annotators."
+        }
+      ]
+    },
+    {
+      "paper_item": "Table 17",
+      "page": 35,
+      "dataset": "dices",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "dices/chardis/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "significant",
+      "limit": null,
+      "rows": [
+        {
+          "rank": 1,
+          "hypothesis_id": "h01",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 2,
+          "hypothesis_id": "h02",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 3,
+          "hypothesis_id": "h03",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 4,
+          "hypothesis_id": "h04",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 5,
+          "hypothesis_id": "h05",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 6,
+          "hypothesis_id": "h06",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 7,
+          "hypothesis_id": "h07",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 8,
+          "hypothesis_id": "h08",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 9,
+          "hypothesis_id": "h09",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 10,
+          "hypothesis_id": "h10",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 11,
+          "hypothesis_id": "h11",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 12,
+          "hypothesis_id": "h12",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 13,
+          "hypothesis_id": "h13",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 14,
+          "hypothesis_id": "h14",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 15,
+          "hypothesis_id": "h15",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 16,
+          "hypothesis_id": "h16",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        }
+      ]
+    },
+    {
+      "paper_item": "Table 17",
+      "page": 35,
+      "dataset": "dices",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "dices/hypothesaes/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "significant",
+      "limit": null,
+      "rows": [
+        {
+          "rank": 1,
+          "hypothesis_id": "h01",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 2,
+          "hypothesis_id": "h02",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 3,
+          "hypothesis_id": "h03",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 4,
+          "hypothesis_id": "h04",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 5,
+          "hypothesis_id": "h05",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 6,
+          "hypothesis_id": "h06",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 7,
+          "hypothesis_id": "h07",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 8,
+          "hypothesis_id": "h08",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 9,
+          "hypothesis_id": "h09",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        }
+      ]
+    },
+    {
+      "paper_item": "Table 17",
+      "page": 35,
+      "dataset": "dices",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "dices/hypogenic/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "significant",
+      "limit": null,
+      "rows": [
+        {
+          "rank": 1,
+          "hypothesis_id": "h01",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 2,
+          "hypothesis_id": "h02",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 3,
+          "hypothesis_id": "h03",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 4,
+          "hypothesis_id": "h04",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        }
+      ]
+    },
+    {
+      "paper_item": "Table 18",
+      "page": 36,
+      "dataset": "md",
+      "method": "chardis",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "md/chardis/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "top",
+      "limit": 20,
+      "rows": [
+        {
+          "rank": 1,
+          "hypothesis_id": "h01",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 2,
+          "hypothesis_id": "h02",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 3,
+          "hypothesis_id": "h03",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 4,
+          "hypothesis_id": "h04",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 5,
+          "hypothesis_id": "h05",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 6,
+          "hypothesis_id": "h06",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 7,
+          "hypothesis_id": "h07",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 8,
+          "hypothesis_id": "h08",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 9,
+          "hypothesis_id": "h09",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 10,
+          "hypothesis_id": "h10",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 11,
+          "hypothesis_id": "h11",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 12,
+          "hypothesis_id": "h12",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 13,
+          "hypothesis_id": "h13",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 14,
+          "hypothesis_id": "h14",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 15,
+          "hypothesis_id": "h15",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 16,
+          "hypothesis_id": "h16",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 17,
+          "hypothesis_id": "h17",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 18,
+          "hypothesis_id": "h18",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 19,
+          "hypothesis_id": "h19",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 20,
+          "hypothesis_id": "h20",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        }
+      ]
+    },
+    {
+      "paper_item": "Table 19",
+      "page": 37,
+      "dataset": "md",
+      "method": "hypothesaes",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "md/hypothesaes/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "top",
+      "limit": 20,
+      "rows": [
+        {
+          "rank": 1,
+          "hypothesis_id": "h01",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 2,
+          "hypothesis_id": "h02",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 3,
+          "hypothesis_id": "h03",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 4,
+          "hypothesis_id": "h04",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 5,
+          "hypothesis_id": "h05",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 6,
+          "hypothesis_id": "h06",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 7,
+          "hypothesis_id": "h07",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 8,
+          "hypothesis_id": "h08",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 9,
+          "hypothesis_id": "h09",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 10,
+          "hypothesis_id": "h10",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 11,
+          "hypothesis_id": "h11",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 12,
+          "hypothesis_id": "h12",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 13,
+          "hypothesis_id": "h13",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 14,
+          "hypothesis_id": "h14",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 15,
+          "hypothesis_id": "h15",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 16,
+          "hypothesis_id": "h16",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 17,
+          "hypothesis_id": "h17",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 18,
+          "hypothesis_id": "h18",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 19,
+          "hypothesis_id": "h19",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 20,
+          "hypothesis_id": "h20",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        }
+      ]
+    },
+    {
+      "paper_item": "Table 19",
+      "page": 37,
+      "dataset": "md",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "md/hypogenic/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "top",
+      "limit": 20,
+      "rows": [
+        {
+          "rank": 1,
+          "hypothesis_id": "h01",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 2,
+          "hypothesis_id": "h02",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 3,
+          "hypothesis_id": "h03",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 4,
+          "hypothesis_id": "h04",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 5,
+          "hypothesis_id": "h05",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 6,
+          "hypothesis_id": "h06",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 7,
+          "hypothesis_id": "h07",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 8,
+          "hypothesis_id": "h08",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 9,
+          "hypothesis_id": "h09",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 10,
+          "hypothesis_id": "h10",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 11,
+          "hypothesis_id": "h11",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 12,
+          "hypothesis_id": "h12",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 13,
+          "hypothesis_id": "h13",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 14,
+          "hypothesis_id": "h14",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 15,
+          "hypothesis_id": "h15",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 16,
+          "hypothesis_id": "h16",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 17,
+          "hypothesis_id": "h17",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 18,
+          "hypothesis_id": "h18",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 19,
+          "hypothesis_id": "h19",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        },
+        {
+          "rank": 20,
+          "hypothesis_id": "h20",
+          "mapping_basis": "exact after case, punctuation and whitespace normalization"
+        }
+      ]
+    },
+    {
+      "paper_item": "Table 13",
+      "page": 31,
+      "dataset": "pref",
+      "method": "hypogenic",
+      "generator": "o3",
+      "judge": "o3",
+      "run": "pref/hypogenic/o3-generator_o3-judge",
+      "status": "supported",
+      "selection": "significant",
+      "limit": null,
+      "rows": []
+    }
+  ],
+  "coverage": [
+    {
+      "paper_item": "Table 1",
+      "status": "blocked",
+      "reason": "Synthetic condition identities unresolved"
+    },
+    {
+      "paper_item": "Table 2",
+      "status": "unsupported",
+      "reason": "Test predictions and manual recall judgments excluded"
+    },
+    {
+      "paper_item": "Table 3",
+      "status": "partial",
+      "reason": "Breadth supported; test and supervised results excluded"
+    },
+    {
+      "paper_item": "Table 4",
+      "status": "not_applicable",
+      "reason": "Method notation, not a result of these CSVs"
+    },
+    {
+      "paper_item": "Table 5",
+      "status": "partial",
+      "reason": "Four validation row counts supported; other corpus statistics unavailable"
+    },
+    {
+      "paper_item": "Table 6",
+      "status": "unsupported",
+      "reason": "Requires complete corpus and pruning metadata"
+    },
+    {
+      "paper_item": "Table 7",
+      "status": "unsupported",
+      "reason": "Requires full corpus annotator labels"
+    },
+    {
+      "paper_item": "Table 8",
+      "status": "partial",
+      "reason": "Only the original DICES breadth is supported"
+    },
+    {
+      "paper_item": "Table 9",
+      "status": "unsupported",
+      "reason": "Requires usage and human cost inputs"
+    },
+    {
+      "paper_item": "Table 10",
+      "status": "blocked",
+      "reason": "Synthetic source selection unresolved"
+    },
+    {
+      "paper_item": "Table 11",
+      "status": "blocked",
+      "reason": "Synthetic source selection unresolved"
+    },
+    {
+      "paper_item": "Table 12",
+      "status": "unsupported",
+      "reason": "Manual taxonomy assignments are not in the allowed files"
+    },
+    {
+      "paper_item": "Table 13",
+      "status": "supported",
+      "reason": "Baseline validation hypothesis lists"
+    },
+    {
+      "paper_item": "Table 14",
+      "status": "partial",
+      "reason": "o3 lists supported; R1 source pairs missing"
+    },
+    {
+      "paper_item": "Table 15",
+      "status": "supported",
+      "reason": "CHARDIS validation hypothesis list"
+    },
+    {
+      "paper_item": "Table 16",
+      "status": "supported",
+      "reason": "Baseline validation hypothesis lists"
+    },
+    {
+      "paper_item": "Table 17",
+      "status": "supported",
+      "reason": "Statistically significant validation hypothesis lists"
+    },
+    {
+      "paper_item": "Table 18",
+      "status": "supported",
+      "reason": "CHARDIS validation hypothesis list"
+    },
+    {
+      "paper_item": "Table 19",
+      "status": "supported",
+      "reason": "Baseline validation hypothesis lists"
+    },
+    {
+      "paper_item": "Figure 1",
+      "status": "not_applicable",
+      "reason": "Method diagram"
+    },
+    {
+      "paper_item": "Figure 2",
+      "status": "unsupported",
+      "reason": "Heldout threshold sensitivity cannot be computed from validation data"
+    },
+    {
+      "paper_item": "Text claims",
+      "status": "unsupported",
+      "reason": "Generator ablations, judge agreement, transfer, manual accuracy and semantic recall require excluded or missing evidence"
+    }
+  ]
+}

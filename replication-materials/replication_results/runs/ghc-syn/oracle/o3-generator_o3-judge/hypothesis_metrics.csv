@@ -1,0 +1,4 @@
+hypothesis_id,source_id,hypothesis,source_order,f1,precision,recall,p_value_raw,test,n00,n01,n10,n11,significant
+h01,ref-GHC-o3-o3_1,"""Text containing slurs, profanity, or other offensive language directed at an individual rather than social groups.""",0,0.62187499999999996,0.61282630735334931,0.6405237057259151,1.6709141879743371e-15,chi2,679,92,150,79,True
+h02,ref-GHC-o3-o3_3,"""Text that degrades, demeans, or humiliates an individual rather than a social group.""",1,0.60239085239085233,0.60413998301048855,0.66690651034502224,7.53922433567091e-17,chi2,587,64,242,107,True
+h03,ref-GHC-o3-o3_2,"""Texts that praise, encourage, or threaten physical harm or violence against an individual rather than social groups.""",2,0.51295956554983846,0.56195228821811094,0.52154360569699276,0.020856989378801552,chi2,792,156,37,15,True

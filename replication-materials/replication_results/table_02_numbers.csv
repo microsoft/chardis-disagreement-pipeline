@@ -1,0 +1,49 @@
+paper_item,page,dataset,method,generator,judge,split,metric,expected,status,decimals,reason,comparison_id,actual,run,threshold,features
+Table 2,8,yelp,oracle,o3,o3,manual,semantic_recall,1,blocked,2,Missing human reference coverage labels and rubric,numeric-160,,,,
+Table 2,8,yelp,oracle,o3,o3,test,macro_f1,0.82999999999999996,match,2,,numeric-161,0.83190591064721331,yelp/oracle/o3-generator_o3-judge,0.25,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,oracle,o3,o3,test,ci_half_width,0.01,match,2,,numeric-162,0.011956314340246077,yelp/oracle/o3-generator_o3-judge,0.25,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,chardis,o3,o3,manual,semantic_recall,0.67000000000000004,blocked,2,Missing human reference coverage labels and rubric,numeric-163,,,,
+Table 2,8,yelp,chardis,o3,o3,test,macro_f1,0.79000000000000004,mismatch,2,,numeric-164,0.76368808639170305,yelp/chardis/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,chardis,o3,o3,test,ci_half_width,0.01,match,2,,numeric-165,0.013910895257194467,yelp/chardis/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,hypothesaes,o3,o3,manual,semantic_recall,0,blocked,2,Missing human reference coverage labels and rubric,numeric-166,,,,
+Table 2,8,yelp,hypothesaes,o3,o3,test,macro_f1,0.56000000000000005,mismatch,2,,numeric-167,0.52753180035949443,yelp/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,hypothesaes,o3,o3,test,ci_half_width,0.02,match,2,,numeric-168,0.016110406598578708,yelp/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,hypogenic,o3,o3,manual,semantic_recall,1,blocked,2,Missing human reference coverage labels and rubric,numeric-169,,,,
+Table 2,8,yelp,hypogenic,o3,o3,test,macro_f1,0.52000000000000002,match,2,,numeric-170,0.52225384691499965,yelp/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,hypogenic,o3,o3,test,ci_half_width,0.02,match,2,,numeric-171,0.016314061740811014,yelp/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,ghc-syn,oracle,o3,o3,manual,semantic_recall,1,blocked,2,Missing human reference coverage labels and rubric,numeric-172,,,,
+Table 2,8,ghc-syn,oracle,o3,o3,test,macro_f1,0.62,match,2,,numeric-173,0.61891857560232033,ghc-syn/oracle/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,ghc-syn,oracle,o3,o3,test,ci_half_width,0.02,mismatch,2,,numeric-174,0.034364880696508837,ghc-syn/oracle/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,ghc-syn,chardis,o3,o3,manual,semantic_recall,0.67000000000000004,blocked,2,Missing human reference coverage labels and rubric,numeric-175,,,,
+Table 2,8,ghc-syn,chardis,o3,o3,test,macro_f1,0.48999999999999999,match,2,,numeric-176,0.48864323103098817,ghc-syn/chardis/o3-generator_o3-judge,0.75,"['h01', 'h02', 'h03']"
+Table 2,8,ghc-syn,chardis,o3,o3,test,ci_half_width,0.029999999999999999,match,2,,numeric-177,0.0269089431690408,ghc-syn/chardis/o3-generator_o3-judge,0.75,"['h01', 'h02', 'h03']"
+Table 2,8,ghc-syn,hypothesaes,o3,o3,manual,semantic_recall,0,blocked,2,Missing human reference coverage labels and rubric,numeric-178,,,,
+Table 2,8,ghc-syn,hypothesaes,o3,o3,test,macro_f1,0.46000000000000002,match,2,,numeric-179,0.46106120591751071,ghc-syn/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,ghc-syn,hypothesaes,o3,o3,test,ci_half_width,0.02,mismatch,2,,numeric-180,0.025804156142886336,ghc-syn/hypothesaes/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,ghc-syn,hypogenic,o3,o3,manual,semantic_recall,0,blocked,2,Missing human reference coverage labels and rubric,numeric-181,,,,
+Table 2,8,ghc-syn,hypogenic,o3,o3,test,macro_f1,0.32000000000000001,match,2,,numeric-182,0.32109295009682193,ghc-syn/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,ghc-syn,hypogenic,o3,o3,test,ci_half_width,0.029999999999999999,match,2,,numeric-183,0.028396924542277269,ghc-syn/hypogenic/o3-generator_o3-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,oracle,o3,deepseek-r1,manual,semantic_recall,1,blocked,2,Missing human reference coverage labels and rubric,numeric-184,,,,
+Table 2,8,yelp,oracle,o3,deepseek-r1,test,macro_f1,0.82999999999999996,blocked,2,Genuine DeepSeek oracle judgments or explicit oracle reuse provenance absent,numeric-185,,,,
+Table 2,8,yelp,oracle,o3,deepseek-r1,test,ci_half_width,0.01,blocked,2,Genuine DeepSeek oracle judgments or explicit oracle reuse provenance absent,numeric-186,,,,
+Table 2,8,yelp,chardis,o3,deepseek-r1,manual,semantic_recall,0.67000000000000004,blocked,2,Missing human reference coverage labels and rubric,numeric-187,,,,
+Table 2,8,yelp,chardis,o3,deepseek-r1,test,macro_f1,0.82999999999999996,match,2,,numeric-188,0.82724667801928153,yelp/chardis/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,chardis,o3,deepseek-r1,test,ci_half_width,0.01,match,2,,numeric-189,0.012290031591178918,yelp/chardis/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,hypothesaes,o3,deepseek-r1,manual,semantic_recall,0,blocked,2,Missing human reference coverage labels and rubric,numeric-190,,,,
+Table 2,8,yelp,hypothesaes,o3,deepseek-r1,test,macro_f1,0.69999999999999996,match,2,,numeric-191,0.70278561762378677,yelp/hypothesaes/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,hypothesaes,o3,deepseek-r1,test,ci_half_width,0.01,match,2,,numeric-192,0.014969002304035306,yelp/hypothesaes/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,hypogenic,o3,deepseek-r1,manual,semantic_recall,1,blocked,2,Missing human reference coverage labels and rubric,numeric-193,,,,
+Table 2,8,yelp,hypogenic,o3,deepseek-r1,test,macro_f1,0.52000000000000002,match,2,,numeric-194,0.51535604893681064,yelp/hypogenic/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,yelp,hypogenic,o3,deepseek-r1,test,ci_half_width,0.02,match,2,,numeric-195,0.016273405311156647,yelp/hypogenic/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,ghc-syn,oracle,o3,deepseek-r1,manual,semantic_recall,1,blocked,2,Missing human reference coverage labels and rubric,numeric-196,,,,
+Table 2,8,ghc-syn,oracle,o3,deepseek-r1,test,macro_f1,0.62,blocked,2,Genuine DeepSeek oracle judgments or explicit oracle reuse provenance absent,numeric-197,,,,
+Table 2,8,ghc-syn,oracle,o3,deepseek-r1,test,ci_half_width,0.02,blocked,2,Genuine DeepSeek oracle judgments or explicit oracle reuse provenance absent,numeric-198,,,,
+Table 2,8,ghc-syn,chardis,o3,deepseek-r1,manual,semantic_recall,0.67000000000000004,blocked,2,Missing human reference coverage labels and rubric,numeric-199,,,,
+Table 2,8,ghc-syn,chardis,o3,deepseek-r1,test,macro_f1,0.65000000000000002,match,2,,numeric-200,0.65052316681927147,ghc-syn/chardis/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,ghc-syn,chardis,o3,deepseek-r1,test,ci_half_width,0.040000000000000001,match,2,,numeric-201,0.036084332488622306,ghc-syn/chardis/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,ghc-syn,hypothesaes,o3,deepseek-r1,manual,semantic_recall,0,blocked,2,Missing human reference coverage labels and rubric,numeric-202,,,,
+Table 2,8,ghc-syn,hypothesaes,o3,deepseek-r1,test,macro_f1,0.48999999999999999,mismatch,2,,numeric-203,0.51348561677158522,ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h05']"
+Table 2,8,ghc-syn,hypothesaes,o3,deepseek-r1,test,ci_half_width,0.029999999999999999,match,2,,numeric-204,0.031662932763455637,ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h05']"
+Table 2,8,ghc-syn,hypogenic,o3,deepseek-r1,manual,semantic_recall,0,blocked,2,Missing human reference coverage labels and rubric,numeric-205,,,,
+Table 2,8,ghc-syn,hypogenic,o3,deepseek-r1,test,macro_f1,0.47999999999999998,match,2,,numeric-206,0.48335977747742453,ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']"
+Table 2,8,ghc-syn,hypogenic,o3,deepseek-r1,test,ci_half_width,0.029999999999999999,match,2,,numeric-207,0.030622222720081166,ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,0.5,"['h01', 'h02', 'h03']"

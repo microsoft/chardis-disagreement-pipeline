@@ -1,0 +1,30 @@
+dataset,method,generator,judge,split,rank,hypothesis_id,hypothesis,recomputed_f1,p_value_raw
+dices,chardis,o3,o3,validation,1,h01,"""Texts that merely reference violence or assault in passing without graphic description or encouragement.""",0.65247252747252749,5.2221912205544854e-07
+dices,chardis,o3,o3,validation,2,h02,"""Narratives that describe or reference violence without praising or advocating it.""",0.60838607594936711,7.1750846213874874e-05
+dices,chardis,o3,o3,validation,3,h03,"""Discussions featuring disagreement or criticism along identity lines but lacking explicit slurs, threats, or calls for violence.""",0.60792079207920791,0.0018395258735406103
+dices,chardis,o3,o3,validation,4,h04,"""Content that raises medical or nutritional topics in the form of questions or casual mentions without dispensing concrete health advice.""",0.6014346887237858,0.0011698131856883668
+dices,chardis,o3,o3,validation,5,h05,"""Texts that mention possible side-effects or health outcomes in a speculative or anecdotal way.""",0.58889386475593364,0.00029653758472023863
+dices,chardis,o3,o3,validation,6,h06,"""Narratives that mention wrongdoing or criminal acts without providing praise, detail, or instructions.""",0.58871252204585545,0.00099489306831068974
+dices,chardis,o3,o3,validation,7,h07,"""Texts that mention weapons, drugs, or other regulated items only in a descriptive or incidental way, without advocating use.""",0.58452241060936705,0.00014923054339884099
+dices,chardis,o3,o3,validation,8,h08,"""Texts that include incorrect or speculative factual claims on everyday or non-critical topics without any explicit correction.""",0.56376988984088117,0.048634630514512403
+dices,chardis,o3,o3,validation,9,h09,"""Speculative or uncertain assertions that could be interpreted as misinformation but do not overtly defy expert consensus.""",0.56036184210526319,0.0051412556084404724
+dices,chardis,o3,o3,validation,10,h10,"""Utterances that brand an individual or non-protected group as ‘evil,’ ‘corrupt,’ or otherwise morally vile without advocating violence.""",0.55032911197505674,0.044808320870904569
+dices,chardis,o3,o3,validation,11,h11,"""Narratives that reference large-scale harm or disasters purely in a descriptive or historical manner.""",0.53146362839614369,0.026076861597123958
+dices,chardis,o3,o3,validation,12,h12,"""Passages that praise, normalize, or look forward to drinking alcohol or using drugs in casual social contexts without offering procurement advice.""",0.48928571428571421,0.0059128688570312931
+dices,chardis,o3,o3,validation,13,h13,"""Joking or sarcastic remarks about committing violent acts that lack concrete plans or threats.""",0.47221244279032332,0.02175489485134155
+dices,chardis,o3,o3,validation,14,h14,"""Violent imagery framed as jokes, sarcasm, or fantasy scenarios involving monsters, vampires, or other unreal elements.""",0.47221244279032332,0.02175489485134155
+dices,chardis,o3,o3,validation,15,h15,"""Passages that express personal skepticism toward vaccines or other medical interventions without directly advising readers to follow the same behavior.""",0.47221244279032332,0.02175489485134155
+dices,chardis,o3,o3,validation,16,h16,"""Casual conversations consisting of greetings, small talk, or everyday experiences with no harmful elements.""",0.30605092258530053,1.1761263598327688e-05
+dices,hypothesaes,o3,o3,validation,1,h01,includes a question asking for an opinion on a contentious social or political issue,0.63063328424153164,0.00020871106895495965
+dices,hypothesaes,o3,o3,validation,2,h02,"contains words related to killing or lethal violence (e.g., “kill”, “shoot”, “gun”, “poison”, “murder”)",0.61683599419448476,1.0464808512904403e-05
+dices,hypothesaes,o3,o3,validation,3,h03,"contains discussion of the human body (weight, dieting/food, cosmetic surgery, body parts, or disposing of a body)",0.6138034508627157,0.0001786361209440104
+dices,hypothesaes,o3,o3,validation,4,h04,contains explicit adult content (explicit sexual acts/sexual orientation discussions or violent threats like shooting someone),0.57306601097030452,0.0096652480748969059
+dices,hypothesaes,o3,o3,validation,5,h05,"mentions sexual abuse or exploitation (e.g., rape, pedophilia, under-age sex, prostitution, groping)",0.52192389414718943,0.00041880583859962042
+dices,hypothesaes,o3,o3,validation,6,h06,"mentions an extremist or politically radical group (e.g., Taliban, Neo-Nazis, LTTE, BLM)",0.50909090909090904,0.032127098805663057
+dices,hypothesaes,o3,o3,validation,7,h07,dialogue includes a disagreement about the morality of harming or killing people,0.49978549978549974,0.020260502305930538
+dices,hypothesaes,o3,o3,validation,8,h08,contains the informal contraction 'wanna',0.48928571428571421,0.0059128688570312931
+dices,hypothesaes,o3,o3,validation,9,h09,contains the words “terrorist” or “terrorists”,0.48646929287986296,0.023224773551844564
+dices,hypogenic,o3,o3,validation,1,h01,"Content that touches on highly subjective or sensitive topics (politics, religion, morality) prompts divergent interpretations and thus more disagreement.",0.67062215814572468,1.1022451868495599e-07
+dices,hypogenic,o3,o3,validation,2,h02,Sentences with multiple clauses or shifting subjects (complex syntax) invite disagreement by allowing multiple interpretations of which part carries the main sentiment or target.,0.57879234167893967,0.024728178458830945
+dices,hypogenic,o3,o3,validation,3,h03,"Mentions of sensitive sociopolitical topics (e.g., race, gender, religion) tend to create disagreement because annotators differ in thresholds for what counts as hateful or inflammatory.",0.56495619524405505,0.026508407351664463
+dices,hypogenic,o3,o3,validation,4,h04,"Texts that rely on sarcasm, irony, or deadpan humor (where the literal meaning differs from the intended meaning) are more likely to trigger annotator disagreement.",0.56181318681318682,0.021399929205464328

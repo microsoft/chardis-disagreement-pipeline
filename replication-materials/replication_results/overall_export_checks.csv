@@ -1,0 +1,226 @@
+run,metric,threshold,features,actual,exported,status
+dices/chardis/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16']",0.58362193362193371,0.5836219336219336,match
+dices/chardis/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16']",0.50887077125221758,0.50887077125221758,match
+dices/chardis/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16']",0.65713996148778753,0.65713996148778753,match
+dices/chardis/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16']",0.32604679802955661,0.32604679802955666,match
+dices/chardis/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16']",0.26234118158345476,0.26234118158345476,match
+dices/chardis/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16']",0.38896688082002201,0.38896688082002201,match
+dices/chardis/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16']",0.22741688538932633,0.22741688538932633,match
+dices/chardis/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16']",0.18442622950819673,0.18442622950819673,match
+dices/chardis/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16']",0.26790521099744241,0.26790521099744241,match
+dices/hypothesaes/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.65363924050632916,0.65363924050632916,match
+dices/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.58661430170091411,0.58661430170091411,match
+dices/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.71721586186556552,0.71721586186556552,match
+dices/hypothesaes/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.54731574158325746,0.54731574158325746,match
+dices/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.4717646631031599,0.4717646631031599,match
+dices/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.62307860090211631,0.62307860090211631,match
+dices/hypothesaes/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.21960784313725493,0.2196078431372549,match
+dices/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.17768595041322313,0.17768595041322313,match
+dices/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.2574626865671642,0.2574626865671642,match
+dices/hypogenic/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03', 'h04']",0.6210779037999834,0.6210779037999834,match
+dices/hypogenic/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03', 'h04']",0.54709383753501406,0.54709383753501406,match
+dices/hypogenic/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03', 'h04']",0.69355260481738679,0.69355260481738679,match
+dices/hypogenic/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03', 'h04']",0.60430535143079445,0.60430535143079445,match
+dices/hypogenic/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03', 'h04']",0.53162540107327727,0.53162540107327738,match
+dices/hypogenic/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03', 'h04']",0.67373360470375387,0.67373360470375387,match
+dices/hypogenic/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03', 'h04']",0.27269574496465249,0.27269574496465254,match
+dices/hypogenic/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03', 'h04']",0.22180633785878973,0.22180633785878981,match
+dices/hypogenic/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03', 'h04']",0.32931071972167858,0.32931071972167858,match
+ghc-real/chardis/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33', 'h34', 'h35', 'h36', 'h37', 'h38', 'h39', 'h40', 'h41']",0.71271124761059257,0.71108550811955418,mismatch
+ghc-real/chardis/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33', 'h34', 'h35', 'h36', 'h37', 'h38', 'h39', 'h40', 'h41']",0.69114639246763143,0.68951557826343046,mismatch
+ghc-real/chardis/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33', 'h34', 'h35', 'h36', 'h37', 'h38', 'h39', 'h40', 'h41']",0.73416927899686524,0.73237374123326271,mismatch
+ghc-real/chardis/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33', 'h34', 'h35', 'h36', 'h37', 'h38', 'h39', 'h40', 'h41']",0.674679816450928,0.67423390807779549,mismatch
+ghc-real/chardis/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33', 'h34', 'h35', 'h36', 'h37', 'h38', 'h39', 'h40', 'h41']",0.6529359498021271,0.65244176901966688,mismatch
+ghc-real/chardis/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33', 'h34', 'h35', 'h36', 'h37', 'h38', 'h39', 'h40', 'h41']",0.69562142010610473,0.69519713517790493,mismatch
+ghc-real/chardis/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33', 'h34', 'h35', 'h36', 'h37', 'h38', 'h39', 'h40', 'h41']",0.64802156449203063,0.6491683367215022,mismatch
+ghc-real/chardis/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33', 'h34', 'h35', 'h36', 'h37', 'h38', 'h39', 'h40', 'h41']",0.62185019108248518,0.62278574347940208,mismatch
+ghc-real/chardis/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33', 'h34', 'h35', 'h36', 'h37', 'h38', 'h39', 'h40', 'h41']",0.67249030723398884,0.67295098648717222,mismatch
+ghc-real/hypothesaes/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27']",0.61934418904910937,0.61934418904910948,match
+ghc-real/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27']",0.59639077897394666,0.59639077897394666,match
+ghc-real/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27']",0.64222526555831028,0.64222526555831028,match
+ghc-real/hypothesaes/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27']",0.54835061782877326,0.54799341361831266,mismatch
+ghc-real/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27']",0.52340859804061857,0.52326769995799438,mismatch
+ghc-real/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27']",0.57283612057182398,0.57240327948093472,mismatch
+ghc-real/hypothesaes/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27']",0.38369194643092591,0.38314767484849943,mismatch
+ghc-real/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27']",0.3629621378182688,0.36259523179102382,mismatch
+ghc-real/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27']",0.40539297633989124,0.40456371071618979,mismatch
+ghc-real/hypogenic/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33']",0.48010849909584091,0.4789115504465728,mismatch
+ghc-real/hypogenic/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33']",0.45937410667236261,0.45861942890028939,mismatch
+ghc-real/hypogenic/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33']",0.50155320868290876,0.50012265741775919,mismatch
+ghc-real/hypogenic/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33']",0.41910043049436063,0.40840560795355763,mismatch
+ghc-real/hypogenic/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33']",0.39678187064907999,0.38601731576673864,mismatch
+ghc-real/hypogenic/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33']",0.44061406708619599,0.4297380451198371,mismatch
+ghc-real/hypogenic/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33']",0.24653215636822196,0.24476629361421987,mismatch
+ghc-real/hypogenic/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33']",0.23107307287690221,0.2293778752967254,mismatch
+ghc-real/hypogenic/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32', 'h33']",0.26230746926409526,0.26083319588737863,mismatch
+md/chardis/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32']",0.62739596816599064,0.62739596816599075,match
+md/chardis/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32']",0.60096315912190479,0.60096315912190479,match
+md/chardis/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32']",0.65342228637453748,0.65342228637453748,match
+md/chardis/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32']",0.59142186098551053,0.59142186098551042,match
+md/chardis/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32']",0.56426185404715468,0.56426185404715468,match
+md/chardis/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32']",0.62039440418953828,0.62039440418953828,match
+md/chardis/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32']",0.49043286405941533,0.49043286405941522,match
+md/chardis/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32']",0.46506282659321613,0.4652331514204292,mismatch
+md/chardis/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28', 'h29', 'h30', 'h31', 'h32']",0.51784507223125287,0.51784134084819211,mismatch
+md/hypothesaes/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25']",0.28856526429341967,0.28894878706199462,mismatch
+md/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25']",0.27487630566245191,0.2752747252747253,mismatch
+md/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25']",0.3013771186440678,0.30175619221278299,mismatch
+md/hypothesaes/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25']",0.50318371342699131,0.5041522307295554,mismatch
+md/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25']",0.47734829236548931,0.47794874583112307,mismatch
+md/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25']",0.53188085561004261,0.53236919372115787,mismatch
+md/hypothesaes/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25']",0.41121366269734227,0.41121366269734222,match
+md/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25']",0.39077199584777011,0.39077199584777011,match
+md/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25']",0.43140717779791699,0.43140717779791699,match
+md/hypogenic/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28']",0.57278217840850143,0.57963030413403749,mismatch
+md/hypogenic/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28']",0.54429977956363151,0.55241112967088546,mismatch
+md/hypogenic/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28']",0.59902310140724546,0.60589315915637354,mismatch
+md/hypogenic/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28']",0.42357283213392538,0.4340703483313863,mismatch
+md/hypogenic/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28']",0.40174704636098774,0.41134513559256036,mismatch
+md/hypogenic/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28']",0.44643286434331209,0.45788647415129607,mismatch
+md/hypogenic/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28']",0.30830472921434016,0.30830472921434021,match
+md/hypogenic/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28']",0.29155770955632104,0.29155770955632104,match
+md/hypogenic/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09', 'h10', 'h11', 'h12', 'h13', 'h14', 'h15', 'h16', 'h17', 'h18', 'h19', 'h20', 'h21', 'h22', 'h23', 'h24', 'h25', 'h26', 'h27', 'h28']",0.32544194659370274,0.32544194659370274,match
+pref/chardis/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.50501676452972555,0.50501676452972555,match
+pref/chardis/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.48364685439859689,0.48364685439859689,match
+pref/chardis/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.52748716701156095,0.52748716701156095,match
+pref/chardis/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.33492701102413058,0.33492701102413058,match
+pref/chardis/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.32483870967741935,0.32483870967741935,match
+pref/chardis/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.34490984362919919,0.34490984362919919,match
+pref/chardis/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.33280204016576348,0.33280204016576348,match
+pref/chardis/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.32265372168284789,0.32265372168284789,match
+pref/chardis/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07', 'h08', 'h09']",0.34244939796768947,0.34244939796768947,match
+pref/hypothesaes/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07']",0.44112149532710282,0.44112149532710282,match
+pref/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07']",0.43554096138417392,0.43554096138417392,match
+pref/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07']",0.44673539518900346,0.44673539518900346,match
+pref/hypothesaes/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07']",0.32234774718825521,0.32234774718825521,match
+pref/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07']",0.3022410495807944,0.3022410495807944,match
+pref/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07']",0.34218090445139782,0.34218090445139782,match
+pref/hypothesaes/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07']",0.23384966290124282,0.23384966290124282,match
+pref/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07']",0.21610066860167743,0.21610066860167743,match
+pref/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03', 'h04', 'h05', 'h06', 'h07']",0.25094638181768747,0.25094638181768747,match
+ghc-syn/chardis/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03']",0.48864323103098817,0.48864323103098822,match
+ghc-syn/chardis/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.46384515714017927,0.46384515714017927,match
+ghc-syn/chardis/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.51766304347826086,0.51766304347826086,match
+ghc-syn/chardis/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03']",0.48673835125448028,0.48673835125448028,match
+ghc-syn/chardis/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.45632855708766829,0.45632855708766829,match
+ghc-syn/chardis/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.51748263560858565,0.51748263560858565,match
+ghc-syn/chardis/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03']",0.14602903501280956,0.14602903501280956,match
+ghc-syn/chardis/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.12967798085291557,0.12967798085291557,match
+ghc-syn/chardis/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.16317991631799164,0.16317991631799164,match
+ghc-syn/hypothesaes/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03']",0.46106120591751071,0.46106120591751071,match
+ghc-syn/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.43517386225919485,0.43517386225919485,match
+ghc-syn/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.48678217454496753,0.48678217454496753,match
+ghc-syn/hypothesaes/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03']",0.45325314379442316,0.45325314379442316,match
+ghc-syn/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.44598337950138506,0.44598337950138506,match
+ghc-syn/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.4597514856834144,0.4597514856834144,match
+ghc-syn/hypothesaes/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03']",0.14602903501280956,0.14602903501280956,match
+ghc-syn/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.12967798085291557,0.12967798085291557,match
+ghc-syn/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.16317991631799164,0.16317991631799164,match
+ghc-syn/hypogenic/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03']",0.45325314379442316,0.45325314379442316,match
+ghc-syn/hypogenic/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.44598337950138506,0.44598337950138506,match
+ghc-syn/hypogenic/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.4597514856834144,0.4597514856834144,match
+ghc-syn/hypogenic/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03']",0.32109295009682193,0.32109295009682198,match
+ghc-syn/hypogenic/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.29286839760588279,0.29286839760588279,match
+ghc-syn/hypogenic/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.34966224669043733,0.34966224669043733,match
+ghc-syn/hypogenic/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03']",0.14602903501280956,0.14602903501280956,match
+ghc-syn/hypogenic/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.12967798085291557,0.12967798085291557,match
+ghc-syn/hypogenic/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.16317991631799164,0.16317991631799164,match
+ghc-syn/chardis/o3-generator_deepseek-r1-judge,f1,0.75,"['h01', 'h02', 'h03']",0.65111802637066507,0.65111802637066507,match
+ghc-syn/chardis/o3-generator_deepseek-r1-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.61237954956408414,0.61237954956408425,match
+ghc-syn/chardis/o3-generator_deepseek-r1-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.68914064658745511,0.68914064658745511,match
+ghc-syn/chardis/o3-generator_deepseek-r1-judge,f1,0.5,"['h01', 'h02', 'h03']",0.65052316681927147,0.65052316681927147,match
+ghc-syn/chardis/o3-generator_deepseek-r1-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.61380597928501013,0.61380597928501013,match
+ghc-syn/chardis/o3-generator_deepseek-r1-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.68597464426225474,0.68597464426225474,match
+ghc-syn/chardis/o3-generator_deepseek-r1-judge,f1,0.25,"['h01', 'h02', 'h03']",0.14602903501280956,0.14602903501280956,match
+ghc-syn/chardis/o3-generator_deepseek-r1-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.12967798085291557,0.12967798085291557,match
+ghc-syn/chardis/o3-generator_deepseek-r1-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.16317991631799164,0.16317991631799164,match
+ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,f1,0.5,"['h01', 'h02', 'h03']",0.49027320646536993,0.49027320646536993,match
+ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.45946200017861255,0.45946200017861255,match
+ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.52339123338040516,0.52339123338040516,match
+ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,f1,0.75,"['h01', 'h02', 'h03']",0.45325314379442316,0.45325314379442316,match
+ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.44598337950138506,0.445983379501385,match
+ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.4597514856834144,0.45975148568341434,match
+ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,f1,0.25,"['h01', 'h02', 'h03']",0.14602903501280956,0.14602903501280956,match
+ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.12967798085291557,0.12967798085291557,match
+ghc-syn/hypothesaes/o3-generator_deepseek-r1-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.16317991631799164,0.16317991631799164,match
+ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,f1,0.5,"['h01', 'h02', 'h03']",0.48335977747742453,0.48335977747742453,match
+ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.45332174312219214,0.4533217431221922,match
+ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.51456618856235448,0.51456618856235448,match
+ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,f1,0.75,"['h01', 'h02', 'h03']",0.45325314379442316,0.45325314379442316,match
+ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.44598337950138506,0.445983379501385,match
+ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.4597514856834144,0.45975148568341434,match
+ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,f1,0.25,"['h01', 'h02', 'h03']",0.14602903501280956,0.14602903501280956,match
+ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.12967798085291557,0.12967798085291557,match
+ghc-syn/hypogenic/o3-generator_deepseek-r1-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.16317991631799164,0.16317991631799164,match
+ghc-syn/oracle/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03']",0.61891857560232033,0.61891857560232033,match
+ghc-syn/oracle/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.58431826808979859,0.58431826808979859,match
+ghc-syn/oracle/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.65304802948281626,0.65304802948281626,match
+ghc-syn/oracle/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03']",0.45325314379442316,0.45325314379442316,match
+ghc-syn/oracle/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.44598337950138506,0.44598337950138506,match
+ghc-syn/oracle/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.4597514856834144,0.4597514856834144,match
+ghc-syn/oracle/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03']",0.14602903501280956,0.14602903501280956,match
+ghc-syn/oracle/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.12967798085291557,0.12967798085291557,match
+ghc-syn/oracle/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.16317991631799164,0.16317991631799164,match
+yelp/chardis/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03']",0.79164668931924154,0.79164668931924154,match
+yelp/chardis/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.77871022626228426,0.77871022626228426,match
+yelp/chardis/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.8044732054594339,0.8044732054594339,match
+yelp/chardis/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03']",0.76368808639170305,0.76368808639170305,match
+yelp/chardis/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.74980595423518726,0.74980595423518726,match
+yelp/chardis/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.77762774474957619,0.77762774474957619,match
+yelp/chardis/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03']",0.41185029740845924,0.41185029740845924,match
+yelp/chardis/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.39775630606764067,0.39775630606764067,match
+yelp/chardis/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.42592727883987513,0.42592727883987513,match
+yelp/hypothesaes/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03']",0.56400721208023441,0.56400721208023441,match
+yelp/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.54688990553924799,0.54688990553924799,match
+yelp/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.57999852208278002,0.57999852208278002,match
+yelp/hypothesaes/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03']",0.52753180035949443,0.52753180035949443,match
+yelp/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.51107141682268209,0.51107141682268209,match
+yelp/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.54329223001983951,0.54329223001983951,match
+yelp/hypothesaes/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03']",0.50450850839888783,0.50450850839888783,match
+yelp/hypothesaes/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.48791476816326973,0.48791476816326973,match
+yelp/hypothesaes/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.52052783122444335,0.52052783122444335,match
+yelp/hypogenic/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03']",0.52225384691499965,0.52225384691499976,match
+yelp/hypogenic/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.50554115754978368,0.50554115754978368,match
+yelp/hypogenic/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.53816928103140571,0.53816928103140571,match
+yelp/hypogenic/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03']",0.34755480607082628,0.34755480607082628,match
+yelp/hypogenic/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.34043641322877599,0.34043641322877599,match
+yelp/hypogenic/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.35430843452318755,0.35430843452318755,match
+yelp/hypogenic/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03']",0.31847806940285361,0.31847806940285361,match
+yelp/hypogenic/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.3109497365541749,0.3109497365541749,match
+yelp/hypogenic/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.32607559658596064,0.32607559658596064,match
+yelp/chardis/o3-generator_deepseek-r1-judge,f1,0.5,"['h01', 'h02', 'h03']",0.82724667801928153,0.82724667801928153,match
+yelp/chardis/o3-generator_deepseek-r1-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.81511619782864497,0.81511619782864497,match
+yelp/chardis/o3-generator_deepseek-r1-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.83969626101100281,0.8396962610110027,match
+yelp/chardis/o3-generator_deepseek-r1-judge,f1,0.75,"['h01', 'h02', 'h03']",0.78093069987615515,0.78093069987615515,match
+yelp/chardis/o3-generator_deepseek-r1-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.76750527301630855,0.76750527301630844,match
+yelp/chardis/o3-generator_deepseek-r1-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.79451095370407365,0.79451095370407376,match
+yelp/chardis/o3-generator_deepseek-r1-judge,f1,0.25,"['h01', 'h02', 'h03']",0.34755480607082628,0.34755480607082628,match
+yelp/chardis/o3-generator_deepseek-r1-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.34043641322877599,0.34043641322877599,match
+yelp/chardis/o3-generator_deepseek-r1-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.35430843452318755,0.35430843452318761,match
+yelp/hypothesaes/o3-generator_deepseek-r1-judge,f1,0.5,"['h01', 'h02', 'h03']",0.70278561762378677,0.70278561762378677,match
+yelp/hypothesaes/o3-generator_deepseek-r1-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.68750417959154098,0.68750417959154086,match
+yelp/hypothesaes/o3-generator_deepseek-r1-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.71744218419961159,0.7174421841996117,match
+yelp/hypothesaes/o3-generator_deepseek-r1-judge,f1,0.75,"['h01', 'h02', 'h03']",0.65980086956845163,0.65980086956845163,match
+yelp/hypothesaes/o3-generator_deepseek-r1-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.64457355062287824,0.64457355062287836,match
+yelp/hypothesaes/o3-generator_deepseek-r1-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.67571978104865182,0.67571978104865171,match
+yelp/hypothesaes/o3-generator_deepseek-r1-judge,f1,0.25,"['h01', 'h02', 'h03']",0.34755480607082628,0.34755480607082628,match
+yelp/hypothesaes/o3-generator_deepseek-r1-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.34043641322877599,0.34043641322877599,match
+yelp/hypothesaes/o3-generator_deepseek-r1-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.35430843452318755,0.35430843452318761,match
+yelp/hypogenic/o3-generator_deepseek-r1-judge,f1,0.5,"['h01', 'h02', 'h03']",0.51535604893681064,0.51535604893681064,match
+yelp/hypogenic/o3-generator_deepseek-r1-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.49826288049436546,0.49826288049436546,match
+yelp/hypogenic/o3-generator_deepseek-r1-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.53080969111667875,0.53080969111667875,match
+yelp/hypogenic/o3-generator_deepseek-r1-judge,f1,0.25,"['h01', 'h02', 'h03']",0.34755480607082628,0.34755480607082628,match
+yelp/hypogenic/o3-generator_deepseek-r1-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.34043641322877599,0.34043641322877599,match
+yelp/hypogenic/o3-generator_deepseek-r1-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.35430843452318755,0.35430843452318761,match
+yelp/hypogenic/o3-generator_deepseek-r1-judge,f1,0.75,"['h01', 'h02', 'h03']",0.31847806940285361,0.31847806940285361,match
+yelp/hypogenic/o3-generator_deepseek-r1-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.3109497365541749,0.3109497365541749,match
+yelp/hypogenic/o3-generator_deepseek-r1-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.32607559658596064,0.32607559658596064,match
+yelp/oracle/o3-generator_o3-judge,f1,0.25,"['h01', 'h02', 'h03']",0.83190591064721331,0.83190591064721342,match
+yelp/oracle/o3-generator_o3-judge,f1_ci_low,0.25,"['h01', 'h02', 'h03']",0.82011314145866088,0.82011314145866088,match
+yelp/oracle/o3-generator_o3-judge,f1_ci_high,0.25,"['h01', 'h02', 'h03']",0.84402577013915303,0.84402577013915303,match
+yelp/oracle/o3-generator_o3-judge,f1,0.5,"['h01', 'h02', 'h03']",0.67202213205785166,0.67202213205785177,match
+yelp/oracle/o3-generator_o3-judge,f1_ci_low,0.5,"['h01', 'h02', 'h03']",0.65682115105988748,0.65682115105988748,match
+yelp/oracle/o3-generator_o3-judge,f1_ci_high,0.5,"['h01', 'h02', 'h03']",0.68701608501473899,0.68701608501473899,match
+yelp/oracle/o3-generator_o3-judge,f1,0.75,"['h01', 'h02', 'h03']",0.63636691261776746,0.63636691261776746,match
+yelp/oracle/o3-generator_o3-judge,f1_ci_low,0.75,"['h01', 'h02', 'h03']",0.62039138074634159,0.62039138074634159,match
+yelp/oracle/o3-generator_o3-judge,f1_ci_high,0.75,"['h01', 'h02', 'h03']",0.65179670298039338,0.65179670298039338,match

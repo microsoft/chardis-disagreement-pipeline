@@ -1,0 +1,379 @@
+[
+  {
+    "asset": "dices/validation-targets-0",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 445,
+    "candidate_bytes": {
+      "csv-gzip-6": 445,
+      "csv-gzip-9": 445,
+      "parquet-zstd-3": 2342,
+      "parquet-zstd-9": 2342,
+      "parquet-zstd-19": 2228,
+      "parquet-zstd-22": 2228
+    }
+  },
+  {
+    "asset": "dices/chardis/o3-generator_o3-judge/judgments",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 1642,
+    "candidate_bytes": {
+      "csv-gzip-6": 1847,
+      "csv-gzip-9": 1642,
+      "parquet-zstd-3": 27058,
+      "parquet-zstd-9": 27058,
+      "parquet-zstd-19": 26935,
+      "parquet-zstd-22": 26935
+    }
+  },
+  {
+    "asset": "dices/chardis/o3-generator_o3-judge/exported-metrics",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 2056,
+    "candidate_bytes": {
+      "csv-gzip-6": 2056,
+      "csv-gzip-9": 2056,
+      "parquet-zstd-3": 7372,
+      "parquet-zstd-9": 7367,
+      "parquet-zstd-19": 7355,
+      "parquet-zstd-22": 7355
+    }
+  },
+  {
+    "asset": "dices/hypothesaes/o3-generator_o3-judge/judgments",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 1361,
+    "candidate_bytes": {
+      "csv-gzip-6": 1541,
+      "csv-gzip-9": 1361,
+      "parquet-zstd-3": 26812,
+      "parquet-zstd-9": 26812,
+      "parquet-zstd-19": 26686,
+      "parquet-zstd-22": 26686
+    }
+  },
+  {
+    "asset": "dices/hypothesaes/o3-generator_o3-judge/exported-metrics",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 1743,
+    "candidate_bytes": {
+      "csv-gzip-6": 1743,
+      "csv-gzip-9": 1743,
+      "parquet-zstd-3": 7142,
+      "parquet-zstd-9": 7141,
+      "parquet-zstd-19": 7100,
+      "parquet-zstd-22": 7100
+    }
+  },
+  {
+    "asset": "dices/hypogenic/o3-generator_o3-judge/judgments",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 2129,
+    "candidate_bytes": {
+      "csv-gzip-6": 2372,
+      "csv-gzip-9": 2129,
+      "parquet-zstd-3": 27273,
+      "parquet-zstd-9": 27273,
+      "parquet-zstd-19": 27156,
+      "parquet-zstd-22": 27156
+    }
+  },
+  {
+    "asset": "dices/hypogenic/o3-generator_o3-judge/exported-metrics",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 2135,
+    "candidate_bytes": {
+      "csv-gzip-6": 2135,
+      "csv-gzip-9": 2136,
+      "parquet-zstd-3": 7491,
+      "parquet-zstd-9": 7491,
+      "parquet-zstd-19": 7481,
+      "parquet-zstd-22": 7481
+    }
+  },
+  {
+    "asset": "ghc-real/validation-targets-1",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 4639,
+    "candidate_bytes": {
+      "csv-gzip-6": 4639,
+      "csv-gzip-9": 4642,
+      "parquet-zstd-3": 8914,
+      "parquet-zstd-9": 8917,
+      "parquet-zstd-19": 6867,
+      "parquet-zstd-22": 6867
+    }
+  },
+  {
+    "asset": "ghc-real/chardis/o3-generator_o3-judge/judgments",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 10762,
+    "candidate_bytes": {
+      "csv-gzip-6": 12392,
+      "csv-gzip-9": 10762,
+      "parquet-zstd-3": 39281,
+      "parquet-zstd-9": 39265,
+      "parquet-zstd-19": 36918,
+      "parquet-zstd-22": 36918
+    }
+  },
+  {
+    "asset": "ghc-real/chardis/o3-generator_o3-judge/exported-metrics",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 2530,
+    "candidate_bytes": {
+      "csv-gzip-6": 2530,
+      "csv-gzip-9": 2530,
+      "parquet-zstd-3": 7776,
+      "parquet-zstd-9": 7776,
+      "parquet-zstd-19": 7741,
+      "parquet-zstd-22": 7741
+    }
+  },
+  {
+    "asset": "ghc-real/hypothesaes/o3-generator_o3-judge/judgments",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 10144,
+    "candidate_bytes": {
+      "csv-gzip-6": 11743,
+      "csv-gzip-9": 10144,
+      "parquet-zstd-3": 38005,
+      "parquet-zstd-9": 38001,
+      "parquet-zstd-19": 35663,
+      "parquet-zstd-22": 35663
+    }
+  },
+  {
+    "asset": "ghc-real/hypothesaes/o3-generator_o3-judge/exported-metrics",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 2454,
+    "candidate_bytes": {
+      "csv-gzip-6": 2454,
+      "csv-gzip-9": 2455,
+      "parquet-zstd-3": 7711,
+      "parquet-zstd-9": 7711,
+      "parquet-zstd-19": 7703,
+      "parquet-zstd-22": 7703
+    }
+  },
+  {
+    "asset": "ghc-real/hypogenic/o3-generator_o3-judge/judgments",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 18601,
+    "candidate_bytes": {
+      "csv-gzip-6": 21166,
+      "csv-gzip-9": 18601,
+      "parquet-zstd-3": 44812,
+      "parquet-zstd-9": 44817,
+      "parquet-zstd-19": 42553,
+      "parquet-zstd-22": 42553
+    }
+  },
+  {
+    "asset": "ghc-real/hypogenic/o3-generator_o3-judge/exported-metrics",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 2618,
+    "candidate_bytes": {
+      "csv-gzip-6": 2618,
+      "csv-gzip-9": 2618,
+      "parquet-zstd-3": 7897,
+      "parquet-zstd-9": 7897,
+      "parquet-zstd-19": 7854,
+      "parquet-zstd-22": 7854
+    }
+  },
+  {
+    "asset": "md/validation-targets-2",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 3039,
+    "candidate_bytes": {
+      "csv-gzip-6": 3039,
+      "csv-gzip-9": 3039,
+      "parquet-zstd-3": 6349,
+      "parquet-zstd-9": 6349,
+      "parquet-zstd-19": 5124,
+      "parquet-zstd-22": 5124
+    }
+  },
+  {
+    "asset": "md/chardis/o3-generator_o3-judge/judgments",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 9408,
+    "candidate_bytes": {
+      "csv-gzip-6": 10800,
+      "csv-gzip-9": 9408,
+      "parquet-zstd-3": 36511,
+      "parquet-zstd-9": 36521,
+      "parquet-zstd-19": 35032,
+      "parquet-zstd-22": 35032
+    }
+  },
+  {
+    "asset": "md/chardis/o3-generator_o3-judge/exported-metrics",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 2559,
+    "candidate_bytes": {
+      "csv-gzip-6": 2559,
+      "csv-gzip-9": 2559,
+      "parquet-zstd-3": 7841,
+      "parquet-zstd-9": 7841,
+      "parquet-zstd-19": 7801,
+      "parquet-zstd-22": 7801
+    }
+  },
+  {
+    "asset": "md/hypothesaes/o3-generator_o3-judge/judgments",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 7779,
+    "candidate_bytes": {
+      "csv-gzip-6": 8928,
+      "csv-gzip-9": 7779,
+      "parquet-zstd-3": 35182,
+      "parquet-zstd-9": 35189,
+      "parquet-zstd-19": 33685,
+      "parquet-zstd-22": 33685
+    }
+  },
+  {
+    "asset": "md/hypothesaes/o3-generator_o3-judge/exported-metrics",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 2312,
+    "candidate_bytes": {
+      "csv-gzip-6": 2312,
+      "csv-gzip-9": 2312,
+      "parquet-zstd-3": 7591,
+      "parquet-zstd-9": 7591,
+      "parquet-zstd-19": 7587,
+      "parquet-zstd-22": 7587
+    }
+  },
+  {
+    "asset": "md/hypogenic/o3-generator_o3-judge/judgments",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 12435,
+    "candidate_bytes": {
+      "csv-gzip-6": 14406,
+      "csv-gzip-9": 12435,
+      "parquet-zstd-3": 37708,
+      "parquet-zstd-9": 37721,
+      "parquet-zstd-19": 36316,
+      "parquet-zstd-22": 36316
+    }
+  },
+  {
+    "asset": "md/hypogenic/o3-generator_o3-judge/exported-metrics",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 2570,
+    "candidate_bytes": {
+      "csv-gzip-6": 2570,
+      "csv-gzip-9": 2570,
+      "parquet-zstd-3": 7888,
+      "parquet-zstd-9": 7888,
+      "parquet-zstd-19": 7863,
+      "parquet-zstd-22": 7863
+    }
+  },
+  {
+    "asset": "pref/validation-targets-3",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 4916,
+    "candidate_bytes": {
+      "csv-gzip-6": 4916,
+      "csv-gzip-9": 4916,
+      "parquet-zstd-3": 9435,
+      "parquet-zstd-9": 9435,
+      "parquet-zstd-19": 7262,
+      "parquet-zstd-22": 7262
+    }
+  },
+  {
+    "asset": "pref/chardis/o3-generator_o3-judge/judgments",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 16140,
+    "candidate_bytes": {
+      "csv-gzip-6": 18490,
+      "csv-gzip-9": 16140,
+      "parquet-zstd-3": 42918,
+      "parquet-zstd-9": 42900,
+      "parquet-zstd-19": 40460,
+      "parquet-zstd-22": 40460
+    }
+  },
+  {
+    "asset": "pref/chardis/o3-generator_o3-judge/exported-metrics",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 2515,
+    "candidate_bytes": {
+      "csv-gzip-6": 2515,
+      "csv-gzip-9": 2515,
+      "parquet-zstd-3": 7865,
+      "parquet-zstd-9": 7865,
+      "parquet-zstd-19": 7852,
+      "parquet-zstd-22": 7852
+    }
+  },
+  {
+    "asset": "pref/validation-targets-4",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 4876,
+    "candidate_bytes": {
+      "csv-gzip-6": 4878,
+      "csv-gzip-9": 4876,
+      "parquet-zstd-3": 9462,
+      "parquet-zstd-9": 9466,
+      "parquet-zstd-19": 7286,
+      "parquet-zstd-22": 7286
+    }
+  },
+  {
+    "asset": "pref/hypothesaes/o3-generator_o3-judge/judgments",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 9557,
+    "candidate_bytes": {
+      "csv-gzip-6": 11224,
+      "csv-gzip-9": 9557,
+      "parquet-zstd-3": 38145,
+      "parquet-zstd-9": 38131,
+      "parquet-zstd-19": 35673,
+      "parquet-zstd-22": 35673
+    }
+  },
+  {
+    "asset": "pref/hypothesaes/o3-generator_o3-judge/exported-metrics",
+    "selected": "csv-gzip-6",
+    "selected_bytes": 2244,
+    "candidate_bytes": {
+      "csv-gzip-6": 2244,
+      "csv-gzip-9": 2244,
+      "parquet-zstd-3": 7524,
+      "parquet-zstd-9": 7524,
+      "parquet-zstd-19": 7519,
+      "parquet-zstd-22": 7519
+    }
+  },
+  {
+    "asset": "pref/hypogenic/o3-generator_o3-judge/judgments",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 11742,
+    "candidate_bytes": {
+      "csv-gzip-6": 13305,
+      "csv-gzip-9": 11742,
+      "parquet-zstd-3": 40037,
+      "parquet-zstd-9": 40043,
+      "parquet-zstd-19": 37631,
+      "parquet-zstd-22": 37631
+    }
+  },
+  {
+    "asset": "pref/hypogenic/o3-generator_o3-judge/exported-metrics",
+    "selected": "csv-gzip-9",
+    "selected_bytes": 2296,
+    "candidate_bytes": {
+      "csv-gzip-6": 2297,
+      "csv-gzip-9": 2296,
+      "parquet-zstd-3": 7724,
+      "parquet-zstd-9": 7724,
+      "parquet-zstd-19": 7704,
+      "parquet-zstd-22": 7704
+    }
+  }
+]

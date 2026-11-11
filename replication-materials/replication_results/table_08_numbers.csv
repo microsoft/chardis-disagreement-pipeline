@@ -1,0 +1,16 @@
+paper_item,page,dataset,method,generator,judge,split,metric,expected,status,decimals,entropy_threshold,reason,comparison_id,actual,run
+Table 8,28,dices,chardis,o3,o3,corpus,prevalence_pct,29.100000000000001,unsupported,1,0.90000000000000002,Alternative entropy runs or full corpus and test data unavailable,numeric-127,,
+Table 8,28,dices,chardis,o3,o3,validation,breadth,16,match,0,0.90000000000000002,,numeric-128,16,dices/chardis/o3-generator_o3-judge
+Table 8,28,dices,chardis,o3,o3,test,macro_f1,0.57999999999999996,unsupported,3,0.90000000000000002,Alternative entropy runs or full corpus and test data unavailable,numeric-129,,
+Table 8,28,dices,chardis,o3,o3,test,ci_low,0.52000000000000002,unsupported,3,0.90000000000000002,Alternative entropy runs or full corpus and test data unavailable,numeric-130,,
+Table 8,28,dices,chardis,o3,o3,test,ci_high,0.64000000000000001,unsupported,3,0.90000000000000002,Alternative entropy runs or full corpus and test data unavailable,numeric-131,,
+Table 8,28,dices,chardis,o3,o3,corpus,prevalence_pct,42.100000000000001,unsupported,1,0.80000000000000004,Alternative entropy runs or full corpus and test data unavailable,numeric-132,,
+Table 8,28,dices,chardis,o3,o3,test,breadth,16,unsupported,0,0.80000000000000004,Alternative entropy runs or full corpus and test data unavailable,numeric-133,,
+Table 8,28,dices,chardis,o3,o3,test,macro_f1,0.65300000000000002,unsupported,3,0.80000000000000004,Alternative entropy runs or full corpus and test data unavailable,numeric-134,,
+Table 8,28,dices,chardis,o3,o3,test,ci_low,0.58099999999999996,unsupported,3,0.80000000000000004,Alternative entropy runs or full corpus and test data unavailable,numeric-135,,
+Table 8,28,dices,chardis,o3,o3,test,ci_high,0.71899999999999997,unsupported,3,0.80000000000000004,Alternative entropy runs or full corpus and test data unavailable,numeric-136,,
+Table 8,28,dices,chardis,o3,o3,corpus,prevalence_pct,51.200000000000003,unsupported,1,0.69999999999999996,Alternative entropy runs or full corpus and test data unavailable,numeric-137,,
+Table 8,28,dices,chardis,o3,o3,test,breadth,18,unsupported,0,0.69999999999999996,Alternative entropy runs or full corpus and test data unavailable,numeric-138,,
+Table 8,28,dices,chardis,o3,o3,test,macro_f1,0.81399999999999995,unsupported,3,0.69999999999999996,Alternative entropy runs or full corpus and test data unavailable,numeric-139,,
+Table 8,28,dices,chardis,o3,o3,test,ci_low,0.75800000000000001,unsupported,3,0.69999999999999996,Alternative entropy runs or full corpus and test data unavailable,numeric-140,,
+Table 8,28,dices,chardis,o3,o3,test,ci_high,0.86399999999999999,unsupported,3,0.69999999999999996,Alternative entropy runs or full corpus and test data unavailable,numeric-141,,

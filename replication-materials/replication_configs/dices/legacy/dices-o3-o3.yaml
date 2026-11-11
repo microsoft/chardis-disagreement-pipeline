@@ -1,0 +1,190 @@
+disagreement_explainer:
+  examples_path:
+    description: The path to in-context examples.
+    value: null
+  example_size:
+    description: The number of in-context examples to provide.
+    value: 4
+  train_on_test:
+    description: Whether to train on test data.
+    value: false
+  more_than_2:
+    description: Whether there are more than 2 annotators.
+    value: true
+  num_annotations:
+    description: The number of annotations to process from the input data. Use -1
+      to process all data (default = -1).
+    value: -1
+  random_state:
+    description: Random seed for sampling.
+    value: 42
+  num_threads:
+    description: The number of threads to use for parallel processing (default = 1).
+    value: 10
+  data_path:
+    value: ''
+    description: Original experiment dataset is not included in this package.
+  guidelines_path:
+    value: ../replication_prompts/dices/
+  guidelines_filename:
+    value: prompt.md
+  output_path:
+    value: ../pipeline_run_outputs/dices/legacy/dices-o3-o3/
+rationales:
+  model:
+    description: The deployment name of the OpenAI model to use.
+    value: o3
+  api_version:
+    description: Legacy compatibility field. Not sent by current adapters.
+    value: 2025-01-01-preview
+  temperature:
+    description: Controls randomness. Lowering the temperature means that the model
+      will produce more repetitive and deterministic responses (default = 1.0).
+    value: 1.0
+  max_tokens:
+    description: Set a limit on the number of tokens per model response. Any non-positive
+      value will not be passed to the API (default = -1).
+    value: -1
+  max_completion_tokens:
+    description: Set a limit on the number of tokens per model response. Any non-positive
+      value will not be passed to the API (default = -1).
+    value: -1
+  top_p:
+    description: Similar to temperature, this controls randomness but uses a different
+      method (default = 1.0).
+    value: 1.0
+  frequency_penalty:
+    description: Reduce the chance of repeating a token proportionally based on how
+      often it has appeared in the text so far (default = 0.0).
+    value: 0.0
+  presence_penalty:
+    description: Reduce the chance of repeating any token that has appeared in the
+      text at all so far (default = 0.0).
+    value: 0.0
+  logprobs:
+    description: Whether to return logprobs for the generated tokens (default = False).
+    value: false
+  top_logprobs:
+    description: The number of top logprobs to return if logprobs is enabled (default
+      = 1).
+    value: 1
+  min_retry_delay:
+    description: The minimum delay between retries in seconds (default = 1.0).
+    value: 1.0
+  max_retry_delay:
+    description: The maximum delay between retries in seconds (default = 90.0).
+    value: 90.0
+  max_retries:
+    description: The maximum number of retries for transient errors. Any non-positive
+      value means no retries (default = 10).
+    value: 10
+  stream:
+    description: Whether to use streaming responses from the API (default = False).
+    value: false
+  with_raw_response:
+    description: Whether to return the raw response from the API (default = False).
+    value: false
+  api_key_env:
+    value: MODEL_API_KEY
+  auth_mode:
+    value: api-key
+  credential_endpoint:
+    value: ''
+  credential_provider:
+    value: compatible
+  endpoint:
+    description: The API endpoint to use.
+    value: ''
+  key:
+    description: The API key to use when making model API calls.
+    value: ''
+  message_role:
+    value: developer
+  provider:
+    description: Provider adapter for a compatible hosted service.
+    value: compatible
+  request_timeout:
+    value: 120.0
+  scope:
+    description: Legacy compatibility field. Current adapters do not acquire OAuth
+      tokens.
+    value: ''
+synthesizer:
+  model:
+    description: The deployment name of the OpenAI model to use.
+    value: o3
+  api_version:
+    description: Legacy compatibility field. Not sent by current adapters.
+    value: 2025-01-01-preview
+  temperature:
+    description: Controls randomness. Lowering the temperature means that the model
+      will produce more repetitive and deterministic responses (default = 1.0).
+    value: 1.0
+  max_tokens:
+    description: Set a limit on the number of tokens per model response. Any non-positive
+      value will not be passed to the API (default = -1).
+    value: -1
+  max_completion_tokens:
+    description: Set a limit on the number of tokens per model response. Any non-positive
+      value will not be passed to the API (default = -1).
+    value: -1
+  top_p:
+    description: Similar to temperature, this controls randomness but uses a different
+      method (default = 1.0).
+    value: 1.0
+  frequency_penalty:
+    description: Reduce the chance of repeating a token proportionally based on how
+      often it has appeared in the text so far (default = 0.0).
+    value: 0.0
+  presence_penalty:
+    description: Reduce the chance of repeating any token that has appeared in the
+      text at all so far (default = 0.0).
+    value: 0.0
+  logprobs:
+    description: Whether to return logprobs for the generated tokens (default = False).
+    value: false
+  top_logprobs:
+    description: The number of top logprobs to return if logprobs is enabled (default
+      = 1).
+    value: 1
+  min_retry_delay:
+    description: The minimum delay between retries in seconds (default = 1.0).
+    value: 1.0
+  max_retry_delay:
+    description: The maximum delay between retries in seconds (default = 90.0).
+    value: 90.0
+  max_retries:
+    description: The maximum number of retries for transient errors. Any non-positive
+      value means no retries (default = 10).
+    value: 10
+  stream:
+    description: Whether to use streaming responses from the API (default = False).
+    value: false
+  with_raw_response:
+    description: Whether to return the raw response from the API (default = False).
+    value: false
+  api_key_env:
+    value: MODEL_API_KEY
+  auth_mode:
+    value: api-key
+  credential_endpoint:
+    value: ''
+  credential_provider:
+    value: compatible
+  endpoint:
+    description: The API endpoint to use.
+    value: ''
+  key:
+    description: The API key to use when making model API calls.
+    value: ''
+  message_role:
+    value: developer
+  provider:
+    description: Provider adapter for a compatible hosted service.
+    value: compatible
+  request_timeout:
+    value: 120.0
+  scope:
+    description: Legacy compatibility field. Current adapters do not acquire OAuth
+      tokens.
+    value: ''

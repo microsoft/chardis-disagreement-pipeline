@@ -1,0 +1,7 @@
+paper_item,page,dataset,method,generator,judge,split,metric,expected,status,decimals,row,run,hypothesis_id,comparison_id,actual
+Table 1,7,ghc-syn,chardis,o3,o3,validation,hypothesis_f1,0.63,match,2,1,ghc-syn/chardis/o3-generator_o3-judge,h02,numeric-154,0.6310578975570762
+Table 1,7,ghc-syn,chardis,o3,o3,validation,hypothesis_f1,0.52000000000000002,match,2,2,ghc-syn/chardis/o3-generator_o3-judge,h16,numeric-155,0.52185386303310055
+Table 1,7,ghc-syn,chardis,o3,o3,validation,hypothesis_f1,0.66000000000000003,match,2,3,ghc-syn/chardis/o3-generator_o3-judge,h01,numeric-156,0.6636255672028063
+Table 1,7,yelp,chardis,o3,o3,validation,hypothesis_f1,0.73999999999999999,mismatch,2,1,yelp/chardis/o3-generator_o3-judge,h01,numeric-157,0.75634837928289589
+Table 1,7,yelp,chardis,o3,o3,validation,hypothesis_f1,0.63,mismatch,2,2,yelp/chardis/o3-generator_o3-judge,h12,numeric-158,0.45759961427543872
+Table 1,7,yelp,chardis,o3,o3,validation,hypothesis_f1,0.54000000000000004,mismatch,2,3,yelp/chardis/o3-generator_o3-judge,h05,numeric-159,0.5501467082747018

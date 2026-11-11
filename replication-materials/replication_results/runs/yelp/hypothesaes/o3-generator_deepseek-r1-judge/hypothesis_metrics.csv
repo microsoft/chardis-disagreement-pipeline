@@ -1,0 +1,10 @@
+hypothesis_id,source_id,hypothesis,source_order,f1,precision,recall,p_value_raw,test,n00,n01,n10,n11,significant
+h01,yelp_6,mentions the speed of the service (describing it as either slow or fast),0,0.63750956631631972,0.75844225775421181,0.67861934839095472,2.4054682041338335e-157,chi2,1752,1262,55,799,True
+h02,yelp_3,"mentions having to wait (uses the word “wait”, “waiting”, or “waited”) for food/service, not in the phrase “wait staff”",1,0.49310102270503031,0.70619778954099988,0.58268199011499566,2.5742600832257306e-59,chi2,1763,1670,44,391,True
+h03,yelp_5,"praises the food while criticizing the service (e.g., ‘food is good but service is bad’)",2,0.45248282556312086,0.69076776812785856,0.55980543076455869,2.7890035815202461e-40,chi2,1768,1770,39,291,True
+h04,yelp_4,review exceeds 250 words in length,3,0.40933683043536506,0.62067578772802656,0.53126232638343474,2.1720430651683007e-14,chi2,1742,1858,65,203,True
+h05,yelp_2,"complains about front-of-house seating or reservation issues (e.g., not being greeted/ seated, reservation not honored, hostess problems)",4,0.38637723816053349,0.64413361558960791,0.52528403880859031,5.9604423712902118e-14,chi2,1773,1918,34,143,True
+h06,yelp_7,mentions that the food is expensive or overpriced,5,0.38707013997501499,0.48095088283091469,0.49273258584935886,0.14332334995484938,chi2,1601,1856,206,205,False
+h07,yelp_1,"mentions dietary restriction terms (e.g., gluten-free, vegan, vegetarian)",6,0.36734673662334605,0.52006007183848735,0.50417482607800224,0.25499312427753829,chi2,1716,1940,91,121,False
+h08,yelp_9,review starts with the phrase 'This place',7,0.35211508145034159,0.52214897430406437,0.50308265312506462,0.30403973638976101,chi2,1748,1981,59,80,False
+h09,yelp_8,mentions food being overcooked or burnt,8,0.35028535509617037,0.50655277608297744,0.50093724147319696,0.7578874883376957,chi2,1742,1983,65,78,False

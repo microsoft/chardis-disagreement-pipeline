@@ -1,0 +1,7 @@
+paper_item,page,dataset,method,generator,judge,split,metric,expected,status,decimals,row,run,hypothesis_id,validation_f1,heldout_f1,heldout_matches
+Table 1,7,ghc-syn,chardis,o3,o3,validation,hypothesis_f1,0.63,supported,2,1,ghc-syn/chardis/o3-generator_o3-judge,h02,0.6310578975570762,0.55307262569832405,False
+Table 1,7,ghc-syn,chardis,o3,o3,validation,hypothesis_f1,0.52000000000000002,supported,2,2,ghc-syn/chardis/o3-generator_o3-judge,h16,0.52185386303310055,0.4965835558170052,False
+Table 1,7,ghc-syn,chardis,o3,o3,validation,hypothesis_f1,0.66000000000000003,supported,2,3,ghc-syn/chardis/o3-generator_o3-judge,h01,0.6636255672028063,0.54921503485114975,False
+Table 1,7,yelp,chardis,o3,o3,validation,hypothesis_f1,0.73999999999999999,supported,2,1,yelp/chardis/o3-generator_o3-judge,h01,0.75634837928289589,0.73703742318524457,True
+Table 1,7,yelp,chardis,o3,o3,validation,hypothesis_f1,0.63,supported,2,2,yelp/chardis/o3-generator_o3-judge,h12,0.45759961427543872,0.63388372449916952,True
+Table 1,7,yelp,chardis,o3,o3,validation,hypothesis_f1,0.54000000000000004,supported,2,3,yelp/chardis/o3-generator_o3-judge,h05,0.5501467082747018,0.54213512712368261,True

@@ -1,0 +1,50 @@
+hypothesis_id,source_id,hypothesis,source_order,f1,precision,recall,p_value_raw,test,n00,n01,n10,n11,significant
+h01,ghc-syn_41,"contains explicit profanity (e.g., “fuck”, “shit”, “bitch”, etc.)",0,0.56286224352547021,0.55955914913158289,0.57685226334835882,1.8781562302816622e-05,chi2,651,108,178,63,True
+h02,ghc-syn_9,"contains strong vulgar profanity/slur words (e.g., “fuck”, “shit”, “tard”, “bollock”, “ass-clown”, “bastard”)",1,0.53276519072692774,0.537396321673278,0.55486424142382496,0.0041731771475576884,chi2,600,105,229,66,True
+h03,ghc-syn_38,uses speech-related words such as talk/say/speech/opinion/hear/silence/mute/engage,2,0.52395760717217554,0.52637104615320962,0.53596949752749379,0.051430041591201896,chi2,622,116,207,55,False
+h04,ghc-syn_16,"directly references mainstream news networks or individual journalists/TV hosts (e.g., CNN, MSNBC, specific named journalists)",3,0.50614081471800143,0.54420394420394413,0.51620708385358249,0.090488127903613685,chi2,788,157,41,14,False
+h05,ghc-syn_11,contains the word 'traitor',4,0.48107448107448109,0.69402399372126922,0.51220733780571248,0.0096753744564013235,fisher_exact,825,166,4,5,True
+h06,ghc-syn_5,mentions the surname 'McCain',5,0.47044457735247208,0.71557788944723622,0.50756565720694979,0.037656435579346212,fisher_exact,827,168,2,3,True
+h07,ghc-syn_23,"mentions homosexuality using terms such as “gay”, “lesbian”, “faggot”, or “fag”",6,0.45162512351680495,0.4369791666666667,0.48292877348175423,0.038036891885980736,chi2,791,169,38,2,True
+h08,ghc-syn_8,mentions race-related words such as “white/whites” or “race/races”,7,0.44927680302201906,0.44382456915598767,0.4569551139610184,0.0018707104398192607,chi2,714,162,115,9,True
+h09,ghc-syn_20,"mentions demographic-replacement conspiracy terms (e.g., “white genocide”, “white replacement”, “mass migration”, “invasion”, “WhiteFlight”)",8,0.44900372706422015,0.43870138219222116,0.46636897833647251,0.004083873923720783,chi2,749,166,80,5,True
+h10,ghc-syn_10,contains the racial slur 'nigger',9,0.44781888459414687,0.41293279022403256,0.48914354644149577,0.055591057377845643,fisher_exact,811,171,18,0,False
+h11,ghc-syn_14,contains the word 'nigger' (the racial slur),10,0.44781888459414687,0.41293279022403256,0.48914354644149577,0.055591057377845643,fisher_exact,811,171,18,0,False
+h12,ghc-syn_6,contains the word “Jew” or “Jews” (case-insensitive),11,0.43994104642593956,0.41814513950179216,0.46794207069745131,0.0011960804475240029,chi2,771,170,58,1,True
+h13,ghc-syn_22,"contains an explicit derogatory slur aimed at an ethnic or religious group (e.g., “jews”, “Jewz”, “jewspeak”, “niggers”, “muzlmz”)",12,0.41927990708478508,0.40425531914893614,0.43546441495778043,6.6438804334947328e-07,chi2,722,171,107,0,True
+h14,ghc-syn_3,"contains third-person male pronouns such as 'he', 'his', or 'he’s'",13,0.52048831987750843,0.5293999356499357,0.52062655633857458,0.11936161011736478,chi2,742,146,87,25,False
+h15,ghc-syn_26,"contains direct second-person address, using words like “you”, “you’re”, or “your”",14,0.50848212850206487,0.51085526315789476,0.51396736715129199,0.43611707716892467,chi2,634,126,195,45,False
+h16,ghc-syn_7,"contains a word that explicitly refers to death or lethal violence (e.g., kill/kill*, death, dead, murder, hang, decapitate, hospice, horror)",15,0.50806192381530835,0.50812728937728946,0.50801360054740796,0.60976628741070882,chi2,692,140,137,31,False
+h17,ghc-syn_27,mentions Trump (the surname 'Trump' appears),16,0.50752847558121394,0.5398837270203739,0.51611537891774062,0.10884128428738994,chi2,783,156,46,15,False
+h18,ghc-syn_44,"contains a standalone parent-child relationship word (mother, father, mom, dad, mommy, daddy, parents, child, kid, kids, children)",17,0.50400137353465779,0.52833901233382929,0.51249656106490593,0.23397031020127881,chi2,777,156,52,15,False
+h19,ghc-syn_4,"contains imperative language calling for someone to be punished, removed, fired, locked up, thrown out, booted, told to shut up, etc.",18,0.49923628295035732,0.50461145582710731,0.50308269668945182,0.81152481265545173,chi2,742,152,87,19,False
+h20,ghc-syn_47,"mentions a firearm-related right or context (e.g., “second amendment”, “armed”, “Green Beret”)",19,0.48875645731116424,0.51526315789473687,0.50511431372963966,0.57630746176710268,chi2,789,161,40,10,False
+h21,ghc-syn_24,"contains explicit calls for killing, execution, or lethal violence (e.g., verbs like kill, hang, shoot, execute, death-penalty)",20,0.48618690824196109,0.50572390572390569,0.50209863218561079,0.82649274323167699,chi2,784,161,45,10,False
+h22,ghc-syn_18,"contains words related to shooting or firearms (e.g., shoot, shot, bullet, rifle, firing)",21,0.48366945688639973,0.50473684210526315,0.50158720081264685,0.86232406534530737,chi2,788,162,41,9,False
+h23,ghc-syn_33,"mentions literature or writing, using words like 'book', 'books', 'reading', 'wrote', 'pen', or the name 'Booker'",22,0.48292600565615634,0.51257661690276968,0.50348831467490607,0.67528260535971651,chi2,796,163,33,8,False
+h24,ghc-syn_1,uses the pronouns she/her to refer to the target,23,0.48001935769519871,0.49958697059677171,0.49986949682207127,0.98828464427922369,chi2,790,163,39,8,False
+h25,ghc-syn_21,mentions the word 'Obama',24,0.47837014380386716,0.58240270727580368,0.50858851995287779,0.15521361878379425,fisher_exact,819,166,10,5,False
+h26,ghc-syn_29,"mentions sexual crimes against children (e.g., pedophiles, child sex trafficking, child sex abuse)",25,0.47615037089132572,0.54030612244897958,0.50557283840884881,0.36471003329370799,fisher_exact,814,166,15,5,False
+h27,ghc-syn_37,contains the phrase “the left” (case-insensitive) referring to the political left,26,0.4750570943057224,0.50022205773501105,0.50005290669375491,0.99453040815036797,chi2,800,165,29,6,False
+h28,ghc-syn_2,mentions the surname 'Clinton',27,0.47119163021979144,0.52608056121294411,0.50325199810946741,0.52976997705430784,fisher_exact,815,167,14,4,False
+h29,ghc-syn_42,mentions the word 'traitor' or 'traitors' without the word 'fucking' appearing in the text,28,0.469653054428397,0.62969356927060849,0.50635938458933827,0.10125551727745299,fisher_exact,825,168,4,3,False
+h30,ghc-syn_19,"contains the word “look” or one of its variants (“look at”, “looks”, “looking”)",29,0.46879292582417587,0.4813785748365188,0.49531952115915034,0.55489039201434154,chi2,797,166,32,5,False
+h31,ghc-syn_45,contains at least one emoji character,30,0.46625958589487249,0.4805841924398625,0.49601436240379798,0.57796413851795736,chi2,803,167,26,4,False
+h32,ghc-syn_25,"references the U.S.–Mexico border area (uses words such as Mexico/Mexican, Rio Grande, Texas, California, Arizona, ‘border’, or ‘wall’)",31,0.46585314816242479,0.47834481840274312,0.49541122609499222,0.52839204848438981,chi2,802,167,27,4,False
+h33,ghc-syn_48,mentions the social media platform Gab,32,0.46534844381338031,0.49779361846571618,0.4997248851924746,1,fisher_exact,814,168,15,3,False
+h34,ghc-syn_35,"contains the words 'Islam', 'Muslim', or 'Islamic'",33,0.46496212121212122,0.46264730148352246,0.48307338511135101,0.11176968633500743,chi2,767,164,62,7,False
+h35,ghc-syn_32,contains the slang acronym “LMAO”,34,0.4645792563600783,0.66516064257028118,0.50464168059876269,0.13766475580852577,fisher_exact,827,169,2,2,False
+h36,ghc-syn_40,mentions the word “gay” or explicitly references homosexuality,35,0.46062145788547976,0.45811144922023583,0.48757045408051691,0.14898400359446046,chi2,789,167,40,4,False
+h37,ghc-syn_17,contains the word 'boyfriend',36,0.4593150475802758,0.91491491491491495,0.50292397660818711,0.17100000000000001,fisher_exact,829,170,0,1,False
+h38,ghc-syn_31,mentions the acronym “SPLC”,37,0.4593150475802758,0.91491491491491495,0.50292397660818711,0.17100000000000001,fisher_exact,829,170,0,1,False
+h39,ghc-syn_12,ends with a trailing whitespace character (space or non-breaking space) at the end of the text,38,0.45914510031986039,0.46649498363646119,0.49559463596667586,0.75678307407521239,fisher_exact,812,169,17,2,False
+h40,ghc-syn_39,contains the word 'crap',39,0.45898231726415906,0.66482965931863736,0.5023208402993814,0.31290090090090089,fisher_exact,828,170,1,1,False
+h41,ghc-syn_15,mentions CNN,40,0.45731940453138292,0.48582937706804774,0.49930515875535242,1,fisher_exact,823,170,6,1,False
+h42,ghc-syn_49,contains the term 'weev',41,0.45325314379442316,0.41449999999999998,0.5,,degenerate,829,171,0,0,False
+h43,ghc-syn_28,contains the word “snitch” or “snitches”,42,0.4529540481400437,0.4144144144144144,0.49939686369119424,1,fisher_exact,828,171,1,0,False
+h44,ghc-syn_13,"mentions Italy or Italians (words like 'Italy', 'Italian', 'Italians', or Italian city names such as Roma, Torino, Napoli)",43,0.452354874041621,0.41424272818455365,0.49819059107358266,1,fisher_exact,826,171,3,0,False
+h45,ghc-syn_30,"mentions alcohol or being drunk (words like drink, drinking, drunk, booze, beer)",44,0.452354874041621,0.41424272818455365,0.49819059107358266,1,fisher_exact,826,171,3,0,False
+h46,ghc-syn_43,contains the word 'genocide',45,0.45205479452054798,0.41415662650602408,0.49758745476477684,1,fisher_exact,825,171,4,0,False
+h47,ghc-syn_34,contains the word “diversity”,46,0.4517543859649123,0.41407035175879398,0.49698431845597107,0.59506435044459649,fisher_exact,824,171,5,0,False
+h48,ghc-syn_46,contains the word 'illegal' (case-insensitive),47,0.44933920704845814,0.41337386018237082,0.49215922798552475,0.14104678336752932,fisher_exact,816,171,13,0,False
+h49,ghc-syn_36,"mentions transgender-related terms (e.g., 'transgender', 'tranny', 'gender-neutral', gender-pronoun references)",48,0.44903581267217629,0.41328600405679511,0.49155609167671893,0.14527625565502503,fisher_exact,815,171,14,0,False
