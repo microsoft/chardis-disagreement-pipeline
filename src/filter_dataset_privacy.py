@@ -26,10 +26,12 @@ ENTITY_CATEGORIES = {
     "LOC": "location", "FAC": "location",
 }
 PATTERNS = {
+    # Separator alternatives own their surrounding whitespace so no two
+    # quantifiers can match the same spaces (avoids exponential backtracking).
     "email": re.compile(
-        r"\b[\w.+-]+\s*(?:@|\[\s*at\s*\]|\(\s*at\s*\)|\s+at\s+)"
-        r"\s*[\w-]+(?:\s*(?:\.|\[\s*dot\s*\]|\(\s*dot\s*\)|\s+dot\s+)"
-        r"\s*[\w-]+)+\b", re.I),
+        r"\b[\w.+-]+(?:\s*(?:@|\[\s*at\s*\]|\(\s*at\s*\))\s*|\s+at\s+)"
+        r"[\w-]+(?:(?:\s*(?:\.|\[\s*dot\s*\]|\(\s*dot\s*\))\s*|\s+dot\s+)"
+        r"[\w-]+)+\b", re.I),
     "phone": re.compile(
         r"(?<!\w)(?:\+?\d{1,3}[\s().-]*)?"
         r"(?:\(\d{2,4}\)|\d{3})[\s.-]*\d{3}[\s.-]*\d{4}(?!\w)"

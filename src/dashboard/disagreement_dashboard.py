@@ -12,7 +12,6 @@ from __future__ import annotations
 import copy
 import hmac
 import secrets
-from pathlib import Path
 import json
 import math
 import os
@@ -960,22 +959,50 @@ def _resolve_under_repo(path: str) -> str:
     return os.path.normpath(os.path.join(base, path))
 
 
-def _combine_dir_and_filename(directory: str, filename: str) -> str:
+def _approved_preview_path(path: str, roots: tuple[str, ...], kind: str = "dir") -> str:
+    """Canonicalize and authorize a preview path before inspecting it."""
+    if not path:
+        raise ValueError("Preview path is empty.")
+    candidate = os.path.realpath(path)
+    for root in roots:
+        if candidate == root:
+            checked = root
+        elif candidate.startswith(os.path.join(root, "")):
+            checked = candidate
+        else:
+            continue
+        relative = os.path.relpath(checked, root)
+        if relative != "." and any(part.startswith(".") for part in relative.split(os.sep)):
+            raise ValueError("Hidden files cannot be previewed.")
+        suffix = os.path.splitext(checked)[1].lower()
+        if kind == "csv" and suffix != ".csv":
+            raise ValueError("Dataset preview requires a CSV file.")
+        if kind == "file" and suffix not in {".csv", ".md"}:
+            raise ValueError("Only CSV datasets and Markdown guidelines may be inspected.")
+        return checked
+    raise ValueError("Path is outside the approved preview roots.")
+
+
+def _combine_dir_and_filename(
+    directory: str, filename: str, roots: tuple[str, ...] | None = None,
+) -> str:
     """Combine a config directory + filename into a single resolved absolute path.
 
     Mirrors DisagreementExplainer._resolve_combined_path semantics, then
-    resolves to an absolute path under the repo.
+    resolves to an approved absolute path before any filesystem checks.
     """
     d = (directory or "").strip()
     f = (filename or "").strip()
     if not d:
         return ""
-    abs_d = _resolve_under_repo(d)
+    if roots is None:
+        roots = (os.path.realpath(_repo_base_dir()),)
+    abs_d = _approved_preview_path(_resolve_under_repo(d), roots)
     if os.path.isfile(abs_d):
         return abs_d
     if f and (d.endswith(("/", os.sep)) or os.path.isdir(abs_d)
               or not os.path.splitext(d)[1]):
-        return os.path.join(abs_d, f)
+        return _approved_preview_path(os.path.join(abs_d, f), roots)
     return abs_d
 
 
@@ -1165,7 +1192,7 @@ def _preview_preprocess(
     return stats
 
 
-def _guidelines_preview_html(de: dict) -> str:
+def _guidelines_preview_html(de: dict, roots: tuple[str, ...] | None = None) -> str:
     """Render a read-only preview of the guidelines markdown referenced by the config."""
     rel_dir = str(_val(de, "guidelines_path", "") or "").strip()
     rel_name = str(_val(de, "guidelines_filename", "") or "").strip()
@@ -1175,7 +1202,11 @@ def _guidelines_preview_html(de: dict) -> str:
         body = '<div class="prompt-preview empty">No guidelines path set yet — fill it in under Run Setup → Locations.</div>'
         meta = ""
     else:
-        abs_path = _combine_dir_and_filename(rel_dir, rel_name)
+        if roots is None:
+            roots = (os.path.realpath(_repo_base_dir()),)
+        abs_path = _combine_dir_and_filename(rel_dir, rel_name, roots)
+        if abs_path:
+            abs_path = _approved_preview_path(abs_path, roots, "file")
         if abs_path and os.path.isfile(abs_path):
             try:
                 with open(abs_path, "r", encoding="utf-8") as f:
@@ -1320,7 +1351,7 @@ def _eval_setup_pane_html(config: dict) -> str:
     return _evaluation_section_html(ev)
 
 
-def _method_setup_pane_html(config: dict) -> str:
+def _method_setup_pane_html(config: dict, roots: tuple[str, ...] | None = None) -> str:
     de = config.get("disagreement_explainer", {}) or {}
     rat = config.get("rationales_openai", {}) or {}
     syn = config.get("synthesizer_openai", {}) or {}
@@ -1328,7 +1359,7 @@ def _method_setup_pane_html(config: dict) -> str:
         _openai_section_html("Rationales LLM", "rationales_openai", rat)
         + _openai_section_html("Synthesizer LLM", "synthesizer_openai", syn,
                                icon_class="teal")
-        + _guidelines_preview_html(de)
+        + _guidelines_preview_html(de, roots)
     )
 
 
@@ -1345,11 +1376,13 @@ def _settings_tab_html(config: dict) -> str:
     return _method_setup_pane_html(config) + _run_setup_pane_html(config)
 
 
-def _render_page(config: dict, project_name: str, version: str) -> str:
+def _render_page(
+    config: dict, project_name: str, version: str, roots: tuple[str, ...] | None = None,
+) -> str:
     config = runtime_config(config)
     _ensure_version_note_field(config)
     about_html = _about_version_section_html(config)
-    method_html = _method_setup_pane_html(config)
+    method_html = _method_setup_pane_html(config, roots)
     run_html = _run_setup_pane_html(config)
     eval_html = _eval_setup_pane_html(config)
     return f"""<!doctype html>
@@ -1911,26 +1944,13 @@ def run_dashboard(
     _ensure_version_note_field(working)
     original = copy.deepcopy(working)
     token = secrets.token_urlsafe(32)
-    roots = [Path(_repo_base_dir()).resolve(), *(Path(p).resolve() for p in approved_roots)]
-
-    def allowed(path, kind="file"):
-        candidate = Path(path).resolve()
-        if not any(candidate.is_relative_to(root) for root in roots):
-            raise ValueError("Path is outside the approved preview roots.")
-        if any(part.startswith(".") for part in candidate.relative_to(
-                next(root for root in roots if candidate.is_relative_to(root))).parts):
-            raise ValueError("Hidden files cannot be previewed.")
-        if kind == "csv" and candidate.suffix.lower() != ".csv":
-            raise ValueError("Dataset preview requires a CSV file.")
-        if kind == "file" and candidate.suffix.lower() not in {".csv", ".md"}:
-            raise ValueError("Only CSV datasets and Markdown guidelines may be inspected.")
-        return str(candidate)
+    roots = tuple(os.path.realpath(p) for p in (_repo_base_dir(), *approved_roots))
     de = working.get("disagreement_explainer", {})
     guidelines = _combine_dir_and_filename(_val(de, "guidelines_path", ""),
-                                          _val(de, "guidelines_filename", "prompt.md"))
+                                          _val(de, "guidelines_filename", "prompt.md"), roots)
     if guidelines:
-        allowed(guidelines)
-    page_html = _render_page(working, project_name, version)
+        _approved_preview_path(guidelines, roots, "file")
+    page_html = _render_page(working, project_name, version, roots)
     page_html = page_html.replace(
         "<script>", "<script>\n"
         f"const launchToken = {json.dumps(token)};\n"
@@ -1980,7 +2000,12 @@ fetch('/app', {headers:{Authorization:'Bearer '+token}}).then(async response => 
                 filename  = (qs.get("name") or [""])[0]
                 kind      = (qs.get("kind") or [""])[0]
                 try:
-                    full = allowed(_combine_dir_and_filename(directory, filename), "dir" if kind == "dir" else "file")
+                    if kind == "dir":
+                        full = _approved_preview_path(_resolve_under_repo(directory), roots) if directory else ""
+                    else:
+                        full = _approved_preview_path(
+                            _combine_dir_and_filename(directory, filename, roots), roots, "file",
+                        )
                 except ValueError:
                     self._send(403, b'{"error":"Preview path not approved."}', "application/json")
                     return
@@ -1988,14 +2013,13 @@ fetch('/app', {headers:{Authorization:'Bearer '+token}}).then(async response => 
                     # Directory existence check (outputs folder). Treat existing
                     # files as a problem; non-existent dirs are reported so the
                     # UI can tell the user it'll be created.
-                    abs_d = _resolve_under_repo(directory) if directory else ""
                     payload = {
                         "dir": directory,
                         "name": filename,
-                        "full_path": abs_d,
+                        "full_path": full,
                         "kind": "dir",
-                        "exists": bool(abs_d) and os.path.isdir(abs_d),
-                        "is_file": bool(abs_d) and os.path.isfile(abs_d),
+                        "exists": bool(full) and os.path.isdir(full),
+                        "is_file": bool(full) and os.path.isfile(full),
                     }
                 else:
                     payload = {
@@ -2012,7 +2036,9 @@ fetch('/app', {headers:{Authorization:'Bearer '+token}}).then(async response => 
                 directory = (qs.get("dir") or [""])[0]
                 filename  = (qs.get("name") or [""])[0]
                 try:
-                    full = allowed(_combine_dir_and_filename(directory, filename), "csv")
+                    full = _approved_preview_path(
+                        _combine_dir_and_filename(directory, filename, roots), roots, "csv",
+                    )
                 except ValueError:
                     self._send(403, b'{"error":"Preview path not approved."}', "application/json")
                     return
