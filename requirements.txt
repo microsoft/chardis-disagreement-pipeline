@@ -36,7 +36,7 @@ httpx==0.28.1
 # Embeddings / HF stack (pinned for reproducibility)
 # -------------------------------
 sentence-transformers==3.0.1
-datasets==2.21.0
+datasets==5.0.1
 # Preserve compatibility with the pipeline's NumPy 1 environment.
 pyarrow==17.0.0
 transformers==4.46.3
