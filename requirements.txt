@@ -38,7 +38,7 @@ httpx==0.28.1
 sentence-transformers==3.0.1
 datasets==2.21.0
 # Preserve compatibility with the pipeline's NumPy 1 environment.
-pyarrow==17.0.0
+pyarrow==23.0.1
 transformers==4.46.3
 # Avoid the yanked 0.20.4 release selected during lock generation.
 tokenizers==0.20.3
