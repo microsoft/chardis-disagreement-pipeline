@@ -104,14 +104,14 @@ def build_empty_config(
     _set(config, "evaluation", "concepts_per_batch", 10)
     _set(config, "evaluation", "top_hypotheses", 50)
 
+    _set(config, "disagreement_explainer", "data_path", "")
+
     # ── Project- & version-aware paths ────────────────────────────────────
     if project_name is not None:
         v_label = _v_label(version)
-        data_dir   = f"data/{project_name}/"
         guidelines = f"prompts/disagreement_prompts/{project_name}/"
         outputs    = f"outputs/disagreement_outputs/{project_name}/{v_label}/"
 
-        _set(config, "disagreement_explainer", "data_path",          data_dir)
         _set(config, "disagreement_explainer", "data_filename",      "annotated_data.csv")
         _set(config, "disagreement_explainer", "guidelines_path",    guidelines)
         _set(config, "disagreement_explainer", "guidelines_filename","prompt.md")
@@ -137,8 +137,8 @@ def build_empty_config(
 def restamp_version_fields(config: dict, project_name: str, version: int | str) -> dict:
     """Re-apply version-aware fields when promoting a config to a new version.
 
-    Keeps ``data_path`` and ``guidelines_path`` pinned to the canonical
-    per-project locations and re-stamps ``output_path`` so each saved version
+    Preserves user-supplied ``data_path`` and ``guidelines_path`` values and
+    re-stamps ``output_path`` so each saved version
     writes its own outputs under ``disagreement_outputs/<project>/<v>/`` —
     otherwise newer versions would silently overwrite v1's outputs.
     """

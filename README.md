@@ -4,12 +4,15 @@ End-to-end pipeline for discovering **why** annotators disagree. Given a
 multi-annotator CSV, it produces a ranked, statistically tested list of
 hypotheses about the textual features that drove disagreement.
 
-Two example projects are bundled:
+Two **sample configurations** and their annotation guidelines are bundled.
+These are starting points, not ready-to-run experiments: input datasets are
+not included, and dataset paths and model connections must be configured
+before running.
 
-| Project | Task | Annotators |
+| Sample configuration | Task | Annotators |
 |---|---|---|
-| **yelp** | Restaurant review topic classification with food, staff, and time labels | 2 (three labels) |
-| **ghc-syn** | Hate-speech labels (Gab Hate Corpus, synthetic LLM annotators) | 2 (binary) |
+| [yelp_v1.yaml](configs/disagreement_configs/yelp/yelp_v1.yaml) | Restaurant review topic classification with food, staff, and time labels | 2 (three labels) |
+| [ghc-syn_v1.yaml](configs/disagreement_configs/ghc-syn/ghc-syn_v1.yaml) | Hate-speech labels (Gab Hate Corpus, synthetic LLM annotators) | 2 (binary) |
 
 ---
 
@@ -96,7 +99,8 @@ is already installed, include `--browser` so its profile also matches the lock.
 
 ## 3. Quickstart — interactive
 
-After setup, launch the wrapper and configure the stages in the dashboard.
+After setup, launch the wrapper and configure your input CSV and model stages
+in the dashboard.
 
 ```bash
 bash src/run_disagreement.sh
@@ -133,7 +137,7 @@ Preview access is limited to visible CSV datasets and Markdown guidelines
 inside the project. Approve an external root explicitly at launch if needed.
 
 ```bash
-bash src/run_disagreement.sh --allow-preview-root /absolute/path/to/data
+bash src/run_disagreement.sh --allow-preview-root /absolute/path/to/inputs
 ```
 
 Do not expose the dashboard through a proxy or port forwarding.
@@ -156,17 +160,18 @@ the provider or verify that remote credentials are valid.
 
 ---
 
-## 4. Batch run — both bundled projects
+## 4. Batch run — both sample configurations
 
-Use the **batch runner** to run the bundled projects (`yelp`,
-`ghc-syn`) in sequence with retry/backoff on transient API failures
+Use the **batch runner** to run the sample configurations (`yelp`,
+`ghc-syn`) in sequence after supplying input CSV paths and model connections.
+It uses retry/backoff on transient API failures
 (rate limits, 5xx, network blips):
 
 Despite its filename, `run_all_mock.sh` performs real API calls and can incur
 charges. Only `CHARDIS_DRY_RUN=1` prints commands without launching them.
 
 ```bash
-# All bundled projects, v1 each
+# Both sample configurations, v1 each (after setting inputs and connections)
 bash src/disagreement_analysis/run_all_mock.sh
 
 # Subset (positional args)
@@ -207,7 +212,8 @@ permit evaluation. Exclusive writer locks prevent concurrent writes to the
 same run directory. Inspect an abandoned `.run.lock` before removing it.
 
 The batch runner does not install dependencies or configure authentication.
-Prepare the Python environment and all stage credentials before launching it.
+Prepare the Python environment, input CSV paths, and all stage credentials
+before launching it.
 
 ---
 
@@ -228,8 +234,25 @@ Four top-level sections:
 | `disagreement_explainer` | Pipeline knobs: `data_path`, `guidelines_path`, `output_path`, `num_threads`, `example_size`, `more_than_2`, `train_on_test`, `random_state`. |
 | `evaluation` | Independently configured judge connection, `model`, iterations, batching, and hypothesis caps |
 
-New templates and bundled examples leave the model and endpoint blank.
+New templates and bundled sample configurations leave the input dataset path,
+model, and endpoint blank.
 Fill these fields for each stage using the existing nested YAML format.
+
+Set `disagreement_explainer.data_path.value` to a full CSV path, such as
+`/absolute/path/to/inputs/annotations.csv`, or to its directory and set
+`data_filename.value` to the CSV filename. Standalone annotation configurations
+use `annotation.data_path` and `annotation.data_filename` instead.
+
+Disagreement input CSVs need a unique `unique_id`, a nonempty `text` column,
+and per-annotator label columns. All columns other than `unique_id` and `text`
+are interpreted as annotators, so omit unrelated metadata columns. The default
+mode expects two annotators; enable `more_than_2` for additional annotators.
+Use annotation guidelines appropriate to your labels.
+
+For dashboard previews of external CSVs, authorize their containing directory
+with `--allow-preview-root`. Saving an incomplete configuration is allowed,
+but running requires a readable input CSV. Version changes preserve your
+configured input location.
 
 ```yaml
 provider:
@@ -408,10 +431,10 @@ using the paper's 0.05 threshold.
 
 The paper also describes adjustable method thresholds and particular model
 settings. This copy fixes DPMeans delta at 0.3 and uses entropy 0.9 and overlap
-50 in preprocessing. The bundled examples and new templates require explicit
+50 in preprocessing. The bundled sample configurations and new templates require explicit
 model selection and do not claim to reproduce historical model deployments.
-The two example datasets do not reproduce the paper's full six dataset
-experiment suite.
+The sample configurations alone do not reproduce the paper's full six dataset
+experiment suite; the original experiment inputs must be supplied separately.
 
 ---
 
@@ -472,11 +495,10 @@ pipeline, but the environment must not be described as free of known
 vulnerabilities. Recheck current advisories before release.
 
 The isolated macOS installation passed hash checked installation, dependency
-consistency, runtime lock verification, imports, pinned model CPU embedding
-inference, and preprocessing of both filtered datasets. Linux locks were
-resolved and audited, and compatible nonyanked wheels with matching hashes
-were confirmed for all 96 packages. Linux execution was not verified because
-no running Linux container runtime was available.
+consistency, runtime lock verification, imports, and pinned model CPU embedding
+inference. Linux locks were resolved and audited, and compatible nonyanked
+wheels with matching hashes were confirmed for all 96 packages. Linux execution
+was not verified because no running Linux container runtime was available.
 
 A clustering smoke check also exposed PEP 3118 buffer errors inside
 `pdc-dp-means` and scikit-learn. The same errors reproduce in the unchanged
@@ -493,84 +515,17 @@ Ignore rules do not delete files or sanitize a manually copied directory.
 Move that experiment directory elsewhere before sharing the whole workspace.
 Also exclude local environments, credentials, caches, and generated outputs.
 
-### Filtered sample datasets
+### User-supplied inputs
 
-The bundled CSVs are filtered demonstration data, not the original benchmark
-samples. Entire records were removed when local rules or the installed English
-entity detector found names, possible proper names, organizations, locations,
-contact details, addresses, handles, links, or identifier patterns. Ambiguous
-matches and public references were removed too. All records passing the filter
-were kept without further sampling.
+Review your inputs for sensitive information and confirm that you have the
+necessary permissions before processing or sharing them. Configured hosted
+models receive dataset text during inference. Keep private inputs and generated
+outputs out of shared copies of the workspace.
 
-| Dataset | Original records | Removed records | Retained records |
-|---|---|---|---|
-| ghc-syn | 5,000 | 3,920 | 1,080 |
-| yelp | 19,341 | 15,844 | 3,497 |
+Code licensing is handled separately by the maintainer. Include the separately
+prepared licenses and required notices before public release.
 
-These are rule and model matches, not counts of confirmed personal information.
-Categories overlap, so their totals exceed the number of removed records.
-
-| Removal category | ghc-syn | yelp |
-|---|---|---|
-| Names and capitalized name sequences | 2,240 | 10,025 |
-| Possible proper names | 3,729 | 15,332 |
-| Organizations | 1,467 | 6,830 |
-| Locations and facilities | 983 | 5,940 |
-| Email patterns | 21 | 777 |
-| Phone patterns | 8 | 4 |
-| Addresses | 4 | 230 |
-| Handles | 213 | 16 |
-| Links | 693 | 243 |
-| Identifier patterns | 24 | 0 |
-| Numeric contact hints | 4 | 24 |
-
-Retained text, IDs, labels, and relative row order are unchanged. Original CSVs
-were overwritten without backups or rejected record exports. Filtering changes
-label distributions and subsequent experimental results. Regenerate derived
-outputs rather than treating historical outputs as results for these samples.
-
-Processing uses only local resources. Optional setup downloads public packages
-and model files, never dataset text. Use CPython 3.11 for the optional environment.
-
-The following privacy commands describe the earlier filtering workflow.
-`requirements-privacy.txt` and `tests/test_filter_dataset_privacy.py` are absent
-from this copy and were deliberately not restored. The installation and privacy
-test commands below therefore cannot be reproduced from the current files.
-Do not treat an empty test discovery result as successful privacy validation.
-
-```bash
-python3.11 -m venv .venv-privacy
-.venv-privacy/bin/python -m pip install -r requirements-privacy.txt
-PYTHONDONTWRITEBYTECODE=1 .venv-privacy/bin/python -m src.filter_dataset_privacy --check
-```
-
-Check mode does not modify files. Its exit code is 0 for no detected matches,
-1 for detected matches, and 2 for an error. Apply mode overwrites both CSVs
-without backups after validating the filtered candidates with the existing
-pipeline preprocessor. It then verifies the saved data. Each file replacement
-is atomic, but the pair is not a single transaction. A failure reports which
-files were already replaced.
-
-```bash
-PYTHONDONTWRITEBYTECODE=1 .venv-privacy/bin/python -m src.filter_dataset_privacy --apply
-PYTHONDONTWRITEBYTECODE=1 .venv-privacy/bin/python -m unittest discover -s tests -p 'test_filter_dataset_privacy.py' -v
-.venv-privacy/bin/python -m pip check
-```
-
-Apply mode uses `.venv/bin/python` for offline preprocessing checks. An existing
-pipeline environment can instead be selected with `--runtime-python`.
-This maintenance utility does not install pipeline dependencies, bypass launcher
-verification, or make hosted inference requests.
-
-Automated sampling of passing records informed additional conservative rules.
-No complete manual privacy review was performed. Detectors can miss personal
-information and indirect identifiers, and distinctive text or retained source
-IDs may still allow linkage to original material. These samples are not
-certified anonymous or representative of the original datasets.
-
-Code licensing and dataset redistribution permissions are handled separately
-by the maintainer. Filtering does not establish those permissions. Include the
-separately prepared licenses and required notices before public release.
+### Source code
 
 * [`src/disagreement_analysis/`](src/disagreement_analysis/) — the
   per-stage implementations (`preprocessor_disagreement.py`,

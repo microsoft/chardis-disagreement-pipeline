@@ -948,7 +948,7 @@ def _repo_base_dir() -> str:
 def _resolve_under_repo(path: str) -> str:
     """Resolve a config path (which may be repo-relative or absolute) to an absolute path.
 
-    Config files store paths like ``data/...`` or ``prompts/...`` which are
+    Config files store paths like ``prompts/...`` or ``outputs/...`` which are
     relative to the repo root. They may also be absolute. This normalizes both.
     """
     if not path:

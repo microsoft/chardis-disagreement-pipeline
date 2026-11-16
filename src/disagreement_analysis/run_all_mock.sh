@@ -3,7 +3,8 @@
 # run_all_mock.sh
 #
 # Clean example batch runner for the two bundled disagreement-analysis
-# projects (yelp + ghc-syn). It performs *real* runs — it is not a
+# configurations (yelp + ghc-syn). Supply input CSV paths before running.
+# It performs *real* runs — it is not a
 # dry-run unless you set CHARDIS_DRY_RUN=1.
 #
 # Use this as a template for your own batch runners. It deliberately omits

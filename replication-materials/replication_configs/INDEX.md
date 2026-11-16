@@ -39,7 +39,7 @@ Use `code-repo-final` as the working directory when interpreting these archived 
 
 Guidelines point to `../replication_prompts/<dataset>/prompt.md`. Future live runs write to `../pipeline_run_outputs/<dataset>/<config>/`, separate from packaged evidence and generated replication comparisons.
 
-Original research datasets are absent, so data paths are empty. Missing external examples remain unresolved. Do not substitute the filtered demonstration datasets for the historical experiment inputs.
+Original research datasets are absent, so data paths are empty. Missing external examples remain unresolved. Historical experiment reproduction requires the original inputs.
 
 These are incomplete configurations for future live experiments. Supply original data and your own model connections before executing them. Offline cached result replication does not load these configs and makes no model requests.
 

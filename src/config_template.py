@@ -111,19 +111,18 @@ def build_empty_config(
     _set(config, "openai", "credential_endpoint", "")
     _set(config, "openai", "openai_api_version", "")
     _set(config, "openai", "scope", "")
+    _set(config, "annotation", "data_path", "")
 
     # ── Project- & version-aware paths and topic ──────────────────────────
     if project_name is not None:
         v = version if version is not None else 1
         v_label = f"v{v}" if not str(v).lower().startswith("v") else str(v)
-        data_dir   = f"data/{project_name}/"
         out_dir    = f"outputs/{project_name}/{v_label}/"
         out_file   = f"{out_dir}{project_name}_{v_label}.csv"
         raw_dir    = f"outputs/{project_name}/{v_label}/raw/"
         topic      = f"{project_name}"
         built_name = f"{project_name}_{v_label}"
 
-        _set(config, "annotation",     "data_path",        data_dir)
         _set(config, "annotation",     "output_path",      out_file)
         _set(config, "annotation",     "raw_output_path",  raw_dir)
         _set(config, "prompt_builder", "annotation_topic", topic)
@@ -211,8 +210,8 @@ def ensure_pipeline_directories(config: dict) -> list[str]:
     exist. Returns the list of directories that were ensured (created or
     already present).
 
-    Paths in the config are interpreted as repo-relative (e.g. ``data/...``,
-    ``outputs/...``) or absolute.
+    Paths in the config are interpreted as repo-relative (e.g. ``outputs/...``)
+    or absolute.
     """
     created: list[str] = []
     sec = config.get("annotation") or {}

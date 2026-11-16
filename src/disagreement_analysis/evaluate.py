@@ -1154,7 +1154,7 @@ def main(
                 f"This typically means the upstream preprocessing "
                 f"(preprocessor_disagreement.add_observed_disagreement) saw no "
                 f"per-annotator label columns in the processed data file. "
-                f"Inspect data/<project>/ "
+                f"Inspect the configured source CSV "
                 f"to confirm annotator columns are present."
             )
 

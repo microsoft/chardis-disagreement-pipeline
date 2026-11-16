@@ -156,8 +156,8 @@ synthesizer:
     value: 120.0
 disagreement_explainer:
   data_path:
-    description: Directory (or full path) of the CSV with input data.
-    value: data/yelp/
+    description: Supply the directory or full path of your input CSV.
+    value: ''
   data_filename:
     description: CSV filename inside data_path. Ignored if data_path already points
       at a file.
